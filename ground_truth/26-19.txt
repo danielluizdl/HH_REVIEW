@@ -38,7 +38,7 @@ dLzinN: checks
 淡淡的会顺顺: checks
 dLzinN: bets $13.00
 淡淡的会顺顺: raises $82.80 to $95.80 and is all-in
-dLzinN: calls $18.30 and is all-in
+dLzinN: calls $18.34 and is all-in
 *** SHOWDOWN ***
 淡淡的会顺顺: shows [6h 6s] (a full house, Sixes full of Eights)
 dLzinN: shows [Ad As] (two pair, Aces and Eights)

@@ -123,7 +123,8 @@ def format_hand_history(hand_data: dict) -> str:
     total_pot = hand_data.get('total_pot', 0)
     rake = hand_data.get('rake', 0)
     lines.append("*** SUMMARY ***")
-    lines.append(f"Total pot {_fmt(total_pot)} | Rake {_fmt(rake)}")
+    rake_str = "$0" if rake == 0 else _fmt(rake)
+    lines.append(f"Total pot {_fmt(total_pot)} | Rake {rake_str}")
 
     # Board in summary
     board = flop + ([turn] if turn else []) + ([river] if river else [])

@@ -8,6 +8,7 @@ import sys
 import cv2
 import re
 import argparse
+import numpy as np
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -268,8 +269,22 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     # ── Showdown and winners ──────────────────────────────────────────
     # Extract hole cards from image for showdown players
     showdown_cards = _extract_showdown_cards(img, w, h, ocr, result_entries, result_start_y)
-    showdown = _build_showdown(result_entries, showdown_cards, bb_value)
+    showdown = _build_showdown(result_entries, showdown_cards, bb_value, board=board)
     winners = _build_winners(result_entries, showdown, bb_value)
+
+    # ── Detect hero (player whose cards we see = the recording player) ──
+    # Heuristic: loser who went all-in, or first player with a positive
+    # all-in flag in river actions, or just the first showdown loser.
+    hero = None
+    hero_cards = []
+    river_allins = {a['name'] for a in river_usd if a.get('allin')}
+    for r in result_entries:
+        if r['name'] in showdown_cards and r['net_bb'] < 0:
+            if r['name'] in river_allins or not hero:
+                hero = r['name']
+                hero_cards = showdown_cards[r['name']]
+                if r['name'] in river_allins:
+                    break
 
     # ── Total pot ─────────────────────────────────────────────────────
     # Use pote_total_bb directly if available (most accurate source)
@@ -329,8 +344,8 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
         'ante': to_usd(ante_bb),
         'blinds': blinds_list,
         'straddle': {'name': str_player, 'amount': to_usd(str_bb)} if str_player else None,
-        'hero': None,
-        'hole_cards': [],
+        'hero': hero,
+        'hole_cards': hero_cards,
         'preflop_actions': preflop_usd,
         'flop_cards': flop_cards,
         'flop_actions': flop_usd,
@@ -821,8 +836,8 @@ def _fix_allin_call_amounts(preflop, flop, turn, river, initial_stacks_bb,
 
             if action == 'calls' and name in initial_stacks_bb:
                 computed = max(0.0, initial_stacks_bb[name] - total_in[name])
-                # Fix if OCR amount exceeds remaining stack (player can't call more than they have)
-                if computed > 0 and amt > computed + 2:
+                # Fix if OCR amount exceeds remaining stack, or player is all-in
+                if computed > 0 and (allin or amt > computed + 2):
                     act['amount_bb'] = round(computed, 2)
                     amt = act['amount_bb']
                     act['allin'] = True
@@ -965,27 +980,158 @@ def _detect_board(img, img_w, img_h) -> list:
 
 def _extract_showdown_cards(img, img_w, img_h, ocr_items, results, result_start_y) -> dict:
     """
-    Try to extract hole cards for players in the showdown from the image.
-    Cards are shown in the RIVER column results section.
-    Returns {player_name: [card1, card2]} for players with visible cards.
+    Extract hole cards for showdown players from the RIVER column results section.
+    Cards appear as small thumbnails between player name and position badge.
+    Returns {player_name: [card1, card2]}.
     """
-    # This requires detecting card images, which is complex
-    # For now return empty dict - the main output will lack HOLE CARDS section
-    # In practice, Claude Vision ground truth handles this perfectly
-    return {}
+    ocr_fn = _ocr()
+    col_x = int(4 * img_w / 5)
+
+    # Map player name → approximate y (from results section only)
+    name_ys = {}
+    for item in ocr_items:
+        if item['x'] >= col_x and item['y'] >= result_start_y:
+            for r in results:
+                nm = r['name']
+                if nm == item['text'] or (len(nm) > 3 and item['text'].startswith(nm[:3])):
+                    if nm not in name_ys:
+                        name_ys[nm] = item['y']
+
+    showdown_cards = {}
+
+    for r in results:
+        name = r['name']
+        if name not in name_ys:
+            continue
+        ny = name_ys[name]
+
+        # Try multiple y-windows for rank OCR to handle slight alignment variations
+        found_ranks = []
+        for dy_start, dy_end in [(18, 72), (20, 75), (15, 68)]:
+            rank_y1 = ny + dy_start
+            rank_y2 = ny + dy_end
+            rank_x1 = col_x + 55   # skip avatar
+            rank_x2 = min(col_x + 165, img_w)
+
+            ocr_region = img[rank_y1:rank_y2, rank_x1:rank_x2]
+            if ocr_region.size < 100:
+                continue
+
+            scale = 5
+            big = cv2.resize(ocr_region, (ocr_region.shape[1]*scale, ocr_region.shape[0]*scale),
+                             cv2.INTER_LANCZOS4)
+            result_ocr, _ = ocr_fn(big)
+
+            ranks = []
+            if result_ocr:
+                for item in result_ocr:
+                    if not item or len(item) < 2:
+                        continue
+                    bbox = item[0]
+                    txt = str(item[1]).strip().upper()
+                    if txt in ('H', 'M', 'N', 'AA', 'AL', 'AH'): txt = 'A'
+                    if txt in ('1O', 'IO', '10', 'T0', '1Q'): txt = 'T'
+                    if txt == 'O': txt = '9'
+                    if txt in 'AKQJT' or (txt.isdigit() and 2 <= int(txt) <= 9):
+                        x_center = sum(p[0] for p in bbox) / 4
+                        ranks.append((int(x_center), txt))
+
+            ranks.sort()
+            if len(ranks) >= 2:
+                found_ranks = [r[1] for r in ranks[:2]]
+                break
+
+        if len(found_ranks) < 2:
+            continue
+
+        # Suit detection: use tight x windows to avoid avatar and badge contamination
+        # Each card is ~40px wide; cards start ~62px from col_x
+        card_w = 40
+        suit_y1 = ny + 28
+        suit_y2 = ny + 56  # avoid position badge (appears at ny+55-75)
+
+        suits = []
+        for i in range(2):
+            cx1 = col_x + 62 + i * card_w
+            cx2 = min(cx1 + card_w, img_w)
+            card_crop = img[suit_y1:suit_y2, cx1:cx2]
+            suits.append(_detect_hole_card_suit_tight(card_crop))
+
+        showdown_cards[name] = [f"{found_ranks[0]}{suits[0]}", f"{found_ranks[1]}{suits[1]}"]
+
+    return showdown_cards
 
 
-def _build_showdown(results, showdown_cards, bb_value) -> list:
-    """Build showdown entries."""
+def _detect_hole_card_suit_tight(region) -> str:
+    """Detect suit from a tightly-cropped card thumbnail region.
+    Thumbnail color: hearts=red, diamonds=red, clubs=dark/black, spades=dark/black.
+    Distinction ♥/♦ uses shape; ♣/♠ both dark → default to 's' (spades).
+    """
+    if region.size < 20:
+        return 's'
+
+    hsv = cv2.cvtColor(region, cv2.COLOR_BGR2HSV)
+    hh, s, v = hsv[:,:,0], hsv[:,:,1], hsv[:,:,2]
+
+    # Exclude orange-gold badge colors (H=12-55) to avoid badge contamination
+    colored = (s > 90) & (v > 90) & ~((hh >= 12) & (hh <= 55))
+    if colored.sum() < 3:
+        return 's'
+
+    h_c = hh[colored]
+    red   = int(((h_c < 12) | (h_c > 155)).sum())
+    green = int(((h_c >= 55) & (h_c < 100)).sum())
+    blue  = int(((h_c >= 100) & (h_c <= 155)).sum())
+
+    if green > red and green > blue and green > 3:
+        return 'c'
+    if blue > red and blue > green and blue > 3:
+        return 'd'
+    if red > 3:
+        # Hearts and diamonds both appear red in thumbnails.
+        # Key distinction: ♥ has TWO bumps creating a NARROW x-gap (2-3px);
+        # rank letter 'A' legs also create bimodal but with a WIDER gap (4+ px);
+        # ♦ body has no bimodal gap (solid rhombus).
+        red_mask = (((hh < 12) | (hh > 155)) & (s > 90) & (v > 90)).astype(np.uint8)
+        row_start = int(region.shape[0] * 0.35)
+        row_end   = int(region.shape[0] * 0.82)
+        heart_votes = 0
+        diamond_votes = 0
+        for row in range(row_start, row_end):
+            if row >= red_mask.shape[0]:
+                break
+            x_positions = np.where(red_mask[row] > 0)[0]
+            if len(x_positions) >= 4:
+                gaps = np.diff(np.sort(x_positions))
+                max_gap = int(gaps.max())
+                if 2 <= max_gap <= 3:
+                    heart_votes += 1    # narrow gap → ♥ bumps
+                elif max_gap >= 4:
+                    diamond_votes += 1  # wide gap → rank letter legs (not ♥)
+        if heart_votes > 0 and heart_votes >= diamond_votes:
+            return 'h'
+        if diamond_votes > 0:
+            return 'd'
+        # No bimodal → solid symbol → diamond
+        pts = cv2.findNonZero(red_mask)
+        return 'd' if pts is not None and len(pts) >= 3 else 'h'
+    return 's'
+
+
+def _build_showdown(results, showdown_cards, bb_value, board=None) -> list:
+    """Build showdown entries with hand descriptions."""
+    from src.hand_eval import best_hand_desc
     showdown = []
     for r in results:
         if r['name'] in showdown_cards:
+            cards = showdown_cards[r['name']]
+            desc = best_hand_desc(cards, board or []) if board else ''
             showdown.append({
                 'name': r['name'],
-                'cards': showdown_cards[r['name']],
-                'hand_desc': '',
+                'cards': cards,
+                'hand_desc': desc,
                 'won': r['net_bb'] > 0,
-                'amount': 0,  # set later
+                'amount': 0,
             })
     return showdown
 
