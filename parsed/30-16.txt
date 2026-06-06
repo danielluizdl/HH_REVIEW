@@ -25,9 +25,21 @@ dLzinN: calls $0.65
 无限后手的赌圣: folds
 TTrmqH: folds
 nanuru22: folds
+*** FLOP *** [Jh 3h 4h]
+tient43: bets $1.00
+dLzinN: raises $2.54 to $3.54
+tient43: calls $2.54
+*** TURN *** [Jh 3h 4h] [9h]
+tient43: checks
+dLzinN: bets $6.81
+tient43: calls $6.81
+*** RIVER *** [Jh 3h 4h 9h] [7h]
+tient43: checks
+dLzinN: checks
 dLzinN collected $22.70 from pot
 *** SUMMARY ***
 Total pot $22.70 | Rake $0
+Board [Jh 3h 4h 9h 7h]
 Seat 1: phpd2910 folded before Flop (didn't bet)
 Seat 2: tient43 lost
 Seat 3: matigarmendi folded before Flop (didn't bet)
