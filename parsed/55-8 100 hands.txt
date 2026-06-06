@@ -40,7 +40,7 @@ dLzinN: raises $6.60 to $12.50
 *** SHOWDOWN ***
 dLzinN: shows [Th Td] (a pair of Tens)
 乃总: shows [Kd Ad] (high card Ace)
-dLzinN collected $37.50 from pot
+dLzinN collected $74.40 from pot
 *** SUMMARY ***
 Total pot $74.40 | Rake $0
 Board [5c 9c 4h]
@@ -48,7 +48,7 @@ Seat 1: arbham folded before Flop (didn't bet)
 Seat 2: suoha2046 folded before Flop
 Seat 3: Diegosu8 folded before Flop
 Seat 4: 小气泡518 (button) folded before Flop (didn't bet)
-Seat 5: dLzinN (small blind) showed [Th Td] and won ($37.50) with a pair of Tens
+Seat 5: dLzinN (small blind) showed [Th Td] and won ($74.40) with a pair of Tens
 Seat 6: kiukiukiu902 (big blind) folded before Flop
 Seat 7: 乃总 showed [Kd Ad] and lost with high card Ace
 Seat 8: Cuatrok folded before Flop (didn't bet)

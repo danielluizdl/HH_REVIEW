@@ -43,11 +43,11 @@ dLzinN: raises $10.10 to $10.10 and is all-in
 金老拐: calls $10.10
 *** SHOWDOWN ***
 dLzinN: shows [Kc 9d] (a flush, Ace high)
-金老拐 collected $20.50 from pot
+金老拐 collected $39.10 from pot
 *** SUMMARY ***
 Total pot $39.10 | Rake $0
 Board [Tc 4c Ac Tc]
-Seat 1: 金老拐 collected ($20.50)
+Seat 1: 金老拐 collected ($39.10)
 Seat 2: AstroBarbo folded before Flop (didn't bet)
 Seat 3: PuntinStackz folded before Flop (didn't bet)
 Seat 4: 天璐141 (button) folded before Flop (didn't bet)

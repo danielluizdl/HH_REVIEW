@@ -35,14 +35,14 @@ dLzinN: bets $6.81
 tient43: calls $6.81
 *** RIVER *** [Jh 3h 4h 9h] [7h]
 tient43: checks
-dLzinN collected $11.60 from pot
+dLzinN collected $22.70 from pot
 *** SUMMARY ***
 Total pot $22.70 | Rake $0
 Board [Jh 3h 4h 9h 7h]
 Seat 1: phpd2910 folded before Flop (didn't bet)
 Seat 2: tient43 lost
 Seat 3: matigarmendi folded before Flop (didn't bet)
-Seat 4: dLzinN (button) collected ($11.60)
+Seat 4: dLzinN (button) collected ($22.70)
 Seat 5: 无限后手的赌圣 (small blind) folded before Flop
 Seat 6: TTrmqH (big blind) folded before Flop
 Seat 7: nanuru22 folded before Flop

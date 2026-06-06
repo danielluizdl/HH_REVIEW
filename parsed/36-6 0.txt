@@ -35,7 +35,7 @@ Datzen: bets $0.75
 *** TURN *** [5h 4c 9h] [Kh]
 你是不是A: checks
 Datzen: checks
-你是不是A collected $1.95 from pot
+你是不是A collected $3.55 from pot
 *** SUMMARY ***
 Total pot $3.55 | Rake $0
 Board [5h 4c 9h Kh]
@@ -45,5 +45,5 @@ Seat 3: Datzen lost
 Seat 4: MarcusAntonius (button) folded before Flop (didn't bet)
 Seat 5: dLzinN (small blind) folded before Flop
 Seat 6: 同花顺大屁股 (big blind) folded before Flop
-Seat 7: 你是不是A collected ($1.95)
+Seat 7: 你是不是A collected ($3.55)
 Seat 8: t2r0u2m6 folded before Flop (didn't bet)

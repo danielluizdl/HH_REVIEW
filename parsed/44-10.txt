@@ -40,7 +40,7 @@ dLzinN: raises $16.20 to $46.20 and is all-in
 蛇皮赌怪: calls $11.95 and is all-in
 *** TURN *** [As 9s Tc] [Kh]
 *** RIVER *** [As 9s Tc Kh] [5s]
-dLzinN collected $44.80 from pot
+dLzinN collected $92.00 from pot
 *** SUMMARY ***
 Total pot $92.00 | Rake $0
 Board [As 9s Tc Kh 5s]
@@ -50,5 +50,5 @@ Seat 3: PKLau60 folded on the Flop
 Seat 4: ast神 (button) folded before Flop (didn't bet)
 Seat 5: LFG7887 (small blind) folded on the Flop
 Seat 6: dbruno066 (big blind) folded before Flop
-Seat 7: dLzinN collected ($44.80)
+Seat 7: dLzinN collected ($92.00)
 Seat 8: 蛇皮赌怪 folded on the Flop

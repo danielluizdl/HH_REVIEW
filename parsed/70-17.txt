@@ -44,12 +44,12 @@ dLzinN: calls $16.80
 *** SHOWDOWN ***
 我在南方: shows [Ks Qs] (two pair, Kings and Nines)
 dLzinN: shows [9d 9d] (four of a kind, Nines)
-我在南方 collected $34.20 from pot
+我在南方 collected $67.20 from pot
 *** SUMMARY ***
 Total pot $67.20 | Rake $0
 Board [9c Kh 8c 5c 9c]
 Seat 1: vGuerraF folded before Flop (didn't bet)
-Seat 2: 我在南方 showed [Ks Qs] and won ($34.20) with two pair, Kings and Nines
+Seat 2: 我在南方 showed [Ks Qs] and won ($67.20) with two pair, Kings and Nines
 Seat 3: Neyalisson folded before Flop
 Seat 4: dLzinN (button) showed [9d 9d] and lost with four of a kind, Nines
 Seat 5: LemmyKill (small blind) folded before Flop

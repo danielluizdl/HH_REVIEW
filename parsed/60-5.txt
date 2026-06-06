@@ -48,14 +48,14 @@ dLzinN: calls $9.40
 *** SHOWDOWN ***
 qwerzzh: shows [Ts Ts] (a straight, Ten high)
 dLzinN: shows [Qd Qd] (two pair, Queens and Sixes)
-qwerzzh collected $35.30 from pot
+qwerzzh collected $69.10 from pot
 *** SUMMARY ***
 Total pot $69.10 | Rake $0
 Board [7d 9h 6s 8h 6c]
 Seat 1: Monika716 folded before Flop (didn't bet)
 Seat 2: uuuulll774933 folded before Flop (didn't bet)
 Seat 3: 边打边中哈 folded before Flop
-Seat 4: qwerzzh (button) showed [Ts Ts] and won ($35.30) with a straight, Ten high
+Seat 4: qwerzzh (button) showed [Ts Ts] and won ($69.10) with a straight, Ten high
 Seat 5: PlowingMachine (small blind) folded before Flop
 Seat 6: dLzinN (big blind) showed [Qd Qd] and lost with two pair, Queens and Sixes
 Seat 7: Doric352 folded before Flop

@@ -39,7 +39,7 @@ zildurr: checks
 dLzinN: bets $11.10
 zildurr: raises $17.90 to $29.00 and is all-in
 dLzinN: calls $16.07 and is all-in
-zildurr collected $36.70 from pot
+zildurr collected $72.30 from pot
 *** SUMMARY ***
 Total pot $72.30 | Rake $0
 Board [2c Tc 6c 8c]
@@ -50,4 +50,4 @@ Seat 4: 猫猫警长ovo (button) folded before Flop (didn't bet)
 Seat 5: 风亲云蛋 (small blind) folded before Flop
 Seat 6: stingxiao (big blind) folded before Flop
 Seat 7: absorber folded before Flop
-Seat 8: zildurr collected ($36.70)
+Seat 8: zildurr collected ($72.30)

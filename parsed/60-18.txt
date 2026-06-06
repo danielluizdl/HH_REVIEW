@@ -37,13 +37,13 @@ bravosierra: raises $5.60 to $9.84
 dLzinN: calls $5.60
 *** RIVER *** [6h Kh 3h 2h] [4h]
 bravosierra: raises $28.30 to $28.30 and is all-in
-bravosierra collected $14.30 from pot
+bravosierra collected $56.40 from pot
 *** SUMMARY ***
 Total pot $56.40 | Rake $0
 Board [6h Kh 3h 2h 4h]
 Seat 1: p3ket3o folded before Flop (didn't bet)
 Seat 2: Buffalo939 folded before Flop (didn't bet)
-Seat 3: bravosierra collected ($14.30)
+Seat 3: bravosierra collected ($56.40)
 Seat 4: dLzinN (button) folded on the Turn
 Seat 5: JVictor (small blind) folded before Flop
 Seat 6: 鲨鱼爱蹲 (big blind) folded before Flop

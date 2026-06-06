@@ -22,7 +22,7 @@ dLzinN: calls $0.63
 Mansur: folds
 Paopa0323: calls $0.53
 leanfrance: calls $0.43
-leanfrance collected $4.97 from pot
+leanfrance collected $17.20 from pot
 *** SUMMARY ***
 Total pot $17.20 | Rake $0
 Seat 1: GtorGotHzGat folded on the Flop
@@ -30,4 +30,4 @@ Seat 3: Aquaman33 folded before Flop (didn't bet)
 Seat 4: dLzinN (button) folded on the Flop
 Seat 5: Mansur (small blind) folded before Flop
 Seat 6: Paopa0323 (big blind) folded on the Flop
-Seat 7: leanfrance collected ($4.97)
+Seat 7: leanfrance collected ($17.20)

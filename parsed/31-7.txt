@@ -43,12 +43,12 @@ Aceeeeeeeee: folds
 altaza: calls $7.96
 *** SHOWDOWN ***
 altaza: shows [4d Ad] (three of a kind, Aces)
-dLzinN collected $16.80 from pot
+dLzinN collected $30.90 from pot
 *** SUMMARY ***
 Total pot $30.90 | Rake $0
 Board [6h Ad 5c Th Ah]
 Seat 1: altaza showed [4d Ad] and lost with three of a kind, Aces
-Seat 2: dLzinN collected ($16.80)
+Seat 2: dLzinN collected ($30.90)
 Seat 3: 兔子娃娃 folded before Flop (didn't bet)
 Seat 4: Aceeeeeeeee (button) lost
 Seat 5: 方可执泥 (small blind) folded before Flop

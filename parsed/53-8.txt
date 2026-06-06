@@ -36,13 +36,13 @@ BTN: checks
 *** RIVER *** [Kh 9c 7d 7c] [5c]
 BTN: bets $19.22
 CO: calls $16.60 and is all-in
-CO collected $24.90 from pot
+CO collected $51.87 from pot
 *** SUMMARY ***
 Total pot $51.87 | Rake $0
 Board [Kh 9c 7d 7c 5c]
 Seat 1: MP folded before Flop (didn't bet)
 Seat 2: HJ folded before Flop (didn't bet)
-Seat 3: CO collected ($24.90)
+Seat 3: CO collected ($51.87)
 Seat 4: BTN (button) lost
 Seat 5: SB (small blind) folded before Flop
 Seat 6: BB (big blind) folded before Flop

@@ -48,7 +48,7 @@ dLzinN: raises $12.00 to $16.00
 *** SHOWDOWN ***
 今晚打老虎Hv: shows [6d Ad] (a pair of Sixes)
 dLzinN: shows [Th Kd] (a flush, Ten high)
-今晚打老虎Hv collected $21.20 from pot
+今晚打老虎Hv collected $40.00 from pot
 *** SUMMARY ***
 Total pot $40.00 | Rake $0
 Board [8h 2c 9h 6h 5h]
@@ -57,6 +57,6 @@ Seat 2: jaowen99 folded before Flop (didn't bet)
 Seat 3: 狂牛打摆锤 folded before Flop (didn't bet)
 Seat 4: dLzinN (button) showed [Th Kd] and lost with a flush, Ten high
 Seat 5: 鲜衣怒马时2 (small blind) folded on the Turn
-Seat 6: 今晚打老虎Hv (big blind) showed [6d Ad] and won ($21.20) with a pair of Sixes
+Seat 6: 今晚打老虎Hv (big blind) showed [6d Ad] and won ($40.00) with a pair of Sixes
 Seat 7: TimCheese folded before Flop
 Seat 8: 水上漂LFG folded on the Turn

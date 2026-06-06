@@ -41,7 +41,7 @@ dLzinN: raises $56.88 to $95.88 and is all-in
 鸽鸽别闹了: raises $28.11 to $28.11 and is all-in
 原交妹: calls $28.11
 *** RIVER *** [3c 2c 8c Tc] [Ac]
-鸽鸽别闹了 collected $249.41 from pot
+鸽鸽别闹了 collected $383.18 from pot
 *** SUMMARY ***
 Total pot $383.18 | Rake $0
 Board [3c 2c 8c Tc Ac]
@@ -49,7 +49,7 @@ Seat 1: pokerjust174 folded before Flop (didn't bet)
 Seat 2: dyyyyyyyy folded on the Flop
 Seat 3: dLzinN folded on the Flop
 Seat 4: Hugochan3110 (button) folded before Flop (didn't bet)
-Seat 5: 鸽鸽别闹了 (small blind) collected ($249.41)
+Seat 5: 鸽鸽别闹了 (small blind) collected ($383.18)
 Seat 6: Loadding (big blind) folded before Flop
 Seat 7: taberw folded before Flop
 Seat 8: 原交妹 folded on the Turn

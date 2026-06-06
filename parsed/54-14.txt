@@ -41,12 +41,12 @@ dLzinN: calls $4.10
 *** SHOWDOWN ***
 GrantyHuang: shows [9d 5d] (a full house, Nines full of Tens)
 dLzinN: shows [Qd Qd] (two pair, Queens and Tens)
-GrantyHuang collected $26.30 from pot
+GrantyHuang collected $51.10 from pot
 *** SUMMARY ***
 Total pot $51.10 | Rake $0
 Board [9s Ts Tc 9c]
 Seat 1: Heroin30 folded before Flop (didn't bet)
-Seat 2: GrantyHuang showed [9d 5d] and won ($26.30) with a full house, Nines full of Tens
+Seat 2: GrantyHuang showed [9d 5d] and won ($51.10) with a full house, Nines full of Tens
 Seat 3: Patol12 folded before Flop
 Seat 4: 贝利沁 (button) folded before Flop (didn't bet)
 Seat 5: dLzinN (small blind) showed [Qd Qd] and lost with two pair, Queens and Tens
