@@ -169,10 +169,10 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     # Lower threshold to catch player names just below the pot-amounts row
     act_y = header_y + 50
     # For non-river columns, don't cut at result_start_y (preflop can extend past it)
-    preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h)  # full image height
-    flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h)
-    turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h)
-    river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y)
+    preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h, bb_value)
+    flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h, bb_value)
+    turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h, bb_value)
+    river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y, bb_value)
 
     # ── Recover missing first-player names via focused OCR (PRE-FLOP only) ──
     # Only run for PRE-FLOP column to avoid excessive OCR calls.
@@ -181,10 +181,10 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     if extra:
         ocr = ocr + extra
         # Re-parse streets with recovered names
-        preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h)
-        flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h)
-        turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h)
-        river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y)
+        preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h, bb_value)
+        flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h, bb_value)
+        turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h, bb_value)
+        river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y, bb_value)
 
     # ── Parse results section (first pass, no position map yet) ──────
     result_entries = _parse_results(ocr, C[4][0], w, result_start_y)
@@ -202,6 +202,21 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     # ── Build player map: {name: {position, net_bb}} ──────────────────
     player_map = _build_player_map(preflop_acts, flop_acts, turn_acts, river_acts,
                                     result_entries, blinds_col)
+
+    # ── Fallback: all-anonymous table (use position labels as player names) ──
+    # When no real names are found (e.g. all players show only UTG/BTN badges),
+    # build a position-keyed player_map so _assign_anon_names can resolve actions.
+    if not player_map:
+        seen_positions = {}
+        for acts in [preflop_acts, flop_acts, turn_acts, river_acts]:
+            for a in acts:
+                pos = a.get('position')
+                if pos and pos not in seen_positions:
+                    seen_positions[pos] = {'pos': pos, 'net_bb': None}
+        if seen_positions:
+            player_map = seen_positions
+            if debug:
+                print(f"[DEBUG] all-anon table, using positions as names: {list(player_map)}")
 
     # ── Assign names to anonymous actions using position lookup ────────
     _assign_anon_names([preflop_acts, flop_acts, turn_acts, river_acts], player_map)
@@ -287,11 +302,14 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     else:
         ante_bb = blinds_col.get('ante_per_player_bb', 0.5)
 
-    # ── Get pot total from image (shown as "Pote Total: X BB") ───────────
-    pote_total_bb = _extract_pote_total(ocr)
+    # ── Get pot total from image (shown as "Pote Total: X BB" or "$ X.XX") ──
+    pote_total_bb = _extract_pote_total(ocr, bb_value=bb_value)
 
     # ── Get end-of-hand stacks from table view ─────────────────────────
     end_stacks_bb = _extract_end_stacks(ocr, header_y)
+    # For all-anonymous tables, position labels appear instead of real names
+    if not end_stacks_bb and player_map and all(k in POSITIONS for k in player_map):
+        end_stacks_bb = _extract_anon_stacks(ocr, header_y, bb_value=bb_value)
     if debug:
         print(f"[DEBUG] pote_total={pote_total_bb}, end_stacks={end_stacks_bb}")
 
@@ -592,7 +610,7 @@ def _group_into_cells(col_items, gap=55) -> list:
         return cells
 
 
-def _parse_cell(cell) -> dict | None:
+def _parse_cell(cell, bb_value: float = 0.10) -> dict | None:
     """Parse one action cell → {name, action, amount_bb, position, allin}"""
     name = action = position = None
     amount_bb = None
@@ -611,6 +629,12 @@ def _parse_cell(cell) -> dict | None:
         if is_amount(t) and not t.startswith('+'):
             amount_bb = abs(parse_bb(t))
             continue
+        # Fallback: dollar-format amounts like '$4,04' or '$ 16,50' (some WPT display modes)
+        if amount_bb is None and not t.startswith('+') and _is_dollar_amount(t):
+            usd = _parse_dollar_amount(t)
+            if usd is not None and usd > 0:
+                amount_bb = usd / bb_value
+            continue
         if is_player_name(t):
             if name is None:
                 name = t
@@ -627,13 +651,13 @@ def _parse_cell(cell) -> dict | None:
             'position': position, 'allin': allin}
 
 
-def _parse_street(items, x_min, x_max, y_min, y_max) -> list:
+def _parse_street(items, x_min, x_max, y_min, y_max, bb_value: float = 0.10) -> list:
     """Parse all actions in a street column."""
     col = sorted(items_in_band(items, x_min, x_max, y_min, y_max), key=lambda i: i['y'])
     cells = _group_into_cells(col, gap=55)
     acts = []
     for cell in cells:
-        parsed = _parse_cell(cell)
+        parsed = _parse_cell(cell, bb_value=bb_value)
         if parsed:
             acts.append(parsed)
     return acts
@@ -897,6 +921,56 @@ def _extract_end_stacks(items, header_y) -> dict:
     return stacks
 
 
+def _parse_dollar_amount(text: str) -> float | None:
+    """Parse a dollar amount like '$ 38,20' or '$47.28' → float in USD, or None."""
+    t = str(text).strip().lstrip('$').strip().replace(',', '.')
+    try:
+        v = float(t)
+        return v if v >= 0 else None
+    except ValueError:
+        return None
+
+
+def _is_dollar_amount(text: str) -> bool:
+    """Match amounts in dollar format: '$ 38,20', '$47.28', '$ 9,15'."""
+    return bool(re.match(r'^\$?\s*\d[\d,. ]*$', text.strip()))
+
+
+def _extract_anon_stacks(items, header_y, bb_value: float = 0.10) -> dict:
+    """Like _extract_end_stacks but for all-anonymous tables where the oval shows
+    dollar amounts (e.g. '$ 38,20') next to position labels (e.g. 'BTN').
+    Returns {position_label: bb_value} (amounts converted to BB)."""
+    table_items = sorted([i for i in items if i['y'] < header_y - 20], key=lambda i: i['y'])
+    stacks = {}
+    for item in table_items:
+        t = item['text'].strip()
+        # Match BB format first, then dollar format
+        if is_amount(t) and not t.startswith('+') and not t.startswith('-'):
+            val_bb = parse_bb(t)
+        elif _is_dollar_amount(t) and not t.startswith('+') and not t.startswith('-'):
+            usd = _parse_dollar_amount(t)
+            if usd is None or usd <= 0:
+                continue
+            val_bb = usd / bb_value  # convert USD to BB
+        else:
+            continue
+
+        if val_bb > 0:
+            best_pos = None
+            best_dist = 9999
+            for prev in table_items:
+                dy = abs(prev['y'] - item['y'])
+                dx = abs(prev['x'] - item['x'])
+                if dy <= 80 and dx <= 200 and prev['text'].upper() in POSITIONS:
+                    dist = dy + dx * 0.5
+                    if dist < best_dist:
+                        best_dist = dist
+                        best_pos = prev['text'].upper()
+            if best_pos and best_pos not in stacks:
+                stacks[best_pos] = val_bb
+    return stacks
+
+
 def _fuzzy_match_name(short_name: str, full_names: list) -> str | None:
     """Match a potentially truncated OCR name to the best full name.
     e.g. '淡淡的会...' → '淡淡的会顺顺'
@@ -919,12 +993,13 @@ def _fuzzy_match_name(short_name: str, full_names: list) -> str | None:
     return None
 
 
-def _extract_pote_total(items) -> float | None:
-    """Extract total pot from image display (Pote Total: X.XXX BB)."""
+def _extract_pote_total(items, bb_value: float = 0.10) -> float | None:
+    """Extract total pot from image display (BB format: 'Pote Total: 518.7BB'
+    or dollar format: 'PoteTotal:$51,87')."""
     for item in items:
         t = item['text']
         if 'Pote' in t or 'Total' in t:
-            # Look for large BB amount on same or adjacent line
+            # BB format: 'Pote Total: 518.7 BB'
             m = re.search(r'(\d[\d,.]+)\s*BB', t, re.IGNORECASE)
             if m:
                 val_str = m.group(1).replace('.', '').replace(',', '.')
@@ -932,6 +1007,16 @@ def _extract_pote_total(items) -> float | None:
                     val = float(val_str)
                     if val > 100:
                         return val
+                except ValueError:
+                    pass
+            # Dollar format: 'PoteTotal:$51,87' or 'Pote Total: $ 51,87'
+            m = re.search(r'\$\s*([\d,. ]+)', t)
+            if m:
+                val_str = m.group(1).strip().replace(' ', '').replace(',', '.')
+                try:
+                    usd = float(val_str)
+                    if usd > 0.5:
+                        return usd / bb_value
                 except ValueError:
                     pass
     # Also look for large isolated BB amounts in top half of image
@@ -998,16 +1083,21 @@ def _calc_initial_stacks(player_map, results, ante_bb, sb_bb, bb_bb, str_bb,
                 # Winner without pot total: approximate
                 initial_bb = abs(net_bb) * 2  # rough guess
         else:
-            # No result: use position-based estimate
-            pos = data.get('pos', '')
-            blind_bb = 0
-            if pos == 'SB' or name == sb_player:
-                blind_bb = sb_bb
-            elif pos == 'BB' or name == bb_player:
-                blind_bb = bb_bb
-            elif pos == 'STR' or name == str_player:
-                blind_bb = str_bb
-            initial_bb = ante_bb + blind_bb
+            # No result available (e.g. all-anonymous table or folder not in results)
+            if end_bb is not None:
+                # Use the oval stack directly as the best approximation of initial stack
+                initial_bb = end_bb
+            else:
+                # Last resort: position-based estimate from blind amounts
+                pos = data.get('pos', '')
+                blind_bb = 0
+                if pos == 'SB' or name == sb_player:
+                    blind_bb = sb_bb
+                elif pos == 'BB' or name == bb_player:
+                    blind_bb = bb_bb
+                elif pos == 'STR' or name == str_player:
+                    blind_bb = str_bb
+                initial_bb = ante_bb + blind_bb
 
         stacks[name] = round(max(initial_bb, 0) * bb_value, 2)
 

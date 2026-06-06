@@ -37,19 +37,21 @@
       "status": "open"
     },
     {
-      "file": "53-8.png",
-      "issue": "very_short_9_lines",
-      "status": "open"
-    },
-    {
       "file": "44-12.png",
       "issue": "artifact_player_NEPTIN_seat9",
       "status": "open"
+    },
+    {
+      "file": "53-8.png",
+      "issue": "all_anon_table_mostly_fixed",
+      "status": "partial",
+      "note": "46 lines, correct stacks+actions+pot; summary wrong (no result_entries for anon)"
     }
   ],
   "improvements_done": [
     "CLAUDE.md",
-    "state.json"
+    "state.json",
+    "all_anon_table_support"
   ],
   "improvements_pending": [
     "run_session.py",
@@ -59,11 +61,11 @@
     "debug_cleanup"
   ],
   "next_steps": [
-    "Implement run_session.py (one-shot pipeline)",
-    "Add incremental parsing (skip unchanged)",
-    "Generate more ground truths manually (1-2 per session)",
+    "Fix 53-8 summary section (result_entries empty for all-anon tables → wrong fold attribution)",
+    "Fix 53-8 missing HJ and STR players in anon table",
     "Fix 46-20.png narrow layout (col_w=139 vs 256)",
-    "Fix 53-8.png (investigate why only 9 lines)"
+    "Generate more ground truths manually (1-2 per session)",
+    "Fix NEPTIN artifact in 44-12 (similarity < 0.7 threshold)"
   ],
   "parse_details": {
     "35-14": {
