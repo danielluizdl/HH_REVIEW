@@ -1,6 +1,14 @@
 # WPT Global Hand History Parser — Progress
 
-## Status: Phase 2 - All 45 images parsing successfully
+## Status: Phase 3 - Parser fixes + full pipeline working
+
+### Session 2026-06-06 Improvements
+1. **run_session.py output file bug** — Parser stdout now properly captured and written to file; all 45 files are freshly generated (was silently ignoring parser output, using stale files)
+2. **NEPTIN artifact removal** — OCR artifact players not grounded in end_stacks or results are filtered out after early end_stacks extraction
+3. **Narrow image column boundaries** (46-20.png, 695px) — Detects column boundaries from header x positions when avg column spacing < 160px; fixes 0 preflop actions → 4 preflop actions
+4. **Multi-column result detection** — When a hand ends on the flop or turn, results appear in that column (not RIVER); parser now tries RIVER → TURN → FLOP to find result section
+5. **pote_total threshold lowered** — Was filtering out pots < 100BB; now any positive value from "Pote Total" text is used (fixes 40-26: $86.10 → $4.49)
+6. **Winner amounts** (35-19, all images) — Summary winner collection shows pot amount, not ending stack
 
 ### Files Built
 - `parse_hand_screenshot.py` — Main parser: OCR + image analysis → PokerStars format
@@ -40,10 +48,12 @@
 - 8 images are preflop-only hands (normal — all-in or fold before flop)
 
 ### Known Issues
-1. **46-20.png** (695x2048 narrow): Different image layout causes missing preflop actions
-2. **Board suits**: Sometimes all detected as 'h' (hearts) — HSV suit detection needs tuning
-3. **Stacks**: Some exact values off ($0.04 for OCR artifact players that slip through dedup)
-4. **Summary amounts**: `collected` line sometimes shows end stack instead of net win
+1. **46-20.png** (695x2048 narrow): Only partial preflop actions; layout fundamentally different (2-column action structure), turn/river missing
+2. **33-8 55-10.png** (844px): Board cards not detected (only 32 lines); flop cards at y<200 outside scan range
+3. **Board suits**: Sometimes all detected as 'h' (hearts) — HSV suit detection needs tuning
+4. **63-9.png**: Winner (MP player) not in OCR — name unreadable in table view; result section shows position-only
+5. **hand_id**: OCR adds 1 extra digit (unfixable)
+6. **Chinese characters**: Visually similar chars swapped (e.g. 飚↔魇, unfixable)
 
 ### Ground Truths Status
 - `ground_truth/26-19.txt`: Hand-crafted ✓
