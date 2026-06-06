@@ -61,8 +61,13 @@ cat state.json 2>/dev/null || echo "state.json not created yet"
 |-------|-------|--------|
 | `46-20.png` | 695px wide — narrow layout, preflop=0, wrong stacks | open |
 | `33-8 55-10.png` | Only 32 lines — likely layout issue | open |
-| `53-8.png` | Only 9 lines — very short, needs investigation | open |
+| `53-8.png` | 46 lines, all-anon table mostly fixed; **summary wrong** (result_entries empty → everyone shows as "folded before Flop"), missing HJ+STR players | partial |
 | `44-12.png` | NEPTIN artifact player in Seat 9 | open (similarity < 0.7, dedup misses it) |
+
+### 53-8.png remaining issues:
+- `result_entries=[]` for all-anonymous tables → `_build_summary_seats` shows everyone as "folded before Flop"
+- Fix: `_parse_results` needs to handle position-label rows (BTN/CO/etc) as results when names are absent
+- HJ and STR missing from player_map: check if their action cells are in correct x-range for preflop column
 
 ## Unfixable OCR Errors (accepted ceiling)
 
@@ -89,12 +94,15 @@ Real ceiling ≈ 91% (hand_id is always wrong; characters are unfixable).
 ## Improvements Roadmap (implement in order)
 
 - [x] `CLAUDE.md` — this file
-- [ ] `state.json` — machine-readable session state (auto-updated after each parse)
-- [ ] `run_session.py` — one-shot pipeline: parse → score → update state → commit
-- [ ] Incremental parsing — skip images whose mtime < output mtime < parser mtime
-- [ ] Ground truth semi-auto — `python3 generate_ground_truths.py --manual <image>` for 1 GT/session
-- [ ] Regression guard — fail commit if any GT score drops vs previous session
-- [ ] Debug image cleanup — `rm debug_*.png scan_*.png region_*.png` after each run
+- [x] `state.json` — machine-readable session state (auto-updated after each parse)
+- [x] `run_session.py` — one-shot pipeline: parse → score → update state → commit
+- [x] Incremental parsing — built into `run_session.py` (skip if mtime unchanged)
+- [x] Debug image cleanup — built into `run_session.py`
+- [x] All-anonymous table support — position labels as names, dollar-format amounts/stacks
+- [ ] Fix 53-8.png summary (result_entries for anon tables)
+- [ ] Fix 46-20.png narrow layout (col_w=139 vs 256)
+- [ ] Ground truth semi-auto — use vision (Read PNG) to correct parsed output manually
+- [ ] Regression guard — already in `run_session.py`, needs more GTs to be useful
 
 ## Legacy Commands (if run_session.py missing)
 
