@@ -4,6 +4,12 @@
 Parse WPT Global poker screenshots → PokerStars hand history format (`.txt`).
 One screenshot per hand. Output files go in `parsed/`. Validate against `ground_truth/`.
 
+## Session Schedule
+
+- **Next session**: 14:01 (2026-06-06) — limit resets at this time
+- **Recurrence**: every 6 hours
+- **Bootstrap**: run the commands below immediately on session start
+
 ## Session Bootstrap (run these first, every session)
 
 ```bash

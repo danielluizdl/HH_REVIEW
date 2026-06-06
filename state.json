@@ -473,5 +473,10 @@
       "has_board": true,
       "seat9_overflow": false
     }
+  },
+  "session_schedule": {
+    "next_session_at": "14:01 (2026-06-06)",
+    "recurrence": "every 6 hours",
+    "notes": "Limit resets at 14:01. Start new session promptly at that time."
   }
 }
