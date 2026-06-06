@@ -7,23 +7,21 @@ Seat 4: 托尼刘 ($0.00 in chips)
 Seat 5: dLzinN ($67.80 in chips)
 Seat 6: SharpOdds ($61.95 in chips)
 Seat 7: XuanTG ($130.70 in chips)
-Seat 8: Fibonacci ($0.05 in chips)
-Seat 9: Fibonaccii ($0.04 in chips)
-SigmaBoyy: posts the ante $0.04
-沃腰演nx: posts the ante $0.04
-ade474: posts the ante $0.04
-托尼刘: posts the ante $0.04
-dLzinN: posts the ante $0.04
-SharpOdds: posts the ante $0.04
-XuanTG: posts the ante $0.04
-Fibonacci: posts the ante $0.04
-Fibonaccii: posts the ante $0.04
+Seat 8: Fibonacci ($25.65 in chips)
+SigmaBoyy: posts the ante $0.05
+沃腰演nx: posts the ante $0.05
+ade474: posts the ante $0.05
+托尼刘: posts the ante $0.05
+dLzinN: posts the ante $0.05
+SharpOdds: posts the ante $0.05
+XuanTG: posts the ante $0.05
+Fibonacci: posts the ante $0.05
 dLzinN: posts small blind $0.05
 SharpOdds: posts big blind $0.10
 XuanTG: posts straddle $0.20
 *** HOLE CARDS ***
 Dealt to dLzinN [Ah 7d]
-Fibonaccii: folds
+Fibonacci: folds
 SigmaBoyy: folds
 沃腰演nx: folds
 ade474: raises $0.31 to $0.51
@@ -59,4 +57,3 @@ Seat 5: dLzinN (small blind) showed [Ah 7d] and lost with two pair, Nines and Se
 Seat 6: SharpOdds (big blind) folded before Flop
 Seat 7: XuanTG folded on the Flop
 Seat 8: Fibonacci folded before Flop (didn't bet)
-Seat 9: Fibonaccii folded before Flop (didn't bet)
