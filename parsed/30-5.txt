@@ -40,7 +40,7 @@ dLzinN: calls $5.50
 *** SUMMARY ***
 Total pot $28.40 | Rake $0
 Board [7s Kd 7h 9h]
-Seat 1: dLzinN lost
+Seat 1: dLzinN folded on the Turn
 Seat 2: 喜欢熬夜w folded before Flop (didn't bet)
 Seat 3: sagalove1507 folded before Flop (didn't bet)
 Seat 4: 磐石牛 (button) folded before Flop (didn't bet)

@@ -7,7 +7,7 @@ Seat 4: dLzinN ($47.40 in chips)
 Seat 5: LemmyKill ($0.10 in chips)
 Seat 6: shayulajiao9 ($83.75 in chips)
 Seat 7: 陈劲生ayNS3Q2 ($17.85 in chips)
-Seat 8: Lemmykill ($0.09 in chips)
+Seat 8: Lemmykill ($77.40 in chips)
 vGuerraF: posts the ante $0.04
 我在南方: posts the ante $0.04
 Neyalisson: posts the ante $0.04
@@ -49,7 +49,7 @@ dLzinN: shows [9d 9d] (four of a kind, Nines)
 Total pot $67.20 | Rake $0
 Board [9c Kh 8c 5c 9c]
 Seat 1: vGuerraF folded before Flop (didn't bet)
-Seat 2: 我在南方 showed [Ks Qs] and won ($150.80) with two pair, Kings and Nines
+Seat 2: 我在南方 showed [Ks Qs] and won ($67.20) with two pair, Kings and Nines
 Seat 3: Neyalisson folded before Flop
 Seat 4: dLzinN (button) showed [9d 9d] and lost with four of a kind, Nines
 Seat 5: LemmyKill (small blind) folded before Flop

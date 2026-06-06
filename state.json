@@ -1,6 +1,6 @@
 {
   "session_date": "2026-06-06",
-  "parser_commit": "f106de5",
+  "parser_commit": "9aa5bcb",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 1,
@@ -132,7 +132,7 @@
       "seat9_overflow": false
     },
     "30-16": {
-      "lines": 49,
+      "lines": 48,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -249,7 +249,7 @@
       "seat9_overflow": false
     },
     "45-14": {
-      "lines": 61,
+      "lines": 60,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -285,7 +285,7 @@
       "seat9_overflow": false
     },
     "53-21": {
-      "lines": 61,
+      "lines": 60,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -294,7 +294,7 @@
       "seat9_overflow": false
     },
     "53-8": {
-      "lines": 46,
+      "lines": 50,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -339,7 +339,7 @@
       "seat9_overflow": false
     },
     "59-17 58-18 49-5": {
-      "lines": 54,
+      "lines": 55,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -348,7 +348,7 @@
       "seat9_overflow": false
     },
     "59-17 58-18 59-15": {
-      "lines": 54,
+      "lines": 55,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -366,7 +366,7 @@
       "seat9_overflow": false
     },
     "60-18": {
-      "lines": 51,
+      "lines": 50,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,
@@ -384,7 +384,7 @@
       "seat9_overflow": false
     },
     "60-8": {
-      "lines": 58,
+      "lines": 57,
       "has_flop": true,
       "has_turn": true,
       "has_river": true,

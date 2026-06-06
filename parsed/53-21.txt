@@ -44,7 +44,6 @@ jcuntingham: folds
 *** RIVER *** [Ts 5s 6s 4s] [Kh]
 dLzinN: checks
 头上只有云: bets $29.00
-dLzinN: calls $0.00
 *** SHOWDOWN ***
 头上只有云: shows [As 8s] (a flush, Ace high)
 dLzinN: shows [Ks Ah] (a flush, King high)
@@ -52,7 +51,7 @@ dLzinN: shows [Ks Ah] (a flush, King high)
 *** SUMMARY ***
 Total pot $87.30 | Rake $0
 Board [Ts 5s 6s 4s Kh]
-Seat 1: 头上只有云 showed [As 8s] and won ($146.20) with a flush, Ace high
+Seat 1: 头上只有云 showed [As 8s] and won ($87.30) with a flush, Ace high
 Seat 2: Arwen7 folded before Flop (didn't bet)
 Seat 3: 娄底小钢炮 folded on the Turn
 Seat 4: jcuntingham (button) folded on the Turn

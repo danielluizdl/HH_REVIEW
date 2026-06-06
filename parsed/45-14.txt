@@ -42,7 +42,6 @@ Dorsai1985: calls $1.75
 *** RIVER *** [Ah 7d 8s 4h] [Th]
 dLzinN: bets $3.50
 Dorsai1985: raises $13.90 to $17.40 and is all-in
-dLzinN: folds
 *** SHOWDOWN ***
 Dorsai1985: shows [8d 9d] (a pair of Eights)
 dLzinN: shows [7c 8s] (two pair, Eights and Sevens)

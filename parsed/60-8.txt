@@ -41,7 +41,6 @@ dLzinN: checks
 *** RIVER *** [8h Th 9h 5h] [9h]
 行运一条龙發: bets $4.50
 dLzinN: raises $26.40 to $30.90
-行运一条龙發: folds
 *** SHOWDOWN ***
 行运一条龙發: shows [7s 7s] (a flush, Ten high)
 dLzinN collected $42.10 from pot
@@ -51,7 +50,7 @@ Board [8h Th 9h 5h 9h]
 Seat 1: 行运一条龙發 showed [7s 7s] and lost with a flush, Ten high
 Seat 2: MeNeverBluff folded before Flop (didn't bet)
 Seat 3: bohuc2024 folded before Flop (didn't bet)
-Seat 4: dLzinN (button) collected ($73.30)
+Seat 4: dLzinN (button) collected ($42.10)
 Seat 5: Dracula12 (small blind) folded before Flop
 Seat 6: benlim96 (big blind) folded before Flop
 Seat 7: 九浪四车1 folded before Flop

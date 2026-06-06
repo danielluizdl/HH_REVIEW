@@ -1,11 +1,11 @@
 PokerStars Hand #1273245637193023488: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/09 20:11:43 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: GtorGotHzGat ($0.05 in chips)
-Seat 3: Aquaman33 ($0.05 in chips)
-Seat 4: dLzinN ($0.05 in chips)
-Seat 5: Mansur ($0.10 in chips)
-Seat 6: Paopa0323 ($0.15 in chips)
-Seat 7: leanfrance ($0.25 in chips)
+Seat 1: GtorGotHzGat ($52.20 in chips)
+Seat 3: Aquaman33 ($21.60 in chips)
+Seat 4: dLzinN ($35.50 in chips)
+Seat 5: Mansur ($27.00 in chips)
+Seat 6: Paopa0323 ($93.80 in chips)
+Seat 7: leanfrance ($17.20 in chips)
 GtorGotHzGat: posts the ante $0.05
 Aquaman33: posts the ante $0.05
 dLzinN: posts the ante $0.05
@@ -29,4 +29,4 @@ Seat 3: Aquaman33 folded before Flop (didn't bet)
 Seat 4: dLzinN (button) folded on the Flop
 Seat 5: Mansur (small blind) folded before Flop
 Seat 6: Paopa0323 (big blind) folded on the Flop
-Seat 7: leanfrance folded before Flop
+Seat 7: leanfrance folded on the Flop

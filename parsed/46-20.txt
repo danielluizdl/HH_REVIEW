@@ -1,14 +1,14 @@
 PokerStars Hand #1272902451512905728: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/08 21:28:01 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 合金弹头干 ($0.05 in chips)
+Seat 1: 合金弹头干 ($97.00 in chips)
 Seat 2: 合金弹头于 ($0.05 in chips)
-Seat 3: Fungi97 ($0.05 in chips)
-Seat 4: olomeli77 ($0.05 in chips)
-Seat 5: Cuatrok ($0.10 in chips)
-Seat 6: koNicZ ($0.15 in chips)
-Seat 7: 青春一黛 ($0.05 in chips)
-Seat 8: 小马凯勒 ($0.05 in chips)
-Seat 9: dLzinN ($0.05 in chips)
+Seat 3: Fungi97 ($27.60 in chips)
+Seat 4: olomeli77 ($25.10 in chips)
+Seat 5: Cuatrok ($30.70 in chips)
+Seat 6: koNicZ ($130.20 in chips)
+Seat 7: 青春一黛 ($32.50 in chips)
+Seat 8: 小马凯勒 ($25.90 in chips)
+Seat 9: dLzinN ($37.90 in chips)
 合金弹头干: posts the ante $0.05
 合金弹头于: posts the ante $0.05
 Fungi97: posts the ante $0.05
@@ -23,9 +23,9 @@ koNicZ: posts big blind $0.10
 *** HOLE CARDS ***
 *** SUMMARY ***
 Total pot $130.20 | Rake $0
-Seat 1: 合金弹头干 folded before Flop (didn't bet)
+Seat 1: 合金弹头干 folded on the Flop
 Seat 2: 合金弹头于 folded on the Turn
-Seat 3: Fungi97 folded before Flop (didn't bet)
+Seat 3: Fungi97 folded on the Turn
 Seat 4: olomeli77 (button) folded on the Turn
 Seat 5: Cuatrok (small blind) folded on the Turn
 Seat 6: koNicZ (big blind) folded on the Turn

@@ -47,7 +47,7 @@ dLzinN: shows [Kc 9d] (a flush, Ace high)
 *** SUMMARY ***
 Total pot $39.10 | Rake $0
 Board [Tc 4c Ac Tc]
-Seat 1: 金老拐 collected ($41.80)
+Seat 1: 金老拐 collected ($39.10)
 Seat 2: AstroBarbo folded before Flop (didn't bet)
 Seat 3: PuntinStackz folded before Flop (didn't bet)
 Seat 4: 天璐141 (button) folded before Flop (didn't bet)

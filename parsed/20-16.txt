@@ -43,7 +43,7 @@ zildurr collected $72.30 from pot
 *** SUMMARY ***
 Total pot $72.30 | Rake $0
 Board [2c Tc 6c 8c]
-Seat 1: dLzinN folded before Flop
+Seat 1: dLzinN folded on the Turn
 Seat 2: Tonico folded before Flop (didn't bet)
 Seat 3: whaak folded on the Flop
 Seat 4: 猫猫警长ovo (button) folded before Flop (didn't bet)

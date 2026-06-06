@@ -48,7 +48,7 @@ Board [Th 2h 6c 7h 5h]
 Seat 1: 不行就蒜鸟 folded before Flop (didn't bet)
 Seat 2: macadamia folded before Flop (didn't bet)
 Seat 3: zeMraz folded before Flop (didn't bet)
-Seat 4: ggbond666602 (button) showed [Kd Kd] and won ($116.40) with a pair of Kings
+Seat 4: ggbond666602 (button) showed [Kd Kd] and won ($100.20) with a pair of Kings
 Seat 6: dLzinN (big blind) showed [9d Kd] and lost with high card King
 Seat 7: 允哲 folded before Flop
 Seat 8: ChandlerLimp (small blind) folded before Flop
