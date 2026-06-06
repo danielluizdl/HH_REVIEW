@@ -1,0 +1,41 @@
+PokerStars Hand #1272000425232584704: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/06 09:43:42 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 2: dLzinN ($30.50 in chips)
+Seat 3: 老板你好呀798 ($26.75 in chips)
+Seat 4: nguyenlua ($55.45 in chips)
+Seat 5: mthuong26 ($54.00 in chips)
+Seat 6: 烈火真金葫芦娃 ($14.85 in chips)
+Seat 7: TIE6858 ($22.95 in chips)
+Seat 8: Damonsd ($35.05 in chips)
+dLzinN: posts the ante $0.06
+老板你好呀798: posts the ante $0.06
+nguyenlua: posts the ante $0.06
+mthuong26: posts the ante $0.06
+烈火真金葫芦娃: posts the ante $0.06
+TIE6858: posts the ante $0.06
+Damonsd: posts the ante $0.06
+mthuong26: posts small blind $0.05
+烈火真金葫芦娃: posts big blind $0.10
+TIE6858: posts straddle $0.20
+*** HOLE CARDS ***
+Damonsd: calls $0.20
+dLzinN: raises $0.85 to $1.05
+老板你好呀798: folds
+nguyenlua: folds
+mthuong26: folds
+烈火真金葫芦娃: folds
+TIE6858: calls $0.85
+*** FLOP *** [5s 5c Tc]
+dLzinN: calls $1.40
+*** TURN *** [5s 5c Tc] [6s]
+dLzinN: calls $4.20
+*** SUMMARY ***
+Total pot $61.70 | Rake $0
+Board [5s 5c Tc 6s]
+Seat 2: dLzinN lost
+Seat 3: 老板你好呀798 folded before Flop (didn't bet)
+Seat 4: nguyenlua (button) folded before Flop (didn't bet)
+Seat 5: mthuong26 (small blind) folded before Flop
+Seat 6: 烈火真金葫芦娃 (big blind) folded before Flop
+Seat 7: TIE6858 folded before Flop
+Seat 8: Damonsd folded before Flop

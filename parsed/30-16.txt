@@ -1,0 +1,37 @@
+PokerStars Hand #1264503306132660224: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/15 17:12:49 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: phpd2910 ($50.35 in chips)
+Seat 2: tient43 ($91.90 in chips)
+Seat 3: matigarmendi ($85.05 in chips)
+Seat 4: dLzinN ($40.30 in chips)
+Seat 5: 无限后手的赌圣 ($30.20 in chips)
+Seat 6: TTrmqH ($19.75 in chips)
+Seat 7: nanuru22 ($24.65 in chips)
+phpd2910: posts the ante $0.05
+tient43: posts the ante $0.05
+matigarmendi: posts the ante $0.05
+dLzinN: posts the ante $0.05
+无限后手的赌圣: posts the ante $0.05
+TTrmqH: posts the ante $0.05
+nanuru22: posts the ante $0.05
+无限后手的赌圣: posts small blind $0.05
+TTrmqH: posts big blind $0.10
+nanuru22: posts straddle $0.20
+*** HOLE CARDS ***
+phpd2910: folds
+tient43: raises $0.45 to $0.65
+matigarmendi: folds
+dLzinN: calls $0.65
+无限后手的赌圣: folds
+TTrmqH: folds
+nanuru22: folds
+dLzinN collected $22.70 from pot
+*** SUMMARY ***
+Total pot $22.70 | Rake $0
+Seat 1: phpd2910 folded before Flop (didn't bet)
+Seat 2: tient43 lost
+Seat 3: matigarmendi folded before Flop (didn't bet)
+Seat 4: dLzinN (button) collected ($51.90)
+Seat 5: 无限后手的赌圣 (small blind) folded before Flop
+Seat 6: TTrmqH (big blind) folded before Flop
+Seat 7: nanuru22 folded before Flop

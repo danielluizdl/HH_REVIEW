@@ -1,0 +1,37 @@
+PokerStars Hand #1265189641149964288: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 14:40:04 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: Peter3356 ($0.05 in chips)
+Seat 2: 银柏皖 ($0.05 in chips)
+Seat 3: leanfrance ($0.05 in chips)
+Seat 4: dLzinN ($0.05 in chips)
+Seat 5: Sagat95 ($0.10 in chips)
+Seat 6: peteushko ($0.15 in chips)
+Seat 7: manhvidai ($0.25 in chips)
+Peter3356: posts the ante $0.05
+银柏皖: posts the ante $0.05
+leanfrance: posts the ante $0.05
+dLzinN: posts the ante $0.05
+Sagat95: posts the ante $0.05
+peteushko: posts the ante $0.05
+manhvidai: posts the ante $0.05
+Sagat95: posts small blind $0.05
+peteushko: posts big blind $0.10
+manhvidai: posts straddle $0.20
+*** HOLE CARDS ***
+Peter3356: folds
+银柏皖: folds
+leanfrance: calls $0.20
+dLzinN: raises $0.83 to $1.03
+Sagat95: folds
+peteushko: calls $0.93
+manhvidai: folds
+leanfrance: calls $0.83
+*** SUMMARY ***
+Total pot $18.50 | Rake $0
+Seat 1: Peter3356 folded before Flop (didn't bet)
+Seat 2: 银柏皖 folded before Flop (didn't bet)
+Seat 3: leanfrance folded before Flop
+Seat 4: dLzinN (button) folded on the Flop
+Seat 5: Sagat95 (small blind) folded before Flop
+Seat 6: peteushko (big blind) folded on the Flop
+Seat 7: manhvidai folded before Flop

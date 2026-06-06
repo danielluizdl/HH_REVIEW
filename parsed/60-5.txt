@@ -1,0 +1,62 @@
+PokerStars Hand #1272073145348083712: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/06 14:32:39 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: Monika716 ($99.35 in chips)
+Seat 2: uuuulll774933 ($17.75 in chips)
+Seat 3: 边打边中哈 ($5.80 in chips)
+Seat 4: qwerzzh ($33.80 in chips)
+Seat 5: PlowingMachine ($15.80 in chips)
+Seat 6: dLzinN ($39.45 in chips)
+Seat 7: Doric352 ($39.45 in chips)
+Seat 8: HetTienCmnr ($33.25 in chips)
+Monika716: posts the ante $0.05
+uuuulll774933: posts the ante $0.05
+边打边中哈: posts the ante $0.05
+qwerzzh: posts the ante $0.05
+PlowingMachine: posts the ante $0.05
+dLzinN: posts the ante $0.05
+Doric352: posts the ante $0.05
+HetTienCmnr: posts the ante $0.05
+PlowingMachine: posts small blind $0.05
+dLzinN: posts big blind $0.10
+Doric352: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Qd Qd]
+HetTienCmnr: folds
+Monika716: folds
+uuuulll774933: folds
+边打边中哈: calls $0.20
+qwerzzh: raises $0.75 to $0.95
+PlowingMachine: calls $0.90
+dLzinN: raises $2.80 to $3.75
+Doric352: folds
+边打边中哈: folds
+qwerzzh: calls $2.80
+PlowingMachine: folds
+*** FLOP *** [7d 9h 6s]
+dLzinN: checks
+qwerzzh: bets $3.10
+dLzinN: raises $4.90 to $8.00
+qwerzzh: calls $4.90
+*** TURN *** [7d 9h 6s] [8h]
+dLzinN: checks
+qwerzzh: bets $12.50
+dLzinN: calls $12.50
+*** RIVER *** [7d 9h 6s 8h] [6c]
+dLzinN: checks
+qwerzzh: raises $9.40 to $9.40 and is all-in
+dLzinN: calls $9.40
+*** SHOWDOWN ***
+qwerzzh: shows [Ts Ts] (a straight, Ten high)
+dLzinN: shows [Qd Qd] (two pair, Queens and Sixes)
+qwerzzh collected $69.10 from pot
+*** SUMMARY ***
+Total pot $69.10 | Rake $0
+Board [7d 9h 6s 8h 6c]
+Seat 1: Monika716 folded before Flop (didn't bet)
+Seat 2: uuuulll774933 folded before Flop (didn't bet)
+Seat 3: 边打边中哈 folded before Flop
+Seat 4: qwerzzh (button) showed [Ts Ts] and won ($69.10) with a straight, Ten high
+Seat 5: PlowingMachine (small blind) folded before Flop
+Seat 6: dLzinN (big blind) showed [Qd Qd] and lost with two pair, Queens and Sixes
+Seat 7: Doric352 folded before Flop
+Seat 8: HetTienCmnr folded before Flop (didn't bet)

@@ -1,0 +1,55 @@
+PokerStars Hand #1279290512207581184: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/26 12:31:54 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: 奥德彪飚 ($83.35 in chips)
+Seat 2: 淡淡的会顺顺 ($108.50 in chips)
+Seat 3: dLzinN ($44.00 in chips)
+Seat 4: 全场紧B型 ($15.65 in chips)
+Seat 5: Kaakamelli ($5.54 in chips)
+Seat 6: AlexanderN ($54.75 in chips)
+Seat 7: FlushFever97 ($19.35 in chips)
+奥德彪飚: posts the ante $0.05
+淡淡的会顺顺: posts the ante $0.05
+dLzinN: posts the ante $0.05
+全场紧B型: posts the ante $0.05
+Kaakamelli: posts the ante $0.05
+AlexanderN: posts the ante $0.05
+FlushFever97: posts the ante $0.05
+Kaakamelli: posts small blind $0.05
+AlexanderN: posts big blind $0.10
+FlushFever97: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Ad As]
+奥德彪飚: folds
+淡淡的会顺顺: raises $0.68 to $0.88
+dLzinN: raises $2.01 to $2.89
+全场紧B型: folds
+Kaakamelli: folds
+AlexanderN: folds
+FlushFever97: folds
+淡淡的会顺顺: calls $2.01
+*** FLOP *** [8h 2c 6c]
+淡淡的会顺顺: bets $3.24
+dLzinN: raises $6.48 to $9.72
+淡淡的会顺顺: calls $6.48
+*** TURN *** [8h 2c 6c] [8c]
+淡淡的会顺顺: checks
+dLzinN: checks
+*** RIVER *** [8h 2c 6c 8c] [9s]
+淡淡的会顺顺: checks
+dLzinN: bets $13.00
+淡淡的会顺顺: raises $82.80 to $95.80 and is all-in
+dLzinN: calls $18.34 and is all-in
+*** SHOWDOWN ***
+淡淡的会顺顺: shows [6h 6s] (a full house, Sixes full of Eights)
+dLzinN: shows [Ad As] (two pair, Aces and Eights)
+淡淡的会顺顺 collected $153.00 from pot
+*** SUMMARY ***
+Total pot $153.00 | Rake $0
+Board [8h 2c 6c 8c 9s]
+Seat 1: 奥德彪飚 folded before Flop (didn't bet)
+Seat 2: 淡淡的会顺顺 showed [6h 6s] and won ($153.00) with a full house, Sixes full of Eights
+Seat 3: dLzinN showed [Ad As] and lost with two pair, Aces and Eights
+Seat 4: 全场紧B型 (button) folded before Flop (didn't bet)
+Seat 5: Kaakamelli (small blind) folded before Flop
+Seat 6: AlexanderN (big blind) folded before Flop
+Seat 7: FlushFever97 folded before Flop

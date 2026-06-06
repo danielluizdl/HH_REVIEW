@@ -1,0 +1,57 @@
+PokerStars Hand #1269841766155886592: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/30 10:45:57 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: nfgffg ($36.05 in chips)
+Seat 2: AlwaysBB705311 ($51.23 in chips)
+Seat 3: Zapol ($19.85 in chips)
+Seat 4: naniwyx538 ($92.05 in chips)
+Seat 5: 就是干 ($171.10 in chips)
+Seat 6: dLzinN ($71.00 in chips)
+Seat 7: niiik ($27.23 in chips)
+Seat 8: Roson861 ($20.90 in chips)
+nfgffg: posts the ante $0.05
+AlwaysBB705311: posts the ante $0.05
+Zapol: posts the ante $0.05
+naniwyx538: posts the ante $0.05
+就是干: posts the ante $0.05
+dLzinN: posts the ante $0.05
+niiik: posts the ante $0.05
+Roson861: posts the ante $0.05
+就是干: posts small blind $0.05
+dLzinN: posts big blind $0.10
+niik: posts straddle $0.20
+*** HOLE CARDS ***
+Roson861: raises $0.48 to $0.68
+nfgffg: folds
+AlwaysBB705311: calls $0.68
+Zapol: folds
+naniwyx538: folds
+就是干: folds
+dLzinN: calls $0.58
+niiik: calls $0.48
+*** FLOP *** [5h 3d 9d]
+dLzinN: checks
+niiik: checks
+Roson861: bets $0.95
+AlwaysBB705311: folds
+dLzinN: raises $3.80 to $4.75
+niiik: folds
+Roson861: calls $3.80
+*** TURN *** [5h 3d 9d] [7s]
+dLzinN: checks
+Roson861: raises $15.40 to $15.40 and is all-in
+dLzinN: calls $15.40
+*** RIVER *** [5h 3d 9d 7s] [8s]
+*** SHOWDOWN ***
+dLzinN: shows [7d 5d] (two pair, Sevens and Fives)
+dLzinN collected $43.40 from pot
+*** SUMMARY ***
+Total pot $43.40 | Rake $0
+Board [5h 3d 9d 7s 8s]
+Seat 1: nfgffg folded before Flop (didn't bet)
+Seat 2: AlwaysBB705311 folded on the Flop
+Seat 3: Zapol folded before Flop (didn't bet)
+Seat 4: naniwyx538 (button) folded before Flop (didn't bet)
+Seat 5: 就是干 (small blind) folded before Flop
+Seat 6: dLzinN (big blind) showed [7d 5d] and won ($93.50) with two pair, Sevens and Fives
+Seat 7: niiik folded on the Flop
+Seat 8: Roson861 folded before Flop

@@ -1,0 +1,52 @@
+PokerStars Hand #1266300263894355968: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/20 16:13:17 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: shaibal ($8.25 in chips)
+Seat 2: lamlai12 ($25.70 in chips)
+Seat 3: dLzinN ($24.80 in chips)
+Seat 4: zyxxh18 ($69.65 in chips)
+Seat 5: Exploit90 ($26.60 in chips)
+Seat 6: 给你一套火龙果 ($32.55 in chips)
+Seat 7: ChiaAn ($15.95 in chips)
+Seat 8: Freston907351 ($85.55 in chips)
+shaibal: posts the ante $0.05
+lamlai12: posts the ante $0.05
+dLzinN: posts the ante $0.05
+zyxxh18: posts the ante $0.05
+Exploit90: posts the ante $0.05
+给你一套火龙果: posts the ante $0.05
+ChiaAn: posts the ante $0.05
+Freston907351: posts the ante $0.05
+Exploit90: posts small blind $0.05
+给你一套火龙果: posts big blind $0.10
+ChiaAn: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Ad Ad]
+Freston907351: folds
+shaibal: calls $0.20
+lamlai12: raises $1.15 to $1.35
+dLzinN: raises $2.00 to $3.35
+zyxxh18: folds
+Exploit90: folds
+给你一套火龙果: folds
+ChiaAn: folds
+shaibal: raises $4.85 to $8.20 and is all-in
+lamlai12: raises $17.60 to $25.80 and is all-in
+dLzinN: calls $21.40 and is all-in
+*** FLOP *** [3h Td 9d]
+*** TURN *** [3h Td 9d] [9h]
+*** SHOWDOWN ***
+lamlai12: shows [Ad Kd] (a pair of Nines)
+dLzinN: shows [Ad Ad] (two pair, Aces and Nines)
+shaibal: shows [As Qd] (a pair of Nines)
+lamlai12 collected $59.40 from pot
+*** SUMMARY ***
+Total pot $59.40 | Rake $0
+Board [3h Td 9d 9h]
+Seat 1: shaibal showed [As Qd] and lost with a pair of Nines
+Seat 2: lamlai12 showed [Ad Kd] and won ($59.20) with a pair of Nines
+Seat 3: dLzinN showed [Ad Ad] and lost with two pair, Aces and Nines
+Seat 4: zyxxh18 (button) folded before Flop (didn't bet)
+Seat 5: Exploit90 (small blind) folded before Flop
+Seat 6: 给你一套火龙果 (big blind) folded before Flop
+Seat 7: ChiaAn folded before Flop
+Seat 8: Freston907351 folded before Flop (didn't bet)

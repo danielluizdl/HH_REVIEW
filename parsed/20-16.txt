@@ -1,0 +1,53 @@
+PokerStars Hand #1261963296065949696: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/08 16:59:43 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: dLzinN ($33.70 in chips)
+Seat 2: Tonico ($27.55 in chips)
+Seat 3: whaak ($8.08 in chips)
+Seat 4: 猫猫警长ovo ($15.65 in chips)
+Seat 5: 风亲云蛋 ($62.90 in chips)
+Seat 6: stingxiao ($17.05 in chips)
+Seat 7: absorber ($90.15 in chips)
+Seat 8: zildurr ($35.60 in chips)
+dLzinN: posts the ante $0.05
+Tonico: posts the ante $0.05
+whaak: posts the ante $0.05
+猫猫警长ovo: posts the ante $0.05
+风亲云蛋: posts the ante $0.05
+stingxiao: posts the ante $0.05
+absorber: posts the ante $0.05
+zildurr: posts the ante $0.05
+风亲云蛋: posts small blind $0.05
+stingxiao: posts big blind $0.10
+absorber: posts straddle $0.20
+*** HOLE CARDS ***
+zildurr: raises $0.48 to $0.68
+dLzinN: raises $1.76 to $2.44
+Tonico: folds
+whaak: calls $2.44
+猫猫警长ovo: folds
+风亲云蛋: folds
+stingxiao: folds
+absorber: folds
+zildurr: calls $1.77
+*** FLOP *** [2c Tc 6c]
+zildurr: checks
+dLzinN: bets $4.04
+whaak: folds
+zildurr: calls $4.04
+*** TURN *** [2c Tc 6c] [8c]
+zildurr: checks
+dLzinN: bets $11.10
+zildurr: raises $17.90 to $29.00 and is all-in
+dLzinN: calls $16.07 and is all-in
+zildurr collected $72.30 from pot
+*** SUMMARY ***
+Total pot $72.30 | Rake $0
+Board [2c Tc 6c 8c]
+Seat 1: dLzinN folded before Flop
+Seat 2: Tonico folded before Flop (didn't bet)
+Seat 3: whaak folded on the Flop
+Seat 4: 猫猫警长ovo (button) folded before Flop (didn't bet)
+Seat 5: 风亲云蛋 (small blind) folded before Flop
+Seat 6: stingxiao (big blind) folded before Flop
+Seat 7: absorber folded before Flop
+Seat 8: zildurr collected ($72.30)

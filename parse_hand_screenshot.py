@@ -166,15 +166,27 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     result_start_y = _find_result_start(ocr, C[4][0], w, action_start_y)
 
     # ── Parse each street ─────────────────────────────────────────────
-    # Use a lower y_min to catch first player row
-    act_y = header_y + 65  # slightly lower than pot_row to catch first names
+    # Lower threshold to catch player names just below the pot-amounts row
+    act_y = header_y + 50
     # For non-river columns, don't cut at result_start_y (preflop can extend past it)
     preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h)  # full image height
     flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h)
     turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h)
     river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y)
 
-    # ── Parse results section ─────────────────────────────────────────
+    # ── Recover missing first-player names via focused OCR (PRE-FLOP only) ──
+    # Only run for PRE-FLOP column to avoid excessive OCR calls.
+    # _assign_anon_names will propagate the name to other streets via position.
+    extra = _recover_first_player_names(img, ocr, [C[1]], act_y)
+    if extra:
+        ocr = ocr + extra
+        # Re-parse streets with recovered names
+        preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h)
+        flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h)
+        turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h)
+        river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y)
+
+    # ── Parse results section (first pass, no position map yet) ──────
     result_entries = _parse_results(ocr, C[4][0], w, result_start_y)
 
     if debug:
@@ -190,6 +202,50 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     # ── Build player map: {name: {position, net_bb}} ──────────────────
     player_map = _build_player_map(preflop_acts, flop_acts, turn_acts, river_acts,
                                     result_entries, blinds_col)
+
+    # ── Assign names to anonymous actions using position lookup ────────
+    _assign_anon_names([preflop_acts, flop_acts, turn_acts, river_acts], player_map)
+    # Rebuild player_map now that anonymous actions have names
+    player_map = _build_player_map(preflop_acts, flop_acts, turn_acts, river_acts,
+                                    result_entries, blinds_col)
+
+    # ── Deduplicate OCR artifact players ────────────────────────────────
+    # If >8 players detected, some are likely OCR variants of the same person.
+    # Remove players with no net_bb (not in results) that are near-duplicates
+    # of a player who HAS net_bb.
+    if len(player_map) > 8:
+        from difflib import SequenceMatcher
+        names_with_result = [n for n, d in player_map.items() if d.get('net_bb') is not None]
+        names_without_result = [n for n, d in player_map.items() if d.get('net_bb') is None]
+        to_remove = set()
+        for artifact in names_without_result:
+            for real in names_with_result:
+                sim = SequenceMatcher(None, artifact, real).ratio()
+                if sim > 0.7 and artifact != real:
+                    to_remove.add(artifact)
+                    break
+        for n in to_remove:
+            del player_map[n]
+            # Replace artifact name in all action lists
+            for acts in [preflop_acts, flop_acts, turn_acts, river_acts]:
+                for a in acts:
+                    if a.get('name') == n:
+                        # Find the real player it was confused with
+                        best_real = max(names_with_result,
+                                        key=lambda r: SequenceMatcher(None, n, r).ratio())
+                        a['name'] = best_real
+
+    # ── Re-parse results with position→name map (recover anonymous winner) ──
+    if any(r['name'] is None or r.get('net_bb', 0) == 0 for r in result_entries) or \
+       not any(r.get('net_bb', 0) > 0 for r in result_entries):
+        pos_to_name = {d.get('pos'): n for n, d in player_map.items() if d.get('pos')}
+        result_entries_v2 = _parse_results(ocr, C[4][0], w, result_start_y,
+                                            pos_name_map=pos_to_name)
+        if len(result_entries_v2) > len(result_entries):
+            result_entries = result_entries_v2
+            # Rebuild player_map once more with complete results
+            player_map = _build_player_map(preflop_acts, flop_acts, turn_acts, river_acts,
+                                            result_entries, blinds_col)
 
     if debug:
         print(f"[DEBUG] players: {list(player_map.keys())}")
@@ -469,33 +525,61 @@ def _find_result_start(items, x_min, x_max, y_min) -> int:
     return max(y_min, first_result_y - 150)
 
 
+def _is_action_start(text: str) -> bool:
+    """True if text is a Portuguese action word that can start a new cell."""
+    tl = text.lower().strip()
+    # All-in is a modifier (belongs to previous action), not a cell-starter
+    if tl in ('all-in', 'all-ln', 'allin') or ('all' in tl and 'in' in tl and len(tl) <= 8):
+        return False
+    return any(tl.startswith(pt) for pt in PT_TO_EN if len(pt) > 3)
+
+
 def _group_into_cells(col_items, gap=55) -> list:
     """
-    Group OCR items into cells using player names as delimiters.
-    A player name starts a new cell (except the first item in the list).
+    Group OCR items into cells using player names and position-badge transitions.
+    A new cell starts at:
+      1. A player name (named player action)
+      2. An action word that follows a position badge (anonymous player repeat action)
     Falls back to gap-based if no player names found.
     """
     if not col_items:
         return []
 
-    # Check if any player names exist in the items
     has_names = any(is_player_name(i['text']) for i in col_items)
 
     if has_names:
         cells = []
         current = []
+        last_was_badge = False
+
         for item in col_items:
             t = item['text']
+            is_badge = t.upper() in POSITIONS
+            is_allin = (t.lower().strip() in ('all-in', 'all-ln', 'allin') or
+                        ('all' in t.lower() and 'in' in t.lower() and len(t) <= 8))
+
             if is_player_name(t) and current:
                 cells.append(current)
                 current = [item]
+                last_was_badge = False
+            elif last_was_badge and _is_action_start(t) and current:
+                # Action after a position badge → new anonymous cell
+                cells.append(current)
+                current = [item]
+                last_was_badge = False
             else:
                 current.append(item)
+                if is_badge:
+                    last_was_badge = True
+                elif not is_allin:
+                    # Only non-allin non-badge items reset last_was_badge
+                    last_was_badge = False
+
         if current:
             cells.append(current)
         return cells
     else:
-        # Fall back to gap-based grouping
+        # Gap-based grouping
         cells = []
         current = [col_items[0]]
         for item in col_items[1:]:
@@ -537,7 +621,7 @@ def _parse_cell(cell) -> dict | None:
                 action = en
                 break
 
-    if name is None or action is None:
+    if action is None:
         return None
     return {'name': name, 'action': action, 'amount_bb': amount_bb,
             'position': position, 'allin': allin}
@@ -555,39 +639,149 @@ def _parse_street(items, x_min, x_max, y_min, y_max) -> list:
     return acts
 
 
-def _parse_results(items, x_min, x_max, y_min) -> list:
-    """Parse result entries from RIVER column results section."""
+def _parse_results(items, x_min, x_max, y_min, pos_name_map=None) -> list:
+    """Parse result entries from RIVER column results section.
+    pos_name_map: optional {position: player_name} for anonymous winner recovery.
+    """
     col = sorted(items_in_band(items, x_min, x_max, y_min, 99999), key=lambda i: i['y'])
     cells = _group_into_cells(col, gap=70)
     results = []
     for cell in cells:
         name = pos = None
         net_bb = None
+        unsigned_bb = None
         for item in sorted(cell, key=lambda i: i['y']):
             t = item['text']
             if t.upper() in POSITIONS:
                 pos = t.upper()
             elif re.match(r'^[+-][\d,.]+\s*BB?$', t, re.IGNORECASE):
                 net_bb = parse_bb(t)
+            elif re.match(r'^\d[\d,.]+\s*BB?$', t, re.IGNORECASE):
+                # Unsigned amount — minus sign likely dropped by OCR
+                unsigned_bb = abs(parse_bb(t))
             elif is_player_name(t):
                 name = t
+        # Use signed if available, else treat unsigned as negative (folders)
+        if net_bb is None and unsigned_bb is not None:
+            net_bb = -unsigned_bb
+        # Recover anonymous winner via position lookup
+        if name is None and pos is not None and pos_name_map and pos in pos_name_map:
+            name = pos_name_map[pos]
         if name and net_bb is not None:
             results.append({'name': name, 'pos': pos, 'net_bb': net_bb})
     return results
 
 
+def _recover_first_player_names(img, ocr_items, col_ranges, act_y) -> list:
+    """
+    For each action column, run focused OCR above the first detected action
+    to recover player names that full-image OCR misses.
+    Returns additional OCR items to inject into the main items list.
+    """
+    ocr_fn = _ocr()
+    extra_items = []
+
+    for col_x_min, col_x_max in col_ranges:
+        # Find first item in this column at or after act_y
+        col_items = sorted(
+            [i for i in ocr_items if col_x_min <= i['x'] < col_x_max and i['y'] >= act_y],
+            key=lambda i: i['y']
+        )
+        if not col_items:
+            continue
+
+        # Find the first ACTION WORD in this column (not just the first item, which could be an amount)
+        first_action_y = None
+        for ci in col_items:
+            t = ci['text'].lower().strip()
+            if any(t.startswith(pt) for pt in PT_ACTION_WORDS if len(pt) > 3):
+                first_action_y = ci['y']
+                break
+        if first_action_y is None:
+            first_action_y = col_items[0]['y']
+
+        # Check if a player name already exists before the first action
+        has_name = any(
+            is_player_name(i['text']) for i in col_items if i['y'] < first_action_y
+        )
+        if has_name:
+            continue
+
+        # No player name before the first action → run focused OCR on that region
+        y1 = max(0, act_y - 15)
+        y2 = min(img.shape[0], first_action_y + 10)
+        if y2 <= y1:
+            continue
+        crop = img[y1:y2, col_x_min:col_x_max]
+        if crop.size < 50:
+            continue
+
+        big = cv2.resize(crop, (crop.shape[1]*2, crop.shape[0]*2), cv2.INTER_CUBIC)
+        result, _ = ocr_fn(big)
+        if not result:
+            continue
+
+        for item in result:
+            if not item or len(item) < 2:
+                continue
+            bbox = item[0]
+            text = str(item[1]).strip() if item[1] else ''
+            if not text or not is_player_name(text):
+                continue
+            # Skip if this name already exists in the main items (avoid duplicates)
+            if any(i['text'] == text for i in ocr_items):
+                continue
+            xs = [int(p[0]) // 2 + col_x_min for p in bbox]
+            ys = [int(p[1]) // 2 + y1 for p in bbox]
+            extra_items.append({
+                'x': int(min(xs)), 'y': int(min(ys)),
+                'x2': int(max(xs)), 'y2': int(max(ys)),
+                'text': text, 'conf': 0.8
+            })
+            break  # Only take the first name found
+
+    return extra_items
+
+
+def _assign_anon_names(street_acts_list: list, player_map: dict):
+    """
+    Assign player names to anonymous action cells (name=None) using position matching.
+    Modifies in-place. Removes cells that cannot be assigned a name.
+    """
+    pos_to_name = {}
+    for name, data in player_map.items():
+        if name and data.get('pos'):
+            pos_to_name[data['pos']] = name
+
+    for acts in street_acts_list:
+        assigned = []
+        for act in acts:
+            if act['name'] is None:
+                pos = act.get('position')
+                if pos and pos in pos_to_name:
+                    act['name'] = pos_to_name[pos]
+                    assigned.append(act)
+                # else: drop this anonymous action (can't identify player)
+            else:
+                assigned.append(act)
+        acts[:] = assigned
+
+
 def _build_player_map(preflop, flop, turn, river, results, blinds_col) -> dict:
-    """Build {name: {pos, net_bb}} from all sources."""
+    """Build {name: {pos, net_bb}} from all sources. Skips anonymous (name=None) entries."""
     pm = {}
 
     # From results (most complete list)
     for r in results:
-        pm[r['name']] = {'pos': r.get('pos'), 'net_bb': r['net_bb']}
+        if r.get('name'):
+            pm[r['name']] = {'pos': r.get('pos'), 'net_bb': r['net_bb']}
 
-    # Fill in positions from actions
+    # Fill in positions from named actions
     for acts in [preflop, flop, turn, river]:
         for a in acts:
-            n = a['name']
+            n = a.get('name')
+            if not n:
+                continue
             if n not in pm:
                 pm[n] = {'pos': None, 'net_bb': None}
             if a.get('position') and pm[n].get('pos') is None:
@@ -614,17 +808,26 @@ def _assign_seats(player_map: dict) -> dict:
         pos = data.get('pos')
         if pos and pos in seat_base:
             seat = seat_base[pos]
-            # Handle conflicts
-            while seat in assigned:
+            # Handle conflicts: try up to 8 alternate seats, then overflow
+            for _ in range(8):
+                if seat not in assigned:
+                    break
                 seat = seat % 8 + 1
+            else:
+                # All 8 seats taken (extra OCR artifact player) - use overflow seat
+                seat = 9
+                while seat in assigned:
+                    seat += 1
             seats[name] = seat
             assigned.add(seat)
 
-    # Second pass: assign remaining players
+    # Second pass: assign remaining players (overflow > 8 for extra OCR artifacts)
     for name in player_map:
         if name not in seats:
             while next_seat in assigned:
                 next_seat += 1
+                if next_seat > 99:  # safety guard
+                    break
             seats[name] = next_seat
             assigned.add(next_seat)
             next_seat += 1
@@ -855,21 +1058,12 @@ def _fix_allin_call_amounts(preflop, flop, turn, river, initial_stacks_bb,
                 street_committed[name] = amt
 
 
-def _detect_board(img, img_w, img_h) -> list:
-    """Detect board cards from WPT Global screenshot.
-    Board cards are at y≈10-15% of height (above the poker table view).
-    5 cards laid horizontally: each has dark background + colored suit symbol.
-    Suits: hearts=red(H<15), clubs=green(H=35-95), diamonds=blue(H=95-140), spades=dark.
-    """
-    # Board strip is at y≈10-15% of image height
-    y1 = int(img_h * 0.10)
-    y2 = int(img_h * 0.15)
-    x_start = int(img_w * 0.26)
-    x_end   = int(img_w * 0.74)
-
-    # Step 1: get rank positions via OCR — run strip at 3x for best accuracy
-    rank_items = {}  # x_pos → text
+def _scan_board_strip(img, y1, y2, x_start, x_end) -> dict:
+    """Run OCR on board strip and return {x_pos: rank_text}."""
+    rank_items = {}
     strip = img[y1:y2, x_start:x_end]
+    if strip.size < 100:
+        return rank_items
     scale = 3
     strip_up = cv2.resize(strip, (strip.shape[1]*scale, strip.shape[0]*scale), cv2.INTER_CUBIC)
     result, _ = _ocr()(strip_up)
@@ -882,18 +1076,75 @@ def _detect_board(img, img_w, img_h) -> list:
             xs = [int(p[0])//scale + x_start for p in bbox]
             ys = [int(p[1])//scale + y1 for p in bbox]
             xmin, ymin = min(xs), min(ys)
-            # Filter to the actual card row (below the pot-total text at y≈220)
-            if ymin < y1 + 20: continue  # skip pot-total overlay text
-            # Only keep short text (rank candidates); skip obvious non-rank text
+            if ymin < y1 + 20: continue  # skip items too close to top
             if len(text) <= 4 and '.' not in text and ',' not in text:
                 tup = text.upper()
-                # Skip if it's clearly a word/keyword
                 if tup in ('POTE', 'TOTAL', 'BB', 'SB', 'STR', 'UTG', 'HJ', 'CO',
                            'BTN', 'MP', 'HAND', 'ID', 'ANTE'): continue
                 if len(tup) > 0 and tup[0].isdigit() or len(tup) == 1:
                     rank_items[xmin] = text
-                elif len(tup) == 2:  # like '7G', '2G', '80', etc.
+                elif len(tup) == 2:
                     rank_items[xmin] = text
+    return rank_items
+
+
+def _detect_board(img, img_w, img_h) -> list:
+    """Detect board cards from WPT Global screenshot.
+    Board cards are at y≈10-15% of height (above the poker table view).
+    5 cards laid horizontally: each has dark background + colored suit symbol.
+    Suits: hearts=red(H<15), clubs=green(H=35-95), diamonds=blue(H=95-140), spades=dark.
+    """
+    x_start = int(img_w * 0.26)
+    x_end   = int(img_w * 0.74)
+    y1 = int(img_h * 0.10)
+
+    # Try 15% first; extend to 18% if fewer than 5 card ranks found
+    rank_items = _scan_board_strip(img, y1, int(img_h * 0.15), x_start, x_end)
+    y2 = int(img_h * 0.15)
+    if len(rank_items) < 5:
+        rank_items_ext = _scan_board_strip(img, y1, int(img_h * 0.18), x_start, x_end)
+        if len(rank_items_ext) >= len(rank_items):
+            rank_items = rank_items_ext
+            y2 = int(img_h * 0.18)
+
+    # Fallback: scan board in two halves if still <5 cards found
+    # (OCR sometimes misses extreme-left/right cards in the full-width strip)
+    if len(rank_items) < 5:
+        mid = (x_start + x_end) // 2
+        for sx1, sx2 in [(x_start, mid + 60), (mid - 60, x_end)]:
+            sub = _scan_board_strip(img, y1, y2, sx1, sx2)
+            for xk, tv in sub.items():
+                if not any(abs(xk - ex) < 30 for ex in rank_items):
+                    rank_items[xk] = tv
+
+    # If still <5 and we have ≥2 found, estimate missing positions from card spacing
+    if 2 <= len(rank_items) < 5:
+        xs_found = sorted(rank_items.keys())
+        if len(xs_found) >= 2:
+            # Estimate spacing from consecutive found cards
+            spacings = [xs_found[i+1] - xs_found[i] for i in range(len(xs_found)-1)]
+            spacing = int(sum(spacings) / len(spacings))
+            if 60 <= spacing <= 160:
+                # Extrapolate left and right to find up to 5 positions
+                leftmost = xs_found[0]
+                rightmost = xs_found[-1]
+                candidates = list(xs_found)
+                # Extend left
+                while len(candidates) < 5 and candidates[0] - spacing >= x_start - 20:
+                    candidates.insert(0, candidates[0] - spacing)
+                # Extend right
+                while len(candidates) < 5 and candidates[-1] + spacing <= x_end + 20:
+                    candidates.append(candidates[-1] + spacing)
+                # For each estimated position without a card, do a focused scan
+                for cx in candidates:
+                    if any(abs(cx - ex) < 40 for ex in rank_items):
+                        continue
+                    sx1 = max(x_start - 20, cx - 50)
+                    sx2 = min(x_end + 20, cx + 80)
+                    sub = _scan_board_strip(img, y1, y2, sx1, sx2)
+                    for xk, tv in sub.items():
+                        if not any(abs(xk - ex) < 30 for ex in rank_items):
+                            rank_items[xk] = tv
 
     # Step 2: cluster close x positions (deduplicate)
     sorted_xs = sorted(rank_items.keys())
@@ -956,6 +1207,7 @@ def _detect_board(img, img_w, img_h) -> list:
         if t in ('7G', '2G', '2C', '2H', '2S', '2T', 'ZG'): return '2'
         if t in ('0', 'O', 'Q0', 'OO'): return '9'  # 9 misread as 0
         if t in ('1O', 'IO', '10'): return 'T'        # 10 misread
+        if t in ('I', 'IJ', 'J1', 'LJ'): return 'J'  # J misread as I/l
         if re.match(r'^6[^0-9]$', t) or t == '60': return '6'
         if re.match(r'^8[^0-9]$', t) or t == '80': return '8'
         if re.match(r'^9[^0-9]$', t) or t == '90': return '9'
@@ -1002,6 +1254,9 @@ def _extract_showdown_cards(img, img_w, img_h, ocr_items, results, result_start_
     for r in results:
         name = r['name']
         if name not in name_ys:
+            continue
+        # Skip obvious folders (tiny net loss = just posted blinds/antes)
+        if abs(r.get('net_bb', 0)) < 3:
             continue
         ny = name_ys[name]
 

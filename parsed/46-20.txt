@@ -1,0 +1,34 @@
+PokerStars Hand #1272902451512905728: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/08 21:28:01 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: 合金弹头干 ($0.05 in chips)
+Seat 2: 合金弹头于 ($0.05 in chips)
+Seat 3: Fungi97 ($0.05 in chips)
+Seat 4: olomeli77 ($0.05 in chips)
+Seat 5: Cuatrok ($0.10 in chips)
+Seat 6: koNicZ ($0.15 in chips)
+Seat 7: 青春一黛 ($0.05 in chips)
+Seat 8: 小马凯勒 ($0.05 in chips)
+Seat 9: dLzinN ($0.05 in chips)
+合金弹头干: posts the ante $0.05
+合金弹头于: posts the ante $0.05
+Fungi97: posts the ante $0.05
+olomeli77: posts the ante $0.05
+Cuatrok: posts the ante $0.05
+koNicZ: posts the ante $0.05
+青春一黛: posts the ante $0.05
+小马凯勒: posts the ante $0.05
+dLzinN: posts the ante $0.05
+Cuatrok: posts small blind $0.05
+koNicZ: posts big blind $0.10
+*** HOLE CARDS ***
+*** SUMMARY ***
+Total pot $130.20 | Rake $0
+Seat 1: 合金弹头干 folded before Flop (didn't bet)
+Seat 2: 合金弹头于 folded on the Turn
+Seat 3: Fungi97 folded before Flop (didn't bet)
+Seat 4: olomeli77 (button) folded on the Turn
+Seat 5: Cuatrok (small blind) folded on the Turn
+Seat 6: koNicZ (big blind) folded on the Turn
+Seat 7: 青春一黛 folded on the Turn
+Seat 8: 小马凯勒 folded on the Turn
+Seat 9: dLzinN folded on the Turn

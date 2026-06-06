@@ -1,0 +1,50 @@
+PokerStars Hand #1261880508188831744: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/08 11:30:45 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: Holves ($17.65 in chips)
+Seat 2: p3ket30 ($53.05 in chips)
+Seat 3: AdrianMTs ($48.20 in chips)
+Seat 4: sebastian3 ($31.70 in chips)
+Seat 5: litomeme ($198.20 in chips)
+Seat 6: 磐石牛 ($10.06 in chips)
+Seat 7: dLzinN ($50.60 in chips)
+Seat 8: vbom206 ($12.85 in chips)
+Holves: posts the ante $0.05
+p3ket30: posts the ante $0.05
+AdrianMTs: posts the ante $0.05
+sebastian3: posts the ante $0.05
+litomeme: posts the ante $0.05
+磐石牛: posts the ante $0.05
+dLzinN: posts the ante $0.05
+vbom206: posts the ante $0.05
+litomeme: posts small blind $0.05
+磐石牛: posts big blind $0.10
+dLzinN: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Qd Qd]
+vbom206: folds
+Holves: folds
+p3ket30: folds
+AdrianMTs: raises $0.65 to $0.85
+sebastian3: raises $1.65 to $2.50
+litomeme: folds
+磐石牛: folds
+dLzinN: raises $5.43 to $7.93
+AdrianMTs: folds
+sebastian3: calls $5.43
+*** FLOP *** [2c As 5d]
+dLzinN: bets $5.08
+sebastian3: calls $5.08
+*** SHOWDOWN ***
+dLzinN: shows [Qd Qd] (a pair of Queens)
+sebastian3 collected $64.50 from pot
+*** SUMMARY ***
+Total pot $64.50 | Rake $0
+Board [2c As 5d]
+Seat 1: Holves folded before Flop (didn't bet)
+Seat 2: p3ket30 folded before Flop (didn't bet)
+Seat 3: AdrianMTs folded before Flop
+Seat 4: sebastian3 (button) collected ($64.50)
+Seat 5: litomeme (small blind) folded before Flop
+Seat 6: 磐石牛 (big blind) folded before Flop
+Seat 7: dLzinN showed [Qd Qd] and lost with a pair of Queens
+Seat 8: vbom206 folded before Flop (didn't bet)

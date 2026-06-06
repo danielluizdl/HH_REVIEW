@@ -1,0 +1,54 @@
+PokerStars Hand #1269844481636306944: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/30 10:56:44 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: Ferry111 ($201.75 in chips)
+Seat 2: matigarmendi ($81.75 in chips)
+Seat 3: PKLau60 ($28.28 in chips)
+Seat 4: ast神 ($39.25 in chips)
+Seat 5: LFG7887 ($55.68 in chips)
+Seat 6: dbruno066 ($18.75 in chips)
+Seat 7: dLzinN ($47.20 in chips)
+Seat 8: 蛇皮赌怪 ($42.83 in chips)
+Ferry111: posts the ante $0.05
+matigarmendi: posts the ante $0.05
+PKLau60: posts the ante $0.05
+ast神: posts the ante $0.05
+LFG7887: posts the ante $0.05
+dbruno066: posts the ante $0.05
+dLzinN: posts the ante $0.05
+蛇皮赌怪: posts the ante $0.05
+LFG7887: posts small blind $0.05
+dbruno066: posts big blind $0.10
+dLzinN: posts straddle $0.20
+*** HOLE CARDS ***
+蛇皮赌怪: raises $0.63 to $0.83
+Ferry111: folds
+matigarmendi: folds
+PKLau60: calls $0.83
+ast神: folds
+LFG7887: calls $0.78
+dbruno066: folds
+dLzinN: calls $0.63
+*** FLOP *** [As 9s Tc]
+LFG7887: checks
+dLzinN: checks
+蛇皮赌怪: bets $2.60
+PKLau60: folds
+LFG7887: folds
+dLzinN: raises $4.99 to $7.59
+蛇皮赌怪: raises $22.41 to $30.00
+dLzinN: raises $16.20 to $46.20 and is all-in
+蛇皮赌怪: calls $11.95 and is all-in
+*** TURN *** [As 9s Tc] [Kh]
+*** RIVER *** [As 9s Tc Kh] [5s]
+dLzinN collected $92.00 from pot
+*** SUMMARY ***
+Total pot $92.00 | Rake $0
+Board [As 9s Tc Kh 5s]
+Seat 1: Ferry111 folded before Flop (didn't bet)
+Seat 2: matigarmendi folded before Flop (didn't bet)
+Seat 3: PKLau60 folded on the Flop
+Seat 4: ast神 (button) folded before Flop (didn't bet)
+Seat 5: LFG7887 (small blind) folded on the Flop
+Seat 6: dbruno066 (big blind) folded before Flop
+Seat 7: dLzinN collected ($92.00)
+Seat 8: 蛇皮赌怪 folded before Flop

@@ -1,0 +1,54 @@
+PokerStars Hand #1269838871860924416: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/30 10:34:27 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: arbham ($19.45 in chips)
+Seat 2: suoha2046 ($29.75 in chips)
+Seat 3: Diegosu8 ($38.75 in chips)
+Seat 4: 小气泡518 ($22.35 in chips)
+Seat 5: dLzinN ($36.90 in chips)
+Seat 6: kiukiukiu902 ($95.85 in chips)
+Seat 7: 乃总 ($178.10 in chips)
+Seat 8: Cuatrok ($61.95 in chips)
+arbham: posts the ante $0.05
+suoha2046: posts the ante $0.05
+Diegosu8: posts the ante $0.05
+小气泡518: posts the ante $0.05
+dLzinN: posts the ante $0.05
+kiukiukiu902: posts the ante $0.05
+乃总: posts the ante $0.05
+Cuatrok: posts the ante $0.05
+dLzinN: posts small blind $0.05
+kiukiukiu902: posts big blind $0.10
+乃总: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to 乃总 [Kd Ad]
+Cuatrok: folds
+arbham: folds
+suoha2046: calls $0.20
+Diegosu8: calls $0.20
+小气泡518: folds
+dLzinN: raises $1.55 to $1.75
+kiukiukiu902: folds
+乃总: raises $2.25 to $4.00
+suoha2046: folds
+Diegosu8: folds
+dLzinN: calls $2.25
+*** FLOP *** [5c 9c 4h]
+dLzinN: checks
+乃总: bets $5.90
+dLzinN: raises $6.60 to $12.50
+乃总: calls $6.62
+*** SHOWDOWN ***
+dLzinN: shows [Th Td] (a pair of Tens)
+乃总: shows [Kd Ad] (high card Ace)
+dLzinN collected $74.40 from pot
+*** SUMMARY ***
+Total pot $74.40 | Rake $0
+Board [5c 9c 4h]
+Seat 1: arbham folded before Flop (didn't bet)
+Seat 2: suoha2046 folded before Flop
+Seat 3: Diegosu8 folded before Flop
+Seat 4: 小气泡518 (button) folded before Flop (didn't bet)
+Seat 5: dLzinN (small blind) showed [Th Td] and won ($74.40) with a pair of Tens
+Seat 6: kiukiukiu902 (big blind) folded before Flop
+Seat 7: 乃总 showed [Kd Ad] and lost with high card Ace
+Seat 8: Cuatrok folded before Flop (didn't bet)

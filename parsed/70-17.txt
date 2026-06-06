@@ -1,0 +1,58 @@
+PokerStars Hand #1265244847648022528: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 18:19:26 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: vGuerraF ($52.75 in chips)
+Seat 2: 我在南方 ($116.60 in chips)
+Seat 3: Neyalisson ($49.65 in chips)
+Seat 4: dLzinN ($47.40 in chips)
+Seat 5: LemmyKill ($0.10 in chips)
+Seat 6: shayulajiao9 ($83.75 in chips)
+Seat 7: 陈劲生ayNS3Q2 ($17.85 in chips)
+Seat 8: Lemmykill ($0.09 in chips)
+vGuerraF: posts the ante $0.04
+我在南方: posts the ante $0.04
+Neyalisson: posts the ante $0.04
+dLzinN: posts the ante $0.04
+LemmyKill: posts the ante $0.04
+shayulajiao9: posts the ante $0.04
+陈劲生ayNS3Q2: posts the ante $0.04
+Lemmykill: posts the ante $0.04
+LemmyKill: posts small blind $0.05
+shayulajiao9: posts big blind $0.10
+陈劲生ayNS3Q2: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [9d 9d]
+vGuerraF: folds
+我在南方: raises $0.60 to $0.80
+Neyalisson: calls $0.80
+dLzinN: raises $2.33 to $3.13
+Lemmykill: folds
+shayulajiao9: folds
+陈劲生ayNS3Q2: folds
+我在南方: calls $2.33
+Neyalisson: folds
+*** FLOP *** [9c Kh 8c]
+我在南方: checks
+dLzinN: checks
+*** TURN *** [9c Kh 8c] [5c]
+我在南方: bets $1.70
+dLzinN: calls $1.70
+*** RIVER *** [9c Kh 8c 5c] [9c]
+我在南方: checks
+dLzinN: bets $11.20
+我在南方: raises $16.80 to $28.00
+dLzinN: calls $16.80
+*** SHOWDOWN ***
+我在南方: shows [Ks Qs] (two pair, Kings and Nines)
+dLzinN: shows [9d 9d] (four of a kind, Nines)
+我在南方 collected $67.20 from pot
+*** SUMMARY ***
+Total pot $67.20 | Rake $0
+Board [9c Kh 8c 5c 9c]
+Seat 1: vGuerraF folded before Flop (didn't bet)
+Seat 2: 我在南方 showed [Ks Qs] and won ($150.80) with two pair, Kings and Nines
+Seat 3: Neyalisson folded before Flop
+Seat 4: dLzinN (button) showed [9d 9d] and lost with four of a kind, Nines
+Seat 5: LemmyKill (small blind) folded before Flop
+Seat 6: shayulajiao9 (big blind) folded before Flop
+Seat 7: 陈劲生ayNS3Q2 folded before Flop
+Seat 8: Lemmykill folded before Flop (didn't bet)

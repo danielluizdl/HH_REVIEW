@@ -1,0 +1,62 @@
+PokerStars Hand #1261557560122482688: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/07 14:07:28 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: frankjohn203 ($90.45 in chips)
+Seat 2: jaowen99 ($84.55 in chips)
+Seat 3: 狂牛打摆锤 ($20.15 in chips)
+Seat 4: dLzinN ($70.50 in chips)
+Seat 5: 鲜衣怒马时2 ($31.90 in chips)
+Seat 6: 今晚打老虎Hv ($83.90 in chips)
+Seat 7: TimCheese ($79.85 in chips)
+Seat 8: 水上漂LFG ($14.20 in chips)
+frankjohn203: posts the ante $0.05
+jaowen99: posts the ante $0.05
+狂牛打摆锤: posts the ante $0.05
+dLzinN: posts the ante $0.05
+鲜衣怒马时2: posts the ante $0.05
+今晚打老虎Hv: posts the ante $0.05
+TimCheese: posts the ante $0.05
+水上漂LFG: posts the ante $0.05
+鲜衣怒马时2: posts small blind $0.05
+今晚打老虎Hv: posts big blind $0.10
+TimCheese: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Th Kd]
+水上漂LFG: calls $0.20
+frankjohn203: folds
+jaowen99: folds
+狂牛打摆锤: folds
+dLzinN: raises $0.85 to $1.05
+鲜衣怒马时2: calls $1.00
+今晚打老虎Hv: calls $0.95
+TimCheese: folds
+水上漂LFG: calls $0.85
+*** FLOP *** [8h 2c 9h]
+鲜衣怒马时2: checks
+今晚打老虎Hv: checks
+水上漂LFG: checks
+dLzinN: checks
+*** TURN *** [8h 2c 9h] [6h]
+鲜衣怒马时2: checks
+今晚打老虎Hv: bets $1.60
+水上漂LFG: folds
+dLzinN: calls $1.60
+鲜衣怒马时2: folds
+*** RIVER *** [8h 2c 9h 6h] [5h]
+今晚打老虎Hv: bets $4.00
+dLzinN: raises $12.00 to $16.00
+今晚打老虎Hv: calls $12.00
+*** SHOWDOWN ***
+今晚打老虎Hv: shows [6d Ad] (a pair of Sixes)
+dLzinN: shows [Th Kd] (a flush, Ten high)
+今晚打老虎Hv collected $40.00 from pot
+*** SUMMARY ***
+Total pot $40.00 | Rake $0
+Board [8h 2c 9h 6h 5h]
+Seat 1: frankjohn203 folded before Flop (didn't bet)
+Seat 2: jaowen99 folded before Flop (didn't bet)
+Seat 3: 狂牛打摆锤 folded before Flop (didn't bet)
+Seat 4: dLzinN (button) showed [Th Kd] and lost with a flush, Ten high
+Seat 5: 鲜衣怒马时2 (small blind) folded on the Turn
+Seat 6: 今晚打老虎Hv (big blind) showed [6d Ad] and won ($105.10) with a pair of Sixes
+Seat 7: TimCheese folded before Flop
+Seat 8: 水上漂LFG folded on the Turn

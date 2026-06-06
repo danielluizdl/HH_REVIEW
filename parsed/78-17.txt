@@ -1,0 +1,59 @@
+PokerStars Hand #1264420519243472896: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/15 11:43:51 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: dLzinN ($112.70 in chips)
+Seat 2: gonidelrojo ($31.75 in chips)
+Seat 3: Lwliet0105 ($88.71 in chips)
+Seat 4: oppacay ($46.21 in chips)
+Seat 5: donkdonk232253 ($105.60 in chips)
+Seat 6: 脑壳铁莫来吃假 ($103.90 in chips)
+Seat 7: chipboiz ($46.05 in chips)
+Seat 8: COCO0915 ($21.15 in chips)
+dLzinN: posts the ante $0.05
+gonidelrojo: posts the ante $0.05
+Lwliet0105: posts the ante $0.05
+oppacay: posts the ante $0.05
+donkdonk232253: posts the ante $0.05
+脑壳铁莫来吃假: posts the ante $0.05
+chipboiz: posts the ante $0.05
+COCO0915: posts the ante $0.05
+donkdonk232253: posts small blind $0.05
+脑壳铁莫来吃假: posts big blind $0.10
+chipboiz: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Ah As]
+COCO0915: folds
+dLzinN: calls $0.20
+gonidelrojo: folds
+Lwliet0105: raises $0.86 to $1.06
+oppacay: calls $1.06
+donkdonk232253: folds
+脑壳铁莫来吃假: calls $0.96
+chipboiz: folds
+dLzinN: raises $3.97 to $5.03
+Lwliet0105: folds
+oppacay: folds
+脑壳铁莫来吃假: calls $3.97
+*** FLOP *** [Jd 4d 6d]
+脑壳铁莫来吃假: bets $8.60
+dLzinN: calls $8.60
+*** TURN *** [Jd 4d 6d] [Td]
+脑壳铁莫来吃假: bets $20.00
+dLzinN: calls $20.00
+*** RIVER *** [Jd 4d 6d Td] [7c]
+脑壳铁莫来吃假: bets $35.00
+dLzinN: calls $35.00
+*** SHOWDOWN ***
+脑壳铁莫来吃假: shows [4d 6d] (a flush, Jack high)
+dLzinN: shows [Ah As] (a pair of Aces)
+脑壳铁莫来吃假 collected $140.00 from pot
+*** SUMMARY ***
+Total pot $140.00 | Rake $0
+Board [Jd 4d 6d Td 7c]
+Seat 1: dLzinN showed [Ah As] and lost with a pair of Aces
+Seat 2: gonidelrojo folded before Flop (didn't bet)
+Seat 3: Lwliet0105 folded before Flop
+Seat 4: oppacay (button) folded before Flop
+Seat 5: donkdonk232253 (small blind) folded before Flop
+Seat 6: 脑壳铁莫来吃假 (big blind) showed [4d 6d] and won ($175.20) with a flush, Jack high
+Seat 7: chipboiz folded before Flop
+Seat 8: COCO0915 folded before Flop (didn't bet)

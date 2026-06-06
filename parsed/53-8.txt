@@ -1,0 +1,9 @@
+PokerStars Hand #1266205125898862592: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/20 09:55:14 ET
+Table 'WPT Global' 8-max Seat #1 is the button
+*** HOLE CARDS ***
+*** FLOP *** [Kh 9c 7d]
+*** TURN *** [Kh 9c 7d] [7c]
+*** RIVER *** [Kh 9c 7d 7c] [5c]
+*** SUMMARY ***
+Total pot $0.00 | Rake $0
+Board [Kh 9c 7d 7c 5c]

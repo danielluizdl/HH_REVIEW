@@ -1,0 +1,60 @@
+PokerStars Hand #1261919659788029952: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/08 14:06:20 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: 安轩吼吼吼 ($20.70 in chips)
+Seat 2: julioAm5 ($32.30 in chips)
+Seat 3: Hugochan3110 ($25.40 in chips)
+Seat 4: ghbg ($7.78 in chips)
+Seat 5: dLzinN ($79.90 in chips)
+Seat 6: taberw ($19.40 in chips)
+Seat 7: Evilswine ($96.40 in chips)
+Seat 8: pokerjust174 ($33.90 in chips)
+安轩吼吼吼: posts the ante $0.80
+julioAm5: posts the ante $0.80
+Hugochan3110: posts the ante $0.80
+ghbg: posts the ante $0.80
+dLzinN: posts the ante $0.80
+taberw: posts the ante $0.80
+Evilswine: posts the ante $0.80
+pokerjust174: posts the ante $0.80
+dLzinN: posts small blind $0.05
+taberw: posts big blind $0.10
+*** HOLE CARDS ***
+Dealt to dLzinN [2d 6d]
+*** FLOP *** [7h 3h 5h]
+dLzinN: checks
+taberw: checks
+Evilswine: checks
+pokerjust174: checks
+安轩吼吼吼: checks
+julioAm5: checks
+Hugochan3110: checks
+ghbg: checks
+*** TURN *** [7h 3h 5h] [8h]
+dLzinN: bets $3.20
+taberw: folds
+Evilswine: calls $3.20
+pokerjust174: folds
+安轩吼吼吼: folds
+julioAm5: calls $3.20
+Hugochan3110: folds
+ghbg: folds
+*** SHOWDOWN ***
+Evilswine: shows [9s As] (high card Ace)
+dLzinN: shows [2d 6d] (high card Eight)
+julioAm5: shows [Ad 3d] (a pair of Threes)
+Hugochan3110: shows [2s Ad] (high card Ace)
+ghbg: shows [8d Qd] (a pair of Eights)
+taberw: shows [4d 8d] (a pair of Eights)
+pokerjust174: shows [7d Ts] (a pair of Sevens)
+Evilswine collected $108.30 from pot
+*** SUMMARY ***
+Total pot $108.30 | Rake $0
+Board [7h 3h 5h 8h]
+Seat 1: 安轩吼吼吼 folded on the Turn
+Seat 2: julioAm5 showed [Ad 3d] and lost with a pair of Threes
+Seat 3: Hugochan3110 showed [2s Ad] and lost with high card Ace
+Seat 4: ghbg (button) showed [8d Qd] and lost with a pair of Eights
+Seat 5: dLzinN (small blind) showed [2d 6d] and lost with high card Eight
+Seat 6: taberw (big blind) showed [4d 8d] and lost with a pair of Eights
+Seat 7: Evilswine showed [9s As] and won ($108.30) with high card Ace
+Seat 8: pokerjust174 showed [7d Ts] and lost with a pair of Sevens

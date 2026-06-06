@@ -1,0 +1,56 @@
+PokerStars Hand #1259347568943955968: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/01 11:45:45 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: altaza ($24.30 in chips)
+Seat 2: dLzinN ($28.50 in chips)
+Seat 3: 兔子娃娃 ($83.55 in chips)
+Seat 4: Aceeeeeeeee ($22.62 in chips)
+Seat 5: 方可执泥 ($23.50 in chips)
+Seat 6: isjorr ($20.45 in chips)
+Seat 7: RyanNguyen68 ($47.05 in chips)
+altaza: posts the ante $0.05
+dLzinN: posts the ante $0.05
+兔子娃娃: posts the ante $0.05
+Aceeeeeeeee: posts the ante $0.05
+方可执泥: posts the ante $0.05
+isjorr: posts the ante $0.05
+RyanNguyen68: posts the ante $0.05
+方可执泥: posts small blind $0.05
+isjorr: posts big blind $0.10
+RyanNguyen68: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to altaza [4d Ad]
+altaza: calls $0.20
+dLzinN: raises $0.82 to $1.02
+兔子娃娃: folds
+Aceeeeeeeee: calls $1.02
+方可执泥: folds
+isjorr: folds
+RyanNguyen68: folds
+altaza: calls $0.83
+*** FLOP *** [6h Ad 5c]
+altaza: checks
+dLzinN: bets $1.25
+Aceeeeeeeee: calls $1.25
+altaza: calls $1.25
+*** TURN *** [6h Ad 5c] [Th]
+altaza: checks
+dLzinN: checks
+Aceeeeeeeee: checks
+*** RIVER *** [6h Ad 5c Th] [Ah]
+altaza: bets $3.76
+dLzinN: raises $7.94 to $11.70
+Aceeeeeeeee: folds
+altaza: calls $7.96
+*** SHOWDOWN ***
+altaza: shows [4d Ad] (three of a kind, Aces)
+dLzinN collected $30.90 from pot
+*** SUMMARY ***
+Total pot $30.90 | Rake $0
+Board [6h Ad 5c Th Ah]
+Seat 1: altaza showed [4d Ad] and lost with three of a kind, Aces
+Seat 2: dLzinN collected ($45.30)
+Seat 3: 兔子娃娃 folded before Flop (didn't bet)
+Seat 4: Aceeeeeeeee (button) lost
+Seat 5: 方可执泥 (small blind) folded before Flop
+Seat 6: isjorr (big blind) folded before Flop
+Seat 7: RyanNguyen68 folded before Flop

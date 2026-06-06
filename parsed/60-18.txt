@@ -1,0 +1,51 @@
+PokerStars Hand #1259324386038476800: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/01 10:13:38 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: p3ket3o ($63.35 in chips)
+Seat 2: Buffalo939 ($50.85 in chips)
+Seat 3: bravosierra ($42.10 in chips)
+Seat 4: dLzinN ($25.00 in chips)
+Seat 5: JVictor ($58.30 in chips)
+Seat 6: 鲨鱼爱蹲 ($7.82 in chips)
+Seat 7: isjorr ($35.25 in chips)
+p3ket3o: posts the ante $0.05
+Buffalo939: posts the ante $0.05
+bravosierra: posts the ante $0.05
+dLzinN: posts the ante $0.05
+JVictor: posts the ante $0.05
+鲨鱼爱蹲: posts the ante $0.05
+isjorr: posts the ante $0.05
+JVictor: posts small blind $0.05
+鲨鱼爱蹲: posts big blind $0.10
+isjorr: posts straddle $0.20
+*** HOLE CARDS ***
+p3ket3o: folds
+Buffalo939: folds
+bravosierra: calls $0.20
+dLzinN: raises $0.82 to $1.02
+JVictor: folds
+鲨鱼爱蹲: folds
+isjorr: folds
+bravosierra: calls $0.83
+*** FLOP *** [6h Kh 3h]
+bravosierra: bets $0.91
+dLzinN: raises $1.96 to $2.87
+bravosierra: calls $1.96
+*** TURN *** [6h Kh 3h] [2h]
+bravosierra: checks
+dLzinN: bets $4.24
+bravosierra: raises $5.60 to $9.84
+dLzinN: calls $5.60
+*** RIVER *** [6h Kh 3h 2h] [4h]
+bravosierra: raises $28.30 to $28.30 and is all-in
+dLzinN: folds
+bravosierra collected $56.40 from pot
+*** SUMMARY ***
+Total pot $56.40 | Rake $0
+Board [6h Kh 3h 2h 4h]
+Seat 1: p3ket3o folded before Flop (didn't bet)
+Seat 2: Buffalo939 folded before Flop (didn't bet)
+Seat 3: bravosierra collected ($56.40)
+Seat 4: dLzinN (button) lost
+Seat 5: JVictor (small blind) folded before Flop
+Seat 6: 鲨鱼爱蹲 (big blind) folded before Flop
+Seat 7: isjorr folded before Flop

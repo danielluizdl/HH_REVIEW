@@ -1,0 +1,49 @@
+PokerStars Hand #1262234830671228928: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/09 10:58:42 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: amorrazo ($35.85 in chips)
+Seat 2: LeslieYR ($70.95 in chips)
+Seat 3: Datzen ($51.95 in chips)
+Seat 4: MarcusAntonius ($66.65 in chips)
+Seat 5: dLzinN ($45.60 in chips)
+Seat 6: 同花顺大屁股 ($13.95 in chips)
+Seat 7: 你是不是A ($40.85 in chips)
+Seat 8: t2r0u2m6 ($29.75 in chips)
+amorrazo: posts the ante $0.05
+LeslieYR: posts the ante $0.05
+Datzen: posts the ante $0.05
+MarcusAntonius: posts the ante $0.05
+dLzinN: posts the ante $0.05
+同花顺大屁股: posts the ante $0.05
+你是不是A: posts the ante $0.05
+t2r0u2m6: posts the ante $0.05
+dLzinN: posts small blind $0.05
+同花顺大屁股: posts big blind $0.10
+你是不是A: posts straddle $0.20
+*** HOLE CARDS ***
+t2r0u2m6: folds
+amorrazo: folds
+LeslieYR: folds
+Datzen: raises $0.55 to $0.75
+MarcusAntonius: folds
+dLzinN: folds
+同花顺大屁股: folds
+你是不是A: calls $0.55
+*** FLOP *** [5h 4c 9h]
+你是不是A: checks
+Datzen: bets $0.75
+你是不是A: calls $0.75
+*** TURN *** [5h 4c 9h] [Kh]
+你是不是A: checks
+Datzen: checks
+你是不是A collected $70.90 from pot
+*** SUMMARY ***
+Total pot $70.90 | Rake $0
+Board [5h 4c 9h Kh]
+Seat 1: amorrazo folded before Flop (didn't bet)
+Seat 2: LeslieYR folded before Flop (didn't bet)
+Seat 3: Datzen lost
+Seat 4: MarcusAntonius (button) folded before Flop (didn't bet)
+Seat 5: dLzinN (small blind) folded before Flop
+Seat 6: 同花顺大屁股 (big blind) folded before Flop
+Seat 7: 你是不是A collected ($42.80)
+Seat 8: t2r0u2m6 folded before Flop (didn't bet)

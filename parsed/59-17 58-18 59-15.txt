@@ -1,0 +1,54 @@
+PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/08 14:40:41 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: pokerjust174 ($0.05 in chips)
+Seat 2: dyyyyyyyy ($0.05 in chips)
+Seat 3: dLzinN ($0.05 in chips)
+Seat 4: Hugochan3110 ($0.05 in chips)
+Seat 5: 鸽鸽别闹了 ($0.10 in chips)
+Seat 6: Loadding ($0.15 in chips)
+Seat 7: taberw ($0.25 in chips)
+Seat 8: 原交妹 ($0.05 in chips)
+pokerjust174: posts the ante $0.05
+dyyyyyyyy: posts the ante $0.05
+dLzinN: posts the ante $0.05
+Hugochan3110: posts the ante $0.05
+鸽鸽别闹了: posts the ante $0.05
+Loadding: posts the ante $0.05
+taberw: posts the ante $0.05
+原交妹: posts the ante $0.05
+鸽鸽别闹了: posts small blind $0.05
+Loadding: posts big blind $0.10
+taberw: posts straddle $0.20
+*** HOLE CARDS ***
+原交妹: raises $0.00 to $0.00
+pokerjust174: folds
+dyyyyyyyy: calls $0.00
+dLzinN: raises $0.00 to $0.00
+Hugochan3110: folds
+鸽鸽别闹了: calls $0.00
+Loadding: folds
+taberw: folds
+原交妹: calls $0.00
+dyyyyyyyy: calls $0.00
+*** FLOP *** [3c 2c 8c]
+鸽鸽别闹了: checks
+原交妹: bets $0.00
+dyyyyyyyy: folds
+dLzinN: raises $0.00 to $0.00
+鸽鸽别闹了: calls $0.00
+原交妹: calls $0.00
+*** TURN *** [3c 2c 8c] [Tc]
+鸽鸽别闹了: raises $0.00 to $0.00
+原交妹: calls $0.00
+*** RIVER *** [3c 2c 8c Tc] [Ac]
+*** SUMMARY ***
+Total pot $0.00 | Rake $0
+Board [3c 2c 8c Tc Ac]
+Seat 1: pokerjust174 folded before Flop (didn't bet)
+Seat 2: dyyyyyyyy folded on the Flop
+Seat 3: dLzinN folded before Flop
+Seat 4: Hugochan3110 (button) folded before Flop (didn't bet)
+Seat 5: 鸽鸽别闹了 (small blind) folded before Flop
+Seat 6: Loadding (big blind) folded before Flop
+Seat 7: taberw folded before Flop
+Seat 8: 原交妹 folded before Flop

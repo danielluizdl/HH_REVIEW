@@ -1,0 +1,57 @@
+PokerStars Hand #1261950104679841792: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/08 16:07:18 ET
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: 金老拐 ($21.30 in chips)
+Seat 2: AstroBarbo ($35.35 in chips)
+Seat 3: PuntinStackz ($70.65 in chips)
+Seat 4: 天璐141 ($59.45 in chips)
+Seat 5: 猫猫警长ovo ($7.45 in chips)
+Seat 6: f1reNTC ($29.80 in chips)
+Seat 7: dLzinN ($18.50 in chips)
+Seat 8: 偶家呵呵 ($19.70 in chips)
+金老拐: posts the ante $0.05
+AstroBarbo: posts the ante $0.05
+PuntinStackz: posts the ante $0.05
+天璐141: posts the ante $0.05
+猫猫警长ovo: posts the ante $0.05
+f1reNTC: posts the ante $0.05
+dLzinN: posts the ante $0.05
+偶家呵呵: posts the ante $0.05
+猫猫警长ovo: posts small blind $0.05
+f1reNTC: posts big blind $0.10
+dLzinN: posts straddle $0.20
+*** HOLE CARDS ***
+Dealt to dLzinN [Kc 9d]
+偶家呵呵: raises $0.65 to $0.85
+金老拐: calls $0.85
+AstroBarbo: folds
+PuntinStackz: folds
+天璐141: folds
+猫猫警长ovo: folds
+f1reNTC: calls $0.75
+dLzinN: calls $0.65
+*** FLOP *** [Tc 4c Ac]
+f1reNTC: checks
+dLzinN: checks
+偶家呵呵: checks
+金老拐: bets $2.55
+f1reNTC: folds
+dLzinN: raises $5.01 to $7.56
+偶家呵呵: folds
+金老拐: calls $5.01
+*** TURN *** [Tc 4c Ac] [Tc]
+dLzinN: raises $10.10 to $10.10 and is all-in
+金老拐: calls $10.10
+*** SHOWDOWN ***
+dLzinN: shows [Kc 9d] (a flush, Ace high)
+金老拐 collected $39.10 from pot
+*** SUMMARY ***
+Total pot $39.10 | Rake $0
+Board [Tc 4c Ac Tc]
+Seat 1: 金老拐 collected ($41.80)
+Seat 2: AstroBarbo folded before Flop (didn't bet)
+Seat 3: PuntinStackz folded before Flop (didn't bet)
+Seat 4: 天璐141 (button) folded before Flop (didn't bet)
+Seat 5: 猫猫警长ovo (small blind) folded before Flop
+Seat 6: f1reNTC (big blind) folded on the Flop
+Seat 7: dLzinN showed [Kc 9d] and lost with a flush, Ace high
+Seat 8: 偶家呵呵 folded on the Flop
