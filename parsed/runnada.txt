@@ -38,12 +38,12 @@ dLzinN: calls $21.40 and is all-in
 lamlai12: shows [Ad Kd] (a pair of Nines)
 dLzinN: shows [Ad Ad] (two pair, Aces and Nines)
 shaibal: shows [As Qd] (a pair of Nines)
-lamlai12 collected $59.40 from pot
+lamlai12 collected $33.50 from pot
 *** SUMMARY ***
 Total pot $59.40 | Rake $0
 Board [3h Td 9d 9h]
 Seat 1: shaibal showed [As Qd] and lost with a pair of Nines
-Seat 2: lamlai12 showed [Ad Kd] and won ($59.40) with a pair of Nines
+Seat 2: lamlai12 showed [Ad Kd] and won ($33.50) with a pair of Nines
 Seat 3: dLzinN showed [Ad Ad] and lost with two pair, Aces and Nines
 Seat 4: zyxxh18 (button) folded before Flop (didn't bet)
 Seat 5: Exploit90 (small blind) folded before Flop

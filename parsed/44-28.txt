@@ -43,13 +43,13 @@ Grycek: checks
 Grycek: shows [Ts Ts] (three of a kind, Tens)
 dLzinN: shows [Ac Kd] (a flush, Ace high)
 Interpool12: shows [3d Qd] (a flush, Ace high)
-Grycek collected $62.90 from pot
+Grycek collected $18.90 from pot
 *** SUMMARY ***
 Total pot $62.90 | Rake $0
 Board [Ad Kd 9d Td]
 Seat 1: pokertomduxx folded before Flop (didn't bet)
 Seat 2: Aristocles folded before Flop (didn't bet)
-Seat 3: Grycek showed [Ts Ts] and won ($62.90) with three of a kind, Tens
+Seat 3: Grycek showed [Ts Ts] and won ($18.90) with three of a kind, Tens
 Seat 4: Interpool12 (button) showed [3d Qd] and lost with a flush, Ace high
 Seat 5: dLzinN (small blind) showed [Ac Kd] and lost with a flush, Ace high
 Seat 6: 余大法 (big blind) folded before Flop

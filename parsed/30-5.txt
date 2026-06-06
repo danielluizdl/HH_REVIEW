@@ -36,7 +36,7 @@ dLzinN: calls $2.25
 dLzinN: calls $5.50
 *** SHOWDOWN ***
 铁柱割: shows [3d 7d] (three of a kind, Sevens)
-铁柱割 collected $28.40 from pot
+铁柱割 collected $14.50 from pot
 *** SUMMARY ***
 Total pot $28.40 | Rake $0
 Board [7s Kd 7h 9h]
@@ -46,5 +46,5 @@ Seat 3: sagalove1507 folded before Flop (didn't bet)
 Seat 4: 磐石牛 (button) folded before Flop (didn't bet)
 Seat 5: MrQuaggot432 (small blind) folded before Flop
 Seat 6: alesanss (big blind) folded before Flop
-Seat 7: 铁柱割 showed [3d 7d] and won ($28.40) with three of a kind, Sevens
+Seat 7: 铁柱割 showed [3d 7d] and won ($14.50) with three of a kind, Sevens
 Seat 8: 赌神797 folded before Flop (didn't bet)

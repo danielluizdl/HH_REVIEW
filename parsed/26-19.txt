@@ -42,12 +42,12 @@ dLzinN: calls $18.34 and is all-in
 *** SHOWDOWN ***
 淡淡的会顺顺: shows [6h 6s] (a full house, Sixes full of Eights)
 dLzinN: shows [Ad As] (two pair, Aces and Eights)
-淡淡的会顺顺 collected $153.00 from pot
+淡淡的会顺顺 collected $44.50 from pot
 *** SUMMARY ***
 Total pot $153.00 | Rake $0
 Board [8h 2c 6c 8c 9s]
 Seat 1: 奥德彪飚 folded before Flop (didn't bet)
-Seat 2: 淡淡的会顺顺 showed [6h 6s] and won ($153.00) with a full house, Sixes full of Eights
+Seat 2: 淡淡的会顺顺 showed [6h 6s] and won ($44.50) with a full house, Sixes full of Eights
 Seat 3: dLzinN showed [Ad As] and lost with two pair, Aces and Eights
 Seat 4: 全场紧B型 (button) folded before Flop (didn't bet)
 Seat 5: Kaakamelli (small blind) folded before Flop

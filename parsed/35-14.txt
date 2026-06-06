@@ -47,14 +47,14 @@ dLzinN: checks
 *** SHOWDOWN ***
 dLzinN: shows [7d 7d] (three of a kind, Sevens)
 Ppppzzzxxx: shows [9d 6d] (a pair of Nines)
-dLzinN collected $13.30 from pot
+dLzinN collected $8.25 from pot
 *** SUMMARY ***
 Total pot $13.30 | Rake $0
 Board [3s 9d 4s 7d]
 Seat 1: j口渴的时候要多喝水 folded before Flop (didn't bet)
 Seat 2: Diegosu8 folded on the Flop
 Seat 3: 小气泡518 folded on the Flop
-Seat 4: dLzinN (button) showed [7d 7d] and won ($13.30) with three of a kind, Sevens
+Seat 4: dLzinN (button) showed [7d 7d] and won ($8.25) with three of a kind, Sevens
 Seat 5: Ppppzzzxxx (small blind) showed [9d 6d] and lost with a pair of Nines
 Seat 6: alesanss (big blind) folded before Flop
 Seat 7: Cuatrok folded before Flop

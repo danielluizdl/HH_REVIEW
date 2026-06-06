@@ -30,13 +30,13 @@ leanfrance: calls $0.83
 peteushko: checks
 leanfrance: raises $14.80 to $14.80 and is all-in
 dLzinN: folds
-leanfrance collected $18.50 from pot
+leanfrance collected $2.51 from pot
 *** SUMMARY ***
 Total pot $18.50 | Rake $0
 Board [Th 3c 4c]
 Seat 1: Peter3356 folded before Flop (didn't bet)
 Seat 2: 银柏皖 folded before Flop (didn't bet)
-Seat 3: leanfrance collected ($18.50)
+Seat 3: leanfrance collected ($2.51)
 Seat 4: dLzinN (button) folded on the Flop
 Seat 5: Sagat95 (small blind) folded before Flop
 Seat 6: peteushko (big blind) folded on the Flop

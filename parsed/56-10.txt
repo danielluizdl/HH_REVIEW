@@ -44,7 +44,7 @@ dLzinN: bets $13.90
 dLzinN: calls $6.07
 *** SHOWDOWN ***
 恒恒488: shows [Th Td] (a full house, Tens full of Aces)
-恒恒488 collected $83.30 from pot
+恒恒488 collected $42.00 from pot
 *** SUMMARY ***
 Total pot $83.30 | Rake $0
 Board [3h Ac Tc Ad Kh]
@@ -53,6 +53,6 @@ Seat 2: MRmjK folded before Flop (didn't bet)
 Seat 3: 粥周舟 folded before Flop
 Seat 4: dLzinN (button) lost
 Seat 5: GuillermoQQ (small blind) folded before Flop
-Seat 6: 恒恒488 (big blind) showed [Th Td] and won ($83.30) with a full house, Tens full of Aces
+Seat 6: 恒恒488 (big blind) showed [Th Td] and won ($42.00) with a full house, Tens full of Aces
 Seat 7: rozowy folded before Flop
 Seat 8: ElBandido folded before Flop (didn't bet)

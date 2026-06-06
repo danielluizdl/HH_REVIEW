@@ -32,7 +32,7 @@ TheRichJax: calls $4.18
 *** FLOP *** [6h 9h 8h]
 TheRichJax: checks
 dLzinN: checks
-TheRichJax collected $67.80 from pot
+TheRichJax collected $15.70 from pot
 *** SUMMARY ***
 Total pot $67.80 | Rake $0
 Board [6h 9h 8h]
@@ -40,6 +40,6 @@ Seat 2: dumau1 folded before Flop (didn't bet)
 Seat 3: INVESTOR folded before Flop (didn't bet)
 Seat 4: 落落294 (button) folded before Flop (didn't bet)
 Seat 5: Nero01 (small blind) folded before Flop
-Seat 6: TheRichJax (big blind) collected ($67.80)
+Seat 6: TheRichJax (big blind) collected ($15.70)
 Seat 7: dLzinN folded on the Turn
 Seat 8: tiepizz folded before Flop (didn't bet)

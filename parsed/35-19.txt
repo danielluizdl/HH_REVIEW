@@ -43,7 +43,7 @@ dLzinN: calls $15.40
 *** RIVER *** [5h 3d 9d 7s] [8s]
 *** SHOWDOWN ***
 dLzinN: shows [7d 5d] (two pair, Sevens and Fives)
-dLzinN collected $43.40 from pot
+dLzinN collected $22.50 from pot
 *** SUMMARY ***
 Total pot $43.40 | Rake $0
 Board [5h 3d 9d 7s 8s]
@@ -52,6 +52,6 @@ Seat 2: AlwaysBB705311 folded on the Flop
 Seat 3: Zapol folded before Flop (didn't bet)
 Seat 4: naniwyx538 (button) folded before Flop (didn't bet)
 Seat 5: 就是干 (small blind) folded before Flop
-Seat 6: dLzinN (big blind) showed [7d 5d] and won ($43.40) with two pair, Sevens and Fives
+Seat 6: dLzinN (big blind) showed [7d 5d] and won ($22.50) with two pair, Sevens and Fives
 Seat 7: niiik folded on the Flop
 Seat 8: Roson861 folded on the Turn

@@ -41,14 +41,14 @@ dLzinN: raises $6.70 to $10.00
 运气爆棚啦1: calls $6.72
 *** SHOWDOWN ***
 dLzinN: shows [Td Ts] (three of a kind, Tens)
-dLzinN collected $31.00 from pot
+dLzinN collected $16.30 from pot
 *** SUMMARY ***
 Total pot $31.00 | Rake $0
 Board [Ts 9d 3h Kh]
 Seat 1: Dawidd81 folded before Flop (didn't bet)
 Seat 2: yukleo folded before Flop (didn't bet)
 Seat 3: 温度计在了 folded on the Flop
-Seat 4: dLzinN (button) showed [Td Ts] and won ($31.00) with three of a kind, Tens
+Seat 4: dLzinN (button) showed [Td Ts] and won ($16.30) with three of a kind, Tens
 Seat 5: 运气爆棚啦1 (small blind) lost
 Seat 6: skxijwnxz (big blind) folded before Flop
 Seat 7: 程咬金的三板斧91 folded before Flop

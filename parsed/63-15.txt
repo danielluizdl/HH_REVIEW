@@ -45,14 +45,14 @@ dLzinN: raises $52.20 to $67.20 and is all-in
 *** SHOWDOWN ***
 托尼刘: shows [Qs 5s] (a pair of Nines)
 dLzinN: shows [Ah 7d] (two pair, Nines and Sevens)
-托尼刘 collected $157.70 from pot
+托尼刘 collected $70.90 from pot
 *** SUMMARY ***
 Total pot $157.70 | Rake $0
 Board [9h 7c 6h 3d 9d]
 Seat 1: SigmaBoyy folded before Flop (didn't bet)
 Seat 2: 沃腰演nx folded before Flop (didn't bet)
 Seat 3: ade474 folded on the Flop
-Seat 4: 托尼刘 (button) showed [Qs 5s] and won ($157.70) with a pair of Nines
+Seat 4: 托尼刘 (button) showed [Qs 5s] and won ($70.90) with a pair of Nines
 Seat 5: dLzinN (small blind) showed [Ah 7d] and lost with two pair, Nines and Sevens
 Seat 6: SharpOdds (big blind) folded before Flop
 Seat 7: XuanTG folded on the Flop

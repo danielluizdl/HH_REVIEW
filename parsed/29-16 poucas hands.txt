@@ -38,7 +38,7 @@ NewtonApple: bets $5.50
 dLzinN: calls $5.50
 *** SHOWDOWN ***
 NewtonApple: shows [Kh Kd] (a pair of Kings)
-NewtonApple collected $58.60 from pot
+NewtonApple collected $29.50 from pot
 *** SUMMARY ***
 Total pot $58.60 | Rake $0
 Board [9d 6h 7c 3c]
@@ -49,4 +49,4 @@ Seat 4: wjsyy (button) folded before Flop (didn't bet)
 Seat 5: 跑儿马2号 (small blind) folded before Flop
 Seat 6: 机车浪子 (big blind) folded before Flop
 Seat 7: 好运长存iPcdUo folded before Flop (didn't bet)
-Seat 8: NewtonApple showed [Kh Kd] and won ($58.60) with a pair of Kings
+Seat 8: NewtonApple showed [Kh Kd] and won ($29.50) with a pair of Kings

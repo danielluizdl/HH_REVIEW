@@ -38,7 +38,7 @@ Asyrif: calls $4.98
 *** SHOWDOWN ***
 Asyrif: shows [3h Ah] (a pair of Threes)
 dLzinN: shows [5s 5s] (three of a kind, Fives)
-Asyrif collected $62.20 from pot
+Asyrif collected $26.70 from pot
 *** SUMMARY ***
 Total pot $62.20 | Rake $0
 Board [3c 5d 8d 9d]
@@ -46,6 +46,6 @@ Seat 1: eznieH folded before Flop (didn't bet)
 Seat 2: 66661n48 folded before Flop (didn't bet)
 Seat 3: StevenStun folded before Flop (didn't bet)
 Seat 4: 赌神797 (button) folded on the Flop
-Seat 5: Asyrif (small blind) showed [3h Ah] and won ($62.20) with a pair of Threes
+Seat 5: Asyrif (small blind) showed [3h Ah] and won ($26.70) with a pair of Threes
 Seat 6: dLzinN (big blind) showed [5s 5s] and lost with three of a kind, Fives
 Seat 7: BetoJu folded on the Flop

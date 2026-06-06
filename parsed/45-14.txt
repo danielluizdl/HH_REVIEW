@@ -47,13 +47,13 @@ Dorsai1985: shows [8d 9d] (a pair of Eights)
 dLzinN: shows [7c 8s] (two pair, Eights and Sevens)
 金风玉露财: shows [3s 9s] (high card Ace)
 咖啡鱼1: shows [Kd Qd] (high card Ace)
-Dorsai1985 collected $27.90 from pot
+Dorsai1985 collected $7.90 from pot
 *** SUMMARY ***
 Total pot $27.90 | Rake $0
 Board [Ah 7d 8s 4h Th]
 Seat 1: AldaBless folded before Flop (didn't bet)
 Seat 2: dLzinN showed [7c 8s] and lost with two pair, Eights and Sevens
-Seat 3: Dorsai1985 showed [8d 9d] and won ($27.90) with a pair of Eights
+Seat 3: Dorsai1985 showed [8d 9d] and won ($7.90) with a pair of Eights
 Seat 4: kileks (button) folded before Flop (didn't bet)
 Seat 5: 金风玉露财 (small blind) showed [3s 9s] and lost with high card Ace
 Seat 6: 咖啡鱼1 (big blind) showed [Kd Qd] and lost with high card Ace

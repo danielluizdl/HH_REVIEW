@@ -35,11 +35,11 @@ dLzinN: calls $5.16
 *** TURN *** [9d Td 4h] [3c]
 dLzinN: checks
 AA龙腾: raises $47.10 to $47.10 and is all-in
-AA龙腾 collected $65.10 from pot
+AA龙腾 collected $11.30 from pot
 *** SUMMARY ***
 Total pot $65.10 | Rake $0
 Board [9d Td 4h 3c]
-Seat 1: AA龙腾 collected ($65.10)
+Seat 1: AA龙腾 collected ($11.30)
 Seat 2: BloodJoker folded on the Flop
 Seat 3: Ferrugem folded on the Flop
 Seat 4: 飞行官 (button) folded on the Flop

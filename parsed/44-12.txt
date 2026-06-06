@@ -41,7 +41,7 @@ dLzinN: calls $26.70
 *** SHOWDOWN ***
 喊喊白斑马: shows [Qd Qd] (a full house, Queens full of Aces)
 dLzinN: shows [Kh Ad] (three of a kind, Aces)
-喊喊白斑马 collected $83.80 from pot
+喊喊白斑马 collected $42.60 from pot
 *** SUMMARY ***
 Total pot $83.80 | Rake $0
 Board [Qd Ad 2c Ac 6d]
@@ -49,7 +49,7 @@ Seat 1: dLzinN showed [Kh Ad] and lost with three of a kind, Aces
 Seat 2: Cuatrok folded before Flop (didn't bet)
 Seat 3: 专杀小陈 folded before Flop (didn't bet)
 Seat 4: QuerK91 (button) folded before Flop (didn't bet)
-Seat 5: 喊喊白斑马 (small blind) showed [Qd Qd] and won ($83.80) with a full house, Queens full of Aces
+Seat 5: 喊喊白斑马 (small blind) showed [Qd Qd] and won ($42.60) with a full house, Queens full of Aces
 Seat 6: Banhbao86 (big blind) folded before Flop
 Seat 7: Jaybo37 folded before Flop
 Seat 8: yanzhong951 folded before Flop

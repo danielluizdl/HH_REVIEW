@@ -36,14 +36,14 @@ dLzinN: bets $5.08
 sebastian3: calls $5.08
 *** SHOWDOWN ***
 dLzinN: shows [Qd Qd] (a pair of Queens)
-sebastian3 collected $64.50 from pot
+sebastian3 collected $32.80 from pot
 *** SUMMARY ***
 Total pot $64.50 | Rake $0
 Board [2c As 5d]
 Seat 1: Holves folded before Flop (didn't bet)
 Seat 2: p3ket30 folded before Flop (didn't bet)
 Seat 3: AdrianMTs folded before Flop
-Seat 4: sebastian3 (button) collected ($64.50)
+Seat 4: sebastian3 (button) collected ($32.80)
 Seat 5: litomeme (small blind) folded before Flop
 Seat 6: 磐石牛 (big blind) folded before Flop
 Seat 7: dLzinN showed [Qd Qd] and lost with a pair of Queens

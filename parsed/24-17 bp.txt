@@ -46,7 +46,7 @@ Hugochan3110: shows [2s Ad] (high card Ace)
 ghbg: shows [8d Qd] (a pair of Eights)
 taberw: shows [4d 8d] (a pair of Eights)
 pokerjust174: shows [7d Ts] (a pair of Sevens)
-Evilswine collected $108.30 from pot
+Evilswine collected $11.90 from pot
 *** SUMMARY ***
 Total pot $108.30 | Rake $0
 Board [7h 3h 5h 8h]
@@ -56,5 +56,5 @@ Seat 3: Hugochan3110 showed [2s Ad] and lost with high card Ace
 Seat 4: ghbg (button) showed [8d Qd] and lost with a pair of Eights
 Seat 5: dLzinN (small blind) showed [2d 6d] and lost with high card Eight
 Seat 6: taberw (big blind) showed [4d 8d] and lost with a pair of Eights
-Seat 7: Evilswine showed [9s As] and won ($108.30) with high card Ace
+Seat 7: Evilswine showed [9s As] and won ($11.90) with high card Ace
 Seat 8: pokerjust174 showed [7d Ts] and lost with a pair of Sevens
