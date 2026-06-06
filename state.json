@@ -1,6 +1,6 @@
 {
   "session_date": "2026-06-06",
-  "parser_commit": "eff3626",
+  "parser_commit": "96a54f3",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 1,
@@ -9,7 +9,7 @@
     "with_turn": 38,
     "with_river": 23,
     "with_showdown": 30,
-    "with_seat9_overflow": 0
+    "with_seat9_overflow": 1
   },
   "scores": {
     "26-19": {
@@ -159,7 +159,7 @@
       "seat9_overflow": false
     },
     "33-8 55-10": {
-      "lines": 32,
+      "lines": 33,
       "has_flop": false,
       "has_turn": false,
       "has_river": false,
@@ -204,7 +204,7 @@
       "seat9_overflow": false
     },
     "40-26": {
-      "lines": 41,
+      "lines": 42,
       "has_flop": false,
       "has_turn": false,
       "has_river": false,
@@ -267,13 +267,13 @@
       "seat9_overflow": false
     },
     "46-20": {
-      "lines": 31,
+      "lines": 39,
       "has_flop": false,
       "has_turn": false,
       "has_river": false,
       "has_showdown": false,
       "has_board": false,
-      "seat9_overflow": false
+      "seat9_overflow": true
     },
     "51-36 mt agro": {
       "lines": 45,

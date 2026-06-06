@@ -1,13 +1,13 @@
 PokerStars Hand #1265276543730401280: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 20:25:23 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: TheDealer23 ($21.20 in chips)
-Seat 2: val123 ($30.60 in chips)
-Seat 3: loSpeR ($63.60 in chips)
-Seat 4: dLzinN ($42.00 in chips)
-Seat 5: 敢你至来 ($64.80 in chips)
-Seat 6: Eunooo ($86.10 in chips)
-Seat 7: vGuerraF ($17.00 in chips)
-Seat 8: Chianesa ($19.20 in chips)
+Seat 1: TheDealer23 ($21.25 in chips)
+Seat 2: val123 ($30.65 in chips)
+Seat 3: loSpeR ($61.54 in chips)
+Seat 4: dLzinN ($42.05 in chips)
+Seat 5: 敢你至来 ($64.90 in chips)
+Seat 6: Eunooo ($86.93 in chips)
+Seat 7: vGuerraF ($17.25 in chips)
+Seat 8: Chianesa ($20.03 in chips)
 TheDealer23: posts the ante $0.05
 val123: posts the ante $0.05
 loSpeR: posts the ante $0.05
@@ -29,11 +29,12 @@ dLzinN: folds
 Eunooo: calls $0.68
 vGuerraF: folds
 Chianesa: calls $0.58
+loSpeR collected $4.49 from pot
 *** SUMMARY ***
-Total pot $86.10 | Rake $0
+Total pot $4.49 | Rake $0
 Seat 1: TheDealer23 folded before Flop (didn't bet)
 Seat 2: val123 folded before Flop (didn't bet)
-Seat 3: loSpeR folded on the Flop
+Seat 3: loSpeR collected ($4.49)
 Seat 4: dLzinN (button) folded before Flop (didn't bet)
 Seat 5: 敢你至来 (small blind) folded before Flop
 Seat 6: Eunooo (big blind) folded on the Flop

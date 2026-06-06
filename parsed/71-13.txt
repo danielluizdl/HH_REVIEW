@@ -1,13 +1,13 @@
 PokerStars Hand #1269572743365726208: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/29 16:56:57 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: AA龙腾 ($65.10 in chips)
-Seat 2: BloodJoker ($47.10 in chips)
-Seat 3: Ferrugem ($31.80 in chips)
-Seat 4: 飞行官 ($50.30 in chips)
-Seat 5: 求求你让我中牌 ($7.61 in chips)
-Seat 6: koNicZ ($138.80 in chips)
-Seat 7: 达文西达文西 ($34.10 in chips)
-Seat 8: dLzinN ($138.10 in chips)
+Seat 1: AA龙腾 ($53.80 in chips)
+Seat 2: BloodJoker ($47.90 in chips)
+Seat 3: Ferrugem ($32.60 in chips)
+Seat 4: 飞行官 ($51.10 in chips)
+Seat 5: 求求你让我中牌 ($8.41 in chips)
+Seat 6: koNicZ ($139.60 in chips)
+Seat 7: 达文西达文西 ($34.90 in chips)
+Seat 8: dLzinN ($144.70 in chips)
 AA龙腾: posts the ante $0.80
 BloodJoker: posts the ante $0.80
 Ferrugem: posts the ante $0.80
@@ -35,11 +35,11 @@ dLzinN: calls $5.16
 *** TURN *** [9d Td 4h] [3c]
 dLzinN: checks
 AA龙腾: raises $47.10 to $47.10 and is all-in
-dLzinN: folds
+AA龙腾 collected $65.10 from pot
 *** SUMMARY ***
 Total pot $65.10 | Rake $0
 Board [9d Td 4h 3c]
-Seat 1: AA龙腾 folded on the Turn
+Seat 1: AA龙腾 collected ($65.10)
 Seat 2: BloodJoker folded on the Flop
 Seat 3: Ferrugem folded on the Flop
 Seat 4: 飞行官 (button) folded on the Flop

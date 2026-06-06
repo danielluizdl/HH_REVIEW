@@ -1,12 +1,12 @@
 PokerStars Hand #1265189641149964288: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 14:40:04 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Peter3356 ($21.50 in chips)
-Seat 2: 银柏皖 ($32.90 in chips)
-Seat 3: leanfrance ($18.50 in chips)
-Seat 4: dLzinN ($42.70 in chips)
-Seat 5: Sagat95 ($28.40 in chips)
-Seat 6: peteushko ($15.60 in chips)
-Seat 7: manhvidai ($8.41 in chips)
+Seat 1: Peter3356 ($21.55 in chips)
+Seat 2: 银柏皖 ($32.95 in chips)
+Seat 3: leanfrance ($15.99 in chips)
+Seat 4: dLzinN ($43.78 in chips)
+Seat 5: Sagat95 ($28.50 in chips)
+Seat 6: peteushko ($16.68 in chips)
+Seat 7: manhvidai ($8.66 in chips)
 Peter3356: posts the ante $0.05
 银柏皖: posts the ante $0.05
 leanfrance: posts the ante $0.05
@@ -30,13 +30,13 @@ leanfrance: calls $0.83
 peteushko: checks
 leanfrance: raises $14.80 to $14.80 and is all-in
 dLzinN: folds
-peteushko: folds
+leanfrance collected $18.50 from pot
 *** SUMMARY ***
 Total pot $18.50 | Rake $0
 Board [Th 3c 4c]
 Seat 1: Peter3356 folded before Flop (didn't bet)
 Seat 2: 银柏皖 folded before Flop (didn't bet)
-Seat 3: leanfrance folded on the Flop
+Seat 3: leanfrance collected ($18.50)
 Seat 4: dLzinN (button) folded on the Flop
 Seat 5: Sagat95 (small blind) folded before Flop
 Seat 6: peteushko (big blind) folded on the Flop

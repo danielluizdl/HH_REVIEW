@@ -1,31 +1,39 @@
 PokerStars Hand #1272902451512905728: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/08 21:28:01 ET
-Table 'WPT Global' 8-max Seat #4 is the button
+Table 'WPT Global' 8-max Seat #5 is the button
 Seat 1: 合金弹头干 ($97.00 in chips)
-Seat 2: Cuatrok ($30.70 in chips)
-Seat 3: Fungi97 ($27.60 in chips)
-Seat 4: olomeli77 ($25.10 in chips)
-Seat 6: koNicZ ($130.20 in chips)
-Seat 7: 青春一黛 ($32.50 in chips)
-Seat 8: 小马凯勒 ($25.90 in chips)
+Seat 2: 小马凯勒 ($25.90 in chips)
+Seat 3: Fungi97 ($22.10 in chips)
+Seat 4: dLzinN ($38.70 in chips)
+Seat 5: olomeli77 ($25.90 in chips)
+Seat 6: koNicZ ($131.00 in chips)
+Seat 7: 青春一黛 ($33.30 in chips)
+Seat 8: Cuatrok ($31.50 in chips)
+Seat 9: /TG+1 ($0.80 in chips)
 合金弹头干: posts the ante $0.05
-Cuatrok: posts the ante $0.05
+小马凯勒: posts the ante $0.05
 Fungi97: posts the ante $0.05
+dLzinN: posts the ante $0.05
 olomeli77: posts the ante $0.05
 koNicZ: posts the ante $0.05
 青春一黛: posts the ante $0.05
-小马凯勒: posts the ante $0.05
+Cuatrok: posts the ante $0.05
+/TG+1: posts the ante $0.05
+Cuatrok: posts small blind $0.05
 koNicZ: posts big blind $0.10
 *** HOLE CARDS ***
 Cuatrok: checks
 合金弹头干: checks
 Fungi97: checks
 olomeli77: checks
+Fungi97 collected $8.51 from pot
 *** SUMMARY ***
-Total pot $130.20 | Rake $0
+Total pot $8.51 | Rake $0
 Seat 1: 合金弹头干 folded before Flop (didn't bet)
-Seat 2: Cuatrok folded before Flop (didn't bet)
-Seat 3: Fungi97 folded on the Flop
-Seat 4: olomeli77 (button) folded before Flop (didn't bet)
+Seat 2: 小马凯勒 folded on the Flop
+Seat 3: Fungi97 collected ($8.51)
+Seat 4: dLzinN folded before Flop (didn't bet)
+Seat 5: olomeli77 (button) folded before Flop (didn't bet)
 Seat 6: koNicZ (big blind) folded on the Flop
 Seat 7: 青春一黛 folded on the Flop
-Seat 8: 小马凯勒 folded on the Flop
+Seat 8: Cuatrok (small blind) folded before Flop
+Seat 9: /TG+1 folded before Flop (didn't bet)
