@@ -441,7 +441,9 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
         total_pot = to_usd(total_pot_bb)
 
     if winners:
-        winners[0]['amount'] = total_pot
+        share = round(total_pot / len(winners), 2)
+        for w in winners:
+            w['amount'] = share
 
     # ── Seats list ────────────────────────────────────────────────────
     players_list = []
@@ -1739,11 +1741,13 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
             s = showdown_map[name]
             won = s.get('won', name in winners_set)
             outcome = 'showed_won' if won else 'showed_lost'
-            # For winners: show the collected pot amount (= pote_total_bb * bb_value for sole winner)
+            # For winners: collected amount = total_pot divided by number of winners.
+            # (net_bb is net gain only, not the total collected amount.)
             if won and pote_total_bb:
-                amount = round(pote_total_bb * bb_value, 2)
+                amount = round(pote_total_bb * bb_value / max(len(winners_set), 1), 2)
             else:
-                amount = round(initial_stacks.get(name, 0) + (result_map.get(name, {}).get('net_bb', 0) * bb_value), 2)
+                net_bb = result_map.get(name, {}).get('net_bb', 0)
+                amount = round(initial_stacks.get(name, 0) + (net_bb * bb_value), 2)
             summary.append({
                 'seat': seat, 'name': name, 'role': role,
                 'outcome': outcome, 'cards': s.get('cards', []),
@@ -1751,8 +1755,11 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
                 'hand_desc': s.get('hand_desc', ''),
             })
         elif name in winners_set:
-            # Winner without hole cards in showdown; collected amount = total pot
-            amount = round((pote_total_bb or 0) * bb_value, 2)
+            # Winner without hole cards in showdown; collected = pot / n_winners.
+            if pote_total_bb:
+                amount = round(pote_total_bb * bb_value / max(len(winners_set), 1), 2)
+            else:
+                amount = 0.0
             summary.append({
                 'seat': seat, 'name': name, 'role': role,
                 'outcome': 'showed_won', 'cards': [],
@@ -1767,7 +1774,7 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
             })
         elif name in inferred_winners:
             # Inferred winner from river aggression (no result_entries available)
-            amount = round((pote_total_bb or 0) * bb_value, 2)
+            amount = round(pote_total_bb * bb_value, 2) if pote_total_bb else 0.0
             summary.append({
                 'seat': seat, 'name': name, 'role': role,
                 'outcome': 'showed_won', 'cards': [], 'amount': amount, 'hand_desc': '',
