@@ -104,10 +104,12 @@ def parse_all(force: bool = False) -> dict:
 
         try:
             proc = subprocess.run(
-                ["python3", PARSER, img_path, out_path],
+                ["python3", PARSER, img_path],
                 capture_output=True, text=True, timeout=150
             )
-            if os.path.exists(out_path):
+            if proc.returncode == 0 and proc.stdout.strip():
+                with open(out_path, 'w') as f:
+                    f.write(proc.stdout)
                 with open(out_path) as f:
                     lines = [l for l in f if l.strip()]
                 n = len(lines)

@@ -132,15 +132,16 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
         raise ValueError(f"Cannot load image: {image_path}")
 
     h, w = img.shape[:2]
-    col_w = w / 5
-    # 5 columns
-    C = [(int(i * col_w), int((i + 1) * col_w)) for i in range(5)]
+
+    ocr = full_ocr(img)
+
+    # Detect column boundaries from header label x positions (handles narrow layouts)
+    C = _detect_column_boundaries(ocr, w)
     # C[0]=BLINDS, C[1]=PREFLOP, C[2]=FLOP, C[3]=TURN, C[4]=RIVER
+    col_w = C[1][0] - C[0][0]  # approximate col width for debug
 
     if debug:
         print(f"[DEBUG] img={w}x{h}, col_w={col_w:.0f}")
-
-    ocr = full_ocr(img)
 
     # ── Hand ID ──────────────────────────────────────────────────────
     hand_id = _extract_hand_id(ocr)
@@ -162,17 +163,26 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     # ── Player data from BLINDS column ───────────────────────────────
     blinds_col = _parse_blinds_column(ocr, C[0][0], C[0][1], action_start_y)
 
-    # ── Detect results section start in RIVER column ──────────────────
+    # ── Detect results section: try RIVER first, fall back to TURN/FLOP ──
+    # When a hand ends before the river, results appear in the last active column.
+    act_y = header_y + 50
+    result_col_idx = 4   # default: RIVER
     result_start_y = _find_result_start(ocr, C[4][0], w, action_start_y)
+    if result_start_y == 99999:
+        for ci in [3, 2]:   # try TURN then FLOP
+            rsy = _find_result_start(ocr, C[ci][0], C[ci][1], action_start_y)
+            if rsy < 99999:
+                result_col_idx = ci
+                result_start_y = rsy
+                break
 
     # ── Parse each street ─────────────────────────────────────────────
-    # Lower threshold to catch player names just below the pot-amounts row
-    act_y = header_y + 50
-    # For non-river columns, don't cut at result_start_y (preflop can extend past it)
-    preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h, bb_value)
-    flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h, bb_value)
-    turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h, bb_value)
-    river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y, bb_value)
+    # Cut each column at result_start_y if that column holds the results.
+    _cut = lambda ci, default_ymax: result_start_y if ci == result_col_idx else default_ymax
+    preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, _cut(1, h), bb_value)
+    flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, _cut(2, h), bb_value)
+    turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, _cut(3, h), bb_value)
+    river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, _cut(4, result_start_y), bb_value)
 
     # ── Recover missing first-player names via focused OCR (PRE-FLOP only) ──
     # Only run for PRE-FLOP column to avoid excessive OCR calls.
@@ -181,13 +191,16 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     if extra:
         ocr = ocr + extra
         # Re-parse streets with recovered names
-        preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, h, bb_value)
-        flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, h, bb_value)
-        turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, h, bb_value)
-        river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, result_start_y, bb_value)
+        preflop_acts = _parse_street(ocr, C[1][0], C[1][1], act_y, _cut(1, h), bb_value)
+        flop_acts    = _parse_street(ocr, C[2][0], C[2][1], act_y, _cut(2, h), bb_value)
+        turn_acts    = _parse_street(ocr, C[3][0], C[3][1], act_y, _cut(3, h), bb_value)
+        river_acts   = _parse_street(ocr, C[4][0], C[4][1], act_y, _cut(4, result_start_y), bb_value)
 
     # ── Parse results section (first pass, no position map yet) ──────
-    result_entries = _parse_results(ocr, C[4][0], w, result_start_y)
+    # Use the detected result column (may be RIVER, TURN, or FLOP)
+    res_x0 = C[result_col_idx][0]
+    res_x1 = w if result_col_idx == 4 else C[result_col_idx][1]
+    result_entries = _parse_results(ocr, res_x0, res_x1, result_start_y, bb_value=bb_value)
 
     if debug:
         print(f"[DEBUG] preflop={len(preflop_acts)}, flop={len(flop_acts)}, "
@@ -254,13 +267,39 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     if any(r['name'] is None or r.get('net_bb', 0) == 0 for r in result_entries) or \
        not any(r.get('net_bb', 0) > 0 for r in result_entries):
         pos_to_name = {d.get('pos'): n for n, d in player_map.items() if d.get('pos')}
-        result_entries_v2 = _parse_results(ocr, C[4][0], w, result_start_y,
-                                            pos_name_map=pos_to_name)
+        # For all-anon tables (where names ARE positions), add self-mappings for all positions
+        # so players who folded without captured actions (e.g. HJ) are still recovered
+        is_anon_table = all(n in POSITIONS for n in player_map)
+        if is_anon_table:
+            for p in POSITIONS:
+                if p not in pos_to_name:
+                    pos_to_name[p] = p
+        result_entries_v2 = _parse_results(ocr, res_x0, res_x1, result_start_y,
+                                            pos_name_map=pos_to_name, bb_value=bb_value)
         if len(result_entries_v2) > len(result_entries):
             result_entries = result_entries_v2
             # Rebuild player_map once more with complete results
             player_map = _build_player_map(preflop_acts, flop_acts, turn_acts, river_acts,
                                             result_entries, blinds_col)
+
+    # ── Remove OCR artifact players not grounded in stacks or results ──
+    # Players like "NEPTIN" that appear once as noise in the action area
+    # but have no stack data and no result entry are dropped here.
+    _end_stacks_early = _extract_end_stacks(ocr, header_y)
+    _is_anon = all(n in POSITIONS for n in player_map)
+    if _end_stacks_early and not _is_anon and len(player_map) > len(_end_stacks_early):
+        from difflib import SequenceMatcher
+        anchor = (list(_end_stacks_early.keys()) +
+                  [r['name'] for r in result_entries if r.get('name')])
+        for pname in list(player_map.keys()):
+            if pname in POSITIONS or player_map[pname].get('net_bb') is not None:
+                continue
+            if max((SequenceMatcher(None, pname, a).ratio() for a in anchor), default=0) < 0.5:
+                del player_map[pname]
+                for acts in [preflop_acts, flop_acts, turn_acts, river_acts]:
+                    for a in acts:
+                        if a.get('name') == pname:
+                            a['name'] = None
 
     if debug:
         print(f"[DEBUG] players: {list(player_map.keys())}")
@@ -312,6 +351,29 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
         end_stacks_bb = _extract_anon_stacks(ocr, header_y, bb_value=bb_value)
     if debug:
         print(f"[DEBUG] pote_total={pote_total_bb}, end_stacks={end_stacks_bb}")
+
+    # ── Remove OCR artifact players not found in stacks or results ────────
+    # Players like "NEPTIN" that appear once as OCR noise in the action area
+    # but have no stack data and no result entry are dropped here.
+    is_anon = all(n in POSITIONS for n in player_map)
+    if end_stacks_bb and not is_anon:
+        from difflib import SequenceMatcher
+        anchor_names = list(end_stacks_bb.keys()) + [r['name'] for r in result_entries if r.get('name')]
+        to_drop = set()
+        for pname, pdata in list(player_map.items()):
+            if pname in POSITIONS:
+                continue
+            if pdata.get('net_bb') is not None:
+                continue  # has a result, keep
+            best_sim = max((SequenceMatcher(None, pname, an).ratio() for an in anchor_names), default=0)
+            if best_sim < 0.5:
+                to_drop.add(pname)
+        for pname in to_drop:
+            del player_map[pname]
+            for acts in [preflop_acts, flop_acts, turn_acts, river_acts]:
+                for a in acts:
+                    if a.get('name') == pname:
+                        a['name'] = None
 
     # ── Calculate initial stacks (from net results) ───────────────────
     initial_stacks = _calc_initial_stacks(
@@ -392,7 +454,7 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
     summary_seats = _build_summary_seats(
         seats, player_map, preflop_acts, flop_acts, turn_acts, river_acts,
         showdown, btn_player, sb_player, bb_player, initial_stacks, bb_value,
-        result_entries=result_entries
+        result_entries=result_entries, pote_total_bb=pote_total_bb
     )
 
     # ── Blinds list ───────────────────────────────────────────────────
@@ -468,6 +530,42 @@ def _find_header_y(items) -> int:
     return int(items[0]['y'] + (items[-1]['y'] - items[0]['y']) * 0.3)  # fallback
 
 
+def _detect_column_boundaries(items, w) -> list:
+    """Detect column boundaries from header label x positions.
+
+    Returns list of 5 (x_min, x_max) tuples for:
+    C[0]=BLINDS, C[1]=PREFLOP, C[2]=FLOP, C[3]=TURN, C[4]=RIVER
+    Falls back to w/5 equal widths if headers not found.
+    """
+    col_xs = [None] * 5
+    for item in sorted(items, key=lambda i: i['y']):
+        t_orig = item['text'].upper()
+        t = t_orig.replace(' ', '').replace('&', '').replace('-', '')
+        if col_xs[0] is None and ('BLINDSANTE' in t or (t_orig.startswith('BLINDS') and 'ANTE' in t_orig)):
+            col_xs[0] = item['x']
+        elif col_xs[1] is None and ('PREFLOP' in t):
+            col_xs[1] = item['x']
+        elif col_xs[2] is None and t_orig.strip() == 'FLOP':
+            col_xs[2] = item['x']
+        elif col_xs[3] is None and t_orig.strip() == 'TURN':
+            col_xs[3] = item['x']
+        elif col_xs[4] is None and t_orig.strip() == 'RIVER':
+            col_xs[4] = item['x']
+        if all(x is not None for x in col_xs):
+            break
+
+    if all(x is not None for x in col_xs):
+        avg_spacing = (col_xs[4] - col_xs[0]) / 4
+        if avg_spacing < 160:
+            # Narrow layout: headers sit at left edge of each column;
+            # use header x positions directly as column boundaries.
+            xs = col_xs + [w]
+            return [(xs[i], xs[i + 1]) for i in range(5)]
+
+    col_w = w / 5
+    return [(int(i * col_w), int((i + 1) * col_w)) for i in range(5)]
+
+
 def _extract_pot_row(items, y_min, y_max) -> list:
     pot_items = [i for i in items if y_min <= i['y'] <= y_max and is_amount(i['text'])]
     return [parse_bb(i['text']) for i in sorted(pot_items, key=lambda i: i['x'])]
@@ -529,18 +627,29 @@ def _parse_blinds_column(items, x_min, x_max, y_start) -> dict:
 
 
 def _find_result_start(items, x_min, x_max, y_min) -> int:
-    """Find y where +/-BB results start in RIVER column.
-    Returns the y of the player NAME above the first result value (up to 150px before)."""
-    first_result_y = 99999
-    for item in sorted(items_in_band(items, x_min, x_max, y_min, 99999), key=lambda i: i['y']):
+    """Find y where results start in RIVER column (BB or dollar format).
+    Returns the y just before the first result player name/position label."""
+    col = sorted(items_in_band(items, x_min, x_max, y_min, 99999), key=lambda i: i['y'])
+    # Find first result amount (BB or dollar sign)
+    first_amount_y = 99999
+    for item in col:
         t = item['text']
-        if re.match(r'^[+-][\d,.]+\s*BB?$', t, re.IGNORECASE):
-            first_result_y = item['y']
+        if (re.match(r'^[+-][\d,.]+\s*BB?$', t, re.IGNORECASE) or
+                re.match(r'^[+-]\s*\$\s*[\d,.]+$', t)):
+            first_amount_y = item['y']
             break
-    if first_result_y == 99999:
+    if first_amount_y == 99999:
         return 99999
-    # Return 150px before the first result value so player names are included
-    return max(y_min, first_result_y - 150)
+    # Find the earliest (lowest y) player name or position label within 150px
+    # before the first amount — that's the start of the first result entry
+    first_name_y = first_amount_y
+    for item in [i for i in col if first_amount_y - 150 <= i['y'] < first_amount_y]:
+        t = item['text']
+        if t.upper() in POSITIONS or is_player_name(t):
+            first_name_y = item['y']
+            break  # take the lowest y (first encountered in ascending order)
+    # Return 40px before the first name so action items (e.g. All-in) above it stay in actions
+    return max(y_min, first_name_y - 40)
 
 
 def _is_action_start(text: str) -> bool:
@@ -663,7 +772,7 @@ def _parse_street(items, x_min, x_max, y_min, y_max, bb_value: float = 0.10) -> 
     return acts
 
 
-def _parse_results(items, x_min, x_max, y_min, pos_name_map=None) -> list:
+def _parse_results(items, x_min, x_max, y_min, pos_name_map=None, bb_value=0.10) -> list:
     """Parse result entries from RIVER column results section.
     pos_name_map: optional {position: player_name} for anonymous winner recovery.
     """
@@ -683,6 +792,23 @@ def _parse_results(items, x_min, x_max, y_min, pos_name_map=None) -> list:
             elif re.match(r'^\d[\d,.]+\s*BB?$', t, re.IGNORECASE):
                 # Unsigned amount — minus sign likely dropped by OCR
                 unsigned_bb = abs(parse_bb(t))
+            elif re.match(r'^[+-]\s*\$\s*[\d,.]+$', t):
+                # Dollar format: -$ 0,15 or -$0.15 or +$1.50
+                sign = -1 if t.lstrip()[0] == '-' else 1
+                num_str = re.sub(r'[^\d,.]', '', t)
+                num_str = num_str.replace(',', '.')
+                try:
+                    net_bb = sign * float(num_str) / bb_value
+                except ValueError:
+                    pass
+            elif re.match(r'^\$\s*[\d,.]+$', t):
+                # Unsigned dollar format
+                num_str = re.sub(r'[^\d,.]', '', t)
+                num_str = num_str.replace(',', '.')
+                try:
+                    unsigned_bb = float(num_str) / bb_value
+                except ValueError:
+                    pass
             elif is_player_name(t):
                 name = t
         # Use signed if available, else treat unsigned as negative (folders)
@@ -1005,7 +1131,7 @@ def _extract_pote_total(items, bb_value: float = 0.10) -> float | None:
                 val_str = m.group(1).replace('.', '').replace(',', '.')
                 try:
                     val = float(val_str)
-                    if val > 100:
+                    if val > 0:
                         return val
                 except ValueError:
                     pass
@@ -1535,7 +1661,8 @@ def _convert_actions(raw_acts: list, bb_value: float, initial_bet_bb: float = 0.
 
 def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
                           showdown, btn_player, sb_player, bb_player,
-                          initial_stacks, bb_value, result_entries=None) -> list:
+                          initial_stacks, bb_value, result_entries=None,
+                          pote_total_bb=None) -> list:
     """Build SUMMARY seats."""
     # Build result lookup
     result_map = {r['name']: r for r in (result_entries or [])}
@@ -1563,8 +1690,37 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
         if a['action'] == 'folds' and a['name'] not in folded:
             folded[a['name']] = 'preflop'
 
-    # Players who reached showdown: appeared in RIVER actions AND are winner/loser
+    # Track last street each player was non-fold active (for players missing from result_entries)
+    last_active_street = {}
+    for a in preflop:
+        if a['action'] != 'folds':
+            last_active_street[a['name']] = 'preflop'
+    for a in flop:
+        if a['action'] != 'folds':
+            last_active_street[a['name']] = 'flop'
+    for a in turn:
+        if a['action'] != 'folds':
+            last_active_street[a['name']] = 'turn'
+    for a in river:
+        if a['action'] != 'folds':
+            last_active_street[a['name']] = 'river'
+
+    # Infer river all-in caller as loser and last river aggressor as winner when result_entries missing
+    inferred_losers = set()
+    inferred_winners = set()
     river_players = {a['name'] for a in river}
+    # Trigger when river participants are NOT covered by result_entries
+    river_uncovered = river_players - winners_set - losers_set
+    if river_uncovered:
+        river_allin_callers = {a['name'] for a in river if a['action'] == 'calls' and a.get('allin')}
+        inferred_losers = river_allin_callers & river_uncovered
+        # Last non-allin river aggressor (bet/raise) is the probable winner
+        for a in reversed(river):
+            if a['action'] in ('bets', 'raises') and not a.get('allin') and a['name'] not in inferred_losers:
+                inferred_winners.add(a['name'])
+                break
+
+    # Players who reached showdown: appeared in RIVER actions AND are winner/loser
     showdown_players = (winners_set | losers_set) & river_players
 
     showdown_map = {s['name']: s for s in showdown}
@@ -1583,18 +1739,20 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
             s = showdown_map[name]
             won = s.get('won', name in winners_set)
             outcome = 'showed_won' if won else 'showed_lost'
-            amount = initial_stacks.get(name, 0) + (result_map.get(name, {}).get('net_bb', 0) * bb_value)
+            # For winners: show the collected pot amount (= pote_total_bb * bb_value for sole winner)
+            if won and pote_total_bb:
+                amount = round(pote_total_bb * bb_value, 2)
+            else:
+                amount = round(initial_stacks.get(name, 0) + (result_map.get(name, {}).get('net_bb', 0) * bb_value), 2)
             summary.append({
                 'seat': seat, 'name': name, 'role': role,
                 'outcome': outcome, 'cards': s.get('cards', []),
-                'amount': round(amount, 2),
+                'amount': amount,
                 'hand_desc': s.get('hand_desc', ''),
             })
         elif name in winners_set:
-            # Winner without hole cards in showdown
-            net = result_map[name]['net_bb']
-            init_stack = initial_stacks.get(name, 0)
-            amount = round(init_stack + net * bb_value, 2)
+            # Winner without hole cards in showdown; collected amount = total pot
+            amount = round((pote_total_bb or 0) * bb_value, 2)
             summary.append({
                 'seat': seat, 'name': name, 'role': role,
                 'outcome': 'showed_won', 'cards': [],
@@ -1607,8 +1765,27 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
                 'outcome': 'showed_lost', 'cards': [],
                 'amount': 0, 'hand_desc': '',
             })
+        elif name in inferred_winners:
+            # Inferred winner from river aggression (no result_entries available)
+            amount = round((pote_total_bb or 0) * bb_value, 2)
+            summary.append({
+                'seat': seat, 'name': name, 'role': role,
+                'outcome': 'showed_won', 'cards': [], 'amount': amount, 'hand_desc': '',
+            })
+        elif name in inferred_losers:
+            # Inferred loser from river all-in call (no result_entries available)
+            summary.append({
+                'seat': seat, 'name': name, 'role': role,
+                'outcome': 'showed_lost', 'cards': [], 'amount': 0, 'hand_desc': '',
+            })
         else:
-            street = folded.get(name, 'preflop')
+            # Use actual fold street from actions; fall back to last known active street
+            if name in folded:
+                street = folded[name]
+            elif name in last_active_street:
+                street = last_active_street[name]
+            else:
+                street = 'preflop'
             if street == 'preflop':
                 had_bet = name in preflop_betters
                 outcome = 'folded_preflop' if had_bet else 'folded_preflop_no_bet'
