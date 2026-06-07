@@ -1,6 +1,6 @@
 {
   "session_date": "2026-06-07",
-  "parser_commit": "d7ff1d9",
+  "parser_commit": "72aae58",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 45,
@@ -17,33 +17,33 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.56,
       "actions": 0.9,
       "total_pot": 0.0,
-      "overall": 55.75
+      "overall": 63.562500000000014
     },
     "19-5 71-16f": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.5,
       "board": 0.8,
       "actions": 0.9333333333333333,
       "total_pot": 1.0,
-      "overall": 71.66666666666667
+      "overall": 77.91666666666667
     },
     "20-16": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.72,
       "actions": 0.9285714285714286,
       "total_pot": 1.0,
-      "overall": 70.60714285714286
+      "overall": 78.41964285714286
     },
     "24-17 bp": {
       "hand_id": 1.0,
@@ -72,176 +72,176 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.72,
       "actions": 0.88,
       "total_pot": 1.0,
-      "overall": 70.0
+      "overall": 79.375
     },
     "29-19": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.7272727272727273,
       "actions": 0.8,
       "total_pot": 1.0,
-      "overall": 69.0909090909091
+      "overall": 78.4659090909091
     },
     "30-16": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.7142857142857143,
       "board": 0.7142857142857143,
       "actions": 0.96,
       "total_pot": 1.0,
-      "overall": 83.42857142857143
+      "overall": 92.35714285714286
     },
     "30-5": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.8,
       "actions": 0.56,
       "total_pot": 1.0,
-      "overall": 67.0
+      "overall": 76.375
     },
     "31-7": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.5714285714285714,
       "board": 0.8571428571428571,
       "actions": 0.6896551724137931,
       "total_pot": 1.0,
-      "overall": 81.83497536945812
+      "overall": 88.97783251231526
     },
     "33-8 55-10": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.6666666666666666,
       "board": 0.6153846153846154,
       "actions": 0.9166666666666666,
       "total_pot": 1.0,
-      "overall": 69.15064102564102
+      "overall": 77.48397435897436
     },
     "35-14": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.5,
       "board": 0.72,
       "actions": 0.6285714285714286,
       "total_pot": 0.0,
-      "overall": 54.35714285714286
+      "overall": 60.60714285714286
     },
     "35-19": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.9285714285714286,
       "actions": 0.9666666666666667,
       "total_pot": 1.0,
-      "overall": 73.69047619047619
+      "overall": 83.06547619047619
     },
     "36-6 0": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.72,
       "actions": 0.9615384615384616,
       "total_pot": 1.0,
-      "overall": 71.01923076923077
+      "overall": 80.39423076923077
     },
     "37-9": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.7142857142857143,
       "board": 0.7692307692307693,
       "actions": 0.8636363636363636,
       "total_pot": 1.0,
-      "overall": 70.41083916083916
+      "overall": 79.33941058941059
     },
     "40-26": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.875,
       "board": 0.46153846153846156,
       "actions": 0.96,
       "total_pot": 1.0,
-      "overall": 67.76923076923077
+      "overall": 78.70673076923077
     },
     "43-7": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.72,
       "actions": 0.6111111111111112,
       "total_pot": 1.0,
-      "overall": 66.63888888888889
+      "overall": 74.45138888888889
     },
     "44-10": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 1.0,
       "actions": 0.9642857142857143,
       "total_pot": 1.0,
-      "overall": 62.05357142857143
+      "overall": 71.42857142857143
     },
     "44-12": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.8571428571428571,
       "actions": 0.8846153846153846,
       "total_pot": 1.0,
-      "overall": 71.77197802197803
+      "overall": 81.14697802197801
     },
     "44-28": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.8,
       "actions": 0.9,
       "total_pot": 1.0,
-      "overall": 71.25
+      "overall": 80.625
     },
     "45-14": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.42857142857142855,
       "board": 1.0,
       "actions": 0.9,
       "total_pot": 1.0,
-      "overall": 73.75
+      "overall": 79.10714285714286
     },
     "46-15": {
       "hand_id": 0.0,
@@ -270,88 +270,88 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.6363636363636364,
       "actions": 0.4482758620689655,
       "total_pot": 1.0,
-      "overall": 51.057993730407524
+      "overall": 58.870493730407524
     },
     "53-21": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.2857142857142857,
       "board": 1.0,
       "actions": 0.9242424242424242,
       "total_pot": 1.0,
-      "overall": 61.5530303030303
+      "overall": 65.12445887445887
     },
     "53-8": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 1.0,
       "actions": 0.8275862068965517,
       "total_pot": 1.0,
-      "overall": 72.84482758620689
+      "overall": 82.21982758620689
     },
     "54-14": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.88,
       "actions": 0.6551724137931034,
       "total_pot": 1.0,
-      "overall": 69.1896551724138
+      "overall": 77.0021551724138
     },
     "55-26": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.125,
+      "players_stacks": 0.75,
       "board": 0.8571428571428571,
       "actions": 0.6296296296296297,
       "total_pot": 1.0,
-      "overall": 57.64715608465609
+      "overall": 65.45965608465607
     },
     "55-8 100 hands": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.125,
+      "players_stacks": 0.875,
       "board": 0.45454545454545453,
       "actions": 0.8666666666666667,
       "total_pot": 1.0,
-      "overall": 68.07765151515152
+      "overall": 77.4526515151515
     },
     "56-10": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.8571428571428571,
       "actions": 0.6666666666666666,
       "total_pot": 1.0,
-      "overall": 69.04761904761905
+      "overall": 78.42261904761905
     },
     "59-17 58-18 49-5": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.125,
+      "players_stacks": 0.375,
       "board": 0.0,
       "actions": 1.0,
       "total_pot": 0.0,
-      "overall": 64.0625
+      "overall": 67.1875
     },
     "59-17 58-18 59-15": {
       "hand_id": 1.0,
@@ -369,77 +369,77 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.2857142857142857,
+      "players_stacks": 0.8571428571428571,
       "board": 0.8,
       "actions": 0.8518518518518519,
       "total_pot": 1.0,
-      "overall": 74.21957671957672
+      "overall": 81.36243386243387
     },
     "60-18": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.7142857142857143,
       "board": 0.9285714285714286,
       "actions": 0.8888888888888888,
       "total_pot": 1.0,
-      "overall": 85.21825396825398
+      "overall": 94.14682539682539
     },
     "60-5": {
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.5,
       "board": 1.0,
       "actions": 0.96875,
       "total_pot": 0.0,
-      "overall": 62.109375
+      "overall": 68.359375
     },
     "60-8": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.5,
       "actions": 0.9285714285714286,
       "total_pot": 1.0,
-      "overall": 67.85714285714286
+      "overall": 77.23214285714286
     },
     "63-15 allin 49-15donk 24-15 cc": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.9285714285714286,
       "actions": 0.7941176470588235,
       "total_pot": 1.0,
-      "overall": 71.53361344537815
+      "overall": 79.34611344537815
     },
     "63-15": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.9285714285714286,
       "actions": 0.7058823529411765,
       "total_pot": 1.0,
-      "overall": 70.43067226890757
+      "overall": 79.80567226890757
     },
     "63-9": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.75,
       "board": 0.8,
       "actions": 0.2413793103448276,
       "total_pot": 1.0,
-      "overall": 50.51724137931034
+      "overall": 59.89224137931034
     },
     "70-17": {
       "hand_id": 1.0,
@@ -457,22 +457,22 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.125,
+      "players_stacks": 0.5,
       "board": 0.8181818181818182,
       "actions": 0.7222222222222222,
       "total_pot": 0.0,
-      "overall": 45.817550505050505
+      "overall": 50.505050505050505
     },
     "72-10": {
       "hand_id": 0.0,
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.5,
       "board": 1.0,
       "actions": 0.71875,
       "total_pot": 1.0,
-      "overall": 58.984375
+      "overall": 65.234375
     },
     "78-17": {
       "hand_id": 1.0,
@@ -490,11 +490,11 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.125,
+      "players_stacks": 0.625,
       "board": 0.56,
       "actions": 0.6551724137931034,
       "total_pot": 1.0,
-      "overall": 66.7521551724138
+      "overall": 73.0021551724138
     },
     "runnada": {
       "hand_id": 1.0,
