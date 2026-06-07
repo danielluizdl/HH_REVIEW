@@ -501,11 +501,11 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 1.0,
-      "players_stacks": 0.0,
+      "players_stacks": 0.625,
       "board": 0.72,
       "actions": 0.5925925925925926,
       "total_pot": 1.0,
-      "overall": 78.9074074074074
+      "overall": 86.7199074074074
     }
   },
   "known_issues": [
@@ -545,7 +545,7 @@
     "debug_cleanup"
   ],
   "next_steps": [
-    "Fix 53-8 summary section (result_entries empty for all-anon tables → wrong fold attribution)",
+    "Fix 53-8 summary section (result_entries empty for all-anon tables \u2192 wrong fold attribution)",
     "Fix 53-8 missing HJ and STR players in anon table",
     "Fix 46-20.png narrow layout (col_w=139 vs 256)",
     "Generate more ground truths manually (1-2 per session)",

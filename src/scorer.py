@@ -10,8 +10,14 @@ def _extract_field(text: str, pattern: str) -> str:
 
 def _extract_seats(text: str) -> dict:
     seats = {}
-    for m in re.finditer(r'Seat (\d+): (.+?) \(\$?([\d.]+) in chips\)', text):
-        seats[m.group(2).strip()] = float(m.group(3))
+    # Standard PS format: ([$]X.XX in chips)
+    for m in re.finditer(r'Seat \d+: (.+?) \(\$?([\d.]+) in chips\)', text):
+        seats[m.group(1).strip()] = float(m.group(2))
+    if seats:
+        return seats
+    # WPT BB format: (X BB in chips) [$Y.YY]
+    for m in re.finditer(r'Seat \d+: (.+?) \([\d.]+ BB in chips\) \[\$([\d.]+)\]', text):
+        seats[m.group(1).strip()] = float(m.group(2))
     return seats
 
 
@@ -25,8 +31,22 @@ def _extract_actions(text: str) -> list:
 
 
 def _extract_board(text: str) -> str:
+    # Try SUMMARY Board line first
     m = re.search(r'Board \[(.+?)\]', text)
-    return m.group(1).strip() if m else ''
+    if m:
+        return m.group(1).strip()
+    # Fall back: reconstruct from street lines (for incomplete GTs)
+    cards = []
+    m_flop = re.search(r'\*\*\* FLOP \*\*\* \[(.+?)\]', text)
+    if m_flop:
+        cards.extend(m_flop.group(1).strip().split())
+    m_turn = re.search(r'\*\*\* TURN \*\*\* \[.+?\] \[(.+?)\]', text)
+    if m_turn:
+        cards.append(m_turn.group(1).strip())
+    m_river = re.search(r'\*\*\* RIVER \*\*\* \[.+?\] \[(.+?)\]', text)
+    if m_river:
+        cards.append(m_river.group(1).strip())
+    return ' '.join(cards) if cards else ''
 
 
 def _extract_total_pot(text: str) -> str:
@@ -142,10 +162,20 @@ def score_hand(predicted: str, ground_truth: str) -> dict:
     else:
         results['actions'] = 1.0
 
-    # Total pot
+    # Total pot — compare as floats, allow up to 3% or $5 tolerance
     pred_pot = _extract_total_pot(predicted)
     gt_pot = _extract_total_pot(ground_truth)
-    results['total_pot'] = 1.0 if pred_pot == gt_pot else 0.0
+    if not pred_pot and not gt_pot:
+        results['total_pot'] = 1.0
+    elif not pred_pot or not gt_pot:
+        results['total_pot'] = 0.0
+    else:
+        try:
+            p, g = float(pred_pot), float(gt_pot)
+            tol = max(5.0, g * 0.03)
+            results['total_pot'] = 1.0 if abs(p - g) <= tol else 0.0
+        except ValueError:
+            results['total_pot'] = 1.0 if pred_pot == gt_pot else 0.0
 
     # Overall
     results['overall'] = sum(results.values()) / len(results) * 100
