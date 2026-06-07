@@ -1,58 +1,58 @@
-PokerStars Hand #1264515948866793472: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/15 18:03:03 ET
+PokerStars Hand #1264515948866793472: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/15 18:03:03 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: stingxiao ($20.05 in chips)
-Seat 2: MRmjK ($29.05 in chips)
-Seat 3: 粥周舟 ($37.45 in chips)
-Seat 4: dLzinN ($64.80 in chips)
-Seat 5: GuillermoQQ ($77.90 in chips)
-Seat 6: 恒恒488 ($41.30 in chips)
-Seat 7: rozowy ($22.25 in chips)
-Seat 8: ElBandido ($7.95 in chips)
-stingxiao: posts the ante $0.05
-MRmjK: posts the ante $0.05
-粥周舟: posts the ante $0.05
-dLzinN: posts the ante $0.05
-GuillermoQQ: posts the ante $0.05
-恒恒488: posts the ante $0.05
-rozowy: posts the ante $0.05
-ElBandido: posts the ante $0.05
-GuillermoQQ: posts small blind $0.05
-恒恒488: posts big blind $0.10
-rozowy: posts straddle $0.20
+Seat 1: stingxiao ($200.50 in chips)
+Seat 2: MRmjK ($290.50 in chips)
+Seat 3: 粥周舟 ($374.50 in chips)
+Seat 4: dLzinN ($648.00 in chips)
+Seat 5: GuillermoQQ ($779.00 in chips)
+Seat 6: 恒恒488 ($413.00 in chips)
+Seat 7: rozowy ($222.50 in chips)
+Seat 8: ElBandido ($79.50 in chips)
+stingxiao: posts the ante $0.50
+MRmjK: posts the ante $0.50
+粥周舟: posts the ante $0.50
+dLzinN: posts the ante $0.50
+GuillermoQQ: posts the ante $0.50
+恒恒488: posts the ante $0.50
+rozowy: posts the ante $0.50
+ElBandido: posts the ante $0.50
+GuillermoQQ: posts small blind $0.50
+恒恒488: posts big blind $1.00
+rozowy: posts straddle $2.00
 *** HOLE CARDS ***
 ElBandido: folds
 stingxiao: checks
 MRmjK: folds
-粥周舟: calls $0.20
-dLzinN: raises $1.01 to $1.21
+粥周舟: calls $2.00
+dLzinN: raises $10.10 to $12.10
 GuillermoQQ: folds
-恒恒488: raises $2.60 to $3.81
+恒恒488: raises $26.00 to $38.10
 rozowy: folds
 stingxiao: folds
 粥周舟: folds
-dLzinN: calls $2.60
+dLzinN: calls $26.00
 *** FLOP *** [3h Ac Tc]
-恒恒488: bets $4.34
-dLzinN: calls $4.34
+恒恒488: bets $43.40
+dLzinN: calls $43.40
 *** TURN *** [3h Ac Tc] [Ad]
-恒恒488: bets $13.00
-dLzinN: calls $13.00
+恒恒488: bets $130.00
+dLzinN: calls $130.00
 *** RIVER *** [3h Ac Tc Ad] [Kh]
 恒恒488: checks
-dLzinN: bets $13.90
-恒恒488: raises $6.00 to $19.90 and is all-in
-dLzinN: calls $6.07
+dLzinN: bets $139.00
+恒恒488: raises $60.00 to $199.00 and is all-in
+dLzinN: calls $60.70
 *** SHOWDOWN ***
 恒恒488: shows [Th Td] (a full house, Tens full of Aces)
-恒恒488 collected $83.30 from pot
+恒恒488 collected $833.00 from pot
 *** SUMMARY ***
-Total pot $83.30 | Rake $0
+Total pot $833.00 | Rake $0
 Board [3h Ac Tc Ad Kh]
 Seat 1: stingxiao folded before Flop (didn't bet)
 Seat 2: MRmjK folded before Flop (didn't bet)
 Seat 3: 粥周舟 folded before Flop
 Seat 4: dLzinN (button) mucked hand
 Seat 5: GuillermoQQ (small blind) folded before Flop
-Seat 6: 恒恒488 (big blind) showed [Th Td] and won ($83.30) with a full house, Tens full of Aces
+Seat 6: 恒恒488 (big blind) showed [Th Td] and won ($833.00) with a full house, Tens full of Aces
 Seat 7: rozowy folded before Flop
 Seat 8: ElBandido folded before Flop (didn't bet)

@@ -1,42 +1,42 @@
-PokerStars Hand #1265189641149964288: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 14:40:04 ET
+PokerStars Hand #1265189641149964288: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/17 14:40:04 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Peter3356 ($21.55 in chips)
-Seat 2: 银柏皖 ($32.95 in chips)
-Seat 3: leanfrance ($15.99 in chips)
-Seat 4: dLzinN ($43.78 in chips)
-Seat 5: Sagat95 ($28.50 in chips)
-Seat 6: peteushko ($16.68 in chips)
-Seat 7: manhvidai ($8.66 in chips)
-Peter3356: posts the ante $0.05
-银柏皖: posts the ante $0.05
-leanfrance: posts the ante $0.05
-dLzinN: posts the ante $0.05
-Sagat95: posts the ante $0.05
-peteushko: posts the ante $0.05
-manhvidai: posts the ante $0.05
-Sagat95: posts small blind $0.05
-peteushko: posts big blind $0.10
-manhvidai: posts straddle $0.20
+Seat 1: Peter3356 ($215.50 in chips)
+Seat 2: 银柏皖 ($329.50 in chips)
+Seat 3: leanfrance ($159.90 in chips)
+Seat 4: dLzinN ($437.80 in chips)
+Seat 5: Sagat95 ($285.00 in chips)
+Seat 6: peteushko ($166.80 in chips)
+Seat 7: manhvidai ($86.60 in chips)
+Peter3356: posts the ante $0.50
+银柏皖: posts the ante $0.50
+leanfrance: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Sagat95: posts the ante $0.50
+peteushko: posts the ante $0.50
+manhvidai: posts the ante $0.50
+Sagat95: posts small blind $0.50
+peteushko: posts big blind $1.00
+manhvidai: posts straddle $2.00
 *** HOLE CARDS ***
 Peter3356: folds
 银柏皖: folds
-leanfrance: calls $0.20
-dLzinN: raises $0.83 to $1.03
+leanfrance: calls $2.00
+dLzinN: raises $8.30 to $10.30
 Sagat95: folds
-peteushko: calls $0.93
+peteushko: calls $9.30
 manhvidai: folds
-leanfrance: calls $0.83
+leanfrance: calls $8.30
 *** FLOP *** [Th 3c]
 peteushko: checks
-leanfrance: raises $14.80 to $14.80 and is all-in
+leanfrance: raises $148.00 to $148.00 and is all-in
 dLzinN: folds
-leanfrance collected $18.50 from pot
+leanfrance collected $185.00 from pot
 *** SUMMARY ***
-Total pot $18.50 | Rake $0
+Total pot $185.00 | Rake $0
 Board [Th 3c]
 Seat 1: Peter3356 folded before Flop (didn't bet)
 Seat 2: 银柏皖 folded before Flop (didn't bet)
-Seat 3: leanfrance collected ($18.50)
+Seat 3: leanfrance collected ($185.00)
 Seat 4: dLzinN (button) folded on the Flop
 Seat 5: Sagat95 (small blind) folded before Flop
 Seat 6: peteushko (big blind) folded on the Flop

@@ -1,54 +1,54 @@
-PokerStars Hand #1274566436656939008: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/13 11:40:06 ET
+PokerStars Hand #1274566436656939008: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/13 11:40:06 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Dawidd81 ($69.15 in chips)
-Seat 2: yukleo ($31.85 in chips)
-Seat 3: 温度计在了 ($22.38 in chips)
-Seat 4: dLzinN ($32.00 in chips)
-Seat 5: 运气爆棚啦1 ($75.40 in chips)
-Seat 6: skxijwnxz ($15.45 in chips)
-Seat 7: 程咬金的三板斧91 ($2.95 in chips)
-Seat 8: suineg ($15.35 in chips)
-Dawidd81: posts the ante $0.05
-yukleo: posts the ante $0.05
-温度计在了: posts the ante $0.05
-dLzinN: posts the ante $0.05
-运气爆棚啦1: posts the ante $0.05
-skxijwnxz: posts the ante $0.05
-程咬金的三板斧91: posts the ante $0.05
-suineg: posts the ante $0.05
-运气爆棚啦1: posts small blind $0.05
-skxijwnxz: posts big blind $0.10
-程咬金的三板斧91: posts straddle $0.20
+Seat 1: Dawidd81 ($691.50 in chips)
+Seat 2: yukleo ($318.50 in chips)
+Seat 3: 温度计在了 ($223.80 in chips)
+Seat 4: dLzinN ($320.00 in chips)
+Seat 5: 运气爆棚啦1 ($754.00 in chips)
+Seat 6: skxijwnxz ($154.50 in chips)
+Seat 7: 程咬金的三板斧91 ($29.50 in chips)
+Seat 8: suineg ($153.50 in chips)
+Dawidd81: posts the ante $0.50
+yukleo: posts the ante $0.50
+温度计在了: posts the ante $0.50
+dLzinN: posts the ante $0.50
+运气爆棚啦1: posts the ante $0.50
+skxijwnxz: posts the ante $0.50
+程咬金的三板斧91: posts the ante $0.50
+suineg: posts the ante $0.50
+运气爆棚啦1: posts small blind $0.50
+skxijwnxz: posts big blind $1.00
+程咬金的三板斧91: posts straddle $2.00
 *** HOLE CARDS ***
 suineg: folds
 Dawidd81: folds
 yukleo: folds
-温度计在了: calls $0.20
-dLzinN: raises $1.03 to $1.23
-运气爆棚啦1: calls $1.18
+温度计在了: calls $2.00
+dLzinN: raises $10.30 to $12.30
+运气爆棚啦1: calls $11.80
 skxijwnxz: folds
 程咬金的三板斧91: folds
-温度计在了: calls $1.03
+温度计在了: calls $10.30
 *** FLOP *** [Ts 9d 3h]
 运气爆棚啦1: checks
 温度计在了: checks
-dLzinN: bets $1.09
-运气爆棚啦1: calls $1.09
+dLzinN: bets $10.90
+运气爆棚啦1: calls $10.90
 温度计在了: folds
 *** TURN *** [Ts 9d 3h] [Kh]
-运气爆棚啦1: bets $3.30
-dLzinN: raises $6.70 to $10.00
-运气爆棚啦1: calls $6.72
+运气爆棚啦1: bets $33.00
+dLzinN: raises $67.00 to $100.00
+运气爆棚啦1: calls $67.20
 *** SHOWDOWN ***
 dLzinN: shows [Td Ts] (three of a kind, Tens)
-dLzinN collected $31.00 from pot
+dLzinN collected $310.00 from pot
 *** SUMMARY ***
-Total pot $31.00 | Rake $0
+Total pot $310.00 | Rake $0
 Board [Ts 9d 3h Kh]
 Seat 1: Dawidd81 folded before Flop (didn't bet)
 Seat 2: yukleo folded before Flop (didn't bet)
 Seat 3: 温度计在了 folded on the Flop
-Seat 4: dLzinN (button) showed [Td Ts] and won ($31.00) with three of a kind, Tens
+Seat 4: dLzinN (button) showed [Td Ts] and won ($310.00) with three of a kind, Tens
 Seat 5: 运气爆棚啦1 (small blind) mucked hand
 Seat 6: skxijwnxz (big blind) folded before Flop
 Seat 7: 程咬金的三板斧91 folded before Flop

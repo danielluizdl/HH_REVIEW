@@ -1,34 +1,34 @@
-PokerStars Hand #1273195059236139008: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/09 16:50:44 ET
+PokerStars Hand #1273195059236139008: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/09 16:50:44 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 头上只有云 ($97.20 in chips)
-Seat 2: Arwen7 ($60.95 in chips)
-Seat 3: 娄底小钢炮 ($54.59 in chips)
-Seat 4: jcuntingham ($27.69 in chips)
-Seat 5: LauraNg ($3.31 in chips)
-Seat 6: dLzinN ($77.10 in chips)
-Seat 7: 跳跳糖天津 ($24.89 in chips)
-头上只有云: posts the ante $0.05
-Arwen7: posts the ante $0.05
-娄底小钢炮: posts the ante $0.05
-jcuntingham: posts the ante $0.05
-LauraNg: posts the ante $0.05
-dLzinN: posts the ante $0.05
-跳跳糖天津: posts the ante $0.05
-LauraNg: posts small blind $0.05
-dLzinN: posts big blind $0.10
-跳跳糖天津: posts straddle $0.20
+Seat 1: 头上只有云 ($972.00 in chips)
+Seat 2: Arwen7 ($609.50 in chips)
+Seat 3: 娄底小钢炮 ($545.90 in chips)
+Seat 4: jcuntingham ($276.90 in chips)
+Seat 5: LauraNg ($33.10 in chips)
+Seat 6: dLzinN ($771.00 in chips)
+Seat 7: 跳跳糖天津 ($248.90 in chips)
+头上只有云: posts the ante $0.50
+Arwen7: posts the ante $0.50
+娄底小钢炮: posts the ante $0.50
+jcuntingham: posts the ante $0.50
+LauraNg: posts the ante $0.50
+dLzinN: posts the ante $0.50
+跳跳糖天津: posts the ante $0.50
+LauraNg: posts small blind $0.50
+dLzinN: posts big blind $1.00
+跳跳糖天津: posts straddle $2.00
 *** HOLE CARDS ***
 Dealt to dLzinN [Ks Ah]
-头上只有云: raises $0.60 to $0.80
+头上只有云: raises $6.00 to $8.00
 Arwen7: folds
-娄底小钢炮: calls $0.80
-jcuntingham: calls $0.80
+娄底小钢炮: calls $8.00
+jcuntingham: calls $8.00
 LauraNg: folds
-dLzinN: raises $2.74 to $3.54
-跳跳糖天津: calls $3.34
-头上只有云: calls $2.74
-娄底小钢炮: calls $2.74
-jcuntingham: calls $2.74
+dLzinN: raises $27.40 to $35.40
+跳跳糖天津: calls $33.40
+头上只有云: calls $27.40
+娄底小钢炮: calls $27.40
+jcuntingham: calls $27.40
 *** FLOP *** [Ts 5s 6s]
 dLzinN: checks
 跳跳糖天津: checks
@@ -36,22 +36,22 @@ dLzinN: checks
 娄底小钢炮: checks
 jcuntingham: checks
 *** TURN *** [Ts 5s 6s] [4s]
-dLzinN: bets $5.58
+dLzinN: bets $55.80
 跳跳糖天津: folds
-头上只有云: calls $5.58
+头上只有云: calls $55.80
 娄底小钢炮: folds
 jcuntingham: folds
 *** RIVER *** [Ts 5s 6s 4s] [Kh]
 dLzinN: checks
-头上只有云: bets $29.00
+头上只有云: bets $290.00
 *** SHOWDOWN ***
 头上只有云: shows [As 8s] (a flush, Ace high)
 dLzinN: shows [Ks Ah] (a flush, King high)
-头上只有云 collected $87.30 from pot
+头上只有云 collected $873.00 from pot
 *** SUMMARY ***
-Total pot $87.30 | Rake $0
+Total pot $873.00 | Rake $0
 Board [Ts 5s 6s 4s Kh]
-Seat 1: 头上只有云 showed [As 8s] and won ($87.30) with a flush, Ace high
+Seat 1: 头上只有云 showed [As 8s] and won ($873.00) with a flush, Ace high
 Seat 2: Arwen7 folded before Flop (didn't bet)
 Seat 3: 娄底小钢炮 folded on the Turn
 Seat 4: jcuntingham (button) folded on the Turn

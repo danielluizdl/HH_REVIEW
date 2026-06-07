@@ -1,58 +1,58 @@
-PokerStars Hand #0: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/15 14:47:04 ET
+PokerStars Hand #0: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/15 14:47:04 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: SigmaBoyy ($23.15 in chips)
-Seat 2: 沃腰演nx ($24.05 in chips)
-Seat 3: ade474 ($98.80 in chips)
+Seat 1: SigmaBoyy ($231.50 in chips)
+Seat 2: 沃腰演nx ($240.50 in chips)
+Seat 3: ade474 ($988.00 in chips)
 Seat 4: 托尼刘 ($0.00 in chips)
-Seat 5: dLzinN ($67.80 in chips)
-Seat 6: SharpOdds ($61.95 in chips)
-Seat 7: XuanTG ($130.70 in chips)
-Seat 8: Fibonacci ($25.65 in chips)
-SigmaBoyy: posts the ante $0.05
-沃腰演nx: posts the ante $0.05
-ade474: posts the ante $0.05
-托尼刘: posts the ante $0.05
-dLzinN: posts the ante $0.05
-SharpOdds: posts the ante $0.05
-XuanTG: posts the ante $0.05
-Fibonacci: posts the ante $0.05
-dLzinN: posts small blind $0.05
-SharpOdds: posts big blind $0.10
-XuanTG: posts straddle $0.20
+Seat 5: dLzinN ($678.00 in chips)
+Seat 6: SharpOdds ($619.50 in chips)
+Seat 7: XuanTG ($1307.00 in chips)
+Seat 8: Fibonacci ($256.50 in chips)
+SigmaBoyy: posts the ante $0.50
+沃腰演nx: posts the ante $0.50
+ade474: posts the ante $0.50
+托尼刘: posts the ante $0.50
+dLzinN: posts the ante $0.50
+SharpOdds: posts the ante $0.50
+XuanTG: posts the ante $0.50
+Fibonacci: posts the ante $0.50
+dLzinN: posts small blind $0.50
+SharpOdds: posts big blind $1.00
+XuanTG: posts straddle $2.00
 *** HOLE CARDS ***
 Dealt to dLzinN [Ah 7d]
 Fibonacci: folds
 SigmaBoyy: folds
 沃腰演nx: folds
-ade474: raises $0.31 to $0.51
-托尼刘: calls $0.51
-dLzinN: calls $0.46
+ade474: raises $3.10 to $5.10
+托尼刘: calls $5.10
+dLzinN: calls $4.60
 SharpOdds: folds
-XuanTG: calls $0.31
+XuanTG: calls $3.10
 *** FLOP *** [9h 7c 6h]
 dLzinN: checks
-XuanTG: bets $0.84
-ade474: calls $0.84
-托尼刘: calls $0.84
-dLzinN: raises $4.27 to $5.11
+XuanTG: bets $8.40
+ade474: calls $8.40
+托尼刘: calls $8.40
+dLzinN: raises $42.70 to $51.10
 XuanTG: folds
 ade474: folds
-托尼刘: raises $9.89 to $15.00
-dLzinN: raises $52.20 to $67.20 and is all-in
-托尼刘: raises $19.10 to $86.30 and is all-in
+托尼刘: raises $98.90 to $150.00
+dLzinN: raises $522.00 to $672.00 and is all-in
+托尼刘: raises $191.00 to $863.00 and is all-in
 *** TURN *** [9h 7c 6h] [3d]
 *** RIVER *** [9h 7c 6h 3d] [9d]
 *** SHOWDOWN ***
 托尼刘: shows [Qs 5s] (a pair of Nines)
 dLzinN: shows [Ah 7d] (two pair, Nines and Sevens)
-托尼刘 collected $157.70 from pot
+托尼刘 collected $1577.00 from pot
 *** SUMMARY ***
-Total pot $157.70 | Rake $0
+Total pot $1577.00 | Rake $0
 Board [9h 7c 6h 3d 9d]
 Seat 1: SigmaBoyy folded before Flop (didn't bet)
 Seat 2: 沃腰演nx folded before Flop (didn't bet)
 Seat 3: ade474 folded on the Flop
-Seat 4: 托尼刘 (button) showed [Qs 5s] and won ($157.70) with a pair of Nines
+Seat 4: 托尼刘 (button) showed [Qs 5s] and won ($1577.00) with a pair of Nines
 Seat 5: dLzinN (small blind) showed [Ah 7d] and lost with two pair, Nines and Sevens
 Seat 6: SharpOdds (big blind) folded before Flop
 Seat 7: XuanTG folded on the Flop

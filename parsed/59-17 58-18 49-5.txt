@@ -1,4 +1,4 @@
-PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/08 14:40:41 ET
+PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41 ET
 Table 'WPT Global' 8-max Seat #4 is the button
 Seat 1: pokerjust174 ($0.10 in chips)
 Seat 2: dyyyyyyyy ($9.58 in chips)
@@ -8,19 +8,19 @@ Seat 5: 鸽鸽别闹了 ($133.77 in chips)
 Seat 6: Loadding ($0.30 in chips)
 Seat 7: taberw ($0.50 in chips)
 Seat 8: 原交妹 ($133.57 in chips)
-pokerjust174: posts the ante $0.05
-dyyyyyyyy: posts the ante $0.05
-dLzinN: posts the ante $0.05
-Hugochan3110: posts the ante $0.05
-鸽鸽别闹了: posts the ante $0.05
-Loadding: posts the ante $0.05
-taberw: posts the ante $0.05
-原交妹: posts the ante $0.05
-鸽鸽别闹了: posts small blind $0.05
-Loadding: posts big blind $0.10
-taberw: posts straddle $0.20
+pokerjust174: posts the ante $0.10
+dyyyyyyyy: posts the ante $0.10
+dLzinN: posts the ante $0.10
+Hugochan3110: posts the ante $0.10
+鸽鸽别闹了: posts the ante $0.10
+Loadding: posts the ante $0.10
+taberw: posts the ante $0.10
+原交妹: posts the ante $0.10
+鸽鸽别闹了: posts small blind $0.10
+Loadding: posts big blind $0.20
+taberw: posts straddle $0.40
 *** HOLE CARDS ***
-原交妹: raises $2.50 to $2.70
+原交妹: raises $2.30 to $2.70
 pokerjust174: folds
 dyyyyyyyy: calls $2.70
 dLzinN: raises $6.78 to $9.48

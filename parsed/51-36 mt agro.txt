@@ -1,45 +1,45 @@
-PokerStars Hand #1269911460559089664: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/30 15:22:54 ET
+PokerStars Hand #1269911460559089664: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/30 15:22:54 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 2: dumau1 ($20.05 in chips)
-Seat 3: INVESTOR ($99.35 in chips)
-Seat 4: 落落294 ($36.15 in chips)
-Seat 5: Nero01 ($23.25 in chips)
-Seat 6: TheRichJax ($109.60 in chips)
-Seat 7: dLzinN ($117.10 in chips)
-Seat 8: tiepizz ($30.05 in chips)
-dumau1: posts the ante $0.06
-INVESTOR: posts the ante $0.06
-落落294: posts the ante $0.06
-Nero01: posts the ante $0.06
-TheRichJax: posts the ante $0.06
-dLzinN: posts the ante $0.06
-tiepizz: posts the ante $0.06
-Nero01: posts small blind $0.05
-TheRichJax: posts big blind $0.10
-dLzinN: posts straddle $0.20
+Seat 2: dumau1 ($200.50 in chips)
+Seat 3: INVESTOR ($993.50 in chips)
+Seat 4: 落落294 ($361.50 in chips)
+Seat 5: Nero01 ($232.50 in chips)
+Seat 6: TheRichJax ($1096.00 in chips)
+Seat 7: dLzinN ($1171.00 in chips)
+Seat 8: tiepizz ($300.50 in chips)
+dumau1: posts the ante $0.57
+INVESTOR: posts the ante $0.57
+落落294: posts the ante $0.57
+Nero01: posts the ante $0.57
+TheRichJax: posts the ante $0.57
+dLzinN: posts the ante $0.57
+tiepizz: posts the ante $0.57
+Nero01: posts small blind $0.50
+TheRichJax: posts big blind $1.00
+dLzinN: posts straddle $2.00
 *** HOLE CARDS ***
 tiepizz: checks
 INVESTOR: folds
 dumau1: folds
 落落294: folds
-Nero01: calls $0.15
-TheRichJax: raises $1.70 to $1.90
-dLzinN: raises $4.18 to $6.08
+Nero01: calls $1.50
+TheRichJax: raises $17.00 to $19.00
+dLzinN: raises $41.80 to $60.80
 tiepizz: folds
 dumau1: folds
 Nero01: folds
-TheRichJax: calls $4.18
+TheRichJax: calls $41.80
 *** FLOP *** [6h 9h 8h]
 TheRichJax: checks
 dLzinN: checks
-TheRichJax collected $67.80 from pot
+TheRichJax collected $678.00 from pot
 *** SUMMARY ***
-Total pot $67.80 | Rake $0
+Total pot $678.00 | Rake $0
 Board [6h 9h 8h]
 Seat 2: dumau1 folded before Flop (didn't bet)
 Seat 3: INVESTOR folded before Flop (didn't bet)
 Seat 4: 落落294 (button) folded before Flop (didn't bet)
 Seat 5: Nero01 (small blind) folded before Flop
-Seat 6: TheRichJax (big blind) collected ($67.80)
+Seat 6: TheRichJax (big blind) collected ($678.00)
 Seat 7: dLzinN folded on the Turn
 Seat 8: tiepizz folded before Flop (didn't bet)

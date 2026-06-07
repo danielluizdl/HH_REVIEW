@@ -1,54 +1,54 @@
-PokerStars Hand #1259410176511098880: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/01 15:54:32 ET
+PokerStars Hand #1259410176511098880: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/01 15:54:32 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 不行就蒜鸟 ($17.35 in chips)
-Seat 2: macadamia ($26.75 in chips)
-Seat 3: zeMraz ($40.85 in chips)
-Seat 4: ggbond666602 ($66.10 in chips)
-Seat 6: dLzinN ($49.80 in chips)
-Seat 7: 允哲 ($20.65 in chips)
-Seat 8: ChandlerLimp ($44.85 in chips)
-不行就蒜鸟: posts the ante $0.06
-macadamia: posts the ante $0.06
-zeMraz: posts the ante $0.06
-ggbond666602: posts the ante $0.06
-dLzinN: posts the ante $0.06
-允哲: posts the ante $0.06
-ChandlerLimp: posts the ante $0.06
-ChandlerLimp: posts small blind $0.05
-dLzinN: posts big blind $0.10
-允哲: posts straddle $0.20
+Seat 1: 不行就蒜鸟 ($173.50 in chips)
+Seat 2: macadamia ($267.50 in chips)
+Seat 3: zeMraz ($408.50 in chips)
+Seat 4: ggbond666602 ($661.00 in chips)
+Seat 6: dLzinN ($498.00 in chips)
+Seat 7: 允哲 ($206.50 in chips)
+Seat 8: ChandlerLimp ($448.50 in chips)
+不行就蒜鸟: posts the ante $0.57
+macadamia: posts the ante $0.57
+zeMraz: posts the ante $0.57
+ggbond666602: posts the ante $0.57
+dLzinN: posts the ante $0.57
+允哲: posts the ante $0.57
+ChandlerLimp: posts the ante $0.57
+ChandlerLimp: posts small blind $0.50
+dLzinN: posts big blind $1.00
+允哲: posts straddle $2.00
 *** HOLE CARDS ***
 Dealt to dLzinN [9d Kd]
 ChandlerLimp: folds
 不行就蒜鸟: folds
 macadamia: folds
 zeMraz: folds
-ggbond666602: raises $0.70 to $0.90
+ggbond666602: raises $7.00 to $9.00
 ChandlerLimp: folds
-dLzinN: calls $0.80
+dLzinN: calls $8.00
 允哲: folds
 *** FLOP *** [Th 2h 6c]
 dLzinN: checks
-ggbond666602: bets $1.20
-dLzinN: raises $2.75 to $3.95
-ggbond666602: calls $2.75
+ggbond666602: bets $12.00
+dLzinN: raises $27.50 to $39.50
+ggbond666602: calls $27.50
 *** TURN *** [Th 2h 6c] [7h]
-dLzinN: bets $7.75
-ggbond666602: calls $7.75
+dLzinN: bets $77.50
+ggbond666602: calls $77.50
 *** RIVER *** [Th 2h 6c 7h] [5h]
-dLzinN: raises $37.20 to $37.20 and is all-in
-ggbond666602: calls $37.20
+dLzinN: raises $372.00 to $372.00 and is all-in
+ggbond666602: calls $372.00
 *** SHOWDOWN ***
 ggbond666602: shows [Kd Kd] (a pair of Kings)
 dLzinN: shows [9d Kd] (high card King)
-ggbond666602 collected $100.20 from pot
+ggbond666602 collected $1002.00 from pot
 *** SUMMARY ***
-Total pot $100.20 | Rake $0
+Total pot $1002.00 | Rake $0
 Board [Th 2h 6c 7h 5h]
 Seat 1: 不行就蒜鸟 folded before Flop (didn't bet)
 Seat 2: macadamia folded before Flop (didn't bet)
 Seat 3: zeMraz folded before Flop (didn't bet)
-Seat 4: ggbond666602 (button) showed [Kd Kd] and won ($100.20) with a pair of Kings
+Seat 4: ggbond666602 (button) showed [Kd Kd] and won ($1002.00) with a pair of Kings
 Seat 6: dLzinN (big blind) showed [9d Kd] and lost with high card King
 Seat 7: 允哲 folded before Flop
 Seat 8: ChandlerLimp (small blind) folded before Flop

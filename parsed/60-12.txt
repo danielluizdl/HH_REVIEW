@@ -1,51 +1,51 @@
-PokerStars Hand #1274258151246438400: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/12 15:15:05 ET
+PokerStars Hand #1274258151246438400: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/12 15:15:05 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: eznieH ($24.65 in chips)
-Seat 2: 66661n48 ($16.75 in chips)
-Seat 3: StevenStun ($41.45 in chips)
-Seat 4: 赌神797 ($19.85 in chips)
-Seat 5: Asyrif ($35.50 in chips)
-Seat 6: dLzinN ($26.20 in chips)
-Seat 7: BetoJu ($23.45 in chips)
-eznieH: posts the ante $0.05
-66661n48: posts the ante $0.05
-StevenStun: posts the ante $0.05
-赌神797: posts the ante $0.05
-Asyrif: posts the ante $0.05
-dLzinN: posts the ante $0.05
-BetoJu: posts the ante $0.05
-Asyrif: posts small blind $0.05
-dLzinN: posts big blind $0.10
-BetoJu: posts straddle $0.20
+Seat 1: eznieH ($246.50 in chips)
+Seat 2: 66661n48 ($167.50 in chips)
+Seat 3: StevenStun ($414.50 in chips)
+Seat 4: 赌神797 ($198.50 in chips)
+Seat 5: Asyrif ($355.00 in chips)
+Seat 6: dLzinN ($262.00 in chips)
+Seat 7: BetoJu ($234.50 in chips)
+eznieH: posts the ante $0.50
+66661n48: posts the ante $0.50
+StevenStun: posts the ante $0.50
+赌神797: posts the ante $0.50
+Asyrif: posts the ante $0.50
+dLzinN: posts the ante $0.50
+BetoJu: posts the ante $0.50
+Asyrif: posts small blind $0.50
+dLzinN: posts big blind $1.00
+BetoJu: posts straddle $2.00
 *** HOLE CARDS ***
 Dealt to dLzinN [5s 5s]
 eznieH: folds
 StevenStun: folds
-赌神797: calls $0.20
-Asyrif: calls $0.15
-dLzinN: calls $0.10
+赌神797: calls $2.00
+Asyrif: calls $1.50
+dLzinN: calls $1.00
 BetoJu: checks
 *** FLOP *** [3c 5d 8d]
-Asyrif: bets $0.86
-dLzinN: raises $2.78 to $3.64
+Asyrif: bets $8.60
+dLzinN: raises $27.80 to $36.40
 BetoJu: folds
 赌神797: folds
-Asyrif: calls $2.78
+Asyrif: calls $27.80
 *** TURN *** [3c 5d 8d] [9d]
 Asyrif: checks
-dLzinN: bets $4.98
-Asyrif: calls $4.98
+dLzinN: bets $49.80
+Asyrif: calls $49.80
 *** SHOWDOWN ***
 Asyrif: shows [3h Ah] (a pair of Threes)
 dLzinN: shows [5s 5s] (three of a kind, Fives)
-Asyrif collected $62.20 from pot
+Asyrif collected $622.00 from pot
 *** SUMMARY ***
-Total pot $62.20 | Rake $0
+Total pot $622.00 | Rake $0
 Board [3c 5d 8d 9d]
 Seat 1: eznieH folded before Flop (didn't bet)
 Seat 2: 66661n48 folded before Flop (didn't bet)
 Seat 3: StevenStun folded before Flop (didn't bet)
 Seat 4: 赌神797 (button) folded on the Flop
-Seat 5: Asyrif (small blind) showed [3h Ah] and won ($62.20) with a pair of Threes
+Seat 5: Asyrif (small blind) showed [3h Ah] and won ($622.00) with a pair of Threes
 Seat 6: dLzinN (big blind) showed [5s 5s] and lost with three of a kind, Fives
 Seat 7: BetoJu folded on the Flop

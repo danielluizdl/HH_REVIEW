@@ -1,43 +1,43 @@
-PokerStars Hand #1262234830671228928: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/09 10:58:42 ET
+PokerStars Hand #1262234830671228928: Hold'em No Limit ($0.25/$0.50 USD) - 2026/04/09 10:58:42 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: amorrazo ($35.85 in chips)
-Seat 2: LeslieYR ($70.95 in chips)
-Seat 3: Datzen ($51.95 in chips)
-Seat 4: MarcusAntonius ($66.65 in chips)
-Seat 5: dLzinN ($45.60 in chips)
-Seat 6: 同花顺大屁股 ($13.95 in chips)
-Seat 7: 你是不是A ($40.85 in chips)
-Seat 8: t2r0u2m6 ($29.75 in chips)
-amorrazo: posts the ante $0.05
-LeslieYR: posts the ante $0.05
-Datzen: posts the ante $0.05
-MarcusAntonius: posts the ante $0.05
-dLzinN: posts the ante $0.05
-同花顺大屁股: posts the ante $0.05
-你是不是A: posts the ante $0.05
-t2r0u2m6: posts the ante $0.05
-dLzinN: posts small blind $0.05
-同花顺大屁股: posts big blind $0.10
-你是不是A: posts straddle $0.20
+Seat 1: amorrazo ($179.25 in chips)
+Seat 2: LeslieYR ($354.75 in chips)
+Seat 3: Datzen ($259.75 in chips)
+Seat 4: MarcusAntonius ($333.25 in chips)
+Seat 5: dLzinN ($228.00 in chips)
+Seat 6: 同花顺大屁股 ($69.75 in chips)
+Seat 7: 你是不是A ($204.25 in chips)
+Seat 8: t2r0u2m6 ($148.75 in chips)
+amorrazo: posts the ante $0.25
+LeslieYR: posts the ante $0.25
+Datzen: posts the ante $0.25
+MarcusAntonius: posts the ante $0.25
+dLzinN: posts the ante $0.25
+同花顺大屁股: posts the ante $0.25
+你是不是A: posts the ante $0.25
+t2r0u2m6: posts the ante $0.25
+dLzinN: posts small blind $0.25
+同花顺大屁股: posts big blind $0.50
+你是不是A: posts straddle $1.00
 *** HOLE CARDS ***
 t2r0u2m6: folds
 amorrazo: folds
 LeslieYR: folds
-Datzen: raises $0.55 to $0.75
+Datzen: raises $2.75 to $3.75
 MarcusAntonius: folds
 dLzinN: folds
 同花顺大屁股: folds
-你是不是A: calls $0.55
+你是不是A: calls $2.75
 *** FLOP *** [5h 4c 9h]
 你是不是A: checks
-Datzen: bets $0.75
-你是不是A: calls $0.75
+Datzen: bets $3.75
+你是不是A: calls $3.75
 *** TURN *** [5h 4c 9h] [Kh]
 你是不是A: checks
 Datzen: checks
-你是不是A collected $3.55 from pot
+你是不是A collected $17.75 from pot
 *** SUMMARY ***
-Total pot $3.55 | Rake $0
+Total pot $17.75 | Rake $0
 Board [5h 4c 9h Kh]
 Seat 1: amorrazo folded before Flop (didn't bet)
 Seat 2: LeslieYR folded before Flop (didn't bet)
@@ -45,5 +45,5 @@ Seat 3: Datzen mucked hand
 Seat 4: MarcusAntonius (button) folded before Flop (didn't bet)
 Seat 5: dLzinN (small blind) folded before Flop
 Seat 6: 同花顺大屁股 (big blind) folded before Flop
-Seat 7: 你是不是A collected ($3.55)
+Seat 7: 你是不是A collected ($17.75)
 Seat 8: t2r0u2m6 folded before Flop (didn't bet)

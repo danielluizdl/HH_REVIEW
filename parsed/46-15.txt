@@ -1,53 +1,53 @@
-PokerStars Hand #1271384536711839744: Hold'em No Limit ($0.05/$0.10 USD) - 2026/05/04 16:56:22 ET
+PokerStars Hand #1271384536711839744: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/04 16:56:22 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 小小一和 ($26.60 in chips)
-Seat 2: bostero1079 ($18.95 in chips)
-Seat 3: 有洁癖的蟑螂 ($17.95 in chips)
-Seat 4: proFISHnal ($81.15 in chips)
-Seat 5: dLzinN ($44.00 in chips)
-Seat 6: Mindyou ($60.75 in chips)
-Seat 7: dove888 ($18.65 in chips)
-Seat 8: phpd2910 ($20.95 in chips)
-小小一和: posts the ante $0.05
-bostero1079: posts the ante $0.05
-有洁癖的蟑螂: posts the ante $0.05
-proFISHnal: posts the ante $0.05
-dLzinN: posts the ante $0.05
-Mindyou: posts the ante $0.05
-dove888: posts the ante $0.05
-phpd2910: posts the ante $0.05
-dLzinN: posts small blind $0.05
-Mindyou: posts big blind $0.10
-dove888: posts straddle $0.20
+Seat 1: 小小一和 ($266.00 in chips)
+Seat 2: bostero1079 ($189.50 in chips)
+Seat 3: 有洁癖的蟑螂 ($179.50 in chips)
+Seat 4: proFISHnal ($811.50 in chips)
+Seat 5: dLzinN ($440.00 in chips)
+Seat 6: Mindyou ($607.50 in chips)
+Seat 7: dove888 ($186.50 in chips)
+Seat 8: phpd2910 ($209.50 in chips)
+小小一和: posts the ante $0.50
+bostero1079: posts the ante $0.50
+有洁癖的蟑螂: posts the ante $0.50
+proFISHnal: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Mindyou: posts the ante $0.50
+dove888: posts the ante $0.50
+phpd2910: posts the ante $0.50
+dLzinN: posts small blind $0.50
+Mindyou: posts big blind $1.00
+dove888: posts straddle $2.00
 *** HOLE CARDS ***
 Dealt to dLzinN [5h 5d]
 phpd2910: folds
-小小一和: calls $0.20
+小小一和: calls $2.00
 bostero1079: folds
 有洁癖的蟑螂: folds
-proFISHnal: calls $0.20
-dLzinN: calls $0.15
+proFISHnal: calls $2.00
+dLzinN: calls $1.50
 Mindyou: folds
 dove888: checks
 *** FLOP *** [5h 2h 9d]
 dLzinN: checks
 dove888: checks
-小小一和: bets $0.87
+小小一和: bets $8.70
 proFISHnal: folds
-dLzinN: raises $1.87 to $2.74
+dLzinN: raises $18.70 to $27.40
 dove888: folds
-小小一和: raises $27.76 to $30.50 and is all-in
-dLzinN: calls $27.80
+小小一和: raises $277.60 to $305.00 and is all-in
+dLzinN: calls $278.00
 *** TURN *** [5h 2h 9d] [Kh]
 *** RIVER *** [5h 2h 9d Kh] [7c]
 *** SHOWDOWN ***
 小小一和: shows [9s 9s] (three of a kind, Nines)
 dLzinN: shows [5h 5d] (three of a kind, Fives)
-小小一和 collected $62.30 from pot
+小小一和 collected $623.00 from pot
 *** SUMMARY ***
-Total pot $62.30 | Rake $0
+Total pot $623.00 | Rake $0
 Board [5h 2h 9d Kh 7c]
-Seat 1: 小小一和 showed [9s 9s] and won ($62.30) with three of a kind, Nines
+Seat 1: 小小一和 showed [9s 9s] and won ($623.00) with three of a kind, Nines
 Seat 2: bostero1079 folded before Flop (didn't bet)
 Seat 3: 有洁癖的蟑螂 folded before Flop (didn't bet)
 Seat 4: proFISHnal (button) folded on the Flop
