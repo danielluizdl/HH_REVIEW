@@ -114,6 +114,9 @@ def is_player_name(text: str) -> bool:
         return False
     if t_upper.startswith('HAND') or t_upper.startswith('POTE') or t_upper.startswith('PRE'):
         return False
+    # Reject OCR artifacts starting with / or + (e.g. /TG+1, /OBB)
+    if text.startswith('/') or text.startswith('+'):
+        return False
     # Must contain at least one letter or Chinese character
     if not re.search(r'[a-zA-Z一-鿿]', text):
         return False
@@ -467,7 +470,14 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
         blinds_list.append({'name': bb_player, 'type': 'big blind', 'amount': to_usd(bb_bb)})
 
     # ── Board sections ────────────────────────────────────────────────
-    flop_cards  = board[:3] if len(board) >= 3 else []
+    # Use partial boards when OCR can't detect all cards (e.g. Q obscured by text overlay)
+    # but we have flop actions — show whatever cards we have
+    if len(board) >= 3:
+        flop_cards = board[:3]
+    elif len(board) > 0 and flop_usd:
+        flop_cards = board[:]  # partial flop (e.g. 1-2 cards when Q undetected)
+    else:
+        flop_cards = []
     turn_card   = board[3] if len(board) >= 4 else None
     river_card  = board[4] if len(board) >= 5 else None
 
@@ -1294,7 +1304,7 @@ def _scan_board_strip(img, y1, y2, x_start, x_end) -> dict:
             xs = [int(p[0])//scale + x_start for p in bbox]
             ys = [int(p[1])//scale + y1 for p in bbox]
             xmin, ymin = min(xs), min(ys)
-            if ymin < y1 + 20: continue  # skip items too close to top
+            if ymin < y1 + 5: continue  # skip items at very edge of scan region
             if len(text) <= 4 and '.' not in text and ',' not in text:
                 tup = text.upper()
                 if tup in ('POTE', 'TOTAL', 'BB', 'SB', 'STR', 'UTG', 'HJ', 'CO',
@@ -1302,6 +1312,10 @@ def _scan_board_strip(img, y1, y2, x_start, x_end) -> dict:
                 if len(tup) > 0 and tup[0].isdigit() or len(tup) == 1:
                     rank_items[xmin] = text
                 elif len(tup) == 2:
+                    # Skip two-char texts where both look like separate card ranks
+                    # (e.g. 'KA','AK' = merged hole cards visible next to board)
+                    if tup[0] in 'AKQJT' and tup[1] in 'AKQJT23456789':
+                        continue
                     rank_items[xmin] = text
     return rank_items
 
@@ -1342,10 +1356,26 @@ def _detect_board(img, img_w, img_h) -> list:
             # Estimate spacing from consecutive found cards
             spacings = [xs_found[i+1] - xs_found[i] for i in range(len(xs_found)-1)]
             spacing = int(sum(spacings) / len(spacings))
+            # If spacing > 100px, cards between found positions may have been missed —
+            # try halved spacing to fill in gaps (e.g. 8-?-5 with spacing 132 → try 66)
+            if spacing > 100:
+                half_sp = spacing // 2
+                if 60 <= half_sp <= 160:
+                    # Insert midpoints between all pairs of consecutive found positions
+                    extra_xs = [xs_found[i] + half_sp for i in range(len(xs_found)-1)]
+                    for mx in extra_xs:
+                        if not any(abs(mx - ex) < 30 for ex in rank_items):
+                            sx1 = max(x_start - 20, mx - 50)
+                            sx2 = min(x_end + 20, mx + 80)
+                            sub = _scan_board_strip(img, y1, y2, sx1, sx2)
+                            for xk, tv in sub.items():
+                                if not any(abs(xk - ex) < 30 for ex in rank_items):
+                                    rank_items[xk] = tv
+                    xs_found = sorted(rank_items.keys())
+                    spacings = [xs_found[i+1] - xs_found[i] for i in range(len(xs_found)-1)]
+                    spacing = int(sum(spacings) / len(spacings))
             if 60 <= spacing <= 160:
                 # Extrapolate left and right to find up to 5 positions
-                leftmost = xs_found[0]
-                rightmost = xs_found[-1]
                 candidates = list(xs_found)
                 # Extend left
                 while len(candidates) < 5 and candidates[0] - spacing >= x_start - 20:
@@ -1388,9 +1418,8 @@ def _detect_board(img, img_w, img_h) -> list:
 
     # Step 3: detect suit for each card using bounded region
     def _detect_suit_board(img, num_x, y1, y2, prev_x, next_x):
-        """Detect suit: sample [num_x-15 : num_x+65].
-        -15 captures left-edge suit symbols while preventing bleed from adjacent cards
-        (empirically: 6c clubs appear at nx-15, 8c clubs end at 8c's nx+20 away from 9s)."""
+        """Detect suit: sample region centered on card.
+        Uses midpoint between prev/next card to prevent colour bleed from adjacent cards."""
         left  = max(x_start, num_x - 15)
         right = min(x_end,   num_x + 65)
 
@@ -1722,8 +1751,13 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
                 inferred_winners.add(a['name'])
                 break
 
-    # Players who reached showdown: appeared in RIVER actions AND are winner/loser
-    showdown_players = (winners_set | losers_set) & river_players
+    # Players who reached showdown: in result_entries (winner or loser) AND either
+    # appeared in river actions OR went all-in on any earlier street.
+    allin_players = set()
+    for a in preflop + flop + turn + river:
+        if a.get('allin'):
+            allin_players.add(a['name'])
+    showdown_players = (winners_set | losers_set) & (river_players | allin_players)
 
     showdown_map = {s['name']: s for s in showdown}
     summary = []

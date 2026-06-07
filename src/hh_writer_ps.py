@@ -183,7 +183,7 @@ def _format_summary_seat(seat_info: dict) -> str:
             cards_str = ' '.join(cards)
             return f"Seat {seat}: {name}{role_str} showed [{cards_str}] and lost with {hand_desc}"
         else:
-            return f"Seat {seat}: {name}{role_str} lost"
+            return f"Seat {seat}: {name}{role_str} mucked hand"
     elif outcome == 'folded_preflop_no_bet':
         return f"Seat {seat}: {name}{role_str} folded before Flop (didn't bet)"
     elif outcome == 'folded_preflop':

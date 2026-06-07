@@ -2,6 +2,16 @@
 
 ## Status: Phase 3 - Pipeline estável, roadmap de qualidade definido
 
+### Session 2026-06-07 Improvements
+1. **`mucked hand` fix** — `hh_writer_ps.py:186`: losers at showdown without captured cards now output `mucked hand` instead of `lost`; fixes format in ~10 files
+2. **Player name filter** — `parse_hand_screenshot.py is_player_name()`: rejects strings starting with `/` or `+` (OCR artifacts like `/TG+1`, `/OBB`); fixes 46-20.png Seat 9 artifact
+3. **Scorer fuzzy name matching** — `src/scorer.py`: `players_stacks` and `actions` now use SequenceMatcher ≥ 0.70 as fallback; 26-19.png score: **84.8% → 87.5%**
+4. **All-in losers in showdown** — `parse_hand_screenshot.py _build_summary_seats()`: all-in players from earlier streets now included in `showdown_players`; fixes 35-19.png Roson861 (was "folded on Turn" → now "mucked hand")
+5. **Board scan ymin filter** — top-edge margin reduced 20→5px; avoids dropping valid board cards near scan boundary
+6. **Dual-rank text filter** — board scan skips 2-char texts where both chars are card ranks (e.g. "KA"); prevents hole-card bleed from corrupting board spacing estimate
+7. **Midpoint gap-filling** — when board card spacing > 100px, estimates midpoint and scans that region; improves detection of missing board cards
+8. **Partial flop board** — when `len(board) > 0` and flop actions exist, outputs partial `[FLOP]` section even if <3 cards detected; 33-8 55-10.png now shows `[8d 5c]` flop with 8 correct actions (Q♣ undetectable due to "Pote Total" text overlay)
+
 ### Session 2026-06-06 Improvements
 1. **run_session.py output file bug** — Parser stdout now properly captured and written to file; all 45 files are freshly generated (was silently ignoring parser output, using stale files)
 2. **NEPTIN artifact removal** — OCR artifact players not grounded in end_stacks or results are filtered out after early end_stacks extraction

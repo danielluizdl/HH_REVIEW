@@ -69,14 +69,19 @@ def score_hand(predicted: str, ground_truth: str) -> dict:
     gt_btn = _extract_field(ground_truth, r'Seat #(\d+) is the button')
     results['button_seat'] = 1.0 if pred_btn == gt_btn else 0.0
 
-    # Players/stacks
+    # Players/stacks — fuzzy name matching for OCR character substitutions
     pred_seats = _extract_seats(predicted)
     gt_seats = _extract_seats(ground_truth)
     if gt_seats:
-        matched = sum(
-            1 for name, stack in gt_seats.items()
-            if name in pred_seats and abs(pred_seats[name] - stack) < 0.01
-        )
+        def _find_stack(gt_name, gt_stack):
+            if gt_name in pred_seats:
+                return abs(pred_seats[gt_name] - gt_stack) < 0.01
+            # fuzzy fallback: accept if name similarity >= 0.70 and stack matches
+            for p_name, p_stack in pred_seats.items():
+                if _similarity(gt_name, p_name) >= 0.70 and abs(p_stack - gt_stack) < 0.01:
+                    return True
+            return False
+        matched = sum(1 for name, stack in gt_seats.items() if _find_stack(name, stack))
         results['players_stacks'] = matched / len(gt_seats)
     else:
         results['players_stacks'] = 1.0 if not pred_seats else 0.0
@@ -86,11 +91,24 @@ def score_hand(predicted: str, ground_truth: str) -> dict:
     gt_board = _extract_board(ground_truth)
     results['board'] = 1.0 if pred_board == gt_board else _similarity(pred_board, gt_board)
 
-    # Actions
+    # Actions — fuzzy match player names to handle OCR character substitutions
     pred_actions = _extract_actions(predicted)
     gt_actions = _extract_actions(ground_truth)
     if gt_actions:
-        matched_actions = sum(1 for a in gt_actions if a in pred_actions)
+        def _action_matches(gt_a, pred_list):
+            if gt_a in pred_list:
+                return True
+            # split "PlayerName: action rest" and fuzzy-match names
+            m = re.match(r'^(.+?): (.+)$', gt_a)
+            if not m:
+                return False
+            gt_name, gt_act = m.group(1), m.group(2)
+            for p_a in pred_list:
+                pm = re.match(r'^(.+?): (.+)$', p_a)
+                if pm and _similarity(gt_name, pm.group(1)) >= 0.70 and gt_act == pm.group(2):
+                    return True
+            return False
+        matched_actions = sum(1 for a in gt_actions if _action_matches(a, pred_actions))
         results['actions'] = matched_actions / len(gt_actions)
     else:
         results['actions'] = 1.0
