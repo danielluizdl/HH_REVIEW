@@ -1,0 +1,63 @@
+PokerStars Hand #44500001: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/15 14:47:04 ET
+Table 'WPT Global' 8-Max Seat #5 is the button
+Seat 1: Fibonaccii ($25.60 in chips)
+Seat 2: SigmaBoyy ($23.10 in chips)
+Seat 3: 沃腰渍π× ($24.00 in chips)
+Seat 4: ade474 ($97.40 in chips)
+Seat 5: 托尼刘 ($58.00 in chips)
+Seat 6: dLzinN ($65.80 in chips)
+Seat 7: SharpOdds ($61.80 in chips)
+Seat 8: XuanTG ($129.30 in chips)
+Fibonaccii: posts the ante $0.05
+SigmaBoyy: posts the ante $0.05
+沃腰渍π×: posts the ante $0.05
+ade474: posts the ante $0.05
+托尼刘: posts the ante $0.05
+dLzinN: posts the ante $0.05
+SharpOdds: posts the ante $0.05
+XuanTG: posts the ante $0.05
+dLzinN: posts small blind $0.05
+SharpOdds: posts big blind $0.10
+XuanTG: posts straddle $0.20
+*** HOLE CARDS ***
+Fibonaccii: folds
+SigmaBoyy: folds
+沃腰渍π×: folds
+ade474: raises $0.31 to $0.51
+托尼刘: calls $0.51
+dLzinN: calls $0.46
+SharpOdds: folds
+XuanTG: calls $0.31
+*** FLOP *** [Qh 7c 6h]
+dLzinN: checks
+XuanTG: bets $0.84
+ade474: calls $0.84
+托尼刘: calls $0.84
+dLzinN: raises $5.10 to $5.10
+XuanTG: folds
+ade474: folds
+托尼刘: raises $15.00 to $15.00
+dLzinN: raises $67.20 to $67.20
+托尼刘: raises $86.30 to $86.30
+dLzinN: raises $0 to $67.20 (all-in)
+托尼刘: calls $0
+*** TURN *** [Qh 7c 6h] [3d]
+dLzinN: checks
+托尼刘: checks
+*** RIVER *** [Qh 7c 6h 3d] [9d]
+托尼刘: checks
+*** SHOWDOWN ***
+dLzinN: shows [Ah 7h] (a pair of Sevens)
+托尼刘: shows [Qs 5c] (a pair of Queens)
+托尼刘 collected $157.70 from pot
+*** SUMMARY ***
+Total pot $157.70 | Rake $0
+Board [Qh 7c 6h 3d 9d]
+Seat 1: Fibonaccii folded before Flop (didn't bet)
+Seat 2: SigmaBoyy folded before Flop (didn't bet)
+Seat 3: 沃腰渍π× folded before Flop (didn't bet)
+Seat 4: ade474 folded on the Flop
+Seat 5: 托尼刘 (button) showed [Qs 5c] and won ($157.70) with a pair of Queens
+Seat 6: dLzinN (small blind) showed [Ah 7h] and lost with a pair of Sevens
+Seat 7: SharpOdds (big blind) folded before Flop
+Seat 8: XuanTG (straddle) folded on the Flop

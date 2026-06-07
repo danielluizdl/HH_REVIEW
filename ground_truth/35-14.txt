@@ -1,0 +1,63 @@
+PokerStars Hand #12698437016373370​88: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/30 10:53:39 ET
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: Ppppzzzxxx ($128 in chips)
+Seat 2: alesanss ($326 in chips)
+Seat 3: Cuatrok ($592 in chips)
+Seat 4: 全包吃2点0版本 ($66.90 in chips)
+Seat 5: j口渴的时候要多喝水 ($498 in chips)
+Seat 6: Diegosu8 ($332 in chips)
+Seat 7: 小气泡518 ($140 in chips)
+Seat 8: dLzinN ($804 in chips)
+Ppppzzzxxx: posts small blind $0.50
+alesanss: posts big blind $1
+Cuatrok: posts straddle $2
+全包吃2点0版本: posts ante $0.50
+j口渴的时候要多喝水: posts ante $0.50
+Diegosu8: posts ante $0.50
+小气泡518: posts ante $0.50
+dLzinN: posts ante $0.50
+Ppppzzzxxx: posts ante $0.50
+alesanss: posts ante $0.50
+Cuatrok: posts ante $0.50
+*** HOLE CARDS ***
+全包吃2点0版本: calls $2
+j口渴的时候要多喝水: folds
+Diegosu8: raises $6.80 to $8.80
+小气泡518: calls $8.80
+dLzinN: calls $8.80
+Ppppzzzxxx: calls $8.30
+alesanss: folds
+Cuatrok: folds
+全包吃2点0版本: calls $6.80
+j口渴的时候要多喝水: folds
+*** FLOP *** [3s 6d 4s]
+Ppppzzzxxx: checks
+全包吃2点0版本: checks
+Diegosu8: folds
+小气泡518: folds
+dLzinN: bets $39.80
+Ppppzzzxxx: calls $39.80
+全包吃2点0版本: folds
+Diegosu8: folds
+小气泡518: folds
+*** TURN *** [3s 6d 4s 2d]
+Ppppzzzxxx: checks
+dLzinN: checks
+*** RIVER *** [3s 6d 4s 2d 4d]
+Ppppzzzxxx: checks
+dLzinN: bets $82.50
+Ppppzzzxxx: folds
+*** SHOWDOWN ***
+dLzinN: shows [7d 7c] (two pair, Sevens and Fours)
+dLzinN collected $133 from pot
+*** SUMMARY ***
+Total pot $133 | Rake $0
+Board [3s 6d 4s 2d 4d]
+Seat 1: Ppppzzzxxx (small blind) folded on the River, lost $49.10
+Seat 2: alesanss (big blind) folded pre-flop, lost $1.50
+Seat 3: Cuatrok (straddle) folded pre-flop, lost $2.50
+Seat 4: 全包吃2点0版本 folded on the Flop, lost $9.30
+Seat 5: j口渴的时候要多喝水 folded pre-flop, lost $2.50
+Seat 6: Diegosu8 folded on the Flop, lost $9.30
+Seat 7: 小气泡518 folded on the Flop, lost $9.30
+Seat 8: dLzinN (button) (dealer) showed [7d 7c] and won $82.50

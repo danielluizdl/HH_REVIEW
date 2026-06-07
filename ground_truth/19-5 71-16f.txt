@@ -1,0 +1,59 @@
+PokerStars Hand #12745664366656939008: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/13 11:40:06 ET
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: suineg ($153.00 in chips)
+Seat 2: Dawidd81 ($691.00 in chips)
+Seat 3: yukleo ($318.00 in chips)
+Seat 4: 温度计在了 ($211.00 in chips)
+Seat 5: dLzinN ($483.00 in chips)
+Seat 6: 运气爆棚啦1 ($608.00 in chips)
+Seat 7: skxijwnxz ($153.00 in chips)
+Seat 8: 程咬金的三板斧91 ($27.00 in chips)
+suineg: posts the ante $0.50
+Dawidd81: posts the ante $0.50
+yukleo: posts the ante $0.50
+温度计在了: posts the ante $0.50
+dLzinN: posts the ante $0.50
+运气爆棚啦1: posts the ante $0.50
+skxijwnxz: posts the ante $0.50
+程咬金的三板斧91: posts the ante $0.50
+运气爆棚啦1: posts small blind $0.50
+skxijwnxz: posts big blind $1.00
+程咬金的三板斧91: posts straddle $2.00
+*** HOLE CARDS ***
+suineg: folds
+Dawidd81: folds
+yukleo: folds
+温度计在了: calls $2.00
+dLzinN: raises $10.30 to $12.30
+运气爆棚啦1: calls $11.80
+skxijwnxz: folds
+程咬金的三板斧91: folds
+温度计在了: calls $10.30
+*** FLOP *** [Ts Qd 3h]
+运气爆棚啦1: checks
+温度计在了: checks
+dLzinN: bets $10.90
+运气爆棚啦1: calls $10.90
+温度计在了: folds
+*** TURN *** [Ts Qd 3h] [9c]
+运气爆棚啦1: bets $33.00
+dLzinN: raises $67.00 to $100.00
+运气爆棚啦1: calls $67.20
+*** RIVER *** [Ts Qd 3h 9c] [Kh]
+运气爆棚啦1: bets $22.00
+dLzinN: calls $22.00
+*** SHOWDOWN ***
+运气爆棚啦1: shows [9h 9s] (three of a kind, Nines)
+dLzinN: shows [Td Tc] (three of a kind, Tens)
+dLzinN collected $310.00 from pot
+*** SUMMARY ***
+Total pot $310.00 | Rake $0
+Board [Ts Qd 3h 9c Kh]
+Seat 1: suineg folded before Flop (didn't bet)
+Seat 2: Dawidd81 folded before Flop (didn't bet)
+Seat 3: yukleo folded before Flop (didn't bet)
+Seat 4: 温度计在了 folded on the Flop
+Seat 5: dLzinN (button) showed [Td Tc] and won ($310.00) (net +$163.00)
+Seat 6: 运气爆棚啦1 (small blind) showed [9h 9s] and lost (-$146.00)
+Seat 7: skxijwnxz (big blind) folded before Flop
+Seat 8: 程咬金的三板斧91 folded before Flop

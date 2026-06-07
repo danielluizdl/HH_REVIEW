@@ -1,0 +1,56 @@
+PokerStars Hand #12724133665502791680: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/07 13:04:34
+Table 'WPT Global' 9-max Seat #1 is the button
+Seat 1: wjsyy ($173.00 in chips)
+Seat 2: 跑儿马2号 ($585.00 in chips)
+Seat 3: 机车浪子 ($277.00 in chips)
+Seat 4: 好运长存iPcdU0 ($244.00 in chips)
+Seat 5: NewtonApple ($973.00 in chips)
+Seat 6: thieugao ($245.00 in chips)
+Seat 7: dLzinN ($163.00 in chips)
+Seat 8: JunDAcAizi ($92.50 in chips)
+wjsyy: posts the ante $0.50
+跑儿马2号: posts the ante $0.50
+机车浪子: posts the ante $0.50
+好运长存iPcdU0: posts the ante $0.50
+NewtonApple: posts the ante $0.50
+thieugao: posts the ante $0.50
+dLzinN: posts the ante $0.50
+JunDAcAizi: posts the ante $0.50
+跑儿马2号: posts small blind $0.50
+机车浪子: posts big blind $1.00
+好运长存iPcdU0: posts straddle $2.00
+*** HOLE CARDS ***
+NewtonApple: dealt [Kh Ks]
+dLzinN: dealt [Jd Qd]
+NewtonApple: raises $37.00 to $39.00
+thieugao: folds
+dLzinN: calls $28.50
+JunDAcAizi: folds
+wjsyy: folds
+跑儿马2号: folds
+机车浪子: folds
+好运长存iPcdU0: folds
+*** FLOP *** [6d 6h 2c]
+NewtonApple: checks
+dLzinN: checks
+*** TURN *** [6d 6h 2c] [Js]
+NewtonApple: bets $55.00
+dLzinN: calls $55.00
+*** RIVER *** [6d 6h 2c Js] [3c]
+NewtonApple: bets $195.00
+dLzinN: calls $195.00
+*** SHOWDOWN ***
+NewtonApple: shows [Kh Ks] (two pair, Kings and Sixes)
+dLzinN: shows [Jd Qd] (two pair, Jacks and Sixes)
+NewtonApple collected $586.00 from pot
+*** SUMMARY ***
+Total pot $586.00 | Rake $0
+Board [6d 6h 2c Js 3c]
+Seat 1: wjsyy (button) folded before Flop (didn't bet)
+Seat 2: 跑儿马2号 (small blind) folded before Flop
+Seat 3: 机车浪子 (big blind) folded before Flop
+Seat 4: 好运长存iPcdU0 (straddle) folded before Flop
+Seat 5: NewtonApple (UTG+1) showed [Kh Ks] and won ($586.00) (net +$295.00)
+Seat 6: thieugao (MP) folded before Flop (didn't bet)
+Seat 7: dLzinN (HJ) showed [Jd Qd] and lost (-$290.00)
+Seat 8: JunDAcAizi (CO) folded before Flop (didn't bet)

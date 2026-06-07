@@ -1,0 +1,60 @@
+PokerStars Hand #264857994266234880: Hold'em No Limit ($0.50/$1.00/$2.00) - 2026/04/16 16:42:13 ET
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: Muncher ($517.00 in chips)
+Seat 2: 行运一条龙發 ($422.00 in chips)
+Seat 3: MeNeverBluff ($339.00 in chips)
+Seat 4: bohuc2024 ($97.50 in chips)
+Seat 5: dLzinN ($733.00 in chips)
+Seat 6: Dracula12 ($283.00 in chips)
+Seat 7: benlim96 ($300.00 in chips)
+Seat 8: 九浪四车1 ($320.00 in chips)
+Muncher: posts the ante $0.50
+行运一条龙發: posts the ante $0.50
+MeNeverBluff: posts the ante $0.50
+bohuc2024: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Dracula12: posts the ante $0.50
+benlim96: posts the ante $0.50
+九浪四车1: posts the ante $0.50
+Dracula12: posts small blind $0.50
+benlim96: posts big blind $1.00
+九浪四车1: posts straddle $2.00
+*** HOLE CARDS ***
+Muncher: folds
+行运一条龙發: calls $2.00
+MeNeverBluff: folds
+bohuc2024: folds
+dLzinN: raises $10.10 to $12.10
+Dracula12: folds
+benlim96: folds
+九浪四车1: folds
+行运一条龙發: calls $10.10
+*** FLOP *** [8s 6d 9s 5d Qc] (skipping - 3 cards shown as flop)
+
+Let me re-examine: Board shows 5 cards total: 8s 6d 9s 5d Qc
+
+*** FLOP *** [8s 6d 9s]
+行运一条龙發: checks
+dLzinN: bets $16.90
+行运一条龙發: calls $16.90
+*** TURN *** [8s 6d 9s] [5d]
+行运一条龙發: checks
+dLzinN: checks
+*** RIVER *** [8s 6d 9s 5d] [Qc]
+行运一条龙發: bets $45.00
+dLzinN: raises $309.00 to $354.00
+行运一条龙發: folds
+*** SHOWDOWN ***
+dLzinN: shows [Jc Tc] (a straight, Eight to Queen)
+dLzinN collected $421.00 from pot
+*** SUMMARY ***
+Total pot $421.00 | Rake $0
+Board [8s 6d 9s 5d Qc]
+Seat 1: Muncher (UTG+1) folded before Flop (didn't bet)
+Seat 2: 行运一条龙發 (MP) folded on the River
+Seat 3: MeNeverBluff (HJ) folded before Flop (didn't bet)
+Seat 4: bohuc2024 (CO) folded before Flop (didn't bet)
+Seat 5: dLzinN (button) collected ($421.00)
+Seat 6: Dracula12 (small blind) folded before Flop
+Seat 7: benlim96 (big blind) folded before Flop
+Seat 8: 九浪四车1 (straddle) folded before Flop

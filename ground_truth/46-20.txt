@@ -1,0 +1,66 @@
+PokerStars Hand #12729024515129057​28: Hold'em No Limit ($1/$2 USD) - 2026/05/08 21:28:01 ET
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: Cuatrok ($307 in chips)
+Seat 2: koNicZ ($1302 in chips)
+Seat 3: 青春一黨 ($325 in chips)
+Seat 4: 小马凯勋 ($259 in chips)
+Seat 5: 合金弹头干 ($970 in chips)
+Seat 6: Fungi97 ($276 in chips)
+Seat 7: dLzinN ($379 in chips)
+Seat 8: olomeli77 ($251 in chips)
+Cuatrok: posts the ante $8
+koNicZ: posts the ante $8
+青春一黨: posts the ante $8
+小马凯勋: posts the ante $8
+合金弹头干: posts the ante $8
+Fungi97: posts the ante $8
+dLzinN: posts the ante $8
+olomeli77: posts the ante $8
+Cuatrok: posts small blind $1
+koNicZ: posts big blind $2
+*** HOLE CARDS ***
+青春一黨: folds
+小马凯勋: folds
+合金弹头干: folds
+Fungi97: folds
+dLzinN: folds
+olomeli77: folds
+Cuatrok: folds
+koNicZ: checks
+*** FLOP *** [3c Qc 4d]
+Cuatrok: checks
+koNicZ: checks
+青春一黨: checks
+小马凯勋: checks
+合金弹头干: checks
+Fungi97: checks
+dLzinN: checks
+olomeli77: checks
+*** TURN *** [3c Qc 4d] [5c]
+Cuatrok: checks
+koNicZ: checks
+青春一黨: checks
+小马凯勋: checks
+合金弹头干: checks
+Fungi97: bets $21.10
+dLzinN: folds
+olomeli77: folds
+Cuatrok: folds
+koNicZ: folds
+青春一黨: folds
+小马凯勋: folds
+合金弹头干: folds
+*** SHOW DOWN ***
+Fungi97: shows [6d 9d]
+Fungi97 collected $85.10 from pot
+*** SUMMARY ***
+Total pot $85.10 | Rake $0
+Board [3c Qc 4d 5c]
+Seat 1: Cuatrok (small blind) folded on the Turn
+Seat 2: koNicZ (big blind) folded on the Turn
+Seat 3: 青春一黨 folded on the Turn
+Seat 4: 小马凯勋 folded on the Turn
+Seat 5: 合金弹头干 (button) folded on the Turn
+Seat 6: Fungi97 collected ($55)
+Seat 7: dLzinN folded on the Turn
+Seat 8: olomeli77 folded on the Turn

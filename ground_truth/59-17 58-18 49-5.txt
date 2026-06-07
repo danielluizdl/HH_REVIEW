@@ -1,0 +1,32 @@
+PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41 ET
+Table 'WPT Global' 9-max Seat #7 is the button
+Seat 1: Loadding ($28.00 in chips)
+Seat 2: taberw ($102.48 in chips)
+Seat 3: 原交妹 ($133.47 in chips)
+Seat 4: pokerjust174 ($142.60 in chips)
+Seat 5: dyyyyyyyy ($74.16 in chips)
+Seat 6: dLzinN ($105.46 in chips)
+Seat 7: Hugochan3110 ($46.01 in chips)
+Seat 8: 鸽鸽别闹了 ($133.47 in chips)
+Loadding: posts the ante $0.10
+taberw: posts the ante $0.10
+原交妹: posts the ante $0.10
+pokerjust174: posts the ante $0.10
+dyyyyyyyy: posts the ante $0.10
+dLzinN: posts the ante $0.10
+Hugochan3110: posts the ante $0.10
+鸽鸽别闹了: posts the ante $0.10
+鸽鸽别闹了: posts small blind $0.10
+Loadding: posts big blind $0.20
+taberw: posts straddle $0.40
+*** HOLE CARDS ***
+Dealt to 鸽鸽别闹了 [Ah As]
+原交妹: raises $2.30 to $2.70
+pokerjust174: folds
+dyyyyyyyy: calls $2.70
+dLzinN: raises $6.78 to $9.48
+Hugochan3110: folds
+鸽鸽别闹了: calls $9.38
+Loadding: folds
+taberw: folds
+原交

@@ -1,0 +1,56 @@
+PokerStars Hand #12742581512464384000: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/12 15:15:05 ET
+Table 'WPT Global' 7-max Seat #5 is the button
+Seat 1: BetoJu ($232.00 in chips)
+Seat 2: eznieH ($246.00 in chips)
+Seat 3: lghuy9999 ($167.00 in chips)
+Seat 4: StevenStun ($414.00 in chips)
+Seat 5: 賭神797 ($196.00 in chips)
+Seat 6: Asyrif ($355.00 in chips)
+Seat 7: dLzinN ($262.00 in chips)
+BetoJu: posts the ante $0.50
+eznieH: posts the ante $0.50
+lghuy9999: posts the ante $0.50
+StevenStun: posts the ante $0.50
+賭神797: posts the ante $0.50
+Asyrif: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Asyrif: posts small blind $0.50
+dLzinN: posts big blind $1.00
+BetoJu: posts straddle $2.00
+*** HOLE CARDS ***
+eznieH: folds
+lghuy9999: folds
+StevenStun: folds
+賭神797: calls $2.00
+Asyrif: calls $1.50
+dLzinN: calls $1.00
+BetoJu: checks
+*** FLOP *** [Js 3c 5d]
+Asyrif: bets $8.60
+dLzinN: raises $27.80 to $36.40
+BetoJu: folds
+賭神797: folds
+Asyrif: calls $27.80
+*** TURN *** [Js 3c 5d] [8d]
+Asyrif: checks
+dLzinN: bets $49.80
+Asyrif: calls $49.80
+*** RIVER *** [Js 3c 5d 8d] [Qd]
+dLzinN: raises $173.00 to $173.00
+dLzinN: is all-in
+Asyrif: raises $265.00 to $265.00
+Asyrif: is all-in
+*** SHOWDOWN ***
+dLzinN: shows [5s 5c] (three of a kind, Fives)
+Asyrif: shows [3d Ad] (flush, Ace high)
+Asyrif collected $622.00 from pot
+*** SUMMARY ***
+Total pot $622.00 | Rake $0.00
+Board [Js 3c 5d 8d Qd]
+Seat 1: BetoJu (UTG) folded on the Flop, lost $2.50
+Seat 2: eznieH (MP) folded before Flop, lost $0.50
+Seat 3: lghuy9999 (HJ) folded before Flop, lost $0.50
+Seat 4: StevenStun (CO) folded before Flop, lost $0.50
+Seat 5: 賭神797 (BTN) folded on the Flop, lost $2.50
+Seat 6: Asyrif (SB) showed [3d Ad] and won $622.00 with a flush, Ace high
+Seat 7: dLzinN (BB) showed [5s 5c] and lost $262.00

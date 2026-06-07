@@ -1,0 +1,65 @@
+PokerStars Hand #12695664862793031​68: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/29 16:32:05 ET
+Table 'WPT Global' 8-max Seat #1 is the button
+Seat 1: 猪猪乱跑678 ($551.00 in chips)
+Seat 2: INVESTOR ($497.00 in chips)
+Seat 3: matigarmendi ($473.00 in chips)
+Seat 4: NeleKockar ($185.00 in chips)
+Seat 5: 申长红 ($1087.00 in chips)
+Seat 6: dLzinN ($111.00 in chips)
+Seat 7: center1 ($1514.00 in chips)
+Seat 8: 汽Y ($622.00 in chips)
+猪猪乱跑678: posts the ante $1.00
+INVESTOR: posts the ante $1.00
+matigarmendi: posts the ante $1.00
+NeleKockar: posts the ante $1.00
+申长红: posts the ante $1.00
+dLzinN: posts the ante $1.00
+center1: posts the ante $1.00
+汽Y: posts the ante $1.00
+INVESTOR: posts small blind $0.50
+matigarmendi: posts big blind $1.00
+NeleKockar: posts straddle $2.00
+*** HOLE CARDS ***
+申长红: raises $2.00 to $2.00
+dLzinN: calls $2.00
+center1: calls $2.00
+汽Y: calls $2.00
+猪猪乱跑678: calls $2.00
+INVESTOR: folds
+matigarmendi: folds
+NeleKockar: checks
+*** FLOP *** [5d Kd Tc 4c]
+NeleKockar: checks
+申长红: checks
+dLzinN: checks
+center1: checks
+汽Y: bets $5.80
+猪猪乱跑678: calls $5.80
+NeleKockar: folds
+申长红: folds
+dLzinN: raises $22.10 to $27.90
+center1: folds
+汽Y: folds
+猪猪乱跑678: calls $22.10
+*** TURN *** [5d Kd Tc 4c] [9d]
+dLzinN: bets $59.30
+猪猪乱跑678: calls $59.30
+*** RIVER *** [5d Kd Tc 4c 9d] [9d]
+dLzinN: checks
+猪猪乱跑678: raises $177.00 to $177.00
+dLzinN: calls $177.00
+*** SHOWDOWN ***
+猪猪乱跑678: shows [Ah Ad] (two pair, Aces and Nines)
+dLzinN: shows [Jc Qc] (straight, Nine to King)
+猪猪乱跑678 collected $551.00 from pot
+*** SUMMARY ***
+Total pot $551.00 | Rake $0
+Board [5d Kd Tc 4c 9d]
+Seat 1: 猪猪乱跑678 (button) showed [Ah Ad] and won ($551.00) net +$284.00
+Seat 2: INVESTOR (small blind) folded on the Flop
+Seat 3: matigarmendi (big blind) folded before Flop
+Seat 4: NeleKockar (straddle) folded on the Flop
+Seat 5: 申长红 folded on the Flop
+Seat 6: dLzinN showed [Jc Qc] and lost net -$266.00
+Seat 7: center1 folded on the Flop
+Seat 8: 汽Y folded on the Flop net -$8.30

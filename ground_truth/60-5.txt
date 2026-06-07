@@ -1,0 +1,61 @@
+PokerStars Hand #1272073145348083712: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/06 14:32:39 ET
+Table 'WPT Global' 9-max Seat #5 is the button
+Seat 1: Doric352 ($392.00 in chips)
+Seat 2: HetTienCmnr ($332.00 in chips)
+Seat 3: Monika716 ($993.00 in chips)
+Seat 4: uuuullll774933 ($177.00 in chips)
+Seat 5: 边打边中哈 ($55.50 in chips)
+Seat 6: qwerzhh ($691.00 in chips)
+Seat 7: PlowingMachine ($148.00 in chips)
+Seat 8: dLzinN ($57.50 in chips)
+Doric352: posts the ante $0.50
+HetTienCmnr: posts the ante $0.50
+Monika716: posts the ante $0.50
+uuuullll774933: posts the ante $0.50
+边打边中哈: posts the ante $0.50
+qwerzhh: posts the ante $0.50
+PlowingMachine: posts the ante $0.50
+dLzinN: posts the ante $0.50
+PlowingMachine: posts small blind $0.50
+dLzinN: posts big blind $1.00
+Doric352: posts straddle $2.00
+*** HOLE CARDS ***
+HetTienCmnr: folds
+Monika716: folds
+uuuullll774933: folds
+边打边中哈: calls $2.00
+qwerzhh: raises $7.50 to $9.50
+PlowingMachine: calls $9.00
+dLzinN: raises $28.00 to $37.50
+Doric352: folds
+边打边中哈: folds
+qwerzhh: calls $28.00
+PlowingMachine: folds
+*** FLOP *** [7d 9h 6s 8h 6c]
+dLzinN: checks
+qwerzhh: bets $31.00
+dLzinN: raises $49.00 to $80.00
+qwerzhh: calls $49.00
+*** TURN *** [7d 9h 6s 8h 6c]
+dLzinN: checks
+qwerzhh: bets $125.00
+dLzinN: calls $125.00
+*** RIVER *** [7d 9h 6s 8h 6c]
+dLzinN: checks
+qwerzhh: raises $94.00 all-in
+dLzinN: calls $94.00
+*** SHOWDOWN ***
+qwerzhh: shows [Tc Ts] (two pair, Tens and Sixes)
+dLzinN: shows [Qd Qh] (two pair, Queens and Sixes)
+qwerzhh collected $691.00 from pot
+*** SUMMARY ***
+Total pot $694.00 | Rake $3.00
+Board [7d 9h 6s 8h 6c]
+Seat 1: Doric352 (UTG) folded before Flop (lost $2.50)
+Seat 2: HetTienCmnr (UTG+1) folded before Flop (lost $0.50)
+Seat 3: Monika716 (MP) folded before Flop (lost $0.50)
+Seat 4: uuuullll774933 (HJ) folded before Flop (lost $0.50)
+Seat 5: 边打边中哈 (CO) folded before Flop (lost $2.50)
+Seat 6: qwerzhh (BTN) showed [Tc Ts] and won ($691.00) (net +$353.00)
+Seat 7: PlowingMachine (SB) folded before Flop (lost $10.00)
+Seat 8: dLzinN (BB) showed [Qd Qh] and lost (-$337.00)

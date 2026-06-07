@@ -1,0 +1,61 @@
+PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41 ET
+Table 'WPT Global' 8-max Seat #1 is the button
+Seat 1: Hugochan3110 ($45.91 in chips)
+Seat 2: 鸽鸽别闹了 ($349.79 in chips)
+Seat 3: Loadding ($27.70 in chips)
+Seat 4: taberw ($101.98 in chips)
+Seat 5: 原交妹 ($142.50 in chips)
+Seat 6: pokerjust174 ($142.50 in chips)
+Seat 7: dyyyyyyyy ($64.58 in chips)
+Seat 8: dLzinN ($105.46 in chips)
+鸽鸽别闹了: posts small blind $0.10
+Loadding: posts big blind $0.20
+taberw: posts straddle $0.40
+鸽鸽别闹了: posts ante $0.10
+Loadding: posts ante $0.10
+taberw: posts ante $0.10
+原交妹: posts ante $0.10
+pokerjust174: posts ante $0.10
+dyyyyyyyy: posts ante $0.10
+dLzinN: posts ante $0.10
+Hugochan3110: posts ante $0.10
+*** HOLE CARDS ***
+Dealt to 鸽鸽别闹了 [Ad Ah]
+*** PRE-FLOP ***
+原交妹: raises $2.30 to $2.70
+pokerjust174: folds
+dyyyyyyyy: calls $2.70
+dLzinN: raises $6.78 to $9.48
+Hugochan3110: folds
+鸽鸽别闹了: calls $9.38
+Loadding: folds
+taberw: folds
+原交妹: calls $6.78
+dyyyyyyyy: calls $6.78
+*** FLOP *** [3d 2c 8c]
+鸽鸽别闹了: checks
+原交妹: bets $39.00
+dyyyyyyyy: folds
+dLzinN: raises $56.88 to $95.88 and is all-in
+鸽鸽别闹了: calls $95.88
+原交妹: calls $56.88
+*** TURN *** [3d 2c 8c] [Ts]
+鸽鸽别闹了: bets $28.11 and is all-in
+原交妹: calls $28.11
+*** RIVER *** [3d 2c 8c Ts] [Ac]
+*** SHOW DOWN ***
+鸽鸽别闹了: shows [Ad Ah] (three of a kind, Aces)
+原交妹: shows [Kc 8s] (a pair of Eights)
+dLzinN: shows [Jd Jc] (a pair of Jacks)
+鸽鸽别闹了 collected $349.79 from pot
+*** SUMMARY ***
+Total pot $383.18 | Rake $0
+Board [3d 2c 8c Ts Ac]
+Seat 1: Hugochan3110 (button) folded before Flop
+Seat 2: 鸽鸽别闹了 (small blind) showed [Ad Ah] and won ($349.79) with three of a kind, Aces
+Seat 3: Loadding (big blind) folded before Flop
+Seat 4: taberw (straddle) folded before Flop
+Seat 5: 原交妹 showed [Kc 8s] and lost
+Seat 6: pokerjust174 folded before Flop
+Seat 7: dyyyyyyyy folded on the Flop
+Seat 8: dLzinN showed [Jd Jc] and lost

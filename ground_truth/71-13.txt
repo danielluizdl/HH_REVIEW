@@ -1,0 +1,39 @@
+PokerStars Hand #12695727433365726208: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/29 16:56:57 ET
+Table 'WPT' 8-max Seat #5 is the button
+Seat 1: 求求你让我中牌 ($76.10 in chips)
+Seat 2: koNicZ ($8 in chips)
+Seat 3: 达文西达文西 ($349 in chips)
+Seat 4: dLzinN ($1381 in chips)
+Seat 5: AA龙腾 ($651 in chips)
+Seat 6: BloodJoker ($471 in chips)
+Seat 7: Ferrugem ($318 in chips)
+Seat 8: 飞行官 ($503 in chips)
+求求你让我中牌: posts small blind $0.50
+koNicZ: posts big blind $1
+*** HOLE CARDS ***
+达文西达文西: folds
+dLzinN: raises $5.40 to $6.40
+AA龙腾: raises $51.60 to $58
+BloodJoker: folds
+Ferrugem: folds
+飞行官: folds
+求求你让我中牌: folds
+koNicZ: folds
+达文西达文西: folds
+dLzinN: calls $51.60
+*** FLOP *** [6d Ts 4h 3c]
+求求你让我中牌: checks
+koNicZ: checks
+达文西达文西: checks
+dLzinN: checks
+AA龙腾: raises $471 to $471 (all-in)
+dLzinN: folds
+*** SHOWDOWN ***
+AA龙腾: shows [Th 7h]
+dLzinN: shows [Kh Ks]
+AA龙腾 collected $651 from pot
+*** SUMMARY ***
+Total pot $651
+Board [6d Ts 4h 3c]
+Seat 4: dLzinN mucked [Kh Ks]
+Seat 5: AA龙腾 showed [Th 7h] and won $651

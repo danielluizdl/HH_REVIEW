@@ -1,0 +1,51 @@
+PokerStars Hand #1265276543730401280: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 20:25:23
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: Chianesa ($19.20 in chips)
+Seat 2: TheDealer23 ($21.20 in chips)
+Seat 3: val123 ($30.60 in chips)
+Seat 4: loSpeR ($63.60 in chips)
+Seat 5: dLzinN ($42.00 in chips)
+Seat 6: 敢你至来 ($64.80 in chips)
+Seat 7: Eunooo ($86.10 in chips)
+Seat 8: vGuerraF ($17.00 in chips)
+Chianesa: posts the ante $0.05
+TheDealer23: posts the ante $0.05
+val123: posts the ante $0.05
+loSpeR: posts the ante $0.05
+dLzinN: posts the ante $0.05
+敢你至来: posts the ante $0.05
+Eunooo: posts the ante $0.05
+vGuerraF: posts the ante $0.05
+敢你至来: posts small blind $0.05
+Eunooo: posts big blind $0.10
+vGuerraF: posts straddle $0.20
+*** HOLE CARDS ***
+Chianesa: checks
+TheDealer23: folds
+val123: folds
+loSpeR: raises $0.58 to $0.78
+dLzinN: folds
+敢你至来: folds
+Eunooo: calls $0.68
+vGuerraF: folds
+Chianesa: calls $0.58
+*** FLOP *** [6s Qd Jh]
+Eunooo: checks
+Chianesa: checks
+loSpeR: bets $1.50
+Eunooo: folds
+Chianesa: folds
+loSpeR: collected $2.06 from pot
+*** SHOW DOWN ***
+loSpeR: mucks hand
+*** SUMMARY ***
+Total pot $4.49 | Rake $0
+Board [6s Qd Jh]
+Seat 1: Chianesa folded on the Flop
+Seat 2: TheDealer23 folded before Flop
+Seat 3: val123 folded before Flop
+Seat 4: loSpeR (button) collected ($2.06)
+Seat 5: dLzinN folded before Flop
+Seat 6: 敢你至来 (small blind) folded before Flop
+Seat 7: Eunooo (big blind) folded on the Flop
+Seat 8: vGuerraF folded before Flop

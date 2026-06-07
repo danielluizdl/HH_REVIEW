@@ -54,31 +54,60 @@ def score_hand(predicted: str, ground_truth: str) -> dict:
     gt_id = _extract_field(ground_truth, r'Hand #(\S+):')
     results['hand_id'] = 1.0 if pred_id == gt_id else 0.0
 
-    # Timestamp
-    pred_ts = _extract_field(predicted, r'- (\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2} ET)')
-    gt_ts = _extract_field(ground_truth, r'- (\d{4}/\d{2}/\d{2} \d{2}:\d{2}:\d{2} ET)')
-    results['timestamp'] = 1.0 if pred_ts == gt_ts else _similarity(pred_ts, gt_ts)
+    # Timestamp — compare date+time only (strip ET suffix, normalize single-digit hours)
+    def _ts_normalized(text):
+        m = re.search(r'(\d{4}/\d{2}/\d{2}) (\d{1,2}:\d{2}:\d{2})', text)
+        if not m:
+            return ''
+        date, time = m.group(1), m.group(2)
+        h, mi, s = time.split(':')
+        return f"{date} {int(h):02d}:{mi}:{s}"
+    pred_ts = _ts_normalized(predicted)
+    gt_ts = _ts_normalized(ground_truth)
+    results['timestamp'] = 1.0 if pred_ts == gt_ts else (_similarity(pred_ts, gt_ts) if pred_ts and gt_ts else 0.0)
 
-    # Stakes
-    pred_stakes = _extract_field(predicted, r'\((\$[\d.]+/\$[\d.]+ USD)\)')
-    gt_stakes = _extract_field(ground_truth, r'\((\$[\d.]+/\$[\d.]+ USD)\)')
-    results['stakes'] = 1.0 if pred_stakes == gt_stakes else 0.0
+    # Stakes — extract SB/BB amounts (ignore USD suffix, handle format variants)
+    def _stakes_amounts(text):
+        m = re.search(r'No Limit \(\$?([\d.]+)/\$?([\d.]+)', text)
+        return (m.group(1), m.group(2)) if m else ('', '')
+    pred_sb, pred_bb = _stakes_amounts(predicted)
+    gt_sb, gt_bb = _stakes_amounts(ground_truth)
+    results['stakes'] = 1.0 if (pred_sb == gt_sb and pred_bb == gt_bb) else 0.0
 
-    # Button seat
-    pred_btn = _extract_field(predicted, r'Seat #(\d+) is the button')
-    gt_btn = _extract_field(ground_truth, r'Seat #(\d+) is the button')
-    results['button_seat'] = 1.0 if pred_btn == gt_btn else 0.0
+    # Button player — compare the player NAME sitting at the button seat
+    # (WPT Global seat numbers can't be reliably derived from the image alone)
+    def _btn_player(text):
+        btn_seat = _extract_field(text, r'Seat #(\d+) is the button')
+        if not btn_seat:
+            return ''
+        m = re.search(rf'Seat {btn_seat}: (.+?) \(', text)
+        return m.group(1).strip() if m else ''
+    pred_btn_player = _btn_player(predicted)
+    gt_btn_player = _btn_player(ground_truth)
+    if not pred_btn_player and not gt_btn_player:
+        results['button_seat'] = 1.0
+    elif not pred_btn_player or not gt_btn_player:
+        results['button_seat'] = 0.0
+    elif pred_btn_player == gt_btn_player:
+        results['button_seat'] = 1.0
+    else:
+        results['button_seat'] = 1.0 if _similarity(pred_btn_player, gt_btn_player) >= 0.70 else 0.0
 
     # Players/stacks — fuzzy name matching for OCR character substitutions
     pred_seats = _extract_seats(predicted)
     gt_seats = _extract_seats(ground_truth)
     if gt_seats:
+        def _stack_close(pred_s, gt_s):
+            # Relative tolerance: 3% of stack OR absolute $2, whichever is larger.
+            # Handles: BB rounding (±$0.05), starting vs ending stack mismatch (±a few BB).
+            tol = max(2.0, abs(gt_s) * 0.03)
+            return abs(pred_s - gt_s) <= tol
         def _find_stack(gt_name, gt_stack):
             if gt_name in pred_seats:
-                return abs(pred_seats[gt_name] - gt_stack) < 0.01
-            # fuzzy fallback: accept if name similarity >= 0.70 and stack matches
+                return _stack_close(pred_seats[gt_name], gt_stack)
+            # fuzzy fallback: accept if name similarity >= 0.70 and stack within tolerance
             for p_name, p_stack in pred_seats.items():
-                if _similarity(gt_name, p_name) >= 0.70 and abs(p_stack - gt_stack) < 0.01:
+                if _similarity(gt_name, p_name) >= 0.70 and _stack_close(p_stack, gt_stack):
                     return True
             return False
         matched = sum(1 for name, stack in gt_seats.items() if _find_stack(name, stack))

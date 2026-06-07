@@ -1,0 +1,57 @@
+PokerStars Hand #12619737633361284096: Hold'em No Limit ($0.50/$1.00) - 2026/04/08 17:41:19
+Table 'WPT Global' 7-max Seat #5 is the button
+Seat 1: RandomWalk ($978.00 in chips)
+Seat 2: AldaBless ($547.00 in chips)
+Seat 3: dLzinN ($211.00 in chips)
+Seat 4: Dorsai1985 ($279.00 in chips)
+Seat 5: kileks ($545.00 in chips)
+Seat 6: 金风玉露财 ($25.00 in chips)
+Seat 7: 咖啡鱼1 ($205.00 in chips)
+RandomWalk: posts the ante $0.50
+AldaBless: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Dorsai1985: posts the ante $0.50
+kileks: posts the ante $0.50
+金风玉露财: posts the ante $0.50
+咖啡鱼1: posts the ante $0.50
+金风玉露财: posts small blind $0.50
+咖啡鱼1: posts big blind $1.00
+*** HOLE CARDS ***
+Dealt to Dorsai1985 [8h 9h]
+AldaBless: folds
+dLzinN: calls $2.00
+Dorsai1985: raises $7.50 to $7.50
+kileks: folds
+金风玉露财: calls $7.00
+咖啡鱼1: calls $6.50
+RandomWalk: folds
+dLzinN: calls $5.50
+*** FLOP *** [Ah 7d 8s]
+金风玉露财: checks
+咖啡鱼1: checks
+dLzinN: checks
+Dorsai1985: checks
+*** TURN *** [Ah 7d 8s 4h]
+金风玉露财: checks
+咖啡鱼1: checks
+dLzinN: bets $17.50
+Dorsai1985: calls $17.50
+金风玉露财: folds
+咖啡鱼1: folds
+*** RIVER *** [Ah 7d 8s 4h Th]
+dLzinN: bets $35.00
+Dorsai1985: raises $174.00 to $174.00 and is all-in
+dLzinN: folds
+*** SHOWDOWN ***
+Dorsai1985: shows [8h 9h] (a flush, Ace high)
+Dorsai1985 collected $279.00 from pot
+*** SUMMARY ***
+Total pot $279.00 | Rake $0
+Board [Ah 7d 8s 4h Th]
+Seat 1: RandomWalk (UTG) folded before Flop
+Seat 2: AldaBless (MP) folded before Flop
+Seat 3: dLzinN (HJ) folded on the River
+Seat 4: Dorsai1985 (CO) showed [8h 9h] and won ($279.00) with a flush, Ace high
+Seat 5: kileks (BTN) folded before Flop
+Seat 6: 金风玉露财 (SB) folded on the Turn
+Seat 7: 咖啡鱼1 (BB) folded on the Turn

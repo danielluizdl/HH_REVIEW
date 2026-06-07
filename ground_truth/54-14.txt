@@ -1,0 +1,58 @@
+PokerStars Hand #12673339905494347776: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/23 12:40:36 ET
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: yuanlaoke ($459.00 in chips)
+Seat 2: Heroin30 ($297.00 in chips)
+Seat 3: GrantyHuang ($511.00 in chips)
+Seat 4: Patol12 ($378.00 in chips)
+Seat 5: 贝利沁 ($381.00 in chips)
+Seat 6: dLzinN ($139.00 in chips)
+Seat 7: yhzz959688 ($112.00 in chips)
+Seat 8: 本山大叔TL ($76.50 in chips)
+yuanlaoke: posts ante $0.50
+Heroin30: posts ante $0.50
+GrantyHuang: posts ante $0.50
+Patol12: posts ante $0.50
+贝利沁: posts ante $0.50
+dLzinN: posts ante $0.50
+yhzz959688: posts ante $0.50
+本山大叔TL: posts ante $0.50
+dLzinN: posts small blind $0.50
+yhzz959688: posts big blind $1.00
+本山大叔TL: posts straddle $2.00
+*** HOLE CARDS ***
+yuanlaoke: folds
+Heroin30: folds
+GrantyHuang: calls $2.00
+Patol12: raises $8.00 to $10.00
+贝利沁: folds
+dLzinN: raises $22.30 to $32.30
+yhzz959688: folds
+本山大叔TL: folds
+GrantyHuang: calls $30.30
+Patol12: folds
+*** FLOP *** [9s Ts Tc]
+dLzinN: bets $21.00
+GrantyHuang: calls $21.00
+*** TURN *** [9s Ts Tc] [4c]
+dLzinN: checks
+GrantyHuang: bets $41.00
+dLzinN: calls $41.00
+*** RIVER *** [9s Ts Tc 4c] [9c]
+dLzinN: checks
+GrantyHuang: raises $153.00 all-in
+dLzinN: calls $153.00
+*** SHOWDOWN ***
+GrantyHuang: shows [9d 5d] (a full house, Nines full of Tens)
+dLzinN: shows [Qh Qc] (two pair, Queens and Tens)
+GrantyHuang collected $511.00 from pot
+*** SUMMARY ***
+Total pot $511.00 | Rake $0
+Board [9s Ts Tc 4c 9c]
+Seat 1: yuanlaoke folded before Flop
+Seat 2: Heroin30 folded before Flop
+Seat 3: GrantyHuang showed [9d 5d] and won ($511.00) with a full house, Nines full of Tens
+Seat 4: Patol12 folded before Flop
+Seat 5: 贝利沁 folded before Flop (button)
+Seat 6: dLzinN showed [Qh Qc] and lost with two pair, Queens and Tens
+Seat 7: yhzz959688 folded before Flop
+Seat 8: 本山大叔TL folded before Flop

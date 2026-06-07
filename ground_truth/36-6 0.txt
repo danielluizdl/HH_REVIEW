@@ -1,0 +1,56 @@
+PokerStars Hand #12622248830671228928: Hold'em No Limit ($0.25/$0.50 USD) - 2026/04/09 10:58:42 ET
+Table 'WPT Global' 8-Max Seat #5 is the button
+Seat 1: t2r0u2m6 ($148.50 in chips)
+Seat 2: amorrazo ($179.00 in chips)
+Seat 3: LeslieYR ($354.50 in chips)
+Seat 4: Datzen ($252.00 in chips)
+Seat 5: MarcusAntonius ($333.00 in chips)
+Seat 6: dLzinN ($227.50 in chips)
+Seat 7: 同花顺大屁股 ($69.00 in chips)
+Seat 8: 你是不是A ($214.00 in chips)
+t2r0u2m6: posts the ante $0.25
+amorrazo: posts the ante $0.25
+LeslieYR: posts the ante $0.25
+Datzen: posts the ante $0.25
+MarcusAntonius: posts the ante $0.25
+dLzinN: posts the ante $0.25
+同花顺大屁股: posts the ante $0.25
+你是不是A: posts the ante $0.25
+dLzinN: posts small blind $0.25
+同花顺大屁股: posts big blind $0.50
+你是不是A: posts straddle $1.00
+*** HOLE CARDS ***
+Dealt to 你是不是A [8c 8h]
+t2r0u2m6: folds
+amorrazo: folds
+LeslieYR: folds
+Datzen: raises $3.75 to $3.75
+MarcusAntonius: folds
+dLzinN: folds
+同花顺大屁股: folds
+你是不是A: calls $2.75
+*** FLOP *** [5h Qc 4c]
+你是不是A: checks
+Datzen: bets $3.75
+你是不是A: calls $3.75
+*** TURN *** [5h Qc 4c Qh]
+你是不是A: checks
+Datzen: checks
+*** RIVER *** [5h Qc 4c Qh Kd]
+你是不是A: checks
+Datzen: checks
+*** SHOWDOWN ***
+你是不是A: shows [8c 8h] (two pair, Queens and Eights)
+Datzen: shows [Jd As] (a pair of Queens)
+你是不是A collected $17.75 from pot
+*** SUMMARY ***
+Total pot $17.75 | Rake $0
+Board [5h Qc 4c Qh Kd]
+Seat 1: t2r0u2m6 folded before Flop (didn't bet)
+Seat 2: amorrazo folded before Flop (didn't bet)
+Seat 3: LeslieYR folded before Flop (didn't bet)
+Seat 4: Datzen showed [Jd As] and lost with a pair of Queens
+Seat 5: MarcusAntonius (button) folded before Flop (didn't bet)
+Seat 6: dLzinN (small blind) folded before Flop
+Seat 7: 同花顺大屁股 (big blind) folded before Flop
+Seat 8: 你是不是A (straddle) showed [8c 8h] and won ($17.75) with two pair, Queens and Eights

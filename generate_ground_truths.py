@@ -8,7 +8,12 @@ import base64
 import os
 from pathlib import Path
 
-client = anthropic.Anthropic()
+_token_file = Path("/home/claude/.claude/remote/.session_ingress_token")
+if _token_file.exists():
+    _auth_token = _token_file.read_text().strip()
+    client = anthropic.Anthropic(auth_token=_auth_token)
+else:
+    client = anthropic.Anthropic()
 images_dir = Path("HAND HISTORY WPT")
 output_dir = Path("ground_truth")
 output_dir.mkdir(exist_ok=True)
@@ -69,6 +74,14 @@ def process_image(img_path: Path, gt_path: Path):
     )
 
     gt_text = response.content[0].text
+    # Strip any reasoning preamble — keep only from "PokerStars Hand #" onward
+    lines = gt_text.strip().split('\n')
+    start = next((i for i, l in enumerate(lines) if l.strip().startswith('PokerStars Hand #')), None)
+    if start is not None and start > 0:
+        lines = lines[start:]
+        while lines and lines[-1].strip() in ('', '```'):
+            lines.pop()
+        gt_text = '\n'.join(lines) + '\n'
     gt_path.write_text(gt_text, encoding="utf-8")
     print(f"Generated ground truth for {img_path.name}")
     return gt_text

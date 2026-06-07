@@ -1,0 +1,60 @@
+PokerStars Hand #126188050818883174: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/08 11:30:45 ET
+Table 'WPT Global' 8-Max Seat #5 is the button
+Seat 1: vbom206 ($128.00 in chips)
+Seat 2: Holves ($176.00 in chips)
+Seat 3: p3ket3o ($530.00 in chips)
+Seat 4: AdrianMTs ($473.00 in chips)
+Seat 5: sebastian3 ($645.00 in chips)
+Seat 6: litomeme ($1981.00 in chips)
+Seat 7: 磐石牛 ($99.10 in chips)
+Seat 8: dLzinN ($190.00 in chips)
+vbom206: posts the ante $0.50
+Holves: posts the ante $0.50
+p3ket3o: posts the ante $0.50
+AdrianMTs: posts the ante $0.50
+sebastian3: posts the ante $0.50
+litomeme: posts small blind $0.50
+磐石牛: posts big blind $1.00
+dLzinN: posts straddle $2.00
+
+*** HOLE CARDS ***
+vbom206: folds
+Holves: folds
+p3ket3o: folds
+AdrianMTs: raises $6.50 to $8.50
+sebastian3: raises $16.50 to $25.00
+litomeme: folds
+磐石牛: folds
+dLzinN: raises $54.30 to $79.30
+AdrianMTs: folds
+sebastian3: calls $54.30
+
+*** FLOP *** [2c As Jh]
+dLzinN: bets $50.80
+sebastian3: calls $50.80
+
+*** TURN *** [2c As Jh 5d]
+dLzinN: checks
+sebastian3: checks
+
+*** RIVER *** [2c As Jh 5d 2s]
+dLzinN: checks
+sebastian3: raises $185.00 to $185.00
+dLzinN: calls $185.00
+
+*** SHOWDOWN ***
+sebastian3: shows [Jc Js] (full house, Jacks full of Twos)
+dLzinN: shows [Qh Qd] (two pair, Queens and Twos)
+sebastian3 collected $645.00 from pot
+
+*** SUMMARY ***
+Total pot $645.00 | Rake $0
+Board [2c As Jh 5d 2s]
+Seat 1: vbom206 folded before Flop (didn't bet) (-$0.50)
+Seat 2: Holves folded before Flop (didn't bet) (-$0.50)
+Seat 3: p3ket3o folded before Flop (didn't bet) (-$0.50)
+Seat 4: AdrianMTs folded before Flop (-$9.00)
+Seat 5: sebastian3 (button) showed [Jc Js] and won ($645.00) (+$328.00)
+Seat 6: litomeme (small blind) folded before Flop (-$1.00)
+Seat 7: 磐石牛 (big blind) folded before Flop (-$1.50)
+Seat 8: dLzinN (straddle) showed [Qh Qd] and lost (-$316.00)

@@ -1,0 +1,64 @@
+PokerStars Hand #1266205125898862592: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/20 9:55:14 ET
+Table 'Unknown' 8-max Seat #5 is the button
+Seat 1: UTG ($38.20 in chips)
+Seat 2: UTG+1 ($28.89 in chips)
+Seat 3: MP ($23.41 in chips)
+Seat 4: HJ ($9.15 in chips)
+Seat 5: CO ($49.15 in chips)
+Seat 6: BTN ($47.28 in chips)
+Seat 7: SB ($3.95 in chips)
+Seat 8: BB ($9.54 in chips)
+UTG: posts the ante $0.05
+UTG+1: posts the ante $0.05
+MP: posts the ante $0.05
+HJ: posts the ante $0.05
+CO: posts the ante $0.05
+BTN: posts the ante $0.05
+SB: posts the ante $0.05
+BB: posts the ante $0.05
+SB: posts small blind $0.05
+BB: posts big blind $0.10
+UTG: posts straddle $0.20
+
+*** HOLE CARDS ***
+UTG+1: calls $0.20
+MP: folds
+HJ: folds
+CO: raises $1.40 to $1.40
+BTN: raises $3.56 to $3.56
+SB: folds
+BB: folds
+UTG: folds
+UTG+1: folds
+CO: calls $2.16
+
+*** FLOP *** [Kh 9c 7d]
+CO: checks
+BTN: bets $4.04
+CO: calls $4.04
+
+*** TURN *** [Kh 9c 7d 7c]
+CO: checks
+BTN: checks
+
+*** RIVER *** [Kh 9c 7d 7c 5c]
+CO: checks
+BTN: bets $19.22
+CO: calls $16.50 and is all-in
+
+*** SHOWDOWN ***
+CO: shows [Jc Js] (two pair, Jacks and Sevens)
+BTN: shows [Jd Qd] (a pair of Sevens)
+CO collected $49.15 from pot
+
+*** SUMMARY ***
+Total pot $51.87 | Rake $2.72
+Board [Kh 9c 7d 7c 5c]
+Seat 1: UTG folded on the Pre-Flop
+Seat 2: UTG+1 folded on the Pre-Flop
+Seat 3: MP folded on the Pre-Flop
+Seat 4: HJ folded on the Pre-Flop
+Seat 5: CO (button) showed [Jc Js] and won ($49.15) with two pair, Jacks and Sevens
+Seat 6: BTN showed [Jd Qd] and lost with a pair of Sevens
+Seat 7: SB folded on the Pre-Flop
+Seat 8: BB folded on the Pre-Flop

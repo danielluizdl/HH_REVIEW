@@ -1,0 +1,54 @@
+PokerStars Hand #1259324386038476800: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/01 10:13:38 ET
+Table 'Table' 7-max Seat #4 is the button
+Seat 1: p3ket3o ($633.00 in chips)
+Seat 2: Buffalo939 ($508.00 in chips)
+Seat 3: bravosierra ($564.00 in chips)
+Seat 4: dLzinN ($112.00 in chips)
+Seat 5: JVictor ($582.00 in chips)
+Seat 6: 鲨鱼爱蹲 ($76.70 in chips)
+Seat 7: isjorr ($350.00 in chips)
+p3ket3o: posts the ante $0.50
+Buffalo939: posts the ante $0.50
+bravosierra: posts the ante $0.50
+dLzinN: posts the ante $0.50
+JVictor: posts the ante $0.50
+鲨鱼爱蹲: posts the ante $0.50
+isjorr: posts the ante $0.50
+JVictor: posts small blind $0.50
+鲨鱼爱蹲: posts big blind $1.00
+isjorr: posts straddle $2.00
+*** HOLE CARDS ***
+Dealt to bravosierra [4s Kc]
+p3ket3o: folds
+Buffalo939: folds
+bravosierra: calls $2.00
+dLzinN: raises $8.20 to $10.20
+JVictor: folds
+鲨鱼爱蹲: folds
+isjorr: folds
+bravosierra: calls $8.20
+*** FLOP *** [6h Kh 3d]
+bravosierra: bets $9.10
+dLzinN: raises $19.60 to $28.70
+bravosierra: calls $19.60
+*** TURN *** [6h Kh 3d] [2h]
+bravosierra: checks
+dLzinN: bets $42.40
+bravosierra: raises $56.00 to $98.40
+dLzinN: calls $56.00
+*** RIVER *** [6h Kh 3d 2h] [4h]
+bravosierra: bets $283.00 and is all-in
+dLzinN: folds
+*** SHOWDOWN ***
+bravosierra: shows [4s Kc] (two pair, Kings and Fours)
+bravosierra collected $564.00 from pot
+*** SUMMARY ***
+Total pot $564.00 | Rake $0
+Board [6h Kh 3d 2h 4h]
+Seat 1: p3ket3o (MP) folded before Flop (didn't bet)
+Seat 2: Buffalo939 (HJ) folded before Flop (didn't bet)
+Seat 3: bravosierra (CO) showed [4s Kc] and won ($564.00) with two pair, Kings and Fours
+Seat 4: dLzinN (BTN) folded on the River
+Seat 5: JVictor (SB) folded before Flop
+Seat 6: 鲨鱼爱蹲 (BB) folded before Flop
+Seat 7: isjorr (UTG+straddle) folded before Flop

@@ -1,0 +1,65 @@
+PokerStars Hand #12713408447666749​44: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/04 14:02:45 ET
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: keleman0616 ($815.00 in chips)
+Seat 2: pokertomduxx ($648.00 in chips)
+Seat 3: Aristocles ($1014.00 in chips)
+Seat 4: Grycek ($629.00 in chips)
+Seat 5: Interpool12 ($326.00 in chips)
+Seat 6: dLzinN ($365.00 in chips)
+Seat 7: 余大法 ($128.00 in chips)
+Seat 8: center1 ($1391.00 in chips)
+keleman0616: posts the ante $0.50
+pokertomduxx: posts the ante $0.50
+Aristocles: posts the ante $0.50
+Grycek: posts the ante $0.50
+Interpool12: posts the ante $0.50
+dLzinN: posts the ante $0.50
+余大法: posts the ante $0.50
+center1: posts the ante $0.50
+dLzinN: posts small blind $0.50
+余大法: posts big blind $1.00
+center1: posts straddle $2.00
+*** HOLE CARDS ***
+keleman0616: folds
+pokertomduxx: folds
+Aristocles: folds
+Grycek: raises $7.10 to $9.10
+Interpool12: calls $9.10
+dLzinN: raises $26.70 to $35.80
+余大法: folds
+center1: folds
+Grycek: raises $66.20 to $102.00
+Interpool12: folds
+dLzinN: calls $66.20
+*** FLOP *** [Ad Kd Qd]
+dLzinN: checks
+Grycek: bets $72.40
+dLzinN: calls $72.40
+*** TURN *** [Ad Kd Qd Td]
+dLzinN: checks
+Grycek: checks
+*** RIVER *** [Ad Kd Qd Td 6c]
+dLzinN: checks
+Grycek: raises $265.00 to $265.00 (all-in)
+dLzinN: folds
+*** SHOW DOWN ***
+Grycek: shows [Ts Tc] (three of a kind, Tens)
+dLzinN: mucks hand [As Kc]
+Interpool12: mucks hand [3h Qh]
+center1: mucks hand [2d 6d]
+余大法: mucks hand [5s 2s]
+keleman0616: mucks hand [Jd 2h]
+pokertomduxx: mucks hand [7h 9s]
+Aristocles: mucks hand [2h Tc]
+Grycek collected $629.00 from pot
+*** SUMMARY ***
+Total pot $629.00 | Rake $0.00
+Board [Ad Kd Qd Td 6c]
+Seat 1: keleman0616 (UTG+1) folded before Flop (didn't bet) (-$0.50)
+Seat 2: pokertomduxx (MP) folded before Flop (didn't bet) (-$0.50)
+Seat 3: Aristocles (HJ) folded before Flop (didn't bet) (-$0.50)
+Seat 4: Grycek (CO) showed [Ts Tc] and won ($629.00) (net +$189.00)
+Seat 5: Interpool12 (BTN) folded before Flop (-$9.60)
+Seat 6: dLzinN (SB) mucked [As Kc] (-$174.00)
+Seat 7: 余大法 (BB) folded before Flop (-$1.50)
+Seat 8: center1 (UTG/straddle) folded before Flop (-$2.50)

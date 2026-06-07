@@ -1,0 +1,46 @@
+PokerStars Hand #12732456637193023488: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/09 20:11:43 ET
+Table 'WPT Global' 6-max Seat #5 is the button
+Seat 1: Paopao323 ($938.00 in chips)
+Seat 2: leanfrance ($172.00 in chips)
+Seat 3: GtorGotHzGat ($522.00 in chips)
+Seat 4: Aquaman33 ($216.00 in chips)
+Seat 5: dLzinN ($355.00 in chips)
+Seat 6: Mansur ($270.00 in chips)
+Paopao323: posts the ante $0.50
+leanfrance: posts the ante $0.50
+GtorGotHzGat: posts the ante $0.50
+Aquaman33: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Mansur: posts the ante $0.50
+Mansur: posts small blind $0.50
+Paopao323: posts big blind $1.00
+leanfrance: posts straddle $2.00
+*** HOLE CARDS ***
+GtorGotHzGat: raises $4.30 to $6.30
+Aquaman33: folds
+dLzinN: calls $6.30
+Mansur: folds
+Paopao323: calls $5.30
+leanfrance: calls $4.30
+*** FLOP *** [8d Qc 5s]
+Paopao323: checks
+leanfrance: checks
+GtorGotHzGat: checks
+dLzinN: bets $14.40
+Paopao323: calls $14.40
+leanfrance: raises $99.60 to $114.00 and is all-in
+GtorGotHzGat: folds
+dLzinN: folds
+Paopao323: folds
+*** SHOW DOWN ***
+leanfrance: shows [Js Qs] (a pair of Queens)
+leanfrance collected $172.00 from pot
+*** SUMMARY ***
+Total pot $172.00 | Rake $0
+Board [8d Qc 5s]
+Seat 1: Paopao323 (big blind) folded on the Flop
+Seat 2: leanfrance (straddle) showed [Js Qs] and won ($172.00) with a pair of Queens
+Seat 3: GtorGotHzGat (hijack) folded on the Flop
+Seat 4: Aquaman33 (cutoff) folded before Flop
+Seat 5: dLzinN (button) folded on the Flop
+Seat 6: Mansur (small blind) folded before Flop

@@ -1,0 +1,58 @@
+PokerStars Hand #12720004252325847 04: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/06 9:43:42 ET
+Table 'WPT Global' 9-max Seat #3 is the button
+Seat 1: Damonsd ($350.00 in chips)
+Seat 2: mthuong26 ($539.00 in chips)
+Seat 3: 烈火真金葫芦娃 ($147.00 in chips)
+Seat 4: TIE6858 ($227.00 in chips)
+Seat 5: 4480 ($864.00 in chips)
+Seat 6: dLzinN ($267.00 in chips)
+Seat 7: 老板你好呀798 ($267.00 in chips)
+Seat 8: nguyenlua ($554.00 in chips)
+Damonsd: posts the ante $0.50
+mthuong26: posts the ante $0.50
+烈火真金葫芦娃: posts the ante $0.50
+TIE6858: posts the ante $0.50
+4480: posts the ante $0.50
+dLzinN: posts the ante $0.50
+老板你好呀798: posts the ante $0.50
+nguyenlua: posts the ante $0.50
+mthuong26: posts small blind $0.50
+烈火真金葫芦娃: posts big blind $1.00
+TIE6858: posts straddle $2.00
+*** HOLE CARDS ***
+Damonsd: folds
+4480: calls $2.00
+dLzinN: raises $10.50 to $10.50
+老板你好呀798: folds
+nguyenlua: folds
+mthuong26: folds
+烈火真金葫芦娃: folds
+TIE6858: folds
+4480: calls $8.50
+*** FLOP *** [4s 5s 5c]
+4480: checks
+dLzinN: bets $14.00
+4480: calls $14.00
+*** TURN *** [4s 5s 5c] [Ts]
+4480: checks
+dLzinN: bets $42.00
+4480: calls $42.00
+*** RIVER *** [4s 5s 5c Ts] [6s]
+4480: checks
+dLzinN: raises $238.00 all-in
+4480: calls $238.00
+*** SHOWDOWN ***
+dLzinN: shows [4d 4c] (a full house, Fours full of Fives)
+4480: shows [6h 5h] (a full house, Fives full of Sixes)
+4480 collected $617.00 from pot
+*** SUMMARY ***
+Total pot $617.00 | Rake $0
+Board [4s 5s 5c Ts 6s]
+Seat 1: Damonsd folded before Flop (didn't bet)
+Seat 2: mthuong26 folded before Flop
+Seat 3: 烈火真金葫芦娃 folded before Flop
+Seat 4: TIE6858 folded before Flop
+Seat 5: 4480 showed [6h 5h] and won ($617.00) with a full house, Fives full of Sixes
+Seat 6: dLzinN showed [4d 4c] and lost with a full house, Fours full of Fives
+Seat 7: 老板你好呀798 folded before Flop (didn't bet)
+Seat 8: nguyenlua (button) folded before Flop (didn't bet)

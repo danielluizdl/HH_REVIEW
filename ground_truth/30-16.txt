@@ -1,0 +1,52 @@
+PokerStars Hand #1264503306132660224: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/15 17:12:49 ET
+Table 'WPT Global' 6-max Seat #4 is the button
+Seat 1: phpd2910 ($50.30 in chips)
+Seat 2: tient43 ($80.80 in chips)
+Seat 3: matigarmendi ($85.00 in chips)
+Seat 4: dLzinN ($51.90 in chips)
+Seat 5: 无限后手的赌圣 ($30.10 in chips)
+Seat 6: TTrmqH ($19.60 in chips)
+Seat 7: nanuru22 ($24.40 in chips)
+phpd2910: posts the ante $0.05
+tient43: posts the ante $0.05
+matigarmendi: posts the ante $0.05
+dLzinN: posts the ante $0.05
+无限后手的赌圣: posts the ante $0.05
+TTrmqH: posts the ante $0.05
+nanuru22: posts the ante $0.05
+无限后手的赌圣: posts small blind $0.05
+TTrmqH: posts big blind $0.10
+nanuru22: posts straddle $0.20
+*** HOLE CARDS ***
+phpd2910: folds
+tient43: raises $0.45 to $0.65
+matigarmendi: folds
+dLzinN: calls $0.65
+无限后手的赌圣: folds
+TTrmqH: folds
+nanuru22: folds
+*** FLOP *** [Jc 3d 4c]
+tient43: bets $1.00
+dLzinN: raises $2.54 to $3.54
+tient43: calls $2.54
+*** TURN *** [Jc 3d 4c 9h]
+tient43: checks
+dLzinN: bets $6.81
+tient43: calls $6.81
+*** RIVER *** [Jc 3d 4c 9h 7c]
+tient43: checks
+dLzinN: checks
+*** SHOWDOWN ***
+dLzinN: shows [Jd As] (a pair of Jacks)
+tient43: shows [Qd Js] (a pair of Jacks - Queen kicker)
+dLzinN collected $22.70 from pot
+*** SUMMARY ***
+Total pot $22.70 | Rake $0 
+Board [Jc 3d 4c 9h 7c]
+Seat 1: phpd2910 folded before Flop (didn't bet)
+Seat 2: tient43 (HJ) showed [Qd Js] and lost with a pair of Jacks
+Seat 3: matigarmendi folded before Flop (didn't bet)
+Seat 4: dLzinN (BTN) showed [Jd As] and won ($22.70) with a pair of Jacks
+Seat 5: 无限后手的赌圣 (SB) folded before Flop
+Seat 6: TTrmqH (BB) folded before Flop
+Seat 7: nanuru22 (UTG) folded before Flop

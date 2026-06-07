@@ -1,0 +1,151 @@
+PokerStars Hand #1261919659788029952: Hold'em No Limit ($8/$8 ante) - 2026/04/08 14:06:20 ET
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: dLzinN ($759.00 in chips)
+Seat 2: taberw ($186.00 in chips)
+Seat 3: Evilswine ($1083.00 in chips)
+Seat 4: pokerjust174 ($331.00 in chips)
+Seat 5: 安轩吼吼吼 ($199.00 in chips)
+Seat 6: julioAm5 ($283.00 in chips)
+Seat 7: Hugochan3110 ($246.00 in chips)
+Seat 8: ghbg ($69.80 in chips)
+dLzinN: posts the ante $8.00
+taberw: posts the ante $8.00
+Evilswine: posts the ante $8.00
+pokerjust174: posts the ante $8.00
+安轩吼吼吼: posts the ante $8.00
+julioAm5: posts the ante $8.00
+Hugochan3110: posts the ante $8.00
+ghbg: posts the ante $8.00
+dLzinN: posts small blind $0
+taberw: posts big blind $0
+*** HOLE CARDS ***
+Evilswine: raises $0 to $0
+pokerjust174: folds
+安轩吼吼吼: folds
+julioAm5: folds
+Hugochan3110: folds
+ghbg: folds
+dLzinN: calls $0
+taberw: folds
+*** FLOP *** [7d 3h 5s 4c]
+dLzinN: checks
+taberw: checks
+Evilswine: checks
+pokerjust174: checks
+安轩吼吼吼: checks
+julioAm5: checks
+Hugochan3110: checks
+ghbg: checks
+*** TURN *** [7d 3h 5s 4c] [8d]
+
+Hmm, I need to reconsider the structure. This seems to be an ante-only game with no traditional blinds. Let me redo properly.
+
+PokerStars Hand #1261919659788029952: Hold'em No Limit ($4.00/$8.00) - 2026/04/08 14:06:20 ET
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: dLzinN ($759.00 in chips)
+Seat 2: taberw ($186.00 in chips)
+Seat 3: Evilswine ($1083.00 in chips)
+Seat 4: pokerjust174 ($331.00 in chips)
+Seat 5: 安轩吼吼吼 ($199.00 in chips)
+Seat 6: julioAm5 ($283.00 in chips)
+Seat 7: Hugochan3110 ($246.00 in chips)
+Seat 8: ghbg ($69.80 in chips)
+dLzinN: posts small blind $4.00
+taberw: posts big blind $8.00
+dLzinN: posts the ante $8.00
+taberw: posts the ante $8.00
+Evilswine: posts the ante $8.00
+pokerjust174: posts the ante $8.00
+安轩吼吼吼: posts the ante $8.00
+julioAm5: posts the ante $8.00
+Hugochan3110: posts the ante $8.00
+ghbg: posts the ante $8.00
+*** HOLE CARDS ***
+Evilswine: folds
+pokerjust174: folds
+安轩吼吼吼: folds
+julioAm5: folds
+Hugochan3110: folds
+ghbg: folds
+dLzinN: calls $4.00
+taberw: checks
+*** FLOP *** [7d 3h 5s 4c]
+dLzinN: checks
+taberw: checks
+Evilswine: checks
+pokerjust174: checks
+安轩吼吼吼: checks
+julioAm5: checks
+Hugochan3110: checks
+ghbg: checks
+
+I need to re-examine. The pre-flop column shows all players folding/checking, meaning everyone checked preflop. This is an ante-only game. The flop actions show everyone passing (checking). Turn shows dLzinN bets 32, others fold except Evilswine calls and julioAm5 calls. River: dLzinN checks, Evilswine shoves 923BB, julioAm5 folds, dLzinN folds.
+
+Let me produce the final clean version:
+
+PokerStars Hand #1261919659788029952: Hold'em No Limit ($4/$8 ante $8) - 2026/04/08 14:06:20 ET
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: dLzinN ($759.00 in chips)
+Seat 2: taberw ($186.00 in chips)
+Seat 3: Evilswine ($1083.00 in chips)
+Seat 4: pokerjust174 ($331.00 in chips)
+Seat 5: 安轩吼吼吼 ($199.00 in chips)
+Seat 6: julioAm5 ($283.00 in chips)
+Seat 7: Hugochan3110 ($246.00 in chips)
+Seat 8: ghbg ($69.80 in chips)
+dLzinN: posts the ante $8.00
+taberw: posts the ante $8.00
+Evilswine: posts the ante $8.00
+pokerjust174: posts the ante $8.00
+安轩吼吼吼: posts the ante $8.00
+julioAm5: posts the ante $8.00
+Hugochan3110: posts the ante $8.00
+ghbg: posts the ante $8.00
+dLzinN: posts small blind $4.00
+taberw: posts big blind $8.00
+*** HOLE CARDS ***
+Evilswine: checks
+pokerjust174: folds
+安轩吼吼吼: folds
+julioAm5: folds
+Hugochan3110: folds
+ghbg: folds
+dLzinN: checks
+taberw: checks
+*** FLOP *** [7d 3h 5s 4c]
+dLzinN: checks
+taberw: checks
+Evilswine: checks
+pokerjust174: checks
+安轩吼吼吼: checks
+julioAm5: checks
+Hugochan3110: checks
+ghbg: checks
+*** TURN *** [7d 3h 5s 4c] [8d]
+dLzinN: bets $32.00
+taberw: folds
+Evilswine: calls $32.00
+pokerjust174: folds
+安轩吼吼吼: folds
+julioAm5: calls $32.00
+Hugochan3110: folds
+ghbg: folds
+*** RIVER *** [7d 3h 5s 4c 8d]
+dLzinN: checks
+Evilswine: raises $923.00 to $923.00
+julioAm5: folds
+dLzinN: folds
+*** SHOW DOWN ***
+Evilswine: shows [6c Ac] (a straight, Four to Eight)
+Evilswine collected $1083.00 from pot
+*** SUMMARY ***
+Total pot $1083.00 | Rake $0
+Board [7d 3h 5s 4c 8d]
+Seat 1: dLzinN (small blind) folded on the River, lost $40.00
+Seat 2: taberw (big blind) folded on the Turn, lost $8.00
+Seat 3: Evilswine showed [6c Ac] and won $1083.00 (net +$119.00)
+Seat 4: pokerjust174 folded before Flop, lost $8.00
+Seat 5: 安轩吼吼吼 folded before Flop, lost $8.00
+Seat 6: julioAm5 folded on the River, lost $40.00
+Seat 7: Hugochan3110 folded before Flop, lost $8.00
+Seat 8: ghbg (button) folded before Flop, lost $8.00

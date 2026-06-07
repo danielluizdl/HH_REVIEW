@@ -1,0 +1,55 @@
+PokerStars Hand #12644227395994746888: Hold'em No Limit ($0.50/$1.00) - 2026/04/15 11:52:40
+Table 'WPT Global' 8-max Seat #1 is the button
+Seat 1: QuerK91 ($173.00 in chips)
+Seat 2: 喊喊白斑马 ($735.00 in chips)
+Seat 3: Banhbao86 ($364.00 in chips)
+Seat 4: Jaybo37 ($737.00 in chips)
+Seat 5: yanzhong951 ($1346.00 in chips)
+Seat 6: dLzinN ($100.00 in chips)
+Seat 7: Cuatrok ($542.00 in chips)
+Seat 8: 专杀小陈 ($344.00 in chips)
+QuerK91: posts the ante $0.50
+喊喊白斑马: posts the ante $0.50
+Banhbao86: posts the ante $0.50
+Jaybo37: posts the ante $0.50
+yanzhong951: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Cuatrok: posts the ante $0.50
+专杀小陈: posts the ante $0.50
+喊喊白斑马: posts small blind $0.50
+Banhbao86: posts big blind $1.00
+Jaybo37: posts straddle $2.00
+*** HOLE CARDS ***
+yanzhong951: raises $7.10 to $9.10
+dLzinN: raises $20.80 to $29.90
+Cuatrok: folds
+专杀小陈: folds
+QuerK91: folds
+喊喊白斑马: raises $38.10 to $68.00
+Banhbao86: folds
+Jaybo37: folds
+yanzhong951: folds
+dLzinN: calls $38.10
+*** FLOP *** [Qd As 2c]
+喊喊白斑马: bets $76.00
+dLzinN: calls $76.00
+*** TURN *** [Qd As 2c] [Ac]
+喊喊白斑马: raises $267.00 to $267.00 and is all-in
+dLzinN: calls $267.00 and is all-in
+喊喊白斑马: checks insurance
+*** RIVER *** [Qd As 2c Ac] [6h]
+*** SHOW DOWN ***
+喊喊白斑马: shows [Qh Qs] (a full house, Queens full of Aces)
+dLzinN: shows [Kd Ad] (three of a kind, Aces)
+喊喊白斑马 collected $838.00 from pot
+*** SUMMARY ***
+Total pot $838.00 | Rake $0
+Board [Qd As 2c Ac 6h]
+Seat 1: QuerK91 (button) folded before Flop
+Seat 2: 喊喊白斑马 (small blind) showed [Qh Qs] and won ($838.00) with a full house, Queens full of Aces
+Seat 3: Banhbao86 (big blind) folded before Flop
+Seat 4: Jaybo37 folded before Flop
+Seat 5: yanzhong951 folded before Flop
+Seat 6: dLzinN showed [Kd Ad] and lost with three of a kind, Aces
+Seat 7: Cuatrok folded before Flop
+Seat 8: 专杀小陈 folded before Flop

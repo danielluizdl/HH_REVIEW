@@ -1,0 +1,56 @@
+PokerStars Hand #12749304268171223304: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/14 11:46:28 ET
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: 赌神797 ($87.20 in chips)
+Seat 2: dLzinN ($89.60 in chips)
+Seat 3: 喜欢熬夜w ($148.00 in chips)
+Seat 4: sagalove1507 ($198.00 in chips)
+Seat 5: 磐石牛 ($208.00 in chips)
+Seat 6: MrQuaggot432 ($262.00 in chips)
+Seat 7: alesanss ($408.00 in chips)
+Seat 8: 铁柱割 ($284.00 in chips)
+赌神797: posts the ante $4.00
+dLzinN: posts the ante $4.00
+喜欢熬夜w: posts the ante $4.00
+sagalove1507: posts the ante $4.00
+磐石牛: posts the ante $4.00
+MrQuaggot432: posts the ante $4.00
+alesanss: posts the ante $4.00
+铁柱割: posts the ante $4.00
+MrQuaggot432: posts small blind $0.50
+alesanss: posts big blind $1.00
+铁柱割: posts straddle $2.00
+*** HOLE CARDS ***
+Dealt to 铁柱割 [3d 7d]
+赌神797: folds
+dLzinN: raises $10.20 to $12.20
+喜欢熬夜w: folds
+sagalove1507: folds
+磐石牛: folds
+MrQuaggot432: folds
+alesanss: folds
+铁柱割: calls $10.20
+*** FLOP *** [4h 7s Kd]
+铁柱割: bets $22.50
+dLzinN: calls $22.50
+*** TURN *** [4h 7s Kd] [7h]
+铁柱割: bets $55.00
+dLzinN: calls $55.00
+*** RIVER *** [4h 7s Kd 7h] [Qh]
+铁柱割: raises $47.60 to $47.60 and is all-in
+dLzinN: calls $47.60
+*** SHOWDOWN ***
+铁柱割: shows [3d 7d] (three of a kind, Sevens - full house, Sevens full of Queens... four of a kind)
+铁柱割: shows [3d 7d] (full house, Sevens full of Queens)
+dLzinN: shows [Qd Ks] (two pair, Kings and Queens)
+铁柱割 collected $284.00 from pot
+*** SUMMARY ***
+Total pot $284.00 | Rake $0
+Board [4h 7s Kd 7h Qh]
+Seat 1: 赌神797 folded before Flop (didn't bet) (-$4.00)
+Seat 2: dLzinN (MP) showed [Qd Ks] and lost (-$138.00)
+Seat 3: 喜欢熬夜w folded before Flop (didn't bet) (-$2.50)
+Seat 4: sagalove1507 folded before Flop (didn't bet) (-$2.50)
+Seat 5: 磐石牛 (button) folded before Flop (didn't bet) (-$0.50)
+Seat 6: MrQuaggot432 (small blind) folded before Flop (-$1.00)
+Seat 7: alesanss (big blind) folded before Flop (-$1.50)
+Seat 8: 铁柱割 (straddle) showed [3d 7d] and won ($284.00) (+$145.00)

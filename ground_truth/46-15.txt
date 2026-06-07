@@ -1,0 +1,60 @@
+PokerStars Hand #127138454536711839744: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/04 16:56:22
+Table 'WPT Global' 9-max Seat #7 is the button
+Seat 1: phpd2910 ($104.50 in chips)
+Seat 2: 小小一和 ($290.50 in chips)
+Seat 3: bostero1079 ($94.50 in chips)
+Seat 4: 有洁癖的蟑螂 ($89.50 in chips)
+Seat 5: proFISHnal ($404.50 in chips)
+Seat 6: dLzinN ($66.00 in chips)
+Seat 7: Mindyou ($303.00 in chips)
+Seat 8: dove888 ($92.00 in chips)
+phpd2910: posts the ante $0.50
+小小一和: posts the ante $0.50
+bostero1079: posts the ante $0.50
+有洁癖的蟑螂: posts the ante $0.50
+proFISHnal: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Mindyou: posts the ante $0.50
+dove888: posts the ante $0.50
+dLzinN: posts small blind $0.25
+Mindyou: posts big blind $0.50
+dove888: posts straddle $1.00
+*** HOLE CARDS ***
+phpd2910: folds
+小小一和: calls $1.00
+bostero1079: folds
+有洁癖的蟑螂: folds
+proFISHnal: calls $1.00
+dLzinN: calls $0.75
+Mindyou: folds
+dove888: checks
+*** FLOP *** [5h 2h 9d]
+dLzinN: checks
+dove888: checks
+小小一和: bets $4.35
+proFISHnal: folds
+dLzinN: raises $13.70 to $18.05
+dove888: folds
+小小一和: raises $152.50 to $170.55 and is all-in
+dLzinN: calls $139.00
+*** TURN *** [5h 2h 9d] [Kh]
+小小一和: checks
+dLzinN: checks
+*** RIVER *** [5h 2h 9d Kh] [7c]
+小小一和: checks
+dLzinN: checks
+*** SHOWDOWN ***
+小小一和: shows [9s 9c] (three of a kind, Nines)
+dLzinN: shows [5d 5s] (three of a kind, Fives)
+小小一和 collected $290.50 from pot
+*** SUMMARY ***
+Total pot $311.50 | Rake $0
+Board [5h 2h 9d Kh 7c]
+Seat 1: phpd2910 folded before Flop (didn't bet)
+Seat 2: 小小一和 (button) showed [9s 9c] and won ($290.50) with three of a kind, Nines
+Seat 3: bostero1079 folded before Flop (didn't bet)
+Seat 4: 有洁癖的蟑螂 folded before Flop (didn't bet)
+Seat 5: proFISHnal folded on the Flop
+Seat 6: dLzinN showed [5d 5s] and lost with three of a kind, Fives
+Seat 7: Mindyou folded before Flop (didn't bet)
+Seat 8: dove888 (UTG) folded on the Flop

@@ -1,0 +1,57 @@
+PokerStars Hand #1266300263894355968: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/20 16:13:17
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: Freston907351 (855 BB in chips) [$855.00]
+Seat 2: shaibal (0 BB in chips) [$0.00]
+Seat 3: lamlai12 (592 BB in chips) [$592.00]
+Seat 4: dLzinN (0 BB in chips) [$0.00]
+Seat 5: zyxxh18 (696 BB in chips) [$696.00]
+Seat 6: Exploit90 (265 BB in chips) [$265.00]
+Seat 7: 给你一套火龙果 (324 BB in chips) [$324.00]
+Seat 8: ChiAn (157 BB in chips) [$157.00]
+Freston907351: posts the ante $0.50
+shaibal: posts the ante $0.50
+lamlai12: posts the ante $0.50
+dLzinN: posts the ante $0.50
+zyxxh18: posts the ante $0.50
+Exploit90: posts the ante $0.50
+给你一套火龙果: posts the ante $0.50
+ChiAn: posts the ante $0.50
+Exploit90: posts small blind $0.50
+给你一套火龙果: posts big blind $1.00
+ChiAn: posts straddle $2.00
+*** HOLE CARDS ***
+Freston907351: folds
+shaibal: raises $82.00 to $82.00
+lamlai12: raises $258.00 to $258.00
+dLzinN: calls $247.00
+zyxxh18: folds
+Exploit90: folds
+给你一套火龙果: folds
+ChiAn: folds
+shaibal: calls $176.00
+*** FLOP *** [3h Jd Ts Qs]
+shaibal: checks
+lamlai12: checks
+dLzinN: checks
+*** TURN *** [3h Jd Ts Qs] [9h]
+shaibal: checks
+lamlai12: checks
+dLzinN: checks
+lamlai12: checks
+*** RIVER *** [3h Jd Ts Qs 9h]
+*** SHOW DOWN ***
+lamlai12: shows [Ah Kc] (a straight, Nine to King)
+dLzinN: shows [Ac Ad] (a pair of Aces)
+shaibal: shows [As Qd] (a pair of Queens)
+lamlai12 collected $592.00 from pot
+*** SUMMARY ***
+Total pot $594.00 | Rake $2.00
+Board [3h Jd Ts Qs 9h]
+Seat 1: Freston907351 folded before Flop (didn't bet) [-$0.50]
+Seat 2: shaibal showed [As Qd] and lost [-$82.50]
+Seat 3: lamlai12 (button) showed [Ah Kc] and won ($592.00) [+$335.00]
+Seat 4: dLzinN showed [Ac Ad] and lost [-$248.00]
+Seat 5: zyxxh18 folded before Flop (didn't bet) [-$0.50]
+Seat 6: Exploit90 (small blind) folded before Flop [-$1.00]
+Seat 7: 给你一套火龙果 (big blind) folded before Flop [-$1.50]
+Seat 8: ChiAn (straddle) folded before Flop [-$2.50]

@@ -13,6 +13,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
+try:
+    from bb_calibration import get_bb_value as _get_bb_value
+except ImportError:
+    _get_bb_value = None
+
 from rapidocr_onnxruntime import RapidOCR
 from src.detectors import detect_suit_hsv, normalize_rank, VALID_RANKS
 from src.hh_writer_ps import format_hand_history
@@ -129,7 +134,12 @@ def items_in_band(items, x_min, x_max, y_min, y_max):
 
 # ─── Main Parser ────────────────────────────────────────────────────────────
 
-def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> str:
+def parse_hand(image_path: str, bb_value: float = None, debug: bool = False) -> str:
+    if bb_value is None:
+        if _get_bb_value is not None:
+            bb_value = _get_bb_value(image_path)
+        else:
+            bb_value = 0.10
     img = cv2.imread(str(image_path))
     if img is None:
         raise ValueError(f"Cannot load image: {image_path}")
@@ -308,7 +318,7 @@ def parse_hand(image_path: str, bb_value: float = 0.10, debug: bool = False) -> 
         print(f"[DEBUG] players: {list(player_map.keys())}")
 
     # ── Determine seats ───────────────────────────────────────────────
-    seats = _assign_seats(player_map)
+    seats = _assign_seats(player_map, player_y=blinds_col.get('_player_y'))
 
     # ── Special players ───────────────────────────────────────────────
     sb_player  = next((n for n, d in player_map.items() if d.get('pos') == 'SB'), None)
@@ -587,11 +597,12 @@ def _parse_blinds_column(items, x_min, x_max, y_start) -> dict:
     """Parse the BLINDS & ANTE column for ante/blind info."""
     col = sorted(items_in_band(items, x_min, x_max, y_start, 99999), key=lambda i: i['y'])
     result = {'ante_per_player_bb': 0.5, 'sb_bb': 0.5, 'bb_bb': 1.0, 'str_bb': 2.0,
-              '_total_ante_bb': None, '_blind_players': []}
+              '_total_ante_bb': None, '_blind_players': [], '_player_y': {}}
 
     pending_type = None
     total_ante_bb = None
     blind_players = []  # players who posted blinds (SB, BB, STR)
+    player_y = {}       # {player_name: first y-position in column}
 
     # Also track player+badge pairs by scanning for player→badge patterns
     # In the column: player name appears, then SB/BB/STR badge, then amount
@@ -619,6 +630,8 @@ def _parse_blinds_column(items, x_min, x_max, y_start) -> dict:
             pass  # UTG appears with STR sometimes, ignore
         elif is_player_name(t):
             last_player_name = t
+            if t not in player_y:
+                player_y[t] = item['y']
         elif is_amount(t):
             val = abs(parse_bb(t))
             if pending_type == 'ante' and total_ante_bb is None:
@@ -634,6 +647,7 @@ def _parse_blinds_column(items, x_min, x_max, y_start) -> dict:
 
     result['_total_ante_bb'] = total_ante_bb
     result['_blind_players'] = blind_players
+    result['_player_y'] = player_y
     # Note: ante_per_player_bb will be set after counting total players
     return result
 
@@ -952,12 +966,11 @@ def _build_player_map(preflop, flop, turn, river, results, blinds_col) -> dict:
     return pm
 
 
-def _assign_seats(player_map: dict) -> dict:
+def _assign_seats(player_map: dict, player_y: dict = None) -> dict:
     """
     Assign seat numbers based on position badges.
     Standard 7-player: BTN=4, SB=5, BB=6, STR/UTG=7, MP=1, HJ=2, CO=3
     """
-    pos_order = ['BTN', 'SB', 'BB', 'STR', 'UTG', 'UTG+1', 'MP', 'MP+1', 'HJ', 'CO']
     seat_base = {'BTN': 4, 'SB': 5, 'BB': 6, 'STR': 7, 'UTG': 7,
                  'UTG+1': 8, 'MP': 1, 'MP+1': 2, 'HJ': 2, 'CO': 3}
 
@@ -1844,7 +1857,7 @@ def _build_summary_seats(seats, player_map, preflop, flop, turn, river,
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('image', help='Path to WPT Global screenshot')
-    parser.add_argument('--bb', type=float, default=0.10, help='USD value of 1 BB')
+    parser.add_argument('--bb', type=float, default=None, help='USD value of 1 BB (auto-detected if omitted)')
     parser.add_argument('--debug', action='store_true')
     args = parser.parse_args()
 
