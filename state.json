@@ -1,6 +1,6 @@
 {
   "session_date": "2026-06-07",
-  "parser_commit": "e02ec52",
+  "parser_commit": "2ad6dc4",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 45,
@@ -8,7 +8,7 @@
     "with_flop": 44,
     "with_turn": 38,
     "with_river": 22,
-    "with_showdown": 30,
+    "with_showdown": 31,
     "with_seat9_overflow": 0
   },
   "scores": {
@@ -270,11 +270,11 @@
       "timestamp": 1.0,
       "stakes": 1.0,
       "button_seat": 0.0,
-      "players_stacks": 0.625,
+      "players_stacks": 0.75,
       "board": 0.7272727272727273,
-      "actions": 0.4482758620689655,
+      "actions": 0.5172413793103449,
       "total_pot": 1.0,
-      "overall": 60.00685736677116
+      "overall": 62.431426332288396
     },
     "53-21": {
       "hand_id": 0.0,
@@ -346,12 +346,12 @@
       "hand_id": 1.0,
       "timestamp": 1.0,
       "stakes": 1.0,
-      "button_seat": 1.0,
-      "players_stacks": 0.375,
-      "board": 0.0,
-      "actions": 1.0,
-      "total_pot": 0.0,
-      "overall": 67.1875
+      "button_seat": 0.0,
+      "players_stacks": 0.0,
+      "board": 0.896551724137931,
+      "actions": 0.4594594594594595,
+      "total_pot": 1.0,
+      "overall": 66.95013979496738
     },
     "59-17 58-18 59-15": {
       "hand_id": 1.0,
@@ -437,9 +437,9 @@
       "button_seat": 0.0,
       "players_stacks": 0.75,
       "board": 0.8,
-      "actions": 0.2413793103448276,
+      "actions": 0.896551724137931,
       "total_pot": 1.0,
-      "overall": 59.89224137931034
+      "overall": 68.08189655172414
     },
     "70-17": {
       "hand_id": 1.0,
@@ -480,10 +480,10 @@
       "stakes": 1.0,
       "button_seat": 0.0,
       "players_stacks": 0.75,
-      "board": 0.0,
+      "board": 0.8571428571428571,
       "actions": 0.6785714285714286,
       "total_pot": 0.0,
-      "overall": 55.35714285714286
+      "overall": 66.07142857142857
     },
     "78-18 79-8 reg": {
       "hand_id": 1.0,
@@ -760,7 +760,7 @@
       "seat9_overflow": false
     },
     "51-36 mt agro": {
-      "lines": 45,
+      "lines": 49,
       "has_flop": true,
       "has_turn": false,
       "has_river": false,
@@ -841,7 +841,7 @@
       "seat9_overflow": false
     },
     "60-12": {
-      "lines": 51,
+      "lines": 52,
       "has_flop": true,
       "has_turn": true,
       "has_river": false,
@@ -895,11 +895,11 @@
       "seat9_overflow": false
     },
     "63-9": {
-      "lines": 41,
+      "lines": 53,
       "has_flop": true,
       "has_turn": true,
       "has_river": false,
-      "has_showdown": false,
+      "has_showdown": true,
       "has_board": true,
       "seat9_overflow": false
     },

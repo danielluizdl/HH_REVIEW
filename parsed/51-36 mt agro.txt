@@ -1,26 +1,29 @@
 PokerStars Hand #1269911460559089664: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/30 15:22:54 ET
 Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: INVESTOR ($993.50 in chips)
 Seat 2: dumau1 ($200.50 in chips)
-Seat 3: INVESTOR ($993.50 in chips)
+Seat 3: 4480 ($1010.50 in chips)
 Seat 4: 落落294 ($361.50 in chips)
 Seat 5: Nero01 ($232.50 in chips)
 Seat 6: TheRichJax ($1096.00 in chips)
 Seat 7: dLzinN ($1171.00 in chips)
 Seat 8: tiepizz ($300.50 in chips)
-dumau1: posts the ante $0.57
-INVESTOR: posts the ante $0.57
-落落294: posts the ante $0.57
-Nero01: posts the ante $0.57
-TheRichJax: posts the ante $0.57
-dLzinN: posts the ante $0.57
-tiepizz: posts the ante $0.57
+INVESTOR: posts the ante $0.50
+dumau1: posts the ante $0.50
+4480: posts the ante $0.50
+落落294: posts the ante $0.50
+Nero01: posts the ante $0.50
+TheRichJax: posts the ante $0.50
+dLzinN: posts the ante $0.50
+tiepizz: posts the ante $0.50
 Nero01: posts small blind $0.50
 TheRichJax: posts big blind $1.00
 dLzinN: posts straddle $2.00
 *** HOLE CARDS ***
 tiepizz: checks
 INVESTOR: folds
-dumau1: folds
+dumau1: checks
+4480: folds
 落落294: folds
 Nero01: calls $1.50
 TheRichJax: raises $17.00 to $19.00
@@ -36,8 +39,9 @@ TheRichJax collected $678.00 from pot
 *** SUMMARY ***
 Total pot $678.00 | Rake $0
 Board [6c 9h 8h]
+Seat 1: INVESTOR folded before Flop (didn't bet)
 Seat 2: dumau1 folded before Flop (didn't bet)
-Seat 3: INVESTOR folded before Flop (didn't bet)
+Seat 3: 4480 folded before Flop (didn't bet)
 Seat 4: 落落294 (button) folded before Flop (didn't bet)
 Seat 5: Nero01 (small blind) folded before Flop
 Seat 6: TheRichJax (big blind) collected ($678.00)
