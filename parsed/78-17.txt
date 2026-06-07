@@ -36,10 +36,10 @@ oppacay: folds
 *** FLOP *** [Jd 4d 6d]
 脑壳铁莫来吃假: bets $43.00
 dLzinN: calls $43.00
-*** TURN *** [Jd 4d 6d] [Td]
+*** TURN *** [Jd 4d 6d] [Ts]
 脑壳铁莫来吃假: bets $100.00
 dLzinN: calls $100.00
-*** RIVER *** [Jd 4d 6d Td] [7c]
+*** RIVER *** [Jd 4d 6d Ts] [7c]
 脑壳铁莫来吃假: bets $175.00
 dLzinN: calls $175.00
 *** SHOWDOWN ***
@@ -48,7 +48,7 @@ dLzinN: shows [Ah As] (a pair of Aces)
 脑壳铁莫来吃假 collected $700.00 from pot
 *** SUMMARY ***
 Total pot $700.00 | Rake $0
-Board [Jd 4d 6d Td 7c]
+Board [Jd 4d 6d Ts 7c]
 Seat 1: dLzinN showed [Ah As] and lost with a pair of Aces
 Seat 2: gonidelrojo folded before Flop (didn't bet)
 Seat 3: Lwliet0105 folded before Flop

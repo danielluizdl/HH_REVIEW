@@ -27,16 +27,16 @@ Aceeeeeeeee: calls $10.20
 isjorr: folds
 RyanNguyen68: folds
 altaza: calls $8.30
-*** FLOP *** [6h Ad 5c]
+*** FLOP *** [6s Ad 5c]
 altaza: checks
 dLzinN: bets $12.50
 Aceeeeeeeee: calls $12.50
 altaza: calls $12.50
-*** TURN *** [6h Ad 5c] [Th]
+*** TURN *** [6s Ad 5c] [Th]
 altaza: checks
 dLzinN: checks
 Aceeeeeeeee: checks
-*** RIVER *** [6h Ad 5c Th] [Ac]
+*** RIVER *** [6s Ad 5c Th] [Ac]
 altaza: bets $37.60
 dLzinN: raises $79.40 to $117.00
 Aceeeeeeeee: folds
@@ -46,7 +46,7 @@ altaza: shows [4d Ad] (three of a kind, Aces)
 dLzinN collected $309.00 from pot
 *** SUMMARY ***
 Total pot $309.00 | Rake $0
-Board [6h Ad 5c Th Ac]
+Board [6s Ad 5c Th Ac]
 Seat 1: altaza showed [4d Ad] and lost with three of a kind, Aces
 Seat 2: dLzinN collected ($309.00)
 Seat 3: 兔子娃娃 folded before Flop (didn't bet)

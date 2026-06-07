@@ -32,17 +32,17 @@ ChiaAn: folds
 shaibal: raises $48.50 to $82.00 and is all-in
 lamlai12: raises $176.00 to $258.00 and is all-in
 dLzinN: calls $214.00 and is all-in
-*** FLOP *** [3h Td Qd]
-*** TURN *** [3h Td Qd] [9h]
+*** FLOP *** [3h Ts 6d]
+*** TURN *** [3h Ts 6d] [9h]
 *** SHOWDOWN ***
 lamlai12: shows [Ad Kd] (high card Ace)
 dLzinN: shows [Ad Ad] (a pair of Aces)
-shaibal: shows [As Qd] (a pair of Queens)
+shaibal: shows [As Qd] (high card Ace)
 lamlai12 collected $594.00 from pot
 *** SUMMARY ***
 Total pot $594.00 | Rake $0
-Board [3h Td Qd 9h]
-Seat 1: shaibal showed [As Qd] and lost with a pair of Queens
+Board [3h Ts 6d 9h]
+Seat 1: shaibal showed [As Qd] and lost with high card Ace
 Seat 2: lamlai12 showed [Ad Kd] and won ($594.00) with high card Ace
 Seat 3: dLzinN showed [Ad Ad] and lost with a pair of Aces
 Seat 4: zyxxh18 (button) folded before Flop (didn't bet)

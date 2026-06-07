@@ -26,14 +26,14 @@ Sagat95: folds
 peteushko: calls $9.30
 manhvidai: folds
 leanfrance: calls $8.30
-*** FLOP *** [Th 3c]
+*** FLOP *** [Th 3c 4c]
 peteushko: checks
 leanfrance: raises $148.00 to $148.00 and is all-in
 dLzinN: folds
 leanfrance collected $185.00 from pot
 *** SUMMARY ***
 Total pot $185.00 | Rake $0
-Board [Th 3c]
+Board [Th 3c 4c]
 Seat 1: Peter3356 folded before Flop (didn't bet)
 Seat 2: 银柏皖 folded before Flop (didn't bet)
 Seat 3: leanfrance collected ($185.00)

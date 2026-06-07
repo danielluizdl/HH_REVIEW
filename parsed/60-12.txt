@@ -32,7 +32,7 @@ dLzinN: raises $27.80 to $36.40
 BetoJu: folds
 赌神797: folds
 Asyrif: calls $27.80
-*** TURN *** [3c 5d 8d] [Qd]
+*** TURN *** [3c 5d 8d] [6d]
 Asyrif: checks
 dLzinN: bets $49.80
 Asyrif: calls $49.80
@@ -42,7 +42,7 @@ dLzinN: shows [5s 5s] (three of a kind, Fives)
 Asyrif collected $622.00 from pot
 *** SUMMARY ***
 Total pot $622.00 | Rake $0
-Board [3c 5d 8d Qd]
+Board [3c 5d 8d 6d]
 Seat 1: eznieH folded before Flop (didn't bet)
 Seat 2: 66661n48 folded before Flop (didn't bet)
 Seat 3: StevenStun folded before Flop (didn't bet)

@@ -27,15 +27,15 @@ ggbond666602: raises $7.00 to $9.00
 ChandlerLimp: folds
 dLzinN: calls $8.00
 允哲: folds
-*** FLOP *** [Th 2h 6c]
+*** FLOP *** [Ts 2h 6c]
 dLzinN: checks
 ggbond666602: bets $12.00
 dLzinN: raises $27.50 to $39.50
 ggbond666602: calls $27.50
-*** TURN *** [Th 2h 6c] [7h]
+*** TURN *** [Ts 2h 6c] [7h]
 dLzinN: bets $77.50
 ggbond666602: calls $77.50
-*** RIVER *** [Th 2h 6c 7h] [5c]
+*** RIVER *** [Ts 2h 6c 7h] [5c]
 dLzinN: raises $372.00 to $372.00 and is all-in
 ggbond666602: calls $372.00
 *** SHOWDOWN ***
@@ -44,7 +44,7 @@ dLzinN: shows [9d Kd] (high card King)
 ggbond666602 collected $1002.00 from pot
 *** SUMMARY ***
 Total pot $1002.00 | Rake $0
-Board [Th 2h 6c 7h 5c]
+Board [Ts 2h 6c 7h 5c]
 Seat 1: 不行就蒜鸟 folded before Flop (didn't bet)
 Seat 2: macadamia folded before Flop (didn't bet)
 Seat 3: zeMraz folded before Flop (didn't bet)
