@@ -32,7 +32,7 @@ dLzinN: calls $4.20
 *** SUMMARY ***
 Total pot $61.70 | Rake $0
 Board [5s 5c Tc 6s]
-Seat 2: dLzinN lost
+Seat 2: dLzinN mucked hand
 Seat 3: 老板你好呀798 folded before Flop (didn't bet)
 Seat 4: nguyenlua (button) folded before Flop (didn't bet)
 Seat 5: mthuong26 (small blind) folded before Flop

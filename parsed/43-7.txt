@@ -44,17 +44,13 @@ center1: folds
 *** TURN *** [5d Kd Td] [4s]
 dLzinN: bets $5.93
 猪猪乱跑678: calls $5.93
-*** RIVER *** [5d Kd Td 4s] [9d]
-dLzinN: checks
-猪猪乱跑678: raises $17.70 to $17.70 and is all-in
-dLzinN: calls $17.70
 *** SHOWDOWN ***
 猪猪乱跑678: shows [Ad 7d] (a flush, Ace high)
 猪猪乱跑678 collected $55.10 from pot
 *** SUMMARY ***
 Total pot $55.10 | Rake $0
-Board [5d Kd Td 4s 9d]
-Seat 1: dLzinN lost
+Board [5d Kd Td 4s]
+Seat 1: dLzinN mucked hand
 Seat 2: center1 folded on the Flop
 Seat 3: 汐Y folded on the Flop
 Seat 4: 猪猪乱跑678 (button) showed [Ad 7d] and won ($55.10) with a flush, Ace high

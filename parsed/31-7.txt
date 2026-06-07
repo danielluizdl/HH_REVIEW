@@ -50,7 +50,7 @@ Board [6h Ad 5c Th Ah]
 Seat 1: altaza showed [4d Ad] and lost with three of a kind, Aces
 Seat 2: dLzinN collected ($30.90)
 Seat 3: 兔子娃娃 folded before Flop (didn't bet)
-Seat 4: Aceeeeeeeee (button) lost
+Seat 4: Aceeeeeeeee (button) mucked hand
 Seat 5: 方可执泥 (small blind) folded before Flop
 Seat 6: isjorr (big blind) folded before Flop
 Seat 7: RyanNguyen68 folded before Flop

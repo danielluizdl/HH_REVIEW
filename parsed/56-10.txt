@@ -51,7 +51,7 @@ Board [3h Ac Tc Ad Kh]
 Seat 1: stingxiao folded before Flop (didn't bet)
 Seat 2: MRmjK folded before Flop (didn't bet)
 Seat 3: 粥周舟 folded before Flop
-Seat 4: dLzinN (button) lost
+Seat 4: dLzinN (button) mucked hand
 Seat 5: GuillermoQQ (small blind) folded before Flop
 Seat 6: 恒恒488 (big blind) showed [Th Td] and won ($83.30) with a full house, Tens full of Aces
 Seat 7: rozowy folded before Flop

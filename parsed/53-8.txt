@@ -43,7 +43,7 @@ Board [Kh 9c 7d 7c 5c]
 Seat 1: MP folded before Flop (didn't bet)
 Seat 2: HJ folded before Flop (didn't bet)
 Seat 3: CO collected ($51.87)
-Seat 4: BTN (button) lost
+Seat 4: BTN (button) mucked hand
 Seat 5: SB (small blind) folded before Flop
 Seat 6: BB (big blind) folded before Flop
 Seat 7: UTG folded before Flop (didn't bet)

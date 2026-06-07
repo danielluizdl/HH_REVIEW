@@ -43,7 +43,7 @@ NewtonApple collected $58.60 from pot
 Total pot $58.60 | Rake $0
 Board [9d 6h 7c 3c]
 Seat 1: thieugao folded before Flop (didn't bet)
-Seat 2: dLzinN lost
+Seat 2: dLzinN mucked hand
 Seat 3: JunDAcAizi folded before Flop (didn't bet)
 Seat 4: wjsyy (button) folded before Flop (didn't bet)
 Seat 5: 跑儿马2号 (small blind) folded before Flop
