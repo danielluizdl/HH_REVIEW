@@ -122,8 +122,11 @@ def is_player_name(text: str) -> bool:
     # Reject OCR artifacts starting with / or + (e.g. /TG+1, /OBB)
     if text.startswith('/') or text.startswith('+'):
         return False
-    # Must contain at least one letter or Chinese character
+    # Must contain at least one letter/Chinese character, or be a pure numeric name (≥3 digits)
     if not re.search(r'[a-zA-Z一-鿿]', text):
+        # Allow all-digit strings (e.g. player name "4480") with ≥3 digits
+        if re.match(r'^\d{3,}$', text):
+            return True
         return False
     return True
 
@@ -1443,21 +1446,30 @@ def _detect_board(img, img_w, img_h) -> list:
         hsv = cv2.cvtColor(card_region, cv2.COLOR_BGR2HSV)
         h, s, v = hsv[:,:,0], hsv[:,:,1], hsv[:,:,2]
 
-        # Count colored pixels (high S and V), excluding orange/gold border (H=15-40)
+        # Use top-30% most saturated colored pixels to filter out red felt contamination.
+        # Suit symbols are more saturated than background felt; spades (dark) have
+        # very few colored pixels → correctly fall through to 's'.
         colored = (s > 100) & (v > 80) & ~((h >= 15) & (h <= 40))
-        if colored.sum() < 5:
+        n_colored = colored.sum()
+        if n_colored < 5:
             return 's'
 
-        h_c = h[colored]
+        # Use top 30% by saturation to isolate suit symbol pixels from background
+        s_thresh = np.percentile(s[colored], 70)
+        high_sat = colored & (s >= s_thresh)
+        h_c = h[high_sat]
+        if len(h_c) == 0:
+            return 's'
+
         red   = ((h_c < 15) | (h_c > 160)).sum()
         green = ((h_c >= 35) & (h_c < 95)).sum()
         blue  = ((h_c >= 95) & (h_c <= 140)).sum()
 
-        if red >= green and red >= blue and red > 5:
+        if red >= green and red >= blue and red > 3:
             return 'h'
-        elif blue >= green and blue > 5:
+        elif blue >= green and blue > 3:
             return 'd'
-        elif green > 5:
+        elif green > 3:
             return 'c'
         return 's'
 
@@ -1465,7 +1477,7 @@ def _detect_board(img, img_w, img_h) -> list:
         t = text.strip().upper()
         # Common OCR errors for card ranks
         if t in ('7G', '2G', '2C', '2H', '2S', '2T', 'ZG'): return '2'
-        if t in ('0', 'O', 'Q0', 'OO'): return '9'  # 9 misread as 0
+        if t in ('0', 'O', 'Q0', 'OO'): return 'Q'  # Q misread as 0/O by OCR
         if t in ('1O', 'IO', '10'): return 'T'        # 10 misread
         if t in ('I', 'IJ', 'J1', 'LJ'): return 'J'  # J misread as I/l
         if re.match(r'^6[^0-9]$', t) or t == '60': return '6'

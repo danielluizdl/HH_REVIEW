@@ -1,32 +1,75 @@
-PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41 ET
-Table 'WPT Global' 9-max Seat #7 is the button
-Seat 1: Loadding ($28.00 in chips)
-Seat 2: taberw ($102.48 in chips)
-Seat 3: 原交妹 ($133.47 in chips)
-Seat 4: pokerjust174 ($142.60 in chips)
-Seat 5: dyyyyyyyy ($74.16 in chips)
-Seat 6: dLzinN ($105.46 in chips)
-Seat 7: Hugochan3110 ($46.01 in chips)
-Seat 8: 鸽鸽别闹了 ($133.47 in chips)
-Loadding: posts the ante $0.10
-taberw: posts the ante $0.10
-原交妹: posts the ante $0.10
-pokerjust174: posts the ante $0.10
-dyyyyyyyy: posts the ante $0.10
-dLzinN: posts the ante $0.10
-Hugochan3110: posts the ante $0.10
-鸽鸽别闹了: posts the ante $0.10
+PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41
+Table 'WPT Global' 8-max Seat #4 is the button
+Seat 1: 鸽鸽别闹了 ($27.70 in chips)
+Seat 2: Loadding ($27.70 in chips)
+Seat 3: taberw ($101.98 in chips)
+Seat 4: 原交妹 ($349.79 in chips)
+Seat 5: pokerjust174 ($142.50 in chips)
+Seat 6: dyyyyyyyy ($64.58 in chips)
+Seat 7: dLzinN ($0 in chips)
+Seat 8: Hugochan3110 ($45.91 in chips)
 鸽鸽别闹了: posts small blind $0.10
 Loadding: posts big blind $0.20
-taberw: posts straddle $0.40
+taberw: posts ante $0.40
+原交妹: posts ante $0.40
+pokerjust174: posts ante $0.40
+dyyyyyyyy: posts ante $0.40
+dLzinN: posts ante $0.40
+Hugochan3110: posts ante $0.40
+鸽鸽别闹了: posts ante $0.40
+Loadding: posts ante $0.40
+*** ANTE ***
+taberw: posts ante $0.40
+原交妹: posts ante $0.80
+pokerjust174: posts ante $0.80
+dyyyyyyyy: posts ante $0.80
+dLzinN: posts ante $0.80
+Hugochan3110: posts ante $0.80
+鸽鸽别闹了: posts small blind $0.10
+Loadding: posts big blind $0.20
 *** HOLE CARDS ***
-Dealt to 鸽鸽别闹了 [Ah As]
-原交妹: raises $2.30 to $2.70
+Dealt to 鸽鸽别闹了 [Ah Ad]
+Dealt to 原交妹 [Kh 8h]
+Dealt to dLzinN [Jd Jc]
+*** PRE-FLOP ***
+原交妹: raises $2.70 to $2.70
 pokerjust174: folds
 dyyyyyyyy: calls $2.70
-dLzinN: raises $6.78 to $9.48
+dLzinN: raises $9.48 to $9.48
 Hugochan3110: folds
 鸽鸽别闹了: calls $9.38
 Loadding: folds
 taberw: folds
-原交
+原交妹: calls $6.78
+dyyyyyyyy: calls $6.78
+*** FLOP *** [3d 2c 8c 10c A c]
+鸽鸽别闹了: checks
+原交妹: bets $39
+dyyyyyyyy: folds
+dLzinN: raises $95.88 to $95.88 and is all-in
+鸽鸽别闹了: calls $95.88
+原交妹: calls $56.88
+*** TURN *** [3d 2c 8c 10c Ac] [dealt]
+鸽鸽别闹了: bets $28.11 and is all-in
+原交妹: calls $28.11
+dLzinN: 5%
+鸽鸽别闹了: 83%
+原交妹: 12%
+鸽鸽别闹了: checks (Seguro)
+*** RIVER *** [3d 2c 8c 10c Ac]
+*** SHOW DOWN ***
+鸽鸽别闹了: shows [Ah Ad] (two pair, Aces)
+原交妹: mucks hand
+dLzinN: mucks hand
+鸽鸽别闹了 collected $349.79 from pot
+*** SUMMARY ***
+Total pot $383.18 | Rake $0
+Board [3d 2c 8c 10c Ac]
+Seat 1: 鸽鸽别闹了 (small blind) showed [Ah Ad] and won ($349.79) with two pair, Aces
+Seat 3: taberw folded pre-flop (didn't bet) (-$0.50)
+Seat 4: 原交妹 mucked (-$133.57)
+Seat 5: pokerjust174 folded pre-flop (didn't bet) (-$0.10)
+Seat 6: dyyyyyyyy folded on the Flop (-$9.58)
+Seat 7: dLzinN mucked [Jd Jc] (-$105.46)
+Seat 8: Hugochan3110 folded pre-flop (didn't bet) (-$0.10)
+Seat 2: Loadding folded pre-flop (didn't bet) (-$0.30)
