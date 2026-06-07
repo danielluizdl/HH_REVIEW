@@ -1,6 +1,6 @@
 {
   "session_date": "2026-06-07",
-  "parser_commit": "b7540a2",
+  "parser_commit": "b5b9ea2",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 45,
@@ -141,8 +141,8 @@
       "players_stacks": 0.5,
       "board": 0.72,
       "actions": 0.6285714285714286,
-      "total_pot": 0.0,
-      "overall": 60.60714285714286
+      "total_pot": 1.0,
+      "overall": 73.10714285714286
     },
     "35-19": {
       "hand_id": 0.0,
@@ -394,8 +394,8 @@
       "players_stacks": 0.5,
       "board": 1.0,
       "actions": 0.96875,
-      "total_pot": 0.0,
-      "overall": 68.359375
+      "total_pot": 1.0,
+      "overall": 80.859375
     },
     "60-8": {
       "hand_id": 0.0,
@@ -460,8 +460,8 @@
       "players_stacks": 0.5,
       "board": 0.8181818181818182,
       "actions": 0.7222222222222222,
-      "total_pot": 0.0,
-      "overall": 50.505050505050505
+      "total_pot": 1.0,
+      "overall": 63.005050505050505
     },
     "72-10": {
       "hand_id": 0.0,
