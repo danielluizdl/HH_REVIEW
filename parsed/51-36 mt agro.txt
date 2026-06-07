@@ -29,13 +29,13 @@ tiepizz: folds
 dumau1: folds
 Nero01: folds
 TheRichJax: calls $41.80
-*** FLOP *** [6h 9h 8h]
+*** FLOP *** [6c 9h 8h]
 TheRichJax: checks
 dLzinN: checks
 TheRichJax collected $678.00 from pot
 *** SUMMARY ***
 Total pot $678.00 | Rake $0
-Board [6h 9h 8h]
+Board [6c 9h 8h]
 Seat 2: dumau1 folded before Flop (didn't bet)
 Seat 3: INVESTOR folded before Flop (didn't bet)
 Seat 4: 落落294 (button) folded before Flop (didn't bet)

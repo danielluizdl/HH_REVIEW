@@ -34,7 +34,7 @@ zildurr: checks
 dLzinN: bets $40.40
 whaak: folds
 zildurr: calls $40.40
-*** TURN *** [2c Tc 6c] [8c]
+*** TURN *** [2c Tc 6c] [8h]
 zildurr: checks
 dLzinN: bets $111.00
 zildurr: raises $179.00 to $290.00 and is all-in
@@ -42,7 +42,7 @@ dLzinN: calls $160.70 and is all-in
 zildurr collected $723.00 from pot
 *** SUMMARY ***
 Total pot $723.00 | Rake $0
-Board [2c Tc 6c 8c]
+Board [2c Tc 6c 8h]
 Seat 1: dLzinN mucked hand
 Seat 2: Tonico folded before Flop (didn't bet)
 Seat 3: whaak folded on the Flop

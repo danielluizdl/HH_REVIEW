@@ -31,7 +31,7 @@ alesanss: folds
 *** FLOP *** [7s Kd 7h]
 铁柱割: bets $22.50
 dLzinN: calls $22.50
-*** TURN *** [7s Kd 7h] [9h]
+*** TURN *** [7s Kd 7h] [Qh]
 铁柱割: bets $55.00
 dLzinN: calls $55.00
 *** SHOWDOWN ***
@@ -39,7 +39,7 @@ dLzinN: calls $55.00
 铁柱割 collected $284.00 from pot
 *** SUMMARY ***
 Total pot $284.00 | Rake $0
-Board [7s Kd 7h 9h]
+Board [7s Kd 7h Qh]
 Seat 1: dLzinN folded on the Turn
 Seat 2: 喜欢熬夜w folded before Flop (didn't bet)
 Seat 3: sagalove1507 folded before Flop (didn't bet)

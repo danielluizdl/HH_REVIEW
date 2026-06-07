@@ -29,13 +29,13 @@ dLzinN: raises $10.30 to $12.30
 skxijwnxz: folds
 程咬金的三板斧91: folds
 温度计在了: calls $10.30
-*** FLOP *** [Ts 9d 3h]
+*** FLOP *** [Ts Qd 3h]
 运气爆棚啦1: checks
 温度计在了: checks
 dLzinN: bets $10.90
 运气爆棚啦1: calls $10.90
 温度计在了: folds
-*** TURN *** [Ts 9d 3h] [Kh]
+*** TURN *** [Ts Qd 3h] [Kh]
 运气爆棚啦1: bets $33.00
 dLzinN: raises $67.00 to $100.00
 运气爆棚啦1: calls $67.20
@@ -44,7 +44,7 @@ dLzinN: shows [Td Ts] (three of a kind, Tens)
 dLzinN collected $310.00 from pot
 *** SUMMARY ***
 Total pot $310.00 | Rake $0
-Board [Ts 9d 3h Kh]
+Board [Ts Qd 3h Kh]
 Seat 1: Dawidd81 folded before Flop (didn't bet)
 Seat 2: yukleo folded before Flop (didn't bet)
 Seat 3: 温度计在了 folded on the Flop

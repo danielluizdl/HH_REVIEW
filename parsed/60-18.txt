@@ -26,21 +26,21 @@ JVictor: folds
 鲨鱼爱蹲: folds
 isjorr: folds
 bravosierra: calls $8.30
-*** FLOP *** [6h Kh 3h]
+*** FLOP *** [6h Kh 3d]
 bravosierra: bets $9.10
 dLzinN: raises $19.60 to $28.70
 bravosierra: calls $19.60
-*** TURN *** [6h Kh 3h] [2h]
+*** TURN *** [6h Kh 3d] [2h]
 bravosierra: checks
 dLzinN: bets $42.40
 bravosierra: raises $56.00 to $98.40
 dLzinN: calls $56.00
-*** RIVER *** [6h Kh 3h 2h] [4h]
+*** RIVER *** [6h Kh 3d 2h] [4h]
 bravosierra: raises $283.00 to $283.00 and is all-in
 bravosierra collected $564.00 from pot
 *** SUMMARY ***
 Total pot $564.00 | Rake $0
-Board [6h Kh 3h 2h 4h]
+Board [6h Kh 3d 2h 4h]
 Seat 1: p3ket3o folded before Flop (didn't bet)
 Seat 2: Buffalo939 folded before Flop (didn't bet)
 Seat 3: bravosierra collected ($564.00)

@@ -32,11 +32,11 @@ center1: folds
 Grycek: raises $66.20 to $102.00
 Interpool12: folds
 dLzinN: calls $65.80
-*** FLOP *** [Ad Kd 9d]
+*** FLOP *** [Ad Kd Qd]
 dLzinN: checks
 Grycek: bets $72.40
 dLzinN: calls $72.40
-*** TURN *** [Ad Kd 9d] [Td]
+*** TURN *** [Ad Kd Qd] [Td]
 dLzinN: checks
 Grycek: checks
 *** SHOWDOWN ***
@@ -46,7 +46,7 @@ Interpool12: shows [3d Qd] (a flush, Ace high)
 Grycek collected $629.00 from pot
 *** SUMMARY ***
 Total pot $629.00 | Rake $0
-Board [Ad Kd 9d Td]
+Board [Ad Kd Qd Td]
 Seat 1: pokertomduxx folded before Flop (didn't bet)
 Seat 2: Aristocles folded before Flop (didn't bet)
 Seat 3: Grycek showed [Ts Ts] and won ($629.00) with three of a kind, Tens

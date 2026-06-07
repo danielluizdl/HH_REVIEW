@@ -28,7 +28,7 @@ naniwyx538: folds
 就是干: folds
 dLzinN: calls $5.80
 niiik: calls $4.80
-*** FLOP *** [5h 3d 9d]
+*** FLOP *** [5h 3d Qd]
 dLzinN: checks
 niiik: checks
 Roson861: bets $9.50
@@ -36,17 +36,17 @@ AlwaysBB705311: folds
 dLzinN: raises $38.00 to $47.50
 niiik: folds
 Roson861: calls $38.00
-*** TURN *** [5h 3d 9d] [7s]
+*** TURN *** [5h 3d Qd] [7s]
 dLzinN: checks
 Roson861: raises $154.00 to $154.00 and is all-in
 dLzinN: calls $154.00
-*** RIVER *** [5h 3d 9d 7s] [8s]
+*** RIVER *** [5h 3d Qd 7s] [8s]
 *** SHOWDOWN ***
 dLzinN: shows [7d 5d] (two pair, Sevens and Fives)
 dLzinN collected $434.00 from pot
 *** SUMMARY ***
 Total pot $434.00 | Rake $0
-Board [5h 3d 9d 7s 8s]
+Board [5h 3d Qd 7s 8s]
 Seat 1: nfgffg folded before Flop (didn't bet)
 Seat 2: AlwaysBB705311 folded on the Flop
 Seat 3: Zapol folded before Flop (didn't bet)

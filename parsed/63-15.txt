@@ -29,7 +29,7 @@ ade474: raises $0.31 to $0.51
 dLzinN: calls $0.46
 SharpOdds: folds
 XuanTG: calls $0.31
-*** FLOP *** [9h 7c 6h]
+*** FLOP *** [Qh 7c 6h]
 dLzinN: checks
 XuanTG: bets $0.84
 ade474: calls $0.84
@@ -40,20 +40,20 @@ ade474: folds
 托尼刘: raises $9.89 to $15.00
 dLzinN: raises $52.20 to $67.20 and is all-in
 托尼刘: raises $19.10 to $86.30 and is all-in
-*** TURN *** [9h 7c 6h] [3d]
-*** RIVER *** [9h 7c 6h 3d] [9d]
+*** TURN *** [Qh 7c 6h] [3d]
+*** RIVER *** [Qh 7c 6h 3d] [9d]
 *** SHOWDOWN ***
-托尼刘: shows [Qs 5s] (a pair of Nines)
-dLzinN: shows [Ah 7d] (two pair, Nines and Sevens)
+托尼刘: shows [Qs 5s] (a pair of Queens)
+dLzinN: shows [Ah 7d] (a pair of Sevens)
 托尼刘 collected $157.70 from pot
 *** SUMMARY ***
 Total pot $157.70 | Rake $0
-Board [9h 7c 6h 3d 9d]
+Board [Qh 7c 6h 3d 9d]
 Seat 1: SigmaBoyy folded before Flop (didn't bet)
 Seat 2: 沃腰演nx folded before Flop (didn't bet)
 Seat 3: ade474 folded on the Flop
-Seat 4: 托尼刘 (button) showed [Qs 5s] and won ($157.70) with a pair of Nines
-Seat 5: dLzinN (small blind) showed [Ah 7d] and lost with two pair, Nines and Sevens
+Seat 4: 托尼刘 (button) showed [Qs 5s] and won ($157.70) with a pair of Queens
+Seat 5: dLzinN (small blind) showed [Ah 7d] and lost with a pair of Sevens
 Seat 6: SharpOdds (big blind) folded before Flop
 Seat 7: XuanTG folded on the Flop
 Seat 8: Fibonacci folded before Flop (didn't bet)

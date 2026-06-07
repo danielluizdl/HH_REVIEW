@@ -30,28 +30,28 @@ shayulajiao9: folds
 陈劲生ayNS3Q2: folds
 我在南方: calls $23.30
 Neyalisson: folds
-*** FLOP *** [9c Kh 8c]
+*** FLOP *** [Qc Kh 8c]
 我在南方: checks
 dLzinN: checks
-*** TURN *** [9c Kh 8c] [5c]
+*** TURN *** [Qc Kh 8c] [5c]
 我在南方: bets $17.00
 dLzinN: calls $17.00
-*** RIVER *** [9c Kh 8c 5c] [9c]
+*** RIVER *** [Qc Kh 8c 5c] [9c]
 我在南方: checks
 dLzinN: bets $112.00
 我在南方: raises $168.00 to $280.00
 dLzinN: calls $168.00
 *** SHOWDOWN ***
-我在南方: shows [Ks Qs] (two pair, Kings and Nines)
-dLzinN: shows [9d 9d] (four of a kind, Nines)
+我在南方: shows [Ks Qs] (two pair, Kings and Queens)
+dLzinN: shows [9d 9d] (three of a kind, Nines)
 我在南方 collected $672.00 from pot
 *** SUMMARY ***
 Total pot $672.00 | Rake $0
-Board [9c Kh 8c 5c 9c]
+Board [Qc Kh 8c 5c 9c]
 Seat 1: vGuerraF folded before Flop (didn't bet)
-Seat 2: 我在南方 showed [Ks Qs] and won ($672.00) with two pair, Kings and Nines
+Seat 2: 我在南方 showed [Ks Qs] and won ($672.00) with two pair, Kings and Queens
 Seat 3: Neyalisson folded before Flop
-Seat 4: dLzinN (button) showed [9d 9d] and lost with four of a kind, Nines
+Seat 4: dLzinN (button) showed [9d 9d] and lost with three of a kind, Nines
 Seat 5: LemmyKill (small blind) folded before Flop
 Seat 6: shayulajiao9 (big blind) folded before Flop
 Seat 7: 陈劲生ayNS3Q2 folded before Flop

@@ -30,10 +30,10 @@ wjsyy: folds
 好运长存iPcdUo: folds
 NewtonApple: raises $28.50 to $39.00
 dLzinN: calls $28.50
-*** FLOP *** [9d 6h 7c]
+*** FLOP *** [Qd 6h 7c]
 NewtonApple: checks
 dLzinN: checks
-*** TURN *** [9d 6h 7c] [3c]
+*** TURN *** [Qd 6h 7c] [3c]
 NewtonApple: bets $55.00
 dLzinN: calls $55.00
 *** SHOWDOWN ***
@@ -41,7 +41,7 @@ NewtonApple: shows [Kh Kd] (a pair of Kings)
 NewtonApple collected $586.00 from pot
 *** SUMMARY ***
 Total pot $586.00 | Rake $0
-Board [9d 6h 7c 3c]
+Board [Qd 6h 7c 3c]
 Seat 1: thieugao folded before Flop (didn't bet)
 Seat 2: dLzinN mucked hand
 Seat 3: JunDAcAizi folded before Flop (didn't bet)
