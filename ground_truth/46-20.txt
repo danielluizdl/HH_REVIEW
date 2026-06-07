@@ -1,5 +1,5 @@
 PokerStars Hand #12729024515129057​28: Hold'em No Limit ($1/$2 USD) - 2026/05/08 21:28:01 ET
-Table 'WPT Global' 8-max Seat #5 is the button
+Table 'WPT Global' 8-max Seat #8 is the button
 Seat 1: Cuatrok ($307 in chips)
 Seat 2: koNicZ ($1302 in chips)
 Seat 3: 青春一黨 ($325 in chips)
@@ -60,7 +60,7 @@ Seat 1: Cuatrok (small blind) folded on the Turn
 Seat 2: koNicZ (big blind) folded on the Turn
 Seat 3: 青春一黨 folded on the Turn
 Seat 4: 小马凯勋 folded on the Turn
-Seat 5: 合金弹头干 (button) folded on the Turn
+Seat 5: 合金弹头干 folded on the Turn
 Seat 6: Fungi97 collected ($55)
 Seat 7: dLzinN folded on the Turn
 Seat 8: olomeli77 folded on the Turn

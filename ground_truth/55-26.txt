@@ -1,5 +1,5 @@
 PokerStars Hand #12594101765110988880: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/01 15:54:32 ET
-Table 'WPT Global' 9-max Seat #6 is the button
+Table 'WPT Global' 9-max Seat #5 is the button
 Seat 1: prevara ($1175.00 in chips)
 Seat 2: 不行就蒜鸟 ($173.00 in chips)
 Seat 3: macadamia ($267.00 in chips)
@@ -50,7 +50,7 @@ Seat 1: prevara folded before Flop (didn't bet)
 Seat 2: 不行就蒜鸟 folded before Flop (didn't bet)
 Seat 3: macadamia folded before Flop (didn't bet)
 Seat 4: zeMraz folded before Flop (didn't bet)
-Seat 5: ggbond666602 (button) showed [Kd Kc] and won ($1002.00) with a pair of Kings
+Seat 5: ggbond666602 showed [Kd Kc] and won ($1002.00) with a pair of Kings
 Seat 6: ChandlerLimp (small blind) folded before Flop
 Seat 7: dLzinN (big blind) showed [9h Kh] and lost with King high
 Seat 8: 允哲 (straddle) folded before Flop

@@ -1,5 +1,5 @@
 PokerStars Hand #12698444481636306944: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/30 10:56:44
-Table 'WPT Global' 8-max Seat #5 is the button
+Table 'WPT Global' 8-max Seat #6 is the button
 Seat 1: dLzinN ($920.00 in chips)
 Seat 2: 蛇皮赌怪 ($428.00 in chips)
 Seat 3: Ferry111 ($2017.00 in chips)
@@ -51,7 +51,7 @@ Seat 1: dLzinN (UTG) showed [Ts Js] and won ($920.00) with a straight flush, Nin
 Seat 2: 蛇皮赌怪 (UTG+1) showed [Ac Ah] and lost
 Seat 3: Ferry111 (MP) folded before Flop
 Seat 4: matigarmendi (HJ) folded before Flop
-Seat 5: PKLau60 (CO) (button) folded on the Flop
+Seat 5: PKLau60 (CO) folded on the Flop
 Seat 6: ast神 (BTN) folded before Flop
 Seat 7: LFG7887 (SB) folded on the Flop
 Seat 8: dbruno066 (BB) folded before Flop

@@ -1,5 +1,5 @@
 PokerStars Hand #12699114605590896640: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/30 15:22:54 ET
-Table 'WPT Global' 8-max Seat #6 is the button
+Table 'WPT Global' 8-max Seat #8 is the button
 Seat 1: Nero01 ($230.00 in chips)
 Seat 2: TheRichJax ($1253.00 in chips)
 Seat 3: dLzinN ($1022.00 in chips)
@@ -56,4 +56,4 @@ Seat 4: tiepizz (UTG+1) folded before Flop
 Seat 5: INVESTOR (MP) folded before Flop
 Seat 6: dumau1 (HJ) folded before Flop
 Seat 7: 4480 (CO) folded before Flop
-Seat 8: 落落294 (button) folded before Flop
+Seat 8: 落落294 folded before Flop

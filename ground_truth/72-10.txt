@@ -1,5 +1,5 @@
 PokerStars Hand #12615575601224826​88: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/07 14:07:28 ET
-Table 'WPT Global' 8-Max Seat #5 is the button
+Table 'WPT Global' 8-Max Seat #8 is the button
 Seat 1: 鲜衣怒马时2 ($308.00 in chips)
 Seat 2: 今晚打老虎Hv ($1051.00 in chips)
 Seat 3: TimCheese ($796.00 in chips)
@@ -56,7 +56,7 @@ Seat 1: 鲜衣怒马时2 (small blind) folded on the Turn
 Seat 2: 今晚打老虎Hv (big blind) showed [6s Ah] and won ($400.00) with a flush, Ace-high
 Seat 3: TimCheese (straddle) folded before Flop
 Seat 4: 水上漂LFG folded on the Turn
-Seat 5: frankjohn203 (button) folded before Flop
+Seat 5: frankjohn203 folded before Flop
 Seat 6: jaowen99 folded before Flop
 Seat 7: 狂牛打摆锤 folded before Flop
 Seat 8: dLzinN showed [Td Kd] and lost

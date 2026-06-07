@@ -1,5 +1,5 @@
 PokerStars Hand #1261950104679841792: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/08 16:07:18 ET
-Table 'WPT Global' 9-max Seat #4 is the button
+Table 'WPT Global' 9-max Seat #8 is the button
 Seat 1: 猫猫警长ovo ($73.50 in chips)
 Seat 2: f1reNTC ($289.00 in chips)
 Seat 3: dLzinN ($185.00 in chips)
@@ -57,4 +57,4 @@ Seat 4: 偶家呵呵 (UTG+1) folded on the Flop
 Seat 5: 金老拐 (MP) showed [Tc Jh] and won ($391.00) with a full house, Tens full of Jacks
 Seat 6: AstroBarbo (HJ) folded before Flop
 Seat 7: PuntinStackz (CO) folded before Flop
-Seat 8: 天璐141 (button) folded before Flop
+Seat 8: 天璐141 folded before Flop

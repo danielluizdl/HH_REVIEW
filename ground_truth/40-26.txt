@@ -1,5 +1,5 @@
 PokerStars Hand #1265276543730401280: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 20:25:23
-Table 'WPT Global' 8-max Seat #4 is the button
+Table 'WPT Global' 8-max Seat #5 is the button
 Seat 1: Chianesa ($19.20 in chips)
 Seat 2: TheDealer23 ($21.20 in chips)
 Seat 3: val123 ($30.60 in chips)
@@ -44,7 +44,7 @@ Board [6s Qd Jh]
 Seat 1: Chianesa folded on the Flop
 Seat 2: TheDealer23 folded before Flop
 Seat 3: val123 folded before Flop
-Seat 4: loSpeR (button) collected ($2.06)
+Seat 4: loSpeR collected ($2.06)
 Seat 5: dLzinN folded before Flop
 Seat 6: 敢你至来 (small blind) folded before Flop
 Seat 7: Eunooo (big blind) folded on the Flop

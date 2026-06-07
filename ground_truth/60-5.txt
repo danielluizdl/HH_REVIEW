@@ -1,5 +1,5 @@
 PokerStars Hand #1272073145348083712: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/06 14:32:39 ET
-Table 'WPT Global' 9-max Seat #5 is the button
+Table 'WPT Global' 9-max Seat #6 is the button
 Seat 1: Doric352 ($392.00 in chips)
 Seat 2: HetTienCmnr ($332.00 in chips)
 Seat 3: Monika716 ($993.00 in chips)

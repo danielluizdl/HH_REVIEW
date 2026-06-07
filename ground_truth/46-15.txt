@@ -1,5 +1,5 @@
 PokerStars Hand #127138454536711839744: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/04 16:56:22
-Table 'WPT Global' 9-max Seat #7 is the button
+Table 'WPT Global' 9-max Seat #5 is the button
 Seat 1: phpd2910 ($104.50 in chips)
 Seat 2: 小小一和 ($290.50 in chips)
 Seat 3: bostero1079 ($94.50 in chips)
@@ -51,7 +51,7 @@ dLzinN: shows [5d 5s] (three of a kind, Fives)
 Total pot $311.50 | Rake $0
 Board [5h 2h 9d Kh 7c]
 Seat 1: phpd2910 folded before Flop (didn't bet)
-Seat 2: 小小一和 (button) showed [9s 9c] and won ($290.50) with three of a kind, Nines
+Seat 2: 小小一和 showed [9s 9c] and won ($290.50) with three of a kind, Nines
 Seat 3: bostero1079 folded before Flop (didn't bet)
 Seat 4: 有洁癖的蟑螂 folded before Flop (didn't bet)
 Seat 5: proFISHnal folded on the Flop

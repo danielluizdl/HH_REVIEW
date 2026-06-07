@@ -1,5 +1,5 @@
 PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41
-Table 'WPT Global' 8-max Seat #4 is the button
+Table 'WPT Global' 8-max Seat #8 is the button
 Seat 1: 鸽鸽别闹了 ($27.70 in chips)
 Seat 2: Loadding ($27.70 in chips)
 Seat 3: taberw ($101.98 in chips)
