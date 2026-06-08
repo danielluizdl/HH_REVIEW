@@ -32,13 +32,13 @@ dLzinN: folds
 你是不是A: checks
 Datzen: bets $3.75
 你是不是A: calls $3.75
-*** TURN *** [5h 4c Qh] [Kd]
+*** TURN *** [5h 4c Qh] [Kh]
 你是不是A: checks
 Datzen: checks
 你是不是A collected $17.75 from pot
 *** SUMMARY ***
 Total pot $17.75 | Rake $0
-Board [5h 4c Qh Kd]
+Board [5h 4c Qh Kh]
 Seat 1: dLzinN (small blind) folded before Flop
 Seat 2: 同花顺大屁股 (big blind) folded before Flop
 Seat 3: 你是不是A collected ($17.75)

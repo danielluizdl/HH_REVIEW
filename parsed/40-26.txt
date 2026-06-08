@@ -31,7 +31,7 @@ dLzinN: folds
 Eunooo: calls $0.68
 vGuerraF: folds
 Chianesa: calls $0.58
-*** FLOP *** [6c Qd]
+*** FLOP *** [6s Qd]
 Eunooo: checks
 Chianesa: checks
 loSpeR: bets $1.50
@@ -39,7 +39,7 @@ Eunooo: folds
 loSpeR collected $4.49 from pot
 *** SUMMARY ***
 Total pot $4.49 | Rake $0
-Board [6c Qd]
+Board [6s Qd]
 Seat 1: 敢你至来 (small blind) folded before Flop
 Seat 2: Eunooo (big blind) folded on the Flop
 Seat 3: vGuerraF folded before Flop

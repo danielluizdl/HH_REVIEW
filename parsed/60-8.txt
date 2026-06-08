@@ -31,14 +31,14 @@ benlim96: folds
 九浪四车1: folds
 行运一条龙發: calls $10.10
 bohuc2024: folds
-*** FLOP *** [8h Td 9h]
+*** FLOP *** [8h Th 9h]
 行运一条龙發: checks
 dLzinN: bets $16.90
 行运一条龙發: calls $16.90
-*** TURN *** [8h Td 9h] [5d]
+*** TURN *** [8h Th 9h] [5d]
 行运一条龙發: checks
 dLzinN: checks
-*** RIVER *** [8h Td 9h 5d] [Qc]
+*** RIVER *** [8h Th 9h 5d] [Qh]
 行运一条龙發: bets $45.00
 dLzinN: raises $264.00 to $309.00
 *** SHOWDOWN ***
@@ -46,7 +46,7 @@ dLzinN: raises $264.00 to $309.00
 dLzinN collected $421.00 from pot
 *** SUMMARY ***
 Total pot $421.00 | Rake $0
-Board [8h Td 9h 5d Qc]
+Board [8h Th 9h 5d Qh]
 Seat 1: Dracula12 (small blind) folded before Flop
 Seat 2: benlim96 (big blind) folded before Flop
 Seat 3: 九浪四车1 folded before Flop

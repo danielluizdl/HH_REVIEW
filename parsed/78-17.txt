@@ -33,24 +33,24 @@ dLzinN: raises $19.85 to $25.15
 Lwliet0105: folds
 oppacay: folds
 脑壳铁莫来吃假: calls $19.85
-*** FLOP *** [Jd 4d 6d]
+*** FLOP *** [Jd 4d 6s]
 脑壳铁莫来吃假: bets $43.00
 dLzinN: calls $43.00
-*** TURN *** [Jd 4d 6d] [Td]
+*** TURN *** [Jd 4d 6s] [Ts]
 脑壳铁莫来吃假: bets $100.00
 dLzinN: calls $100.00
-*** RIVER *** [Jd 4d 6d Td] [7c]
+*** RIVER *** [Jd 4d 6s Ts] [7c]
 脑壳铁莫来吃假: bets $175.00
 dLzinN: calls $175.00
 *** SHOWDOWN ***
-脑壳铁莫来吃假: shows [4d 6d] (a flush, Jack high)
+脑壳铁莫来吃假: shows [4d 6d] (two pair, Sixes and Fours)
 dLzinN: shows [Ah As] (a pair of Aces)
 脑壳铁莫来吃假 collected $700.00 from pot
 *** SUMMARY ***
 Total pot $700.00 | Rake $0
-Board [Jd 4d 6d Td 7c]
+Board [Jd 4d 6s Ts 7c]
 Seat 1: donkdonk232253 (small blind) folded before Flop
-Seat 2: 脑壳铁莫来吃假 (big blind) showed [4d 6d] and won ($700.00) with a flush, Jack high
+Seat 2: 脑壳铁莫来吃假 (big blind) showed [4d 6d] and won ($700.00) with two pair, Sixes and Fours
 Seat 3: chipboiz folded before Flop
 Seat 4: dLzinN showed [Ah As] and lost with a pair of Aces
 Seat 5: Lwliet0105 folded before Flop

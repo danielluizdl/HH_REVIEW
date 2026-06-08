@@ -32,7 +32,7 @@ kiukiukiu902: folds
 suoha2046: folds
 Diegosu8: folds
 dLzinN: calls $22.50
-*** FLOP *** [5c Qd 4h]
+*** FLOP *** [5s Qd 4h]
 dLzinN: checks
 乃总: bets $59.00
 dLzinN: raises $66.00 to $125.00
@@ -43,7 +43,7 @@ dLzinN: shows [Th Td] (a pair of Tens)
 dLzinN collected $744.00 from pot
 *** SUMMARY ***
 Total pot $744.00 | Rake $0
-Board [5c Qd 4h]
+Board [5s Qd 4h]
 Seat 1: dLzinN (small blind) showed [Th Td] and won ($744.00) with a pair of Tens
 Seat 2: kiukiukiu902 (big blind) folded before Flop
 Seat 3: 乃总 showed [Kd Ad] and lost with high card Ace

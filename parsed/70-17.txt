@@ -36,7 +36,7 @@ dLzinN: checks
 *** TURN *** [Qc Kh 8c] [5c]
 我在南方: bets $17.00
 dLzinN: calls $17.00
-*** RIVER *** [Qc Kh 8c 5c] [9c]
+*** RIVER *** [Qc Kh 8c 5c] [9s]
 我在南方: checks
 dLzinN: bets $112.00
 我在南方: raises $168.00 to $280.00
@@ -47,7 +47,7 @@ dLzinN: shows [9d 9d] (three of a kind, Nines)
 我在南方 collected $672.00 from pot
 *** SUMMARY ***
 Total pot $672.00 | Rake $0
-Board [Qc Kh 8c 5c 9c]
+Board [Qc Kh 8c 5c 9s]
 Seat 1: Lemmykill folded before Flop (didn't bet)
 Seat 2: shayulajiao9 (big blind) folded before Flop
 Seat 3: 陈劲生ayNS3Q2 folded before Flop

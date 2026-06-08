@@ -33,20 +33,20 @@ Banhbao86: folds
 None: folds
 yanzhong951: folds
 dLzinN: calls $38.10
-*** FLOP *** [Qd Ad 2c]
+*** FLOP *** [Qd As 2c]
 喊喊白斑马: bets $76.00
 dLzinN: calls $76.00
-*** TURN *** [Qd Ad 2c] [Ac]
+*** TURN *** [Qd As 2c] [Ac]
 喊喊白斑马: raises $267.00 to $267.00 and is all-in
 dLzinN: calls $267.00
-*** RIVER *** [Qd Ad 2c Ac] [6h]
+*** RIVER *** [Qd As 2c Ac] [6h]
 *** SHOWDOWN ***
 喊喊白斑马: shows [Qd Qd] (a full house, Queens full of Aces)
 dLzinN: shows [Kh Ad] (three of a kind, Aces)
 喊喊白斑马 collected $838.00 from pot
 *** SUMMARY ***
 Total pot $838.00 | Rake $0
-Board [Qd Ad 2c Ac 6h]
+Board [Qd As 2c Ac 6h]
 Seat 1: 喊喊白斑马 (small blind) showed [Qd Qd] and won ($838.00) with a full house, Queens full of Aces
 Seat 2: Banhbao86 (big blind) folded before Flop
 Seat 3: Jaybo37 folded before Flop
