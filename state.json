@@ -1,6 +1,6 @@
 {
   "session_date": "2026-06-08",
-  "parser_commit": "d687d61",
+  "parser_commit": "3362f78",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 45,
@@ -40,10 +40,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.625,
-      "board": 0.88,
+      "board": 0.8,
       "actions": 0.9285714285714286,
       "total_pot": 1.0,
-      "overall": 80.41964285714286
+      "overall": 79.41964285714286
     },
     "24-17 bp": {
       "hand_id": 1.0,
@@ -348,10 +348,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.0,
-      "board": 0.8275862068965517,
+      "board": 0.896551724137931,
       "actions": 0.4594594594594595,
       "total_pot": 1.0,
-      "overall": 78.58807082945015
+      "overall": 79.45013979496738
     },
     "59-17 58-18 59-15": {
       "hand_id": 1.0,
@@ -359,10 +359,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.125,
-      "board": 1.0,
+      "board": 0.9285714285714286,
       "actions": 0.6896551724137931,
       "total_pot": 1.0,
-      "overall": 85.18318965517241
+      "overall": 84.29033251231527
     },
     "60-12": {
       "hand_id": 0.0,
@@ -447,10 +447,10 @@
       "stakes": 1.0,
       "button_seat": 0.0,
       "players_stacks": 0.8571428571428571,
-      "board": 1.0,
+      "board": 0.8571428571428571,
       "actions": 0.7407407407407407,
       "total_pot": 1.0,
-      "overall": 82.47354497354497
+      "overall": 80.68783068783068
     },
     "71-13": {
       "hand_id": 0.0,
@@ -491,10 +491,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.625,
-      "board": 0.88,
+      "board": 0.8,
       "actions": 0.6551724137931034,
       "total_pot": 1.0,
-      "overall": 89.5021551724138
+      "overall": 88.5021551724138
     },
     "runnada": {
       "hand_id": 1.0,
@@ -502,10 +502,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.625,
-      "board": 0.88,
+      "board": 0.72,
       "actions": 0.5925925925925926,
       "total_pot": 1.0,
-      "overall": 88.7199074074074
+      "overall": 86.7199074074074
     }
   },
   "known_issues": [

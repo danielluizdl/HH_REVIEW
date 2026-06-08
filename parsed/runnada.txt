@@ -32,8 +32,8 @@ ChiaAn: folds
 shaibal: raises $48.50 to $82.00 and is all-in
 lamlai12: raises $176.00 to $258.00 and is all-in
 dLzinN: calls $214.00 and is all-in
-*** FLOP *** [3h Ts Qs]
-*** TURN *** [3h Ts Qs] [9h]
+*** FLOP *** [3h Td Qh]
+*** TURN *** [3h Td Qh] [9h]
 *** SHOWDOWN ***
 lamlai12: shows [Ad Kd] (high card Ace)
 dLzinN: shows [Ad Ad] (a pair of Aces)
@@ -41,7 +41,7 @@ shaibal: shows [As Qd] (a pair of Queens)
 lamlai12 collected $594.00 from pot
 *** SUMMARY ***
 Total pot $594.00 | Rake $0
-Board [3h Ts Qs 9h]
+Board [3h Td Qh 9h]
 Seat 1: Exploit90 (small blind) folded before Flop
 Seat 2: 给你一套火龙果 (big blind) folded before Flop
 Seat 3: ChiaAn folded before Flop

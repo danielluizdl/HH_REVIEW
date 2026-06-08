@@ -29,12 +29,12 @@ whaak: calls $24.40
 stingxiao: folds
 absorber: folds
 zildurr: calls $17.70
-*** FLOP *** [2s Tc 6s]
+*** FLOP *** [2s Tc 6c]
 zildurr: checks
 dLzinN: bets $40.40
 whaak: folds
 zildurr: calls $40.40
-*** TURN *** [2s Tc 6s] [8h]
+*** TURN *** [2s Tc 6c] [8h]
 zildurr: checks
 dLzinN: bets $111.00
 zildurr: raises $179.00 to $290.00 and is all-in
@@ -42,7 +42,7 @@ dLzinN: calls $160.70 and is all-in
 zildurr collected $723.00 from pot
 *** SUMMARY ***
 Total pot $723.00 | Rake $0
-Board [2s Tc 6s 8h]
+Board [2s Tc 6c 8h]
 Seat 1: 风亲云蛋 (small blind) folded before Flop
 Seat 2: stingxiao (big blind) folded before Flop
 Seat 3: absorber folded before Flop
