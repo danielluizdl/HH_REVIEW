@@ -27,14 +27,14 @@ Kaakamelli: folds
 AlexanderN: folds
 FlushFever97: folds
 淡淡的会顺顺: calls $2.01
-*** FLOP *** [8h 2c 6c]
+*** FLOP *** [8h 2c 6s]
 淡淡的会顺顺: bets $3.24
 dLzinN: raises $6.48 to $9.72
 淡淡的会顺顺: calls $6.48
-*** TURN *** [8h 2c 6c] [8c]
+*** TURN *** [8h 2c 6s] [8c]
 淡淡的会顺顺: checks
 dLzinN: checks
-*** RIVER *** [8h 2c 6c 8c] [9s]
+*** RIVER *** [8h 2c 6s 8c] [9s]
 淡淡的会顺顺: checks
 dLzinN: bets $13.00
 淡淡的会顺顺: raises $82.80 to $95.80 and is all-in
@@ -45,7 +45,7 @@ dLzinN: shows [Ad As] (two pair, Aces and Eights)
 淡淡的会顺顺 collected $153.00 from pot
 *** SUMMARY ***
 Total pot $153.00 | Rake $0
-Board [8h 2c 6c 8c 9s]
+Board [8h 2c 6s 8c 9s]
 Seat 1: Kaakamelli (small blind) folded before Flop
 Seat 2: AlexanderN (big blind) folded before Flop
 Seat 3: FlushFever97 folded before Flop

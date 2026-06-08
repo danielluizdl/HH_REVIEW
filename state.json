@@ -1,13 +1,13 @@
 {
   "session_date": "2026-06-08",
-  "parser_commit": "fa24353",
+  "parser_commit": "d687d61",
   "images_total": 45,
   "images_parsed": 45,
   "ground_truths_available": 45,
   "parse_summary": {
     "with_flop": 44,
     "with_turn": 38,
-    "with_river": 22,
+    "with_river": 23,
     "with_showdown": 31,
     "with_seat9_overflow": 4
   },
@@ -40,10 +40,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.625,
-      "board": 0.8,
+      "board": 0.88,
       "actions": 0.9285714285714286,
       "total_pot": 1.0,
-      "overall": 79.41964285714286
+      "overall": 80.41964285714286
     },
     "24-17 bp": {
       "hand_id": 1.0,
@@ -62,10 +62,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 1.0,
-      "board": 1.0,
+      "board": 0.9285714285714286,
       "actions": 1.0,
       "total_pot": 1.0,
-      "overall": 87.5
+      "overall": 86.60714285714286
     },
     "29-16 poucas hands": {
       "hand_id": 0.0,
@@ -128,10 +128,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.6666666666666666,
-      "board": 0.6153846153846154,
+      "board": 0.7692307692307693,
       "actions": 0.9166666666666666,
       "total_pot": 1.0,
-      "overall": 77.48397435897436
+      "overall": 79.40705128205128
     },
     "35-14": {
       "hand_id": 0.0,
@@ -348,10 +348,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.0,
-      "board": 0.896551724137931,
+      "board": 0.8275862068965517,
       "actions": 0.4594594594594595,
       "total_pot": 1.0,
-      "overall": 79.45013979496738
+      "overall": 78.58807082945015
     },
     "59-17 58-18 59-15": {
       "hand_id": 1.0,
@@ -359,10 +359,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.125,
-      "board": 0.9285714285714286,
+      "board": 1.0,
       "actions": 0.6896551724137931,
       "total_pot": 1.0,
-      "overall": 84.29033251231527
+      "overall": 85.18318965517241
     },
     "60-12": {
       "hand_id": 0.0,
@@ -436,10 +436,10 @@
       "stakes": 1.0,
       "button_seat": 0.0,
       "players_stacks": 0.75,
-      "board": 0.8,
-      "actions": 0.896551724137931,
+      "board": 1.0,
+      "actions": 0.9310344827586207,
       "total_pot": 1.0,
-      "overall": 68.08189655172414
+      "overall": 71.01293103448276
     },
     "70-17": {
       "hand_id": 1.0,
@@ -447,10 +447,10 @@
       "stakes": 1.0,
       "button_seat": 0.0,
       "players_stacks": 0.8571428571428571,
-      "board": 0.8571428571428571,
+      "board": 1.0,
       "actions": 0.7407407407407407,
       "total_pot": 1.0,
-      "overall": 80.68783068783068
+      "overall": 82.47354497354497
     },
     "71-13": {
       "hand_id": 0.0,
@@ -458,10 +458,10 @@
       "stakes": 1.0,
       "button_seat": 0.0,
       "players_stacks": 0.5,
-      "board": 0.8181818181818182,
+      "board": 0.9090909090909091,
       "actions": 0.7222222222222222,
       "total_pot": 1.0,
-      "overall": 63.005050505050505
+      "overall": 64.14141414141415
     },
     "72-10": {
       "hand_id": 0.0,
@@ -491,10 +491,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.625,
-      "board": 0.8,
+      "board": 0.88,
       "actions": 0.6551724137931034,
       "total_pot": 1.0,
-      "overall": 88.5021551724138
+      "overall": 89.5021551724138
     },
     "runnada": {
       "hand_id": 1.0,
@@ -502,10 +502,10 @@
       "stakes": 1.0,
       "button_seat": 1.0,
       "players_stacks": 0.625,
-      "board": 0.72,
+      "board": 0.88,
       "actions": 0.5925925925925926,
       "total_pot": 1.0,
-      "overall": 86.7199074074074
+      "overall": 88.7199074074074
     }
   },
   "known_issues": [
@@ -895,10 +895,10 @@
       "seat9_overflow": false
     },
     "63-9": {
-      "lines": 53,
+      "lines": 57,
       "has_flop": true,
       "has_turn": true,
-      "has_river": false,
+      "has_river": true,
       "has_showdown": true,
       "has_board": true,
       "seat9_overflow": false

@@ -19,7 +19,7 @@ Ferrugem: posts the ante $8.00
 求求你让我中牌: posts small blind $0.50
 koNicZ: posts big blind $1.00
 *** HOLE CARDS ***
-*** FLOP *** [Qd Td 4h]
+*** FLOP *** [Qd Ts 4h]
 求求你让我中牌: checks
 koNicZ: checks
 达文西达文西: checks
@@ -32,13 +32,13 @@ Ferrugem: folds
 koNicZ: folds
 达文西达文西: folds
 dLzinN: calls $51.60
-*** TURN *** [Qd Td 4h] [3c]
+*** TURN *** [Qd Ts 4h] [3c]
 dLzinN: checks
 AA龙腾: raises $471.00 to $471.00 and is all-in
 AA龙腾 collected $651.00 from pot
 *** SUMMARY ***
 Total pot $651.00 | Rake $0
-Board [Qd Td 4h 3c]
+Board [Qd Ts 4h 3c]
 Seat 1: 求求你让我中牌 (small blind) folded on the Flop
 Seat 2: koNicZ (big blind) folded on the Flop
 Seat 3: AA龙腾 collected ($651.00)

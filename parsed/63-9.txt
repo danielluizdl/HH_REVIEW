@@ -29,20 +29,24 @@ mthuong26: folds
 烈火真金葫芦娃: folds
 TIE6858: folds
 4480: calls $8.50
-*** FLOP *** [5s 5c Tc]
+*** FLOP *** [4s 5s 5c]
 4480: checks
 dLzinN: bets $14.00
 4480: calls $14.00
-*** TURN *** [5s 5c Tc] [6s]
+*** TURN *** [4s 5s 5c] [Ts]
 4480: checks
 dLzinN: bets $42.00
 4480: calls $42.00
+*** RIVER *** [4s 5s 5c Ts] [6s]
+4480: checks
+dLzinN: raises $238.00 to $238.00 and is all-in
+4480: calls $238.00
 *** SHOWDOWN ***
 4480: shows [6d 5d] (a full house, Fives full of Sixes)
 4480 collected $617.00 from pot
 *** SUMMARY ***
 Total pot $617.00 | Rake $0
-Board [5s 5c Tc 6s]
+Board [4s 5s 5c Ts 6s]
 Seat 1: mthuong26 (small blind) folded before Flop
 Seat 2: 烈火真金葫芦娃 (big blind) folded before Flop
 Seat 3: TIE6858 folded before Flop

@@ -29,7 +29,7 @@ PuntinStackz: folds
 猫猫警长ovo: folds
 f1reNTC: calls $7.50
 dLzinN: calls $6.50
-*** FLOP *** [Ts 4c Ah]
+*** FLOP *** [Ts 4s Ah]
 f1reNTC: checks
 dLzinN: checks
 偶家呵呵: checks
@@ -38,7 +38,7 @@ f1reNTC: folds
 dLzinN: raises $50.10 to $75.60
 偶家呵呵: folds
 金老拐: calls $50.10
-*** TURN *** [Ts 4c Ah] [Td]
+*** TURN *** [Ts 4s Ah] [Td]
 dLzinN: raises $101.00 to $101.00 and is all-in
 金老拐: calls $101.00
 *** SHOWDOWN ***
@@ -46,7 +46,7 @@ dLzinN: shows [Kc 9d] (a pair of Tens)
 金老拐 collected $391.00 from pot
 *** SUMMARY ***
 Total pot $391.00 | Rake $0
-Board [Ts 4c Ah Td]
+Board [Ts 4s Ah Td]
 Seat 1: 猫猫警长ovo (small blind) folded before Flop
 Seat 2: f1reNTC (big blind) folded on the Flop
 Seat 3: dLzinN showed [Kc 9d] and lost with a pair of Tens

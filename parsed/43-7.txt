@@ -28,7 +28,7 @@ center1: calls $2.00
 INVESTOR: folds
 matigarmendi: folds
 NeleKockar: checks
-*** FLOP *** [5d Kd Td]
+*** FLOP *** [5d Kd Ts]
 NeleKockar: checks
 申长红: checks
 dLzinN: checks
@@ -41,19 +41,19 @@ dLzinN: raises $22.10 to $27.90
 center1: folds
 汐Y: folds
 猪猪乱跑678: calls $22.10
-*** TURN *** [5d Kd Td] [4s]
+*** TURN *** [5d Kd Ts] [4s]
 dLzinN: bets $59.30
 猪猪乱跑678: calls $59.30
 *** SHOWDOWN ***
-猪猪乱跑678: shows [Ad 7d] (a flush, Ace high)
+猪猪乱跑678: shows [Ad 7d] (high card Ace)
 猪猪乱跑678 collected $551.00 from pot
 *** SUMMARY ***
 Total pot $551.00 | Rake $0
-Board [5d Kd Td 4s]
+Board [5d Kd Ts 4s]
 Seat 1: INVESTOR (small blind) folded before Flop
 Seat 2: matigarmendi (big blind) folded before Flop
 Seat 3: NeleKockar folded on the Flop
-Seat 4: 猪猪乱跑678 (button) showed [Ad 7d] and won ($551.00) with a flush, Ace high
+Seat 4: 猪猪乱跑678 (button) showed [Ad 7d] and won ($551.00) with high card Ace
 Seat 5: dLzinN mucked hand
 Seat 6: 汐Y folded on the Flop
 Seat 7: 申长红 folded on the Flop
