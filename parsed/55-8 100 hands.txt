@@ -1,21 +1,21 @@
 PokerStars Hand #1269838871860924416: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/30 10:34:27 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: arbham ($194.50 in chips)
-Seat 2: suoha2046 ($297.50 in chips)
-Seat 3: Diegosu8 ($387.50 in chips)
-Seat 4: 小气泡518 ($223.50 in chips)
-Seat 5: dLzinN ($369.00 in chips)
-Seat 6: kiukiukiu902 ($958.50 in chips)
-Seat 7: 乃总 ($1781.00 in chips)
-Seat 8: Cuatrok ($619.50 in chips)
-arbham: posts the ante $0.50
-suoha2046: posts the ante $0.50
-Diegosu8: posts the ante $0.50
-小气泡518: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #6 is the button
+Seat 1: dLzinN ($369.00 in chips)
+Seat 2: kiukiukiu902 ($958.50 in chips)
+Seat 3: 乃总 ($1781.00 in chips)
+Seat 4: Diegosu8 ($387.50 in chips)
+Seat 5: suoha2046 ($297.50 in chips)
+Seat 6: 小气泡518 ($223.50 in chips)
+Seat 7: Cuatrok ($619.50 in chips)
+Seat 8: arbham ($194.50 in chips)
 dLzinN: posts the ante $0.50
 kiukiukiu902: posts the ante $0.50
 乃总: posts the ante $0.50
+Diegosu8: posts the ante $0.50
+suoha2046: posts the ante $0.50
+小气泡518: posts the ante $0.50
 Cuatrok: posts the ante $0.50
+arbham: posts the ante $0.50
 dLzinN: posts small blind $0.50
 kiukiukiu902: posts big blind $1.00
 乃总: posts straddle $2.00
@@ -32,7 +32,7 @@ kiukiukiu902: folds
 suoha2046: folds
 Diegosu8: folds
 dLzinN: calls $22.50
-*** FLOP *** [5c 6d 4h]
+*** FLOP *** [5c Qd 4h]
 dLzinN: checks
 乃总: bets $59.00
 dLzinN: raises $66.00 to $125.00
@@ -43,12 +43,12 @@ dLzinN: shows [Th Td] (a pair of Tens)
 dLzinN collected $744.00 from pot
 *** SUMMARY ***
 Total pot $744.00 | Rake $0
-Board [5c 6d 4h]
-Seat 1: arbham folded before Flop (didn't bet)
-Seat 2: suoha2046 folded before Flop
-Seat 3: Diegosu8 folded before Flop
-Seat 4: 小气泡518 (button) folded before Flop (didn't bet)
-Seat 5: dLzinN (small blind) showed [Th Td] and won ($744.00) with a pair of Tens
-Seat 6: kiukiukiu902 (big blind) folded before Flop
-Seat 7: 乃总 showed [Kd Ad] and lost with high card Ace
-Seat 8: Cuatrok folded before Flop (didn't bet)
+Board [5c Qd 4h]
+Seat 1: dLzinN (small blind) showed [Th Td] and won ($744.00) with a pair of Tens
+Seat 2: kiukiukiu902 (big blind) folded before Flop
+Seat 3: 乃总 showed [Kd Ad] and lost with high card Ace
+Seat 4: Diegosu8 folded before Flop
+Seat 5: suoha2046 folded before Flop
+Seat 6: 小气泡518 (button) folded before Flop (didn't bet)
+Seat 7: Cuatrok folded before Flop (didn't bet)
+Seat 8: arbham folded before Flop (didn't bet)

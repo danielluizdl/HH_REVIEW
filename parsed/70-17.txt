@@ -1,21 +1,21 @@
 PokerStars Hand #1265244847648022528: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/17 18:19:26 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: vGuerraF ($527.50 in chips)
-Seat 2: 我在南方 ($1166.00 in chips)
-Seat 3: Neyalisson ($496.50 in chips)
-Seat 4: dLzinN ($474.00 in chips)
-Seat 5: LemmyKill ($1.00 in chips)
-Seat 6: shayulajiao9 ($837.50 in chips)
-Seat 7: 陈劲生ayNS3Q2 ($178.50 in chips)
-Seat 8: Lemmykill ($774.00 in chips)
-vGuerraF: posts the ante $0.44
-我在南方: posts the ante $0.44
-Neyalisson: posts the ante $0.44
-dLzinN: posts the ante $0.44
-LemmyKill: posts the ante $0.44
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: Lemmykill ($774.00 in chips)
+Seat 2: shayulajiao9 ($837.50 in chips)
+Seat 3: 陈劲生ayNS3Q2 ($178.50 in chips)
+Seat 4: 我在南方 ($1166.00 in chips)
+Seat 5: dLzinN ($474.00 in chips)
+Seat 6: Neyalisson ($496.50 in chips)
+Seat 7: LemmyKill ($1.00 in chips)
+Seat 8: vGuerraF ($527.50 in chips)
+Lemmykill: posts the ante $0.44
 shayulajiao9: posts the ante $0.44
 陈劲生ayNS3Q2: posts the ante $0.44
-Lemmykill: posts the ante $0.44
+我在南方: posts the ante $0.44
+dLzinN: posts the ante $0.44
+Neyalisson: posts the ante $0.44
+LemmyKill: posts the ante $0.44
+vGuerraF: posts the ante $0.44
 LemmyKill: posts small blind $0.50
 shayulajiao9: posts big blind $1.00
 陈劲生ayNS3Q2: posts straddle $2.00
@@ -48,11 +48,11 @@ dLzinN: shows [9d 9d] (three of a kind, Nines)
 *** SUMMARY ***
 Total pot $672.00 | Rake $0
 Board [Qc Kh 8c 5c 9c]
-Seat 1: vGuerraF folded before Flop (didn't bet)
-Seat 2: 我在南方 showed [Ks Qs] and won ($672.00) with two pair, Kings and Queens
-Seat 3: Neyalisson folded before Flop
-Seat 4: dLzinN (button) showed [9d 9d] and lost with three of a kind, Nines
-Seat 5: LemmyKill (small blind) folded before Flop
-Seat 6: shayulajiao9 (big blind) folded before Flop
-Seat 7: 陈劲生ayNS3Q2 folded before Flop
-Seat 8: Lemmykill folded before Flop (didn't bet)
+Seat 1: Lemmykill folded before Flop (didn't bet)
+Seat 2: shayulajiao9 (big blind) folded before Flop
+Seat 3: 陈劲生ayNS3Q2 folded before Flop
+Seat 4: 我在南方 showed [Ks Qs] and won ($672.00) with two pair, Kings and Queens
+Seat 5: dLzinN (button) showed [9d 9d] and lost with three of a kind, Nines
+Seat 6: Neyalisson folded before Flop
+Seat 7: LemmyKill (small blind) folded before Flop
+Seat 8: vGuerraF folded before Flop (didn't bet)

@@ -1,21 +1,21 @@
 PokerStars Hand #1272073145348083712: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/06 14:32:39 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Monika716 ($993.50 in chips)
-Seat 2: uuuulll774933 ($177.50 in chips)
-Seat 3: 边打边中哈 ($58.00 in chips)
+Seat 1: PlowingMachine ($158.00 in chips)
+Seat 2: dLzinN ($394.50 in chips)
+Seat 3: Doric352 ($394.50 in chips)
 Seat 4: qwerzzh ($338.00 in chips)
-Seat 5: PlowingMachine ($158.00 in chips)
-Seat 6: dLzinN ($394.50 in chips)
-Seat 7: Doric352 ($394.50 in chips)
-Seat 8: HetTienCmnr ($332.50 in chips)
-Monika716: posts the ante $0.50
-uuuulll774933: posts the ante $0.50
-边打边中哈: posts the ante $0.50
-qwerzzh: posts the ante $0.50
+Seat 5: 边打边中哈 ($58.00 in chips)
+Seat 6: HetTienCmnr ($332.50 in chips)
+Seat 7: Monika716 ($993.50 in chips)
+Seat 8: uuuulll774933 ($177.50 in chips)
 PlowingMachine: posts the ante $0.50
 dLzinN: posts the ante $0.50
 Doric352: posts the ante $0.50
+qwerzzh: posts the ante $0.50
+边打边中哈: posts the ante $0.50
 HetTienCmnr: posts the ante $0.50
+Monika716: posts the ante $0.50
+uuuulll774933: posts the ante $0.50
 PlowingMachine: posts small blind $0.50
 dLzinN: posts big blind $1.00
 Doric352: posts straddle $2.00
@@ -52,11 +52,11 @@ qwerzzh collected $691.00 from pot
 *** SUMMARY ***
 Total pot $691.00 | Rake $0
 Board [7d 9h 6s 8h 6c]
-Seat 1: Monika716 folded before Flop (didn't bet)
-Seat 2: uuuulll774933 folded before Flop (didn't bet)
-Seat 3: 边打边中哈 folded before Flop
+Seat 1: PlowingMachine (small blind) folded before Flop
+Seat 2: dLzinN (big blind) showed [Qd Qd] and lost with two pair, Queens and Sixes
+Seat 3: Doric352 folded before Flop
 Seat 4: qwerzzh (button) showed [Ts Ts] and won ($691.00) with a straight, Ten high
-Seat 5: PlowingMachine (small blind) folded before Flop
-Seat 6: dLzinN (big blind) showed [Qd Qd] and lost with two pair, Queens and Sixes
-Seat 7: Doric352 folded before Flop
-Seat 8: HetTienCmnr folded before Flop (didn't bet)
+Seat 5: 边打边中哈 folded before Flop
+Seat 6: HetTienCmnr folded before Flop (didn't bet)
+Seat 7: Monika716 folded before Flop (didn't bet)
+Seat 8: uuuulll774933 folded before Flop (didn't bet)

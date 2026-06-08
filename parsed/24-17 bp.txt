@@ -1,21 +1,21 @@
 PokerStars Hand #1261919659788029952: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/08 14:06:20 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 安轩吼吼吼 ($207.00 in chips)
-Seat 2: julioAm5 ($323.00 in chips)
-Seat 3: Hugochan3110 ($254.00 in chips)
-Seat 4: ghbg ($77.80 in chips)
-Seat 5: dLzinN ($799.00 in chips)
-Seat 6: taberw ($194.00 in chips)
-Seat 7: Evilswine ($964.00 in chips)
-Seat 8: pokerjust174 ($339.00 in chips)
-安轩吼吼吼: posts the ante $8.00
-julioAm5: posts the ante $8.00
-Hugochan3110: posts the ante $8.00
-ghbg: posts the ante $8.00
+Table 'WPT Global' 8-max Seat #6 is the button
+Seat 1: dLzinN ($799.00 in chips)
+Seat 2: taberw ($194.00 in chips)
+Seat 3: Evilswine ($964.00 in chips)
+Seat 4: julioAm5 ($323.00 in chips)
+Seat 5: Hugochan3110 ($254.00 in chips)
+Seat 6: ghbg ($77.80 in chips)
+Seat 7: pokerjust174 ($339.00 in chips)
+Seat 8: 安轩吼吼吼 ($207.00 in chips)
 dLzinN: posts the ante $8.00
 taberw: posts the ante $8.00
 Evilswine: posts the ante $8.00
+julioAm5: posts the ante $8.00
+Hugochan3110: posts the ante $8.00
+ghbg: posts the ante $8.00
 pokerjust174: posts the ante $8.00
+安轩吼吼吼: posts the ante $8.00
 dLzinN: posts small blind $0.50
 taberw: posts big blind $1.00
 *** HOLE CARDS ***
@@ -50,11 +50,11 @@ Evilswine collected $1083.00 from pot
 *** SUMMARY ***
 Total pot $1083.00 | Rake $0
 Board [7d 3h 5h 8d]
-Seat 1: 安轩吼吼吼 folded on the Turn
-Seat 2: julioAm5 showed [Ad 3d] and lost with a pair of Threes
-Seat 3: Hugochan3110 showed [2s Ad] and lost with high card Ace
-Seat 4: ghbg (button) showed [8d Qd] and lost with a pair of Eights
-Seat 5: dLzinN (small blind) showed [2d 6d] and lost with high card Eight
-Seat 6: taberw (big blind) showed [4d 8d] and lost with a pair of Eights
-Seat 7: Evilswine showed [9s As] and won ($1083.00) with high card Ace
-Seat 8: pokerjust174 showed [7d Ts] and lost with a pair of Sevens
+Seat 1: dLzinN (small blind) showed [2d 6d] and lost with high card Eight
+Seat 2: taberw (big blind) showed [4d 8d] and lost with a pair of Eights
+Seat 3: Evilswine showed [9s As] and won ($1083.00) with high card Ace
+Seat 4: julioAm5 showed [Ad 3d] and lost with a pair of Threes
+Seat 5: Hugochan3110 showed [2s Ad] and lost with high card Ace
+Seat 6: ghbg (button) showed [8d Qd] and lost with a pair of Eights
+Seat 7: pokerjust174 showed [7d Ts] and lost with a pair of Sevens
+Seat 8: 安轩吼吼吼 folded on the Turn

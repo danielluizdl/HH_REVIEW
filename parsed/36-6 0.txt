@@ -1,21 +1,21 @@
 PokerStars Hand #1262234830671228928: Hold'em No Limit ($0.25/$0.50 USD) - 2026/04/09 10:58:42 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: amorrazo ($179.25 in chips)
-Seat 2: LeslieYR ($354.75 in chips)
-Seat 3: Datzen ($259.75 in chips)
-Seat 4: MarcusAntonius ($333.25 in chips)
-Seat 5: dLzinN ($228.00 in chips)
-Seat 6: 同花顺大屁股 ($69.75 in chips)
-Seat 7: 你是不是A ($204.25 in chips)
-Seat 8: t2r0u2m6 ($148.75 in chips)
-amorrazo: posts the ante $0.25
-LeslieYR: posts the ante $0.25
-Datzen: posts the ante $0.25
-MarcusAntonius: posts the ante $0.25
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: dLzinN ($228.00 in chips)
+Seat 2: 同花顺大屁股 ($69.75 in chips)
+Seat 3: 你是不是A ($204.25 in chips)
+Seat 4: Datzen ($259.75 in chips)
+Seat 5: t2r0u2m6 ($148.75 in chips)
+Seat 6: amorrazo ($179.25 in chips)
+Seat 7: LeslieYR ($354.75 in chips)
+Seat 8: MarcusAntonius ($333.25 in chips)
 dLzinN: posts the ante $0.25
 同花顺大屁股: posts the ante $0.25
 你是不是A: posts the ante $0.25
+Datzen: posts the ante $0.25
 t2r0u2m6: posts the ante $0.25
+amorrazo: posts the ante $0.25
+LeslieYR: posts the ante $0.25
+MarcusAntonius: posts the ante $0.25
 dLzinN: posts small blind $0.25
 同花顺大屁股: posts big blind $0.50
 你是不是A: posts straddle $1.00
@@ -39,11 +39,11 @@ Datzen: checks
 *** SUMMARY ***
 Total pot $17.75 | Rake $0
 Board [5h 4c Qh Kd]
-Seat 1: amorrazo folded before Flop (didn't bet)
-Seat 2: LeslieYR folded before Flop (didn't bet)
-Seat 3: Datzen mucked hand
-Seat 4: MarcusAntonius (button) folded before Flop (didn't bet)
-Seat 5: dLzinN (small blind) folded before Flop
-Seat 6: 同花顺大屁股 (big blind) folded before Flop
-Seat 7: 你是不是A collected ($17.75)
-Seat 8: t2r0u2m6 folded before Flop (didn't bet)
+Seat 1: dLzinN (small blind) folded before Flop
+Seat 2: 同花顺大屁股 (big blind) folded before Flop
+Seat 3: 你是不是A collected ($17.75)
+Seat 4: Datzen mucked hand
+Seat 5: t2r0u2m6 folded before Flop (didn't bet)
+Seat 6: amorrazo folded before Flop (didn't bet)
+Seat 7: LeslieYR folded before Flop (didn't bet)
+Seat 8: MarcusAntonius (button) folded before Flop (didn't bet)

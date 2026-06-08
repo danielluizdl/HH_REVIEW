@@ -1,19 +1,19 @@
 PokerStars Hand #1259410176511098880: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/01 15:54:32 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 不行就蒜鸟 ($173.50 in chips)
-Seat 2: macadamia ($267.50 in chips)
-Seat 3: zeMraz ($408.50 in chips)
+Seat 1: ChandlerLimp ($448.50 in chips)
+Seat 2: dLzinN ($498.00 in chips)
+Seat 3: 允哲 ($206.50 in chips)
 Seat 4: ggbond666602 ($661.00 in chips)
-Seat 6: dLzinN ($498.00 in chips)
-Seat 7: 允哲 ($206.50 in chips)
-Seat 8: ChandlerLimp ($448.50 in chips)
+Seat 5: 不行就蒜鸟 ($173.50 in chips)
+Seat 6: macadamia ($267.50 in chips)
+Seat 7: zeMraz ($408.50 in chips)
+ChandlerLimp: posts the ante $0.57
+dLzinN: posts the ante $0.57
+允哲: posts the ante $0.57
+ggbond666602: posts the ante $0.57
 不行就蒜鸟: posts the ante $0.57
 macadamia: posts the ante $0.57
 zeMraz: posts the ante $0.57
-ggbond666602: posts the ante $0.57
-dLzinN: posts the ante $0.57
-允哲: posts the ante $0.57
-ChandlerLimp: posts the ante $0.57
 ChandlerLimp: posts small blind $0.50
 dLzinN: posts big blind $1.00
 允哲: posts straddle $2.00
@@ -27,15 +27,15 @@ ggbond666602: raises $7.00 to $9.00
 ChandlerLimp: folds
 dLzinN: calls $8.00
 允哲: folds
-*** FLOP *** [Ts 2h 6c]
+*** FLOP *** [Th 2h 6c]
 dLzinN: checks
 ggbond666602: bets $12.00
 dLzinN: raises $27.50 to $39.50
 ggbond666602: calls $27.50
-*** TURN *** [Ts 2h 6c] [7h]
+*** TURN *** [Th 2h 6c] [7h]
 dLzinN: bets $77.50
 ggbond666602: calls $77.50
-*** RIVER *** [Ts 2h 6c 7h] [5c]
+*** RIVER *** [Th 2h 6c 7h] [5c]
 dLzinN: raises $372.00 to $372.00 and is all-in
 ggbond666602: calls $372.00
 *** SHOWDOWN ***
@@ -44,11 +44,11 @@ dLzinN: shows [9d Kd] (high card King)
 ggbond666602 collected $1002.00 from pot
 *** SUMMARY ***
 Total pot $1002.00 | Rake $0
-Board [Ts 2h 6c 7h 5c]
-Seat 1: 不行就蒜鸟 folded before Flop (didn't bet)
-Seat 2: macadamia folded before Flop (didn't bet)
-Seat 3: zeMraz folded before Flop (didn't bet)
+Board [Th 2h 6c 7h 5c]
+Seat 1: ChandlerLimp (small blind) folded before Flop
+Seat 2: dLzinN (big blind) showed [9d Kd] and lost with high card King
+Seat 3: 允哲 folded before Flop
 Seat 4: ggbond666602 (button) showed [Kd Kd] and won ($1002.00) with a pair of Kings
-Seat 6: dLzinN (big blind) showed [9d Kd] and lost with high card King
-Seat 7: 允哲 folded before Flop
-Seat 8: ChandlerLimp (small blind) folded before Flop
+Seat 5: 不行就蒜鸟 folded before Flop (didn't bet)
+Seat 6: macadamia folded before Flop (didn't bet)
+Seat 7: zeMraz folded before Flop (didn't bet)

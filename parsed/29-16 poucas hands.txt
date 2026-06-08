@@ -1,21 +1,23 @@
 PokerStars Hand #1272413365502791680: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/07 13:04:34 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: thieugao ($245.50 in chips)
-Seat 2: dLzinN ($453.00 in chips)
-Seat 3: JunDAcAizi ($93.00 in chips)
-Seat 4: wjsyy ($173.50 in chips)
-Seat 5: 跑儿马2号 ($586.00 in chips)
-Seat 6: 机车浪子 ($278.50 in chips)
-Seat 7: 好运长存iPcdUo ($246.50 in chips)
-Seat 8: NewtonApple ($678.00 in chips)
-thieugao: posts the ante $0.50
-dLzinN: posts the ante $0.50
-JunDAcAizi: posts the ante $0.50
-wjsyy: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: 跑儿马2号 ($586.00 in chips)
+Seat 2: 机车浪子 ($278.50 in chips)
+Seat 3: 好运长存iPcdUO ($0.00 in chips)
+Seat 4: NewtonApple ($678.00 in chips)
+Seat 5: dLzinN ($453.00 in chips)
+Seat 6: 好运长存iPcdUo ($246.50 in chips)
+Seat 7: JunDAcAizi ($93.00 in chips)
+Seat 8: wjsyy ($173.50 in chips)
+Seat 9: thieugao ($245.50 in chips)
 跑儿马2号: posts the ante $0.50
 机车浪子: posts the ante $0.50
-好运长存iPcdUo: posts the ante $0.50
+好运长存iPcdUO: posts the ante $0.50
 NewtonApple: posts the ante $0.50
+dLzinN: posts the ante $0.50
+好运长存iPcdUo: posts the ante $0.50
+JunDAcAizi: posts the ante $0.50
+wjsyy: posts the ante $0.50
+thieugao: posts the ante $0.50
 跑儿马2号: posts small blind $0.50
 机车浪子: posts big blind $1.00
 好运长存iPcdUO: posts straddle $2.00
@@ -30,23 +32,24 @@ wjsyy: folds
 好运长存iPcdUo: folds
 NewtonApple: raises $28.50 to $39.00
 dLzinN: calls $28.50
-*** FLOP *** [6d 6h 7c]
+*** FLOP *** [Qd 6h 7c]
 NewtonApple: checks
 dLzinN: checks
-*** TURN *** [6d 6h 7c] [3c]
+*** TURN *** [Qd 6h 7c] [3c]
 NewtonApple: bets $55.00
 dLzinN: calls $55.00
 *** SHOWDOWN ***
-NewtonApple: shows [Kh Kd] (two pair, Kings and Sixes)
+NewtonApple: shows [Kh Kd] (a pair of Kings)
 NewtonApple collected $586.00 from pot
 *** SUMMARY ***
 Total pot $586.00 | Rake $0
-Board [6d 6h 7c 3c]
-Seat 1: thieugao folded before Flop (didn't bet)
-Seat 2: dLzinN mucked hand
-Seat 3: JunDAcAizi folded before Flop (didn't bet)
-Seat 4: wjsyy (button) folded before Flop (didn't bet)
-Seat 5: 跑儿马2号 (small blind) folded before Flop
-Seat 6: 机车浪子 (big blind) folded before Flop
-Seat 7: 好运长存iPcdUo folded before Flop (didn't bet)
-Seat 8: NewtonApple showed [Kh Kd] and won ($586.00) with two pair, Kings and Sixes
+Board [Qd 6h 7c 3c]
+Seat 1: 跑儿马2号 (small blind) folded before Flop
+Seat 2: 机车浪子 (big blind) folded before Flop
+Seat 3: 好运长存iPcdUO folded before Flop (didn't bet)
+Seat 4: NewtonApple showed [Kh Kd] and won ($586.00) with a pair of Kings
+Seat 5: dLzinN mucked hand
+Seat 6: 好运长存iPcdUo folded before Flop (didn't bet)
+Seat 7: JunDAcAizi folded before Flop (didn't bet)
+Seat 8: wjsyy (button) folded before Flop (didn't bet)
+Seat 9: thieugao folded before Flop (didn't bet)

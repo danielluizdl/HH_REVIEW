@@ -1,21 +1,21 @@
 PokerStars Hand #1261963296065949696: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/08 16:59:43 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: dLzinN ($337.00 in chips)
-Seat 2: Tonico ($275.50 in chips)
-Seat 3: whaak ($80.80 in chips)
-Seat 4: 猫猫警长ovo ($156.50 in chips)
-Seat 5: 风亲云蛋 ($629.00 in chips)
-Seat 6: stingxiao ($170.50 in chips)
-Seat 7: absorber ($901.50 in chips)
-Seat 8: zildurr ($356.00 in chips)
-dLzinN: posts the ante $0.50
-Tonico: posts the ante $0.50
-whaak: posts the ante $0.50
-猫猫警长ovo: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #7 is the button
+Seat 1: 风亲云蛋 ($629.00 in chips)
+Seat 2: stingxiao ($170.50 in chips)
+Seat 3: absorber ($901.50 in chips)
+Seat 4: zildurr ($356.00 in chips)
+Seat 5: dLzinN ($337.00 in chips)
+Seat 6: whaak ($80.80 in chips)
+Seat 7: 猫猫警长ovo ($156.50 in chips)
+Seat 8: Tonico ($275.50 in chips)
 风亲云蛋: posts the ante $0.50
 stingxiao: posts the ante $0.50
 absorber: posts the ante $0.50
 zildurr: posts the ante $0.50
+dLzinN: posts the ante $0.50
+whaak: posts the ante $0.50
+猫猫警长ovo: posts the ante $0.50
+Tonico: posts the ante $0.50
 风亲云蛋: posts small blind $0.50
 stingxiao: posts big blind $1.00
 absorber: posts straddle $2.00
@@ -43,11 +43,11 @@ zildurr collected $723.00 from pot
 *** SUMMARY ***
 Total pot $723.00 | Rake $0
 Board [2c Tc 6c 8h]
-Seat 1: dLzinN mucked hand
-Seat 2: Tonico folded before Flop (didn't bet)
-Seat 3: whaak folded on the Flop
-Seat 4: 猫猫警长ovo (button) folded before Flop (didn't bet)
-Seat 5: 风亲云蛋 (small blind) folded before Flop
-Seat 6: stingxiao (big blind) folded before Flop
-Seat 7: absorber folded before Flop
-Seat 8: zildurr collected ($723.00)
+Seat 1: 风亲云蛋 (small blind) folded before Flop
+Seat 2: stingxiao (big blind) folded before Flop
+Seat 3: absorber folded before Flop
+Seat 4: zildurr collected ($723.00)
+Seat 5: dLzinN mucked hand
+Seat 6: whaak folded on the Flop
+Seat 7: 猫猫警长ovo (button) folded before Flop (didn't bet)
+Seat 8: Tonico folded before Flop (didn't bet)

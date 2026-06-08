@@ -1,19 +1,19 @@
 PokerStars Hand #1265189641149964288: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/17 14:40:04 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Peter3356 ($215.50 in chips)
-Seat 2: 银柏皖 ($329.50 in chips)
-Seat 3: leanfrance ($159.90 in chips)
-Seat 4: dLzinN ($437.80 in chips)
-Seat 5: Sagat95 ($285.00 in chips)
-Seat 6: peteushko ($166.80 in chips)
-Seat 7: manhvidai ($86.60 in chips)
-Peter3356: posts the ante $0.50
-银柏皖: posts the ante $0.50
-leanfrance: posts the ante $0.50
-dLzinN: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: Sagat95 ($285.00 in chips)
+Seat 2: peteushko ($166.80 in chips)
+Seat 3: manhvidai ($86.60 in chips)
+Seat 4: leanfrance ($159.90 in chips)
+Seat 5: dLzinN ($437.80 in chips)
+Seat 6: Peter3356 ($215.50 in chips)
+Seat 7: 银柏皖 ($329.50 in chips)
 Sagat95: posts the ante $0.50
 peteushko: posts the ante $0.50
 manhvidai: posts the ante $0.50
+leanfrance: posts the ante $0.50
+dLzinN: posts the ante $0.50
+Peter3356: posts the ante $0.50
+银柏皖: posts the ante $0.50
 Sagat95: posts small blind $0.50
 peteushko: posts big blind $1.00
 manhvidai: posts straddle $2.00
@@ -26,18 +26,18 @@ Sagat95: folds
 peteushko: calls $9.30
 manhvidai: folds
 leanfrance: calls $8.30
-*** FLOP *** [Th 3c 4c]
+*** FLOP *** [Th 3c]
 peteushko: checks
 leanfrance: raises $148.00 to $148.00 and is all-in
 dLzinN: folds
 leanfrance collected $185.00 from pot
 *** SUMMARY ***
 Total pot $185.00 | Rake $0
-Board [Th 3c 4c]
-Seat 1: Peter3356 folded before Flop (didn't bet)
-Seat 2: 银柏皖 folded before Flop (didn't bet)
-Seat 3: leanfrance collected ($185.00)
-Seat 4: dLzinN (button) folded on the Flop
-Seat 5: Sagat95 (small blind) folded before Flop
-Seat 6: peteushko (big blind) folded on the Flop
-Seat 7: manhvidai folded before Flop
+Board [Th 3c]
+Seat 1: Sagat95 (small blind) folded before Flop
+Seat 2: peteushko (big blind) folded on the Flop
+Seat 3: manhvidai folded before Flop
+Seat 4: leanfrance collected ($185.00)
+Seat 5: dLzinN (button) folded on the Flop
+Seat 6: Peter3356 folded before Flop (didn't bet)
+Seat 7: 银柏皖 folded before Flop (didn't bet)

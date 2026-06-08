@@ -1,19 +1,19 @@
 PokerStars Hand #1273195059236139008: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/09 16:50:44 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 头上只有云 ($972.00 in chips)
-Seat 2: Arwen7 ($609.50 in chips)
-Seat 3: 娄底小钢炮 ($545.90 in chips)
-Seat 4: jcuntingham ($276.90 in chips)
-Seat 5: LauraNg ($33.10 in chips)
-Seat 6: dLzinN ($771.00 in chips)
-Seat 7: 跳跳糖天津 ($248.90 in chips)
-头上只有云: posts the ante $0.50
-Arwen7: posts the ante $0.50
-娄底小钢炮: posts the ante $0.50
-jcuntingham: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #6 is the button
+Seat 1: LauraNg ($33.10 in chips)
+Seat 2: dLzinN ($771.00 in chips)
+Seat 3: 跳跳糖天津 ($248.90 in chips)
+Seat 4: 头上只有云 ($972.00 in chips)
+Seat 5: 娄底小钢炮 ($545.90 in chips)
+Seat 6: jcuntingham ($276.90 in chips)
+Seat 7: Arwen7 ($609.50 in chips)
 LauraNg: posts the ante $0.50
 dLzinN: posts the ante $0.50
 跳跳糖天津: posts the ante $0.50
+头上只有云: posts the ante $0.50
+娄底小钢炮: posts the ante $0.50
+jcuntingham: posts the ante $0.50
+Arwen7: posts the ante $0.50
 LauraNg: posts small blind $0.50
 dLzinN: posts big blind $1.00
 跳跳糖天津: posts straddle $2.00
@@ -51,10 +51,10 @@ dLzinN: shows [Ks Ah] (a flush, King high)
 *** SUMMARY ***
 Total pot $873.00 | Rake $0
 Board [Ts 5s 6s 4s Kh]
-Seat 1: 头上只有云 showed [As 8s] and won ($873.00) with a flush, Ace high
-Seat 2: Arwen7 folded before Flop (didn't bet)
-Seat 3: 娄底小钢炮 folded on the Turn
-Seat 4: jcuntingham (button) folded on the Turn
-Seat 5: LauraNg (small blind) folded before Flop
-Seat 6: dLzinN (big blind) showed [Ks Ah] and lost with a flush, King high
-Seat 7: 跳跳糖天津 folded on the Turn
+Seat 1: LauraNg (small blind) folded before Flop
+Seat 2: dLzinN (big blind) showed [Ks Ah] and lost with a flush, King high
+Seat 3: 跳跳糖天津 folded on the Turn
+Seat 4: 头上只有云 showed [As 8s] and won ($873.00) with a flush, Ace high
+Seat 5: 娄底小钢炮 folded on the Turn
+Seat 6: jcuntingham (button) folded on the Turn
+Seat 7: Arwen7 folded before Flop (didn't bet)

@@ -1,20 +1,20 @@
 PokerStars Hand #1271384536711839744: Hold'em No Limit ($0.25/$0.50 USD) - 2026/05/04 16:56:22 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 小小一和 ($133.00 in chips)
-Seat 2: bostero1079 ($94.75 in chips)
-Seat 3: 有洁癖的蟑螂 ($89.75 in chips)
-Seat 4: proFISHnal ($405.75 in chips)
-Seat 5: dLzinN ($220.00 in chips)
-Seat 6: Mindyou ($303.75 in chips)
-Seat 7: dove888 ($93.25 in chips)
+Table 'WPT Global' 8-max Seat #5 is the button
+Seat 1: dLzinN ($220.00 in chips)
+Seat 2: Mindyou ($303.75 in chips)
+Seat 3: dove888 ($93.25 in chips)
+Seat 4: 小小一和 ($133.00 in chips)
+Seat 5: proFISHnal ($405.75 in chips)
+Seat 6: bostero1079 ($94.75 in chips)
+Seat 7: 有洁癖的蟑螂 ($89.75 in chips)
 Seat 8: phpd2910 ($104.75 in chips)
-小小一和: posts the ante $0.25
-bostero1079: posts the ante $0.25
-有洁癖的蟑螂: posts the ante $0.25
-proFISHnal: posts the ante $0.25
 dLzinN: posts the ante $0.25
 Mindyou: posts the ante $0.25
 dove888: posts the ante $0.25
+小小一和: posts the ante $0.25
+proFISHnal: posts the ante $0.25
+bostero1079: posts the ante $0.25
+有洁癖的蟑螂: posts the ante $0.25
 phpd2910: posts the ante $0.25
 dLzinN: posts small blind $0.25
 Mindyou: posts big blind $0.50
@@ -47,11 +47,11 @@ dLzinN: shows [5h 5d] (three of a kind, Fives)
 *** SUMMARY ***
 Total pot $311.50 | Rake $0
 Board [5h 2h 9d Kh 7c]
-Seat 1: 小小一和 showed [9s 9s] and won ($311.50) with three of a kind, Nines
-Seat 2: bostero1079 folded before Flop (didn't bet)
-Seat 3: 有洁癖的蟑螂 folded before Flop (didn't bet)
-Seat 4: proFISHnal (button) folded on the Flop
-Seat 5: dLzinN (small blind) showed [5h 5d] and lost with three of a kind, Fives
-Seat 6: Mindyou (big blind) folded before Flop
-Seat 7: dove888 folded on the Flop
+Seat 1: dLzinN (small blind) showed [5h 5d] and lost with three of a kind, Fives
+Seat 2: Mindyou (big blind) folded before Flop
+Seat 3: dove888 folded on the Flop
+Seat 4: 小小一和 showed [9s 9s] and won ($311.50) with three of a kind, Nines
+Seat 5: proFISHnal (button) folded on the Flop
+Seat 6: bostero1079 folded before Flop (didn't bet)
+Seat 7: 有洁癖的蟑螂 folded before Flop (didn't bet)
 Seat 8: phpd2910 folded before Flop (didn't bet)

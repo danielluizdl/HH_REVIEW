@@ -1,20 +1,20 @@
 PokerStars Hand #1264420519243472896: Hold'em No Limit ($0.25/$0.50 USD) - 2026/04/15 11:43:51 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: dLzinN ($563.50 in chips)
-Seat 2: gonidelrojo ($158.75 in chips)
-Seat 3: Lwliet0105 ($443.55 in chips)
-Seat 4: oppacay ($231.05 in chips)
-Seat 5: donkdonk232253 ($528.00 in chips)
-Seat 6: 脑壳铁莫来吃假 ($519.50 in chips)
-Seat 7: chipboiz ($230.25 in chips)
+Table 'WPT Global' 8-max Seat #6 is the button
+Seat 1: donkdonk232253 ($528.00 in chips)
+Seat 2: 脑壳铁莫来吃假 ($519.50 in chips)
+Seat 3: chipboiz ($230.25 in chips)
+Seat 4: dLzinN ($563.50 in chips)
+Seat 5: Lwliet0105 ($443.55 in chips)
+Seat 6: oppacay ($231.05 in chips)
+Seat 7: gonidelrojo ($158.75 in chips)
 Seat 8: COCO0915 ($105.75 in chips)
-dLzinN: posts the ante $0.25
-gonidelrojo: posts the ante $0.25
-Lwliet0105: posts the ante $0.25
-oppacay: posts the ante $0.25
 donkdonk232253: posts the ante $0.25
 脑壳铁莫来吃假: posts the ante $0.25
 chipboiz: posts the ante $0.25
+dLzinN: posts the ante $0.25
+Lwliet0105: posts the ante $0.25
+oppacay: posts the ante $0.25
+gonidelrojo: posts the ante $0.25
 COCO0915: posts the ante $0.25
 donkdonk232253: posts small blind $0.25
 脑壳铁莫来吃假: posts big blind $0.50
@@ -36,10 +36,10 @@ oppacay: folds
 *** FLOP *** [Jd 4d 6d]
 脑壳铁莫来吃假: bets $43.00
 dLzinN: calls $43.00
-*** TURN *** [Jd 4d 6d] [Ts]
+*** TURN *** [Jd 4d 6d] [Td]
 脑壳铁莫来吃假: bets $100.00
 dLzinN: calls $100.00
-*** RIVER *** [Jd 4d 6d Ts] [7c]
+*** RIVER *** [Jd 4d 6d Td] [7c]
 脑壳铁莫来吃假: bets $175.00
 dLzinN: calls $175.00
 *** SHOWDOWN ***
@@ -48,12 +48,12 @@ dLzinN: shows [Ah As] (a pair of Aces)
 脑壳铁莫来吃假 collected $700.00 from pot
 *** SUMMARY ***
 Total pot $700.00 | Rake $0
-Board [Jd 4d 6d Ts 7c]
-Seat 1: dLzinN showed [Ah As] and lost with a pair of Aces
-Seat 2: gonidelrojo folded before Flop (didn't bet)
-Seat 3: Lwliet0105 folded before Flop
-Seat 4: oppacay (button) folded before Flop
-Seat 5: donkdonk232253 (small blind) folded before Flop
-Seat 6: 脑壳铁莫来吃假 (big blind) showed [4d 6d] and won ($700.00) with a flush, Jack high
-Seat 7: chipboiz folded before Flop
+Board [Jd 4d 6d Td 7c]
+Seat 1: donkdonk232253 (small blind) folded before Flop
+Seat 2: 脑壳铁莫来吃假 (big blind) showed [4d 6d] and won ($700.00) with a flush, Jack high
+Seat 3: chipboiz folded before Flop
+Seat 4: dLzinN showed [Ah As] and lost with a pair of Aces
+Seat 5: Lwliet0105 folded before Flop
+Seat 6: oppacay (button) folded before Flop
+Seat 7: gonidelrojo folded before Flop (didn't bet)
 Seat 8: COCO0915 folded before Flop (didn't bet)

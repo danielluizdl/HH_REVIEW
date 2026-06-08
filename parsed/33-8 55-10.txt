@@ -1,17 +1,17 @@
 PokerStars Hand #1273245637193023488: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/09 20:11:43 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: GtorGotHzGat ($528.80 in chips)
-Seat 3: Aquaman33 ($216.50 in chips)
+Seat 1: Mansur ($271.00 in chips)
+Seat 2: Paopa0323 ($959.20 in chips)
+Seat 3: leanfrance ($122.30 in chips)
 Seat 4: dLzinN ($376.20 in chips)
-Seat 5: Mansur ($271.00 in chips)
-Seat 6: Paopa0323 ($959.20 in chips)
-Seat 7: leanfrance ($122.30 in chips)
-GtorGotHzGat: posts the ante $0.50
-Aquaman33: posts the ante $0.50
-dLzinN: posts the ante $0.50
+Seat 5: GtorGotHzGat ($528.80 in chips)
+Seat 6: Aquaman33 ($216.50 in chips)
 Mansur: posts the ante $0.50
 Paopa0323: posts the ante $0.50
 leanfrance: posts the ante $0.50
+dLzinN: posts the ante $0.50
+GtorGotHzGat: posts the ante $0.50
+Aquaman33: posts the ante $0.50
 Mansur: posts small blind $0.50
 Paopa0323: posts big blind $1.00
 leanfrance: posts straddle $2.00
@@ -35,9 +35,9 @@ leanfrance collected $172.00 from pot
 *** SUMMARY ***
 Total pot $172.00 | Rake $0
 Board [8d 5c]
-Seat 1: GtorGotHzGat folded on the Flop
-Seat 3: Aquaman33 folded before Flop (didn't bet)
+Seat 1: Mansur (small blind) folded before Flop
+Seat 2: Paopa0323 (big blind) folded on the Flop
+Seat 3: leanfrance collected ($172.00)
 Seat 4: dLzinN (button) folded on the Flop
-Seat 5: Mansur (small blind) folded before Flop
-Seat 6: Paopa0323 (big blind) folded on the Flop
-Seat 7: leanfrance collected ($172.00)
+Seat 5: GtorGotHzGat folded on the Flop
+Seat 6: Aquaman33 folded before Flop (didn't bet)

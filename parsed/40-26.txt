@@ -1,21 +1,23 @@
 PokerStars Hand #1265276543730401280: Hold'em No Limit ($0.05/$0.10 USD) - 2026/04/17 20:25:23 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: TheDealer23 ($21.25 in chips)
-Seat 2: val123 ($30.65 in chips)
-Seat 3: loSpeR ($61.54 in chips)
-Seat 4: dLzinN ($42.05 in chips)
-Seat 5: 敢你至来 ($64.90 in chips)
-Seat 6: Eunooo ($86.93 in chips)
-Seat 7: vGuerraF ($17.25 in chips)
-Seat 8: Chianesa ($20.03 in chips)
-TheDealer23: posts the ante $0.05
-val123: posts the ante $0.05
-loSpeR: posts the ante $0.05
-dLzinN: posts the ante $0.05
+Table 'WPT Global' 8-max Seat #9 is the button
+Seat 1: 敢你至来 ($64.90 in chips)
+Seat 2: Eunooo ($86.93 in chips)
+Seat 3: vGuerraF ($17.25 in chips)
+Seat 4: (UTG) ($0.00 in chips)
+Seat 5: loSpeR ($61.54 in chips)
+Seat 6: Chianesa ($20.03 in chips)
+Seat 7: TheDealer23 ($21.25 in chips)
+Seat 8: val123 ($30.65 in chips)
+Seat 9: dLzinN ($42.05 in chips)
 敢你至来: posts the ante $0.05
 Eunooo: posts the ante $0.05
 vGuerraF: posts the ante $0.05
+(UTG): posts the ante $0.05
+loSpeR: posts the ante $0.05
 Chianesa: posts the ante $0.05
+TheDealer23: posts the ante $0.05
+val123: posts the ante $0.05
+dLzinN: posts the ante $0.05
 敢你至来: posts small blind $0.05
 Eunooo: posts big blind $0.10
 vGuerraF: posts straddle $0.20
@@ -29,7 +31,7 @@ dLzinN: folds
 Eunooo: calls $0.68
 vGuerraF: folds
 Chianesa: calls $0.58
-*** FLOP *** [6c 6d]
+*** FLOP *** [6c Qd]
 Eunooo: checks
 Chianesa: checks
 loSpeR: bets $1.50
@@ -37,12 +39,13 @@ Eunooo: folds
 loSpeR collected $4.49 from pot
 *** SUMMARY ***
 Total pot $4.49 | Rake $0
-Board [6c 6d]
-Seat 1: TheDealer23 folded before Flop (didn't bet)
-Seat 2: val123 folded before Flop (didn't bet)
-Seat 3: loSpeR collected ($4.49)
-Seat 4: dLzinN (button) folded before Flop (didn't bet)
-Seat 5: 敢你至来 (small blind) folded before Flop
-Seat 6: Eunooo (big blind) folded on the Flop
-Seat 7: vGuerraF folded before Flop
-Seat 8: Chianesa folded on the Flop
+Board [6c Qd]
+Seat 1: 敢你至来 (small blind) folded before Flop
+Seat 2: Eunooo (big blind) folded on the Flop
+Seat 3: vGuerraF folded before Flop
+Seat 4: (UTG) folded before Flop (didn't bet)
+Seat 5: loSpeR collected ($4.49)
+Seat 6: Chianesa folded on the Flop
+Seat 7: TheDealer23 folded before Flop (didn't bet)
+Seat 8: val123 folded before Flop (didn't bet)
+Seat 9: dLzinN (button) folded before Flop (didn't bet)

@@ -1,21 +1,21 @@
 PokerStars Hand #1261557560122482688: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/07 14:07:28 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: frankjohn203 ($904.50 in chips)
-Seat 2: jaowen99 ($845.50 in chips)
-Seat 3: 狂牛打摆锤 ($201.50 in chips)
+Seat 1: 鲜衣怒马时2 ($319.00 in chips)
+Seat 2: 今晚打老虎Hv ($839.00 in chips)
+Seat 3: TimCheese ($798.50 in chips)
 Seat 4: dLzinN ($705.00 in chips)
-Seat 5: 鲜衣怒马时2 ($319.00 in chips)
-Seat 6: 今晚打老虎Hv ($839.00 in chips)
-Seat 7: TimCheese ($798.50 in chips)
-Seat 8: 水上漂LFG ($142.00 in chips)
-frankjohn203: posts the ante $0.50
-jaowen99: posts the ante $0.50
-狂牛打摆锤: posts the ante $0.50
-dLzinN: posts the ante $0.50
+Seat 5: 水上漂LFG ($142.00 in chips)
+Seat 6: frankjohn203 ($904.50 in chips)
+Seat 7: jaowen99 ($845.50 in chips)
+Seat 8: 狂牛打摆锤 ($201.50 in chips)
 鲜衣怒马时2: posts the ante $0.50
 今晚打老虎Hv: posts the ante $0.50
 TimCheese: posts the ante $0.50
+dLzinN: posts the ante $0.50
 水上漂LFG: posts the ante $0.50
+frankjohn203: posts the ante $0.50
+jaowen99: posts the ante $0.50
+狂牛打摆锤: posts the ante $0.50
 鲜衣怒马时2: posts small blind $0.50
 今晚打老虎Hv: posts big blind $1.00
 TimCheese: posts straddle $2.00
@@ -52,11 +52,11 @@ dLzinN: shows [Th Kd] (a flush, Ten high)
 *** SUMMARY ***
 Total pot $400.00 | Rake $0
 Board [8h 2c 9h 6h 5h]
-Seat 1: frankjohn203 folded before Flop (didn't bet)
-Seat 2: jaowen99 folded before Flop (didn't bet)
-Seat 3: 狂牛打摆锤 folded before Flop (didn't bet)
+Seat 1: 鲜衣怒马时2 (small blind) folded on the Turn
+Seat 2: 今晚打老虎Hv (big blind) showed [6d Ad] and won ($400.00) with a pair of Sixes
+Seat 3: TimCheese folded before Flop
 Seat 4: dLzinN (button) showed [Th Kd] and lost with a flush, Ten high
-Seat 5: 鲜衣怒马时2 (small blind) folded on the Turn
-Seat 6: 今晚打老虎Hv (big blind) showed [6d Ad] and won ($400.00) with a pair of Sixes
-Seat 7: TimCheese folded before Flop
-Seat 8: 水上漂LFG folded on the Turn
+Seat 5: 水上漂LFG folded on the Turn
+Seat 6: frankjohn203 folded before Flop (didn't bet)
+Seat 7: jaowen99 folded before Flop (didn't bet)
+Seat 8: 狂牛打摆锤 folded before Flop (didn't bet)

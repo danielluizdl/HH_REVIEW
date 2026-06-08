@@ -1,21 +1,23 @@
 PokerStars Hand #1264422739599474688: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/15 11:52:40 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: dLzinN ($512.00 in chips)
-Seat 2: Cuatrok ($542.50 in chips)
-Seat 3: 专杀小陈 ($344.50 in chips)
-Seat 4: QuerK91 ($173.50 in chips)
-Seat 5: 喊喊白斑马 ($309.00 in chips)
-Seat 6: Banhbao86 ($365.50 in chips)
-Seat 7: Jaybo37 ($739.50 in chips)
-Seat 8: yanzhong951 ($1355.60 in chips)
-dLzinN: posts the ante $0.50
-Cuatrok: posts the ante $0.50
-专杀小陈: posts the ante $0.50
-QuerK91: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #9 is the button
+Seat 1: 喊喊白斑马 ($309.00 in chips)
+Seat 2: Banhbao86 ($365.50 in chips)
+Seat 3: Jaybo37 ($739.50 in chips)
+Seat 4: VERTAN ($0.00 in chips)
+Seat 5: dLzinN ($512.00 in chips)
+Seat 6: yanzhong951 ($1355.60 in chips)
+Seat 7: Cuatrok ($542.50 in chips)
+Seat 8: 专杀小陈 ($344.50 in chips)
+Seat 9: QuerK91 ($173.50 in chips)
 喊喊白斑马: posts the ante $0.50
 Banhbao86: posts the ante $0.50
 Jaybo37: posts the ante $0.50
+VERTAN: posts the ante $0.50
+dLzinN: posts the ante $0.50
 yanzhong951: posts the ante $0.50
+Cuatrok: posts the ante $0.50
+专杀小陈: posts the ante $0.50
+QuerK91: posts the ante $0.50
 喊喊白斑马: posts small blind $0.50
 Banhbao86: posts big blind $1.00
 Jaybo37: posts straddle $2.00
@@ -45,11 +47,12 @@ dLzinN: shows [Kh Ad] (three of a kind, Aces)
 *** SUMMARY ***
 Total pot $838.00 | Rake $0
 Board [Qd Ad 2c Ac 6h]
-Seat 1: dLzinN showed [Kh Ad] and lost with three of a kind, Aces
-Seat 2: Cuatrok folded before Flop (didn't bet)
-Seat 3: 专杀小陈 folded before Flop (didn't bet)
-Seat 4: QuerK91 (button) folded before Flop (didn't bet)
-Seat 5: 喊喊白斑马 (small blind) showed [Qd Qd] and won ($838.00) with a full house, Queens full of Aces
-Seat 6: Banhbao86 (big blind) folded before Flop
-Seat 7: Jaybo37 folded before Flop
-Seat 8: yanzhong951 folded before Flop
+Seat 1: 喊喊白斑马 (small blind) showed [Qd Qd] and won ($838.00) with a full house, Queens full of Aces
+Seat 2: Banhbao86 (big blind) folded before Flop
+Seat 3: Jaybo37 folded before Flop
+Seat 4: VERTAN folded before Flop (didn't bet)
+Seat 5: dLzinN showed [Kh Ad] and lost with three of a kind, Aces
+Seat 6: yanzhong951 folded before Flop
+Seat 7: Cuatrok folded before Flop (didn't bet)
+Seat 8: 专杀小陈 folded before Flop (didn't bet)
+Seat 9: QuerK91 (button) folded before Flop (didn't bet)

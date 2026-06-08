@@ -1,21 +1,21 @@
 PokerStars Hand #1261928306415939584: Hold'em No Limit ($0.10/$0.20 USD) - 2026/04/08 14:40:41 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: pokerjust174 ($0.10 in chips)
-Seat 2: dyyyyyyyy ($9.58 in chips)
-Seat 3: dLzinN ($105.46 in chips)
-Seat 4: Hugochan3110 ($0.10 in chips)
-Seat 5: 鸽鸽别闹了 ($133.77 in chips)
-Seat 6: Loadding ($0.30 in chips)
-Seat 7: taberw ($0.50 in chips)
-Seat 8: 原交妹 ($133.57 in chips)
-pokerjust174: posts the ante $0.10
-dyyyyyyyy: posts the ante $0.10
-dLzinN: posts the ante $0.10
-Hugochan3110: posts the ante $0.10
+Table 'WPT Global' 8-max Seat #7 is the button
+Seat 1: 鸽鸽别闹了 ($133.77 in chips)
+Seat 2: Loadding ($0.30 in chips)
+Seat 3: taberw ($0.50 in chips)
+Seat 4: 原交妹 ($133.57 in chips)
+Seat 5: dLzinN ($105.46 in chips)
+Seat 6: dyyyyyyyy ($9.58 in chips)
+Seat 7: Hugochan3110 ($0.10 in chips)
+Seat 8: pokerjust174 ($0.10 in chips)
 鸽鸽别闹了: posts the ante $0.10
 Loadding: posts the ante $0.10
 taberw: posts the ante $0.10
 原交妹: posts the ante $0.10
+dLzinN: posts the ante $0.10
+dyyyyyyyy: posts the ante $0.10
+Hugochan3110: posts the ante $0.10
+pokerjust174: posts the ante $0.10
 鸽鸽别闹了: posts small blind $0.10
 Loadding: posts big blind $0.20
 taberw: posts straddle $0.40
@@ -45,11 +45,11 @@ dLzinN: raises $56.88 to $95.88 and is all-in
 *** SUMMARY ***
 Total pot $383.18 | Rake $0
 Board [3d 2c 8c Tc Ac]
-Seat 1: pokerjust174 folded before Flop (didn't bet)
-Seat 2: dyyyyyyyy folded on the Flop
-Seat 3: dLzinN mucked hand
-Seat 4: Hugochan3110 (button) folded before Flop (didn't bet)
-Seat 5: 鸽鸽别闹了 (small blind) collected ($383.18)
-Seat 6: Loadding (big blind) folded before Flop
-Seat 7: taberw folded before Flop
-Seat 8: 原交妹 folded on the Turn
+Seat 1: 鸽鸽别闹了 (small blind) collected ($383.18)
+Seat 2: Loadding (big blind) folded before Flop
+Seat 3: taberw folded before Flop
+Seat 4: 原交妹 folded on the Turn
+Seat 5: dLzinN mucked hand
+Seat 6: dyyyyyyyy folded on the Flop
+Seat 7: Hugochan3110 (button) folded before Flop (didn't bet)
+Seat 8: pokerjust174 folded before Flop (didn't bet)

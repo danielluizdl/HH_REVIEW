@@ -1,20 +1,20 @@
 PokerStars Hand #1274566436656939008: Hold'em No Limit ($0.25/$0.50 USD) - 2026/05/13 11:40:06 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Dawidd81 ($345.75 in chips)
-Seat 2: yukleo ($159.25 in chips)
-Seat 3: 温度计在了 ($111.90 in chips)
+Seat 1: 运气爆棚啦1 ($377.00 in chips)
+Seat 2: skxijwnxz ($77.25 in chips)
+Seat 3: 程咬金的三板斧91 ($14.75 in chips)
 Seat 4: dLzinN ($160.00 in chips)
-Seat 5: 运气爆棚啦1 ($377.00 in chips)
-Seat 6: skxijwnxz ($77.25 in chips)
-Seat 7: 程咬金的三板斧91 ($14.75 in chips)
+Seat 5: 温度计在了 ($111.90 in chips)
+Seat 6: Dawidd81 ($345.75 in chips)
+Seat 7: yukleo ($159.25 in chips)
 Seat 8: suineg ($76.75 in chips)
-Dawidd81: posts the ante $0.25
-yukleo: posts the ante $0.25
-温度计在了: posts the ante $0.25
-dLzinN: posts the ante $0.25
 运气爆棚啦1: posts the ante $0.25
 skxijwnxz: posts the ante $0.25
 程咬金的三板斧91: posts the ante $0.25
+dLzinN: posts the ante $0.25
+温度计在了: posts the ante $0.25
+Dawidd81: posts the ante $0.25
+yukleo: posts the ante $0.25
 suineg: posts the ante $0.25
 运气爆棚啦1: posts small blind $0.25
 skxijwnxz: posts big blind $0.50
@@ -29,13 +29,13 @@ dLzinN: raises $5.15 to $6.15
 skxijwnxz: folds
 程咬金的三板斧91: folds
 温度计在了: calls $5.15
-*** FLOP *** [Ts 6d 3h]
+*** FLOP *** [Ts Qd 3h]
 运气爆棚啦1: checks
 温度计在了: checks
 dLzinN: bets $5.45
 运气爆棚啦1: calls $5.45
 温度计在了: folds
-*** TURN *** [Ts 6d 3h] [Kh]
+*** TURN *** [Ts Qd 3h] [Kh]
 运气爆棚啦1: bets $16.50
 dLzinN: raises $33.50 to $50.00
 运气爆棚啦1: calls $33.60
@@ -44,12 +44,12 @@ dLzinN: shows [Td Ts] (three of a kind, Tens)
 dLzinN collected $155.00 from pot
 *** SUMMARY ***
 Total pot $155.00 | Rake $0
-Board [Ts 6d 3h Kh]
-Seat 1: Dawidd81 folded before Flop (didn't bet)
-Seat 2: yukleo folded before Flop (didn't bet)
-Seat 3: 温度计在了 folded on the Flop
+Board [Ts Qd 3h Kh]
+Seat 1: 运气爆棚啦1 (small blind) mucked hand
+Seat 2: skxijwnxz (big blind) folded before Flop
+Seat 3: 程咬金的三板斧91 folded before Flop
 Seat 4: dLzinN (button) showed [Td Ts] and won ($155.00) with three of a kind, Tens
-Seat 5: 运气爆棚啦1 (small blind) mucked hand
-Seat 6: skxijwnxz (big blind) folded before Flop
-Seat 7: 程咬金的三板斧91 folded before Flop
+Seat 5: 温度计在了 folded on the Flop
+Seat 6: Dawidd81 folded before Flop (didn't bet)
+Seat 7: yukleo folded before Flop (didn't bet)
 Seat 8: suineg folded before Flop (didn't bet)

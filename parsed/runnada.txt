@@ -1,20 +1,20 @@
 PokerStars Hand #1266300263894355968: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/20 16:13:17 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: shaibal ($82.50 in chips)
-Seat 2: lamlai12 ($257.00 in chips)
-Seat 3: dLzinN ($248.00 in chips)
-Seat 4: zyxxh18 ($696.50 in chips)
-Seat 5: Exploit90 ($266.00 in chips)
-Seat 6: 给你一套火龙果 ($325.50 in chips)
-Seat 7: ChiaAn ($159.50 in chips)
+Table 'WPT Global' 8-max Seat #7 is the button
+Seat 1: Exploit90 ($266.00 in chips)
+Seat 2: 给你一套火龙果 ($325.50 in chips)
+Seat 3: ChiaAn ($159.50 in chips)
+Seat 4: lamlai12 ($257.00 in chips)
+Seat 5: dLzinN ($248.00 in chips)
+Seat 6: shaibal ($82.50 in chips)
+Seat 7: zyxxh18 ($696.50 in chips)
 Seat 8: Freston907351 ($855.50 in chips)
-shaibal: posts the ante $0.50
-lamlai12: posts the ante $0.50
-dLzinN: posts the ante $0.50
-zyxxh18: posts the ante $0.50
 Exploit90: posts the ante $0.50
 给你一套火龙果: posts the ante $0.50
 ChiaAn: posts the ante $0.50
+lamlai12: posts the ante $0.50
+dLzinN: posts the ante $0.50
+shaibal: posts the ante $0.50
+zyxxh18: posts the ante $0.50
 Freston907351: posts the ante $0.50
 Exploit90: posts small blind $0.50
 给你一套火龙果: posts big blind $1.00
@@ -32,21 +32,21 @@ ChiaAn: folds
 shaibal: raises $48.50 to $82.00 and is all-in
 lamlai12: raises $176.00 to $258.00 and is all-in
 dLzinN: calls $214.00 and is all-in
-*** FLOP *** [3h Ts 6d]
-*** TURN *** [3h Ts 6d] [9h]
+*** FLOP *** [3h Td Qd]
+*** TURN *** [3h Td Qd] [9h]
 *** SHOWDOWN ***
 lamlai12: shows [Ad Kd] (high card Ace)
 dLzinN: shows [Ad Ad] (a pair of Aces)
-shaibal: shows [As Qd] (high card Ace)
+shaibal: shows [As Qd] (a pair of Queens)
 lamlai12 collected $594.00 from pot
 *** SUMMARY ***
 Total pot $594.00 | Rake $0
-Board [3h Ts 6d 9h]
-Seat 1: shaibal showed [As Qd] and lost with high card Ace
-Seat 2: lamlai12 showed [Ad Kd] and won ($594.00) with high card Ace
-Seat 3: dLzinN showed [Ad Ad] and lost with a pair of Aces
-Seat 4: zyxxh18 (button) folded before Flop (didn't bet)
-Seat 5: Exploit90 (small blind) folded before Flop
-Seat 6: 给你一套火龙果 (big blind) folded before Flop
-Seat 7: ChiaAn folded before Flop
+Board [3h Td Qd 9h]
+Seat 1: Exploit90 (small blind) folded before Flop
+Seat 2: 给你一套火龙果 (big blind) folded before Flop
+Seat 3: ChiaAn folded before Flop
+Seat 4: lamlai12 showed [Ad Kd] and won ($594.00) with high card Ace
+Seat 5: dLzinN showed [Ad Ad] and lost with a pair of Aces
+Seat 6: shaibal showed [As Qd] and lost with a pair of Queens
+Seat 7: zyxxh18 (button) folded before Flop (didn't bet)
 Seat 8: Freston907351 folded before Flop (didn't bet)

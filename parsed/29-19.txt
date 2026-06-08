@@ -1,21 +1,21 @@
 PokerStars Hand #1261880508188831744: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/08 11:30:45 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Holves ($176.50 in chips)
-Seat 2: p3ket30 ($530.50 in chips)
-Seat 3: AdrianMTs ($482.00 in chips)
+Seat 1: litomeme ($1982.00 in chips)
+Seat 2: 磐石牛 ($100.60 in chips)
+Seat 3: dLzinN ($506.00 in chips)
 Seat 4: sebastian3 ($317.00 in chips)
-Seat 5: litomeme ($1982.00 in chips)
-Seat 6: 磐石牛 ($100.60 in chips)
-Seat 7: dLzinN ($506.00 in chips)
-Seat 8: vbom206 ($128.50 in chips)
-Holves: posts the ante $0.50
-p3ket30: posts the ante $0.50
-AdrianMTs: posts the ante $0.50
-sebastian3: posts the ante $0.50
+Seat 5: AdrianMTs ($482.00 in chips)
+Seat 6: vbom206 ($128.50 in chips)
+Seat 7: Holves ($176.50 in chips)
+Seat 8: p3ket30 ($530.50 in chips)
 litomeme: posts the ante $0.50
 磐石牛: posts the ante $0.50
 dLzinN: posts the ante $0.50
+sebastian3: posts the ante $0.50
+AdrianMTs: posts the ante $0.50
 vbom206: posts the ante $0.50
+Holves: posts the ante $0.50
+p3ket30: posts the ante $0.50
 litomeme: posts small blind $0.50
 磐石牛: posts big blind $1.00
 dLzinN: posts straddle $2.00
@@ -40,11 +40,11 @@ sebastian3 collected $645.00 from pot
 *** SUMMARY ***
 Total pot $645.00 | Rake $0
 Board [2c As 5d]
-Seat 1: Holves folded before Flop (didn't bet)
-Seat 2: p3ket30 folded before Flop (didn't bet)
-Seat 3: AdrianMTs folded before Flop
+Seat 1: litomeme (small blind) folded before Flop
+Seat 2: 磐石牛 (big blind) folded before Flop
+Seat 3: dLzinN showed [Qd Qd] and lost with a pair of Queens
 Seat 4: sebastian3 (button) collected ($645.00)
-Seat 5: litomeme (small blind) folded before Flop
-Seat 6: 磐石牛 (big blind) folded before Flop
-Seat 7: dLzinN showed [Qd Qd] and lost with a pair of Queens
-Seat 8: vbom206 folded before Flop (didn't bet)
+Seat 5: AdrianMTs folded before Flop
+Seat 6: vbom206 folded before Flop (didn't bet)
+Seat 7: Holves folded before Flop (didn't bet)
+Seat 8: p3ket30 folded before Flop (didn't bet)

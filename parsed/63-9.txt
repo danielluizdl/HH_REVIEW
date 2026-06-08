@@ -1,20 +1,20 @@
 PokerStars Hand #1272000425232584704: Hold'em No Limit ($0.50/$1.00 USD) - 2026/05/06 09:43:42 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: 4480 ($553.00 in chips)
-Seat 2: dLzinN ($305.00 in chips)
-Seat 3: 老板你好呀798 ($267.50 in chips)
-Seat 4: nguyenlua ($554.50 in chips)
-Seat 5: mthuong26 ($540.00 in chips)
-Seat 6: 烈火真金葫芦娃 ($148.50 in chips)
-Seat 7: TIE6858 ($229.50 in chips)
+Table 'WPT Global' 8-max Seat #7 is the button
+Seat 1: mthuong26 ($540.00 in chips)
+Seat 2: 烈火真金葫芦娃 ($148.50 in chips)
+Seat 3: TIE6858 ($229.50 in chips)
+Seat 4: 4480 ($553.00 in chips)
+Seat 5: dLzinN ($305.00 in chips)
+Seat 6: 老板你好呀798 ($267.50 in chips)
+Seat 7: nguyenlua ($554.50 in chips)
 Seat 8: Damonsd ($350.50 in chips)
+mthuong26: posts the ante $0.50
+烈火真金葫芦娃: posts the ante $0.50
+TIE6858: posts the ante $0.50
 4480: posts the ante $0.50
 dLzinN: posts the ante $0.50
 老板你好呀798: posts the ante $0.50
 nguyenlua: posts the ante $0.50
-mthuong26: posts the ante $0.50
-烈火真金葫芦娃: posts the ante $0.50
-TIE6858: posts the ante $0.50
 Damonsd: posts the ante $0.50
 mthuong26: posts small blind $0.50
 烈火真金葫芦娃: posts big blind $1.00
@@ -29,29 +29,25 @@ mthuong26: folds
 烈火真金葫芦娃: folds
 TIE6858: folds
 4480: calls $8.50
-*** FLOP *** [4s 5s 5c]
+*** FLOP *** [5s 5c Tc]
 4480: checks
 dLzinN: bets $14.00
 4480: calls $14.00
-*** TURN *** [4s 5s 5c] [Tc]
+*** TURN *** [5s 5c Tc] [6s]
 4480: checks
 dLzinN: bets $42.00
 4480: calls $42.00
-*** RIVER *** [4s 5s 5c Tc] [6s]
-4480: checks
-dLzinN: raises $238.00 to $238.00 and is all-in
-4480: calls $238.00
 *** SHOWDOWN ***
 4480: shows [6d 5d] (a full house, Fives full of Sixes)
 4480 collected $617.00 from pot
 *** SUMMARY ***
 Total pot $617.00 | Rake $0
-Board [4s 5s 5c Tc 6s]
-Seat 1: 4480 showed [6d 5d] and won ($617.00) with a full house, Fives full of Sixes
-Seat 2: dLzinN mucked hand
-Seat 3: 老板你好呀798 folded before Flop (didn't bet)
-Seat 4: nguyenlua (button) folded before Flop (didn't bet)
-Seat 5: mthuong26 (small blind) folded before Flop
-Seat 6: 烈火真金葫芦娃 (big blind) folded before Flop
-Seat 7: TIE6858 folded before Flop
+Board [5s 5c Tc 6s]
+Seat 1: mthuong26 (small blind) folded before Flop
+Seat 2: 烈火真金葫芦娃 (big blind) folded before Flop
+Seat 3: TIE6858 folded before Flop
+Seat 4: 4480 showed [6d 5d] and won ($617.00) with a full house, Fives full of Sixes
+Seat 5: dLzinN mucked hand
+Seat 6: 老板你好呀798 folded before Flop (didn't bet)
+Seat 7: nguyenlua (button) folded before Flop (didn't bet)
 Seat 8: Damonsd folded before Flop (didn't bet)

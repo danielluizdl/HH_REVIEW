@@ -1,19 +1,19 @@
 PokerStars Hand #1261973763361284096: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/08 17:41:19 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: AldaBless ($547.50 in chips)
-Seat 2: dLzinN ($271.50 in chips)
-Seat 3: Dorsai1985 ($200.00 in chips)
-Seat 4: kileks ($545.50 in chips)
-Seat 5: 金风玉露财 ($33.00 in chips)
-Seat 6: 咖啡鱼1 ($213.00 in chips)
-Seat 7: RandomWalk ($980.50 in chips)
-AldaBless: posts the ante $0.50
-dLzinN: posts the ante $0.50
-Dorsai1985: posts the ante $0.50
-kileks: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #7 is the button
+Seat 1: 金风玉露财 ($33.00 in chips)
+Seat 2: 咖啡鱼1 ($213.00 in chips)
+Seat 3: RandomWalk ($980.50 in chips)
+Seat 4: Dorsai1985 ($200.00 in chips)
+Seat 5: dLzinN ($271.50 in chips)
+Seat 6: AldaBless ($547.50 in chips)
+Seat 7: kileks ($545.50 in chips)
 金风玉露财: posts the ante $0.50
 咖啡鱼1: posts the ante $0.50
 RandomWalk: posts the ante $0.50
+Dorsai1985: posts the ante $0.50
+dLzinN: posts the ante $0.50
+AldaBless: posts the ante $0.50
+kileks: posts the ante $0.50
 金风玉露财: posts small blind $0.50
 咖啡鱼1: posts big blind $1.00
 RandomWalk: posts straddle $2.00
@@ -51,10 +51,10 @@ Dorsai1985 collected $279.00 from pot
 *** SUMMARY ***
 Total pot $279.00 | Rake $0
 Board [Ah 7d 8s 4h Th]
-Seat 1: AldaBless folded before Flop (didn't bet)
-Seat 2: dLzinN showed [7c 8s] and lost with two pair, Eights and Sevens
-Seat 3: Dorsai1985 showed [8d 9d] and won ($279.00) with a pair of Eights
-Seat 4: kileks (button) folded before Flop (didn't bet)
-Seat 5: 金风玉露财 (small blind) showed [3s 9s] and lost with high card Ace
-Seat 6: 咖啡鱼1 (big blind) showed [Kd Qd] and lost with high card Ace
-Seat 7: RandomWalk folded before Flop
+Seat 1: 金风玉露财 (small blind) showed [3s 9s] and lost with high card Ace
+Seat 2: 咖啡鱼1 (big blind) showed [Kd Qd] and lost with high card Ace
+Seat 3: RandomWalk folded before Flop
+Seat 4: Dorsai1985 showed [8d 9d] and won ($279.00) with a pair of Eights
+Seat 5: dLzinN showed [7c 8s] and lost with two pair, Eights and Sevens
+Seat 6: AldaBless folded before Flop (didn't bet)
+Seat 7: kileks (button) folded before Flop (didn't bet)

@@ -1,21 +1,21 @@
 PokerStars Hand #1267333905494347776: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/23 12:40:36 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: Heroin30 ($297.50 in chips)
-Seat 2: GrantyHuang ($248.00 in chips)
-Seat 3: Patol12 ($388.50 in chips)
-Seat 4: 贝利沁 ($381.50 in chips)
-Seat 5: dLzinN ($387.00 in chips)
-Seat 6: yhzz959688 ($113.50 in chips)
-Seat 7: 本山大叔TL ($79.00 in chips)
-Seat 8: yuanlaoke ($459.50 in chips)
-Heroin30: posts the ante $0.50
-GrantyHuang: posts the ante $0.50
-Patol12: posts the ante $0.50
-贝利沁: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #8 is the button
+Seat 1: dLzinN ($387.00 in chips)
+Seat 2: yhzz959688 ($113.50 in chips)
+Seat 3: 本山大叔TL ($79.00 in chips)
+Seat 4: GrantyHuang ($248.00 in chips)
+Seat 5: Patol12 ($388.50 in chips)
+Seat 6: yuanlaoke ($459.50 in chips)
+Seat 7: Heroin30 ($297.50 in chips)
+Seat 8: 贝利沁 ($381.50 in chips)
 dLzinN: posts the ante $0.50
 yhzz959688: posts the ante $0.50
 本山大叔TL: posts the ante $0.50
+GrantyHuang: posts the ante $0.50
+Patol12: posts the ante $0.50
 yuanlaoke: posts the ante $0.50
+Heroin30: posts the ante $0.50
+贝利沁: posts the ante $0.50
 dLzinN: posts small blind $0.50
 yhzz959688: posts big blind $1.00
 本山大叔TL: posts straddle $2.00
@@ -45,11 +45,11 @@ GrantyHuang collected $511.00 from pot
 *** SUMMARY ***
 Total pot $511.00 | Rake $0
 Board [9s Ts Tc 9c]
-Seat 1: Heroin30 folded before Flop (didn't bet)
-Seat 2: GrantyHuang showed [9d 5d] and won ($511.00) with a full house, Nines full of Tens
-Seat 3: Patol12 folded before Flop
-Seat 4: 贝利沁 (button) folded before Flop (didn't bet)
-Seat 5: dLzinN (small blind) showed [Qd Qd] and lost with two pair, Queens and Tens
-Seat 6: yhzz959688 (big blind) folded before Flop
-Seat 7: 本山大叔TL folded before Flop
-Seat 8: yuanlaoke folded before Flop (didn't bet)
+Seat 1: dLzinN (small blind) showed [Qd Qd] and lost with two pair, Queens and Tens
+Seat 2: yhzz959688 (big blind) folded before Flop
+Seat 3: 本山大叔TL folded before Flop
+Seat 4: GrantyHuang showed [9d 5d] and won ($511.00) with a full house, Nines full of Tens
+Seat 5: Patol12 folded before Flop
+Seat 6: yuanlaoke folded before Flop (didn't bet)
+Seat 7: Heroin30 folded before Flop (didn't bet)
+Seat 8: 贝利沁 (button) folded before Flop (didn't bet)

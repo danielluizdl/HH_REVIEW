@@ -1,21 +1,21 @@
 PokerStars Hand #1269566486279303168: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/29 16:32:05 ET
 Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: dLzinN ($377.00 in chips)
-Seat 2: center1 ($1516.50 in chips)
-Seat 3: 汐Y ($630.30 in chips)
+Seat 1: INVESTOR ($498.00 in chips)
+Seat 2: matigarmendi ($474.50 in chips)
+Seat 3: NeleKockar ($187.50 in chips)
 Seat 4: 猪猪乱跑678 ($267.00 in chips)
-Seat 5: INVESTOR ($498.00 in chips)
-Seat 6: matigarmendi ($474.50 in chips)
-Seat 7: NeleKockar ($187.50 in chips)
-Seat 8: 申长红 ($1089.50 in chips)
-dLzinN: posts the ante $0.50
-center1: posts the ante $0.50
-汐Y: posts the ante $0.50
-猪猪乱跑678: posts the ante $0.50
+Seat 5: dLzinN ($377.00 in chips)
+Seat 6: 汐Y ($630.30 in chips)
+Seat 7: 申长红 ($1089.50 in chips)
+Seat 8: center1 ($1516.50 in chips)
 INVESTOR: posts the ante $0.50
 matigarmendi: posts the ante $0.50
 NeleKockar: posts the ante $0.50
+猪猪乱跑678: posts the ante $0.50
+dLzinN: posts the ante $0.50
+汐Y: posts the ante $0.50
 申长红: posts the ante $0.50
+center1: posts the ante $0.50
 INVESTOR: posts small blind $0.50
 matigarmendi: posts big blind $1.00
 NeleKockar: posts straddle $2.00
@@ -28,7 +28,7 @@ center1: calls $2.00
 INVESTOR: folds
 matigarmendi: folds
 NeleKockar: checks
-*** FLOP *** [5d Kd Ts]
+*** FLOP *** [5d Kd Td]
 NeleKockar: checks
 申长红: checks
 dLzinN: checks
@@ -41,20 +41,20 @@ dLzinN: raises $22.10 to $27.90
 center1: folds
 汐Y: folds
 猪猪乱跑678: calls $22.10
-*** TURN *** [5d Kd Ts] [4c]
+*** TURN *** [5d Kd Td] [4s]
 dLzinN: bets $59.30
 猪猪乱跑678: calls $59.30
 *** SHOWDOWN ***
-猪猪乱跑678: shows [Ad 7d] (high card Ace)
+猪猪乱跑678: shows [Ad 7d] (a flush, Ace high)
 猪猪乱跑678 collected $551.00 from pot
 *** SUMMARY ***
 Total pot $551.00 | Rake $0
-Board [5d Kd Ts 4c]
-Seat 1: dLzinN mucked hand
-Seat 2: center1 folded on the Flop
-Seat 3: 汐Y folded on the Flop
-Seat 4: 猪猪乱跑678 (button) showed [Ad 7d] and won ($551.00) with high card Ace
-Seat 5: INVESTOR (small blind) folded before Flop
-Seat 6: matigarmendi (big blind) folded before Flop
-Seat 7: NeleKockar folded on the Flop
-Seat 8: 申长红 folded on the Flop
+Board [5d Kd Td 4s]
+Seat 1: INVESTOR (small blind) folded before Flop
+Seat 2: matigarmendi (big blind) folded before Flop
+Seat 3: NeleKockar folded on the Flop
+Seat 4: 猪猪乱跑678 (button) showed [Ad 7d] and won ($551.00) with a flush, Ace high
+Seat 5: dLzinN mucked hand
+Seat 6: 汐Y folded on the Flop
+Seat 7: 申长红 folded on the Flop
+Seat 8: center1 folded on the Flop

@@ -1,19 +1,19 @@
 PokerStars Hand #1259347568943955968: Hold'em No Limit ($0.50/$1.00 USD) - 2026/04/01 11:45:45 ET
-Table 'WPT Global' 8-max Seat #4 is the button
-Seat 1: altaza ($243.00 in chips)
-Seat 2: dLzinN ($285.00 in chips)
-Seat 3: 兔子娃娃 ($835.50 in chips)
-Seat 4: Aceeeeeeeee ($226.20 in chips)
-Seat 5: 方可执泥 ($235.00 in chips)
-Seat 6: isjorr ($204.50 in chips)
-Seat 7: RyanNguyen68 ($470.50 in chips)
-altaza: posts the ante $0.50
-dLzinN: posts the ante $0.50
-兔子娃娃: posts the ante $0.50
-Aceeeeeeeee: posts the ante $0.50
+Table 'WPT Global' 8-max Seat #6 is the button
+Seat 1: 方可执泥 ($235.00 in chips)
+Seat 2: isjorr ($204.50 in chips)
+Seat 3: RyanNguyen68 ($470.50 in chips)
+Seat 4: dLzinN ($285.00 in chips)
+Seat 5: altaza ($243.00 in chips)
+Seat 6: Aceeeeeeeee ($226.20 in chips)
+Seat 7: 兔子娃娃 ($835.50 in chips)
 方可执泥: posts the ante $0.50
 isjorr: posts the ante $0.50
 RyanNguyen68: posts the ante $0.50
+dLzinN: posts the ante $0.50
+altaza: posts the ante $0.50
+Aceeeeeeeee: posts the ante $0.50
+兔子娃娃: posts the ante $0.50
 方可执泥: posts small blind $0.50
 isjorr: posts big blind $1.00
 RyanNguyen68: posts straddle $2.00
@@ -27,16 +27,16 @@ Aceeeeeeeee: calls $10.20
 isjorr: folds
 RyanNguyen68: folds
 altaza: calls $8.30
-*** FLOP *** [6s Ad 5c]
+*** FLOP *** [6h Ad 5c]
 altaza: checks
 dLzinN: bets $12.50
 Aceeeeeeeee: calls $12.50
 altaza: calls $12.50
-*** TURN *** [6s Ad 5c] [Th]
+*** TURN *** [6h Ad 5c] [Th]
 altaza: checks
 dLzinN: checks
 Aceeeeeeeee: checks
-*** RIVER *** [6s Ad 5c Th] [Ac]
+*** RIVER *** [6h Ad 5c Th] [Ac]
 altaza: bets $37.60
 dLzinN: raises $79.40 to $117.00
 Aceeeeeeeee: folds
@@ -46,11 +46,11 @@ altaza: shows [4d Ad] (three of a kind, Aces)
 dLzinN collected $309.00 from pot
 *** SUMMARY ***
 Total pot $309.00 | Rake $0
-Board [6s Ad 5c Th Ac]
-Seat 1: altaza showed [4d Ad] and lost with three of a kind, Aces
-Seat 2: dLzinN collected ($309.00)
-Seat 3: 兔子娃娃 folded before Flop (didn't bet)
-Seat 4: Aceeeeeeeee (button) mucked hand
-Seat 5: 方可执泥 (small blind) folded before Flop
-Seat 6: isjorr (big blind) folded before Flop
-Seat 7: RyanNguyen68 folded before Flop
+Board [6h Ad 5c Th Ac]
+Seat 1: 方可执泥 (small blind) folded before Flop
+Seat 2: isjorr (big blind) folded before Flop
+Seat 3: RyanNguyen68 folded before Flop
+Seat 4: dLzinN collected ($309.00)
+Seat 5: altaza showed [4d Ad] and lost with three of a kind, Aces
+Seat 6: Aceeeeeeeee (button) mucked hand
+Seat 7: 兔子娃娃 folded before Flop (didn't bet)
